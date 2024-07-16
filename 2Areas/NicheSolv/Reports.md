@@ -1,0 +1,479 @@
+- March
+    - March 5, 2024
+        
+        - completed the assignment 0 in Java and also did minor changes to the test file
+        - new objects are now being created before running any type of test
+        - was waiting for review of the assignment from Suhas
+    - March 6, 2024
+        
+        - received git tutorial and started working on it
+        - started working on changes told by Suhas
+        - also implemented the pyramid scheme problem
+    - March 7, 2024
+        
+        - worked on the git crashcourse
+        - made changes to project 0
+        - attended orientation meeting
+        - looked into test cases that can test print functions
+    - March 8, 2024
+        
+        - worked on assignment 0 to bring about changes and optimise multiple problems
+        - looked into file operations in Java
+        - completed git crashcourse
+        - yet to do more optimisations to the pyramid problem
+        - need to check out about git merge conflicts
+        - yet to push the assignment 0 to git
+            - readme file in main branch
+            - new branch for assignment 0 → push code to that branch → create a PR
+    - March 11, 2024
+        
+        - finished working on assignment0
+        - pushed into git and created a PR
+        - accidentally also accepted the PR
+        - need to change the structure of the entire repo to contain the proper structure
+            - different folders for every assignment
+            - one single readme file for the main branch
+            - raise a PR for the assignemt0 branch to the main branch
+    - March 12, 2024
+        
+        - received assignment 1 and finished working on the functions and the test cases
+        - need to implement javadocs for this assignment
+        - have some issues with github where one branch is ahead of the other. need to sort that out
+        - should raise a PR with the javadocs implemented in assignment1
+    - March 14, 2024
+        
+        - fixed the github branch naming issue where the names of the branches were done weirdly
+        - pushed review changes of assignmen0 for review after modifying the test cases
+        - pushed review changes of assignment1 for review
+        - waiting for review of both assignment0 and assignment1
+    - March 15, 2024
+        
+        - got assignment0 PR approved
+        - also overloaded some function in assignment1 and pushed for PR
+        - got onboard the YGX project
+        - received assignment2, need to start working
+    - March 18, 2024
+        
+        - completed initial working of assignment2
+        - yet to complete test cases for assignment2
+        - looked into different svg manipulation libraries
+        - started working on a basic react app that can showcase the features of these libraries to see if it will be useful
+    - March 19, 2024
+        
+        - worked on creating a react app that can dynamically render and edit svgs
+        - realised, this might not be feasible as the svg needs to be properly organised based id, which is not possible when the user uploads custom svg
+        - started created test cases for assignment2
+        - pushed assignment2 and raised PR, although testcases are yet to be pushed
+    - March 20, 2024
+        
+        - created a react app to check if SVGR library and the SVGMT library are working as required
+        - SVGMT library works as per our requirement, and needs to be developed further
+        - also worked on assignment2 and generated more testcases
+        - need to work on assignment2 updates
+        - need to work on react app. need to see if the svg reacts to global state data
+    - March 21, 2024
+        
+        - worked on assignment2 updates
+        - created a sample svg to test the capability of the svg library
+        - had a KT on the working of the application
+        - got access to the code and tried setting up the environment in local
+    - March 22, 2024
+        
+        - worked on assignment2
+        - created new components to test the functionality of d3.js and archer.js library
+        - archer library did not work as per the requirements
+        - d3 is somewhat better, but is not vastly different from the SVGMT library
+        - if anything, d3 has a bigger community support and is more supported than SVGMT
+    - March 25, 2024
+        
+        - looked into using css for creating svg
+        - was not possible to edit the svg using external css, but was possible with internal css
+        - worked on assignment 1 updates and assignment 2 updates
+        - need to finalise assignment 2 and assignment 1 and push for review
+    - March 26, 2024
+        
+        - worked on modifying svg with external css
+            - this is not possible, as the only way we can is by adding the svg as inline code to the HTML doc
+            - the other way to style a svg is to use style tag within the svg component, which does not align with our requirement
+        - made changes to assignment1 and pushed for further review
+    - March 27, 2024
+        
+        - made review changes to assignment1 and assignment2 and pushed both for PR
+        - was asked to check if the SVGMT library can react to changes from a JSON object in the morning meeting
+            - worked on this and created an app that will showcase the ability to changes the values of a svg based on external information
+            - conveyed this information to Akash. waiting for response
+        - got access to Jira and was assigned my first task
+    - March 28, 2024
+        
+        - no update on assignment2 or assignment1
+        - worked on removing any js scripts in svg
+            - did this by completely removing the script tag from the svg element when it is first uploaded by the user
+            - this might not be required, as the SVGMT library itself does not seem to allow scripts to run
+                - no output from the script tag was seen when loading a svg with the SVGMT library
+    - March 29, 2024    
+- April
+    - April 1, 2024
+        
+        assignments - 7, YTI - 1
+        
+        - started working on assignment 3
+        - decided to implement quick sort method for the sort functionality
+        - yet to implement sort and print to file methods
+    - April 2, 2024
+        
+        assignments - 3, YTI - 5
+        
+        - worked on creating an app that reads data from css to be fed into the SVGMT library
+        - was not possible to do so with the library
+        - need to work on making the library react to changes to the text element of the SVG
+        - need to go to Yokogawa office for laptop configuration
+        - learn about quick sort
+        - created a function to sort the array either into ascending or descending based on a boolean value
+        - need to create a function to write to a file
+        - need to create test case to test the functions of the class
+    - April 3, 2024
+        
+        - went to YTI office to get laptop configured
+        - got the laptop configured and got access to the different accounts of YTI
+        - worked on manipulating text tag in SVG
+    - April 4, 2024
+        
+        - wrote functions to write the contents to a file for assignment 3
+        - started writing test cases for assignment 3
+        - look into svg libraries that can manipulate the values of data inside the tags
+        - SVGJS seemed to work as intended
+    - April 5, 2024
+        
+        - created a react app with SVGJS that can manipulate the values of the text
+        - also made the app read the values from a JSON object to change dynamically
+        - wrote couple more test cases and pushed assignment 3 for review
+        - after review worked on the deleteValue() function to perform better
+    - April 8, 2024
+        
+        - looked into the code base to understand how the widgets are created
+    - April 10, 2024
+        
+        - worked on review comments of assignment 3
+        - pushed the assignment for next review
+        - replicated the markdown widget to create a rudimentary widget for svg
+        - got the document to create an widget from Ashish and created a svg widget. But still need to look into couple of steps of the same
+    - April 11, 2024
+        
+        - worked on creating the svg as a widget
+        - implemented the svg in the widget swap menu
+        - configured the edit properties panel to show the “upload file” input and passed the file information to the widget
+    - April 12, 2024
+        
+        - worked on passing the props to the svg to render as a URL
+        - also worked on the default values that will be passed to the widget when initially loaded
+        - cleaned up the widget
+    - April 15, 2024
+        
+        - implemented merge sort operations besides the already existing quicksort
+        - looked into static keywords and how it affects the program
+        - some more minor changes in the assignment as per the review comments
+        - solved the bug where the new svg is appending to the existing svg
+        - looked into the svg scaling issue where the svg scales to a fixed value instead of the dimensions of the svg file
+        - wrote documentation for the creating and implementing a new widget into the codebase and submitted it to Ashish
+        - need to look into a way to list and query all the different IDs and classes that the svg has on offer and how the data will be bound to it
+        - need to check if the svg is getting saved in the dashboard json file
+    - April 16, 2024
+        
+        - worked on solving a github issue. Accidentally made it worse, so will require more work on the same
+        - the svg that gets loaded would not be saved for a long time
+        - the URL gets timed out and hence the svg would be replaced with a blank one
+        - also looked into getting the different IDs of the elements of svg
+    - April 17, 2024
+        
+        - solved the issue where the URL would time out
+        - replaced the svgURL with the imgURL to get the updated URL and get the updated URL every time the URL is changed
+        - also solved the git branch issue where files that should not have been deleted were deleted
+    - April 18, 2024
+        
+        - went to YTI office
+        - worked on getting the different IDs of the svg
+        - made changes to remove the svg rendering from the useEffect
+        - need to remove the fetch from the rendering code
+    - April 19, 2024
+        
+        - worked on passing the array of elementID to the property from
+        - created a redux store to hold the value of the elementID array
+        - created a dispatch to send the value, but is running into problems
+        - the dispatch is being called even before the entire svg is rendered. need to use useEffect to know when the dispatch needs to be sent
+        - also the dispatch is receiving the imgUrl too. need to see where the value is coming from and need to rectify it with a different value that handles both the URL and the element array
+    - April 22, 2024
+        
+        - worked on passing the element ID array to the property form
+        - displayed the different IDs along with dummy attributes in 3 separate dropdowns
+        - need to show the actual attributes and the possible mapping values in the third dropdown
+        - also placed these dummy values into a JSON object. need to pass this JSON object back to the widget side to be able to make dynamic changes to the svg
+    - April 23, 2024
+        
+        - started working on assignment4. wrote an initial draft of the LinkedNode and started working on the LinkedList file
+        - need to create new branches for the previous assignments
+        - worked on creating a JSON object for the svg values which will be sent from the property form to the widget
+        - the widget is receiving the widget, and is mapping through them to dynamically change the svg
+        - need to make sure only the required attributes of the element are showing up
+        - also need to look into displaying the different data mappings that the user can link it to
+    - April 24, 2024
+        
+        - worked on finding the different attributes for a particular element in the svg
+        - passed these attributes as a list to the property form
+        - need to still pass the data tags to the widget and see if the widget is reacting to the data
+        - worked on assignment 4 part 1. created some basic methods and added javadocs for both the node class and the linkedlist class
+        - also created the driver class
+    - April 25, 2024
+        
+        - went to YTI office
+        - created a new mapping and tested the working of the mapping to the svg widget
+        - not sure how the data from the tags will be provided to make changes to the svg accordingly
+    - April 26, 2024
+        
+        - requested lot of changes to the overall structure of the code
+        - need to use less number of keys that are used by the widget
+            - the data needs to get stored in the displayData of the widget than the widgetProperties
+            - migrate the function of reading the different elements of the svg from the widget to the property form itself
+            - remove the function of reading the different attributes of the elements and replace with semi-hardcoded values
+        - also worked on assignment 4 part 1
+            - worked on the remove function of the LinkedList
+            - will aim to finish for first review by Monday
+    - April 29, 2024
+        
+        - worked on transferring the svg reading file from the widget section to the property form section
+        - also worked on showing a predefined set of attributes and not the list of all possible values
+        - need to look into the how to read the value from the tag. will be looking into the card widget to know more about how the live data is being transferred to the card widget
+        - pushed assignment 4.1 for review, will be starting with 4.2
+    - April 30, 2024
+        
+        - worked on receiving data from the tags and passing the data to the widget to be displayed
+        - also worked on storing the data in the widget displayData and not the widget display properties
+        - started working on assignment 4.2
+- May
+    - May 2, 2024
+        - looked at reading values from data tags
+        - was able to read the values and able to convert the data to the tag data
+        - yet to pass this data to the widget and pass it to the svg for rendering
+    - May 3, 2024
+        - looked into how to test the data in the widget
+        - decided to place the tag data as a text in the svg
+        - need to work on creating multiple inputs for the svg in the property form
+        - worked on assignment 4.1 test cases and started working on assignment 4.2
+    - May 6, 2024
+        - worked on changing the property form of the svg widget
+        - cleaned up the input form
+        - added the support for multiple tag input
+        - need to change the structure to hold multiple objects for input than a single object
+    - May 7, 2024
+        - worked on creating the drop down menu for the svg widget
+        - now supports multiple input fields for multiple svg element selection objects
+        - the multiple selection objects are also now being reflected in the svg
+        - also worked on initial draft of assignment 4.2
+    - May 8, 2024
+        - finished working on the svg widget
+        - made changes to the onBlur and onSelect functions to get the right value
+        - worked on assignment 4.1 review comments
+    - May 9, 2024
+        - worked on assignment 4.1 review comments
+        - pushed assignment 4.1 for review
+        - removed the scale image option in the property form
+        - worked on multiple approaches to re-render the svg once the changes are applied to the svg, but did not work
+    - May 10, 2024
+        - worked on rerendering the svg once the styling is applied to the complete svg using a hooks approach, but was not satisfactory
+        - also cleaned up the entire code to be more easier to understand
+        - worked on assingment 4.2 comparators and comparables
+    - May 13, 2024
+        - worked on assignment 4.3. refactored the code to be more decentralized to the other parts of the code
+        - worked on re-rendering the svg once the changes in the attributes have changes in them
+        - also got onto a call with YTI to discuss the progress on the svg widget
+        - need to validate the svg that is being uploaded - see if it is a valid svg and if it does not have any type of JS in it
+    - May 14, 2024
+        - worked on validating the svg to be a valid svg
+        - worked on checking if the svg contains any type of script tags or any event handllerse
+        - cleaned up code for the live data of the svg
+    - May 15, 2024
+        - wanted bubble sort and merge sort both to be implemented for the linkedlist in assignment 4.2
+        - worked on how to bubble sort in 4.3, but failed to implement
+        - looked into SVGO for validating the svg - does not form a compelling option for validating svg, as the primary function is optimization
+        - also looked into [snyk.io](http://snyk.io) for validation, but will be far from our requirements as it requires API calls and is priced very steep
+    - May 16, 2024
+        - went to YTI office
+        - wrote a function that validates the svg with the fast-xml-parser library
+        - also created a workflow where the user is warned about unsafe svg uploads
+        - started working on highlighting the svg element based on hovering of the elements in the element list
+        - need to dispatch this particular element to a dummy variable and pass it to the svg widget
+    - May 17, 2024
+        - worked on the highlighting effect of the different elements of the svg
+        - managed to showcase the highlight of the element
+        - it also reverts back to original state once the mouse is out of the element
+    - May 20, 2024
+        - worked on the sort function of the linkedlist
+        - created a new merge sort function for 4.2
+        - created a function that is currently partially sorting the list elements and not the entire list
+        - worked on showing the initial data of the svg, but was not able to get the required result
+        - also worked on the rerendering of the svg when an elements in the attribute array is removed, but was not able to make it work
+    - May 21, 2024
+        - scrapped the entire bubble sort method for 4.2
+        - replaced it with insertion sort and merge sort methods
+        - also worked on creating a graph mapping component for the svg widget
+        - was able to create a sample line graph plot for hard coded numbers
+    - May 22, 2024
+        - worked on creating insertion sort and merge sort
+        - completed merge sort and pushed for review
+        - yet to complete insertion sort
+        - resolved some issues in the graph for the time series data
+    - May 23, 2024
+        - went to YTI office
+        - had to scrap the entire highlighting aspect of the svg element
+        - also worked on some security concerns for the svg
+        - need to make some changes for the input component for the svg
+        - also implemented a method to rerender the svg once some element is removed from the property form
+    - May 24, 2024
+        - worked on the input component of the svg
+        - also checked some other conditions that the svg upload might raise some concerns
+        - worked on some review comments of assignment 4.2 and assignment 4.3
+    - May 27, 2024
+        - worked on the input component for the svg
+        - created a switch that can switch between the different available methods
+        - got onto a call with YTI for the feedback on the flow of the svg widget
+        - was also asked for some changes in the workflow of the svg
+    - May 28, 2024
+        - worked on svg dropdown
+        - was able to link the svg name to the link of the svg and pass it to the svg component
+        - also need to fix an issue where the svg url is not getting stored in the JSON, and is hence returning an empty string once the dashboard is loaded in
+    - May 29, 2024
+        - wasnt able to fix the issue of loading the svg url to the JSON
+        - started working on assignment 5 finished a draft version of the find function and the initial setup
+    - May 30, 2024
+        - done with the assessment today. sent the files to Suhas and Padma
+        - also worked on showing a error message that will be shown if the file is reuploaded
+        - still need to work on the problem where the imgUrl is not being saved in the JSON
+        - also, need to work on a way to show the different IDs when the URL is loaded from the dropdown
+    - May 31, 2024
+        - worked on resolving the error of the svg imgUrl not displaying in the dashboard
+        - worked on the find functions in assignment 5
+- June
+    - June 3, 2024
+        - worked on assignment 5 find functions
+        - also looked into the svg fetch function to get the different elements of the svg
+    - June 4, 2024
+        - finished assignment 5
+        - also finished writing test cases for assignment 5
+        - had a call with KBC where improvements for the svg widget were mentioned
+            - need to update the regex for detecting the event handlers
+            - also need to find a way to showcase only the essential elements that need to be changed and not all the elements
+    - June 5, 2024
+        - changed the svg iteration to use xPath
+        - found a way to do eventhandlers in a better manner
+        - checked if svg can hold a custom attribute
+        - worked on a method that do not have an id
+        - researched about svgs that use custom name space attributes
+        - also worked on assignment 5 and got review comments
+    - June 6, 2024
+        - was on leave due to vehicle fitness certification
+    - June 7, 2024
+        - changed the approach to showcase both the svgs that do not have the custom attribute and the svgs that do have custom attribute
+        - worked on assignment 5 review comments
+        - made changes to the enum to manage most of the values
+        - need to work on how to optimize the usage of hashmaps for assignment 5
+    - June 10, 2024
+        - worked on the optimization of usage of hashmaps in assignment 5
+        - also started working on the new feature of getting a apache guacamole
+        - need to create a simple way for the CICD to include the guacamole to be on the build
+    - June 11, 2024
+        - pushed svg widget for code review and deployement
+        - got review comments, fixed and pushed again
+        - installed apache guacamole on local linux machine
+        - still need to install guacamole client program and connect to server
+        - gave a KT for Kavitha and Sushma on the svg widget to explain them on how things work - required for them to perform testing on the svg widget
+        - pushed assignment 5 for review
+    - June 12, 2024
+        - created jest test cases and ran the test case
+        - looked into how to package the guacamole server into a .rpm package
+        - was not able to compile it into a single .rpm file, need to check it with the rpm build package
+    - June 13, 2024
+        - went to YTI
+        - worked on last minute changes to svg widget and confirming some behavior changes in the svg widget
+    - June 14, 2024
+        - worked on creating test cases for svg widget
+        - did not finish the test cases for the entire widget
+        - still have to make sure all the code is covered
+    - June 17, 2024
+        - was a holiday, but worked on that day due to deadlines. will take a comp off later
+        - worked on increasing the coverage of the test cases for the svg test cases
+    - June 18, 2024
+        - worked on some last minute bugs from the testing of the svg
+        - also did some more test case coverage and removal of duplicate code
+    - June 19, 2024
+        - worked on deployment of the svg widget branch to production
+        - still need to create documentation for the svg widget
+    - June 20, 2024
+        - went to YTI office to release the SVG widget
+        - gave a demo to Nilesh about the working of the widget
+        - Also started working on the technical documentation of the SVG widget
+    - June 21, 2024
+        - created the .deb package for the guacamole server
+        - also worked on assignment 5 to reduce the clutter in assignment 5 test cases
+        - need to look into elastic search and implement it into assignment 5
+    - June 24, 2024
+        - worked on guacamole dependency resolution. added a way to include the required dependencies in the .deb package
+        - also got onto a call with Vijay and Santosh from YTI to discuss more about the guacamole package
+        - also made a fix for a bug in the upload and select svg component and created a PR for the same
+        - also worked on assignment 5. made some changes to the person class to hold the data elements in a better way
+        - also fixed some other review comments in the add and update functions
+    - June 25, 2024
+        - created a guacamole server .deb file also installs the required prerequisites
+        - tested the installer on a fresh laptop and verified that it works as intended
+        - created a doc that will explain the procedure of creating the .deb file if we have access to the .tar file
+        - pushed assignment 5 code for review and awaiting both Padma and Sushas for their code review
+    - June 26, 2024
+        - installed tomcat on linux to get guacamole client application running
+        - was not able to get the application to run
+        - also had a small problem with the ubuntu not recognising the guacamole server when being run
+        - needed to get review comments from Padma, but was not able to
+        - got onto a call with Adi for a KT session with him for AppSmith configuration
+    - June 27, 2024
+        - worked on running the guacamole client on tomcat. not able to as most of the logs are not accessible even with super user access
+        - also got a KT with Adithya on AppSmith
+        - discussed with Padma on the review comments of assignment 5. made some changes on assignment 5
+- July
+    - July 1, 2024
+        - worked only on Guacamole client testing
+        - was able to run guacamole server and guacamole client
+        - was not able to connect each other due to the lack of dependencies that were required for the connection, but was able to log in to the client user profile
+        - sent in Assignment 5 for review for Padma
+    - July 2, 2024
+        - worked on guacamole client and server interaction
+    - July 3, 2024
+        - worked on guacamole packaging
+        - got some tickets on SVG widget
+    - July 4, 2024
+        - went to YTI
+        - resolved some bugs in the SVG widget
+    - July 5, 2024
+        - resolved some more bugs in the SVG widget
+        - also worked on the guacamole client and server
+        - was able to connect the server to the client
+    - July 8, 2024
+        - finished some minor bugs in the SVG widget
+        - was also able to also create a VNC connection between the server and the client via the guacd
+    - July 9, 2024
+        - pushed the code to dev environment for the demo call for KBC from the YTI side
+        - worked on the guacamole .deb package and created a script that will create the .deb file given the .tar file
+        - also edited the wiki for the SVG widget
+        - created docs for the guacamole server and creation of the .deb file along with the further steps
+        - worked on assignment review comments and pushed it for review
+    - July 10, 2024
+        - worked on the changes required in the SVG widget for the next release
+        - worked on the appsmith application. was able to start up all the required services for the appsmith to start up
+        - got onto a call with Nilesh to talk about the different changes that took place in the SVG widget so that they can be documented into the wiki
+        - created the final copy of the guacamole documentation which should be put up on confluence. need to update the confluence doc with the latest screen shots
+    - July 11, 2024
+        - went to YTI office
+        - gave the demo for the SVG features
+        - gave the demo for the guacamole implementation and the testing
+        - updated the document on confluence
+        - submitted the .deb installer and the script files to Aman to be uploaded to the editor repo
+	- July 15, 2024
+		- worked on appsmith project
+		- tried to set it up, but ran into some issues
+		- most likely an issue with the way how steps are being executed

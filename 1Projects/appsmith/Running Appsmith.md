@@ -71,7 +71,8 @@ This will start the RTS server on port 8091
 
 ---
 # Building AppSmith
-==build the server everytime there is some change to the server. Compile is not necessary all the time==
+> Build the server everytime there is some change to the server.
+> Compile is not necessary all the time
 ```bash
 mvn clean compile
 ./build.sh -DskipTests
