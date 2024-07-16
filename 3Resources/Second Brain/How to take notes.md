@@ -1,0 +1,4 @@
+- have at most 3 levels of hierarchy, anything more is not useful
+- dont overtake notes. aim to keep at most 10%, 20% of the data from the source
+- use your intuition to take notes - if it excites your emotions, then it worthy of notetaking
+- try to keep notes as small and concise as possible. they need to be modular

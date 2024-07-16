@@ -1,0 +1,5 @@
+- to use them to create content or to use forward for references
+- create IPs when sitting down with a note
+    - IP - intermediate packets
+    - these IPs can be used in tandem with each other to create more diverse notes
+    - create the notes to be modular

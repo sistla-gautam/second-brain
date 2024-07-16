@@ -1,0 +1,4 @@
+- main contenders
+    - JBL tune 770NC
+    - Sony 720N
+    - SoundCore space one
