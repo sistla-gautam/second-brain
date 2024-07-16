@@ -38,6 +38,18 @@ Before you can start to hack on the Appsmith server, your machine should have th
     ```
 ---
 # Running nginx
+
+##### Can either run from the script or directly from the docker container
+
+> The container method will not work if the nginx has not been run ever before
+
+###### script method
+go to client location
+```bash
+./start-https.sh --with-docker
+```
+
+###### Container method
 - run the command to find all the nginx containers
     ```bash
     docker ps -a | grep nginx
@@ -90,7 +102,7 @@ http://localhost:8080/api/v1/users/me
 ```
 
 ---
-# Running nginx
+# Running nginx 
 - go to client location
 ```bash
 ./start-https.sh --with-docker
