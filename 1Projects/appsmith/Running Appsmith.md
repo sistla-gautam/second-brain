@@ -102,15 +102,10 @@ http://localhost:8080/api/v1/users/me
 ```
 
 ---
-# Running nginx 
-- go to client location
-```bash
-./start-https.sh --with-docker
-```
-
----
 # Front end
 - go to client location
 ```bash
 yarn start
 ```
+
+> The app will be running on `dev.appsmith.com`

@@ -1,0 +1,14 @@
+- Reduce phone distraction
+    - switch to greyscale
+    - use a separate alarm clock
+    - use focus apps
+    - repurpose it for something else
+- Not having a plan
+    - no plan - mind goes into path of least resistance
+    - time block to maintain a basic plan
+- multitasking
+    - attention residue
+    - focus on one - attention is not split into multiple different things
+- not taking enough care
+    - take enough breaks
+    - make sure that the goals are aligned with your values
