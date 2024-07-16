@@ -477,3 +477,8 @@
 		- worked on appsmith project
 		- tried to set it up, but ran into some issues
 		- most likely an issue with the way how steps are being executed
+	- July 16, 2024
+		- worked on getting appsmith up and running
+		- was able to get appsmith running 
+		- worked on assignment 5 review comments 
+		- started working on assignment 6
