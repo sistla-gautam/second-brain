@@ -1,0 +1,2 @@
+- allow type to be parameterised. allows type to be a parameter for methods, classes and interfaces
+- methods, class, interfaces that operate on generics are generic entities
