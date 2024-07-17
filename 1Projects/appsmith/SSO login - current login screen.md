@@ -9,4 +9,7 @@
 		export const MESSAGE = ()=>"This is a message"
 		```
 - the form is placed in ==`DetailsForm.tsx`== file
-- 
+
+```
+=The+redirect+URI+in+the+request:+https://seed-webapp-sso.msa.apps.yokogawa.dev/callback+did+not+match+a+registered+redirect+URI.&code=invalid_request&skipConsent=false
+```
