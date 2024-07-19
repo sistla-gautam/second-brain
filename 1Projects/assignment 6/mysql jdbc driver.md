@@ -1,2 +1,1 @@
-- does not work on intellij as it is only available on the paid licensed version
-- configuring it on Eclipse
+- Intelij community edition does natively 
