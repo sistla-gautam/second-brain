@@ -1,0 +1,13 @@
+- Get a formula book
+	- revise the formulae before taking a mock
+- memorize the frequently asked stuff on quant
+- time yourself for every question
+- solve close to 40 to 50 mocks
+	- average mocks solved is 40 to 50
+- analyze the mocks 
+	- find the weak points in every mock and work on them 
+	- aim for 1 mock a week, but analyze and improve on every single one of them
+- give importance to question selection
+	- know which question to attempt and which not to
+	- fine tune this while giving mocks
+- aim close to solving 150 sets of DILR sets
