@@ -482,3 +482,10 @@
 		- was able to get appsmith running 
 		- worked on assignment 5 review comments 
 		- started working on assignment 6
+	- July 17, 2024
+		- worked on appsmith login part
+		- was able to configure the app to point to a SAP/CDC login page
+		- worked on configuring SQL database for assignment 6
+	- July 18, 2024
+		- worked on getting back the code form the SAP/CDC page of yokogava
+		- tried and failed multiple ways to extract the code from the redirect URL
