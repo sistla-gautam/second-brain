@@ -489,3 +489,11 @@
 	- July 18, 2024
 		- worked on getting back the code form the SAP/CDC page of yokogava
 		- tried and failed multiple ways to extract the code from the redirect URL
+	- July 19, 2024
+		- worked on passing the SAP/CDC code of yokogava as a prop to the required component
+		- was able to pass the code to the component
+	- July 22, 2024
+		- tried and failed on using the code as a prop in the component
+		- worked on rerouting the app to get access to the code on the required component
+		- the next calls are going through, but the calls are failing due to CORs error
+		- contacted Mallikarjun regarding the same, waiting for response
