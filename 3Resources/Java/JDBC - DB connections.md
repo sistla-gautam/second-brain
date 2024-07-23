@@ -1,0 +1,3 @@
+ - install the required JDBC driver to your application
+ - use this driver to connect to the DB with the application
+ - place the credentials in the properties file and read from the properties file

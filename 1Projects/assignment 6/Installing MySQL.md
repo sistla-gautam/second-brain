@@ -3,3 +3,5 @@
 	![[Pasted image 20240716162147.png]]
 	Link to the configure the SQL
 	https://www.w3schools.com/mysql/mysql_install_windows.asp
+- install jdbc drivers onto intellij 
+- link the intellij jdbc with the mysql DB with the username and the password
