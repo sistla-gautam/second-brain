@@ -1,7 +1,16 @@
 - the `/login` page does multiple API calls 
 ##### Work flow
-- redirect to the SAPCDC login page
-- asks the user to login
-- once logged in, the sapcdc token is returned back
-- this is in the URL as `code=...`
-- this `code` is then passed another API to get the correct login token
+- SAPCDD token from YTI
+- Jwt from a gigya url
+- user info based on the JWT
+- platform token from this user info
+
+#### SAPCDC token
+url: `config.authorizeUri`
+- this is done once the user clicks on the login button
+- will lead to YTI login page to get the user credentials
+- will return the required SAPCDC token
+
+#### JWT token
+url: `config.tokenUri`
+- pass the SAPCDC token as a param
