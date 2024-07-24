@@ -497,3 +497,7 @@
 		- worked on rerouting the app to get access to the code on the required component
 		- the next calls are going through, but the calls are failing due to CORs error
 		- contacted Mallikarjun regarding the same, waiting for response
+	- July 23, 2024
+		- worked on getting the appsmith JWT token
+		- was facing a CORS issue, but was able to solve it while sitting with Surrendra
+		- need to pass this JWT to the login for the application to pick up
