@@ -501,3 +501,9 @@
 		- worked on getting the appsmith JWT token
 		- was facing a CORS issue, but was able to solve it while sitting with Surrendra
 		- need to pass this JWT to the login for the application to pick up
+	- July 24, 2024
+		- worked on passing the JWT as a valid token for the login
+		- was not able to do so. main problem is the form sends as traditional username, password, while our application contains a JWT directly
+		- worked on porting the common code of assignment of 5 and 6
+		- need to create a table with the required columns and need to also write queries that will interact with them
+		- need to create a new driver class that will do both the initial connection and the query handling

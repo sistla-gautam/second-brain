@@ -1,5 +1,11 @@
 - create a dashboard that will show the different laptops available for usage
 - create google forms that will be able to update the status of the different assets in the sheets
+
+### high level TODO
+- [ ] create dashboards for asset management
+- [ ] create a new sheet that will show the different assets based on input information
+	- [ ] this can be made by the original all assets sheet
+- [ ] take care of "in-office" "out-of-office" conditions
 ---
 ##### Forms to create
 *focus on CRUD operation*
