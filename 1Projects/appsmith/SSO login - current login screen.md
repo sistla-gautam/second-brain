@@ -33,5 +33,3 @@
 }
 	```
 
-
-`https://dev.appsmith.com/callback?code=st2.s.AtLtpzsD3Q.Q6-HChP5oT-OYPemGnkczNtJvxpr8RRwYOrqdLWNOtwR3eqgeG71JvKGzI30CKH9WrPGI2D66JskmR9hJaiqOlV948aMkHSEWnbgl-jEJJeYGKjSp5GVSBAId3Tz7P1C.vi84kVjZl6tiXg4GbjfI7fOBaliZa1bGVVWhiye3f7J2KOLIR9TbfzjetOoYeXnuXPHJVAibUHKWkReoxlxbhQ.sc3`

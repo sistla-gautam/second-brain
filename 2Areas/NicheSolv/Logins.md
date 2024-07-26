@@ -8,10 +8,11 @@
 | YTI VPN         | asykgw/47790222                                     | Gs4nQVug6C <windows_password> |
 | github          | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 371auXfDzQDmLCv               |
 | YTI cloud       | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!hT                |
-| YTI wifi        | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!8                 |
+| YTI wifi        | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!82                |
 | YTI wiki        | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | Yokogawa@1                    |
 | SonarQube       | yti-user                                            | YokoYoko;2005                 |
 | SQL database    | root                                                | Gs4nQVug6C                    |
+| AppSmith        | sistlagautham@gmail.com                             | 12345678                      |
 ### Github tokens
 
 | Token name | Token                                    | Account       |

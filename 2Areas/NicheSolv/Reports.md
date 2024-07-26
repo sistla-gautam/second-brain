@@ -507,3 +507,14 @@
 		- worked on porting the common code of assignment of 5 and 6
 		- need to create a table with the required columns and need to also write queries that will interact with them
 		- need to create a new driver class that will do both the initial connection and the query handling
+	- July 25, 2024
+		- went to YTI
+		- worked on appsmith routing
+		- traced where in the server is the API for the login 
+		- made some changes to the server code to see if any of the alternatives would work
+		- helped Sanjeeva with the tag values of his video widget
+	- July 26, 2024
+		- connected with Shubham to understand the workflow of the API
+		- looked into configuring the server to enable SSO login with third party login systems
+		- wrote some test cases for SVG widget new upload button
+		- Wrote SQL queries for Assignment 6
