@@ -45,3 +45,5 @@
 - Specific forms
 	- inputs the type of asset to display
 	- displays the required assets only
+	- the history of the different users of a particular asset
+		- should be a running list that shows the different transactions of the assets
