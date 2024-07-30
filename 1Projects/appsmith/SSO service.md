@@ -1,0 +1,4 @@
+- `/root/snap/appsmith/app/server/appsmith-server/src/main/java/com/appsmith/server/authentication/handlers/CustomOAuth2UserServiceImpl.java`
+	- this is the one housing the CustomOAuth2UserServiceCEImpl implementation
+- the actual class seems to be `/root/snap/appsmith/app/server/appsmith-server/src/main/java/com/appsmith/server/authentication/handlers/ce/CustomOAuth2UserServiceCEImpl.java` 
+	- contains the loadUser and checkAndCreateUser methods which seem to be getting the information from 
