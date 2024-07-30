@@ -518,3 +518,12 @@
 		- looked into configuring the server to enable SSO login with third party login systems
 		- wrote some test cases for SVG widget new upload button
 		- Wrote SQL queries for Assignment 6
+	- July 29, 2024
+		- connected with Surrendra to figure out the workflow of the application
+		- found some headway into the possible Oauth2 integration methods
+		- worked on some different separation of code for SQL
+		- passed the security config file to Shubam for further discussion regarding the same
+	- July 30, 2024
+		- worked on replacing some values in the security config to find out the difference it makes
+		- replaced some values in the .env file to get the different outputs
+		- the login screen works, but the redirect URL does not seem to be working as intended
