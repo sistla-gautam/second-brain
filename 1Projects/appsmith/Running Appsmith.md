@@ -1,4 +1,3 @@
-
 ### Things to run
 - RTS server (8091 port)
 - redis (6379 port)
