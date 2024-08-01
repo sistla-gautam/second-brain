@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"f9f62c1279859d6a","type":"text","text":"- CSRF checks\n- add filter\n- set headers\n- anonymous usage\n- exception handling\n- matchers\n- https basic\n- form login\n- oauth2login\n- logout","x":-120,"y":240,"width":250,"height":294},
+		{"id":"6d9a9a28096fb00e","type":"text","text":"securitywebfilterchain","x":-120,"y":80,"width":250,"height":60,"color":"3"},
+		{"id":"31700d411c19550f","type":"text","text":"create anonymous user","x":340,"y":80,"width":250,"height":60,"color":"3"},
+		{"id":"9cd3e262cd368387","type":"text","text":"- creates an anonymous user\n- no privileges\n- no authentication\n- limited access","x":340,"y":240,"width":250,"height":146},
+		{"id":"389eb16c1be5c14d","type":"text","text":"security config","x":100,"y":-160,"width":250,"height":60,"color":"1"},
+		{"id":"db2567d5662d7ee6","type":"text","text":"CustomServerOAuth2AuthorizationRequestResolverCE","x":900,"y":-180,"width":250,"height":120,"color":"1"},
+		{"id":"5ffd347b4080286b","type":"text","text":"sanitycheckfilter","x":-711,"y":-158,"width":250,"height":60,"color":"3"},
+		{"id":"86116158b60412ad","type":"text","text":"- does a sanity check before passing it down further for getting filtered by the required filters","x":-713,"y":5,"width":250,"height":135},
+		{"id":"51154dabbfd25763","type":"text","text":"CustomServerOAuth2AuthorizationRequestResolverCE (constructor)","x":900,"y":115,"width":250,"height":87,"color":"3"},
+		{"id":"d915c80f34fc6191","type":"text","text":"- assigns fields\n- keeps them ready for later usage ","x":901,"y":262,"width":250,"height":103},
+		{"id":"407c7cfcc91c9da7","x":1425,"y":-235,"width":250,"height":110,"color":"3","type":"text","text":"resolve (exchange, clientRegistrationId) (double param)"},
+		{"id":"2ca93a7a4a452420","x":1400,"y":-60,"width":301,"height":60,"color":"3","type":"text","text":"resolve (exchange) (single param)"},
+		{"id":"13d553e050605120","x":1426,"y":115,"width":250,"height":285,"type":"text","text":"- resolves the given url to get the URL params from it\n- once it gets it, it then passes it to another resolver that takes the exchange and the client registration URL"},
+		{"id":"cb6d742548232c57","x":1908,"y":-217,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"99035770dede09e5","fromNode":"389eb16c1be5c14d","fromSide":"bottom","toNode":"6d9a9a28096fb00e","toSide":"top"},
+		{"id":"b3181d86fd9e35c8","fromNode":"6d9a9a28096fb00e","fromSide":"bottom","toNode":"f9f62c1279859d6a","toSide":"top"},
+		{"id":"5369cc039681fb58","fromNode":"389eb16c1be5c14d","fromSide":"bottom","toNode":"31700d411c19550f","toSide":"top"},
+		{"id":"c934b3e409125700","fromNode":"31700d411c19550f","fromSide":"bottom","toNode":"9cd3e262cd368387","toSide":"top"},
+		{"id":"7619bf754860d052","fromNode":"db2567d5662d7ee6","fromSide":"bottom","toNode":"51154dabbfd25763","toSide":"top"},
+		{"id":"a1a7874b9ac142e2","fromNode":"51154dabbfd25763","fromSide":"bottom","toNode":"d915c80f34fc6191","toSide":"top"},
+		{"id":"6a07b2f54d784ead","fromNode":"389eb16c1be5c14d","fromSide":"left","toNode":"5ffd347b4080286b","toSide":"right"},
+		{"id":"beef7e137ae5c36f","fromNode":"5ffd347b4080286b","fromSide":"bottom","toNode":"86116158b60412ad","toSide":"top"},
+		{"id":"b9611dbb0fb08ad5","fromNode":"db2567d5662d7ee6","fromSide":"right","toNode":"2ca93a7a4a452420","toSide":"left"},
+		{"id":"dc9a7dbc35c7f4d6","fromNode":"2ca93a7a4a452420","fromSide":"bottom","toNode":"13d553e050605120","toSide":"top"},
+		{"id":"424f9fc086dbce98","fromNode":"db2567d5662d7ee6","fromSide":"right","toNode":"407c7cfcc91c9da7","toSide":"left"},
+		{"id":"971c1bb5a1427b68","fromNode":"407c7cfcc91c9da7","fromSide":"right","toNode":"cb6d742548232c57","toSide":"left"}
+	]
+}

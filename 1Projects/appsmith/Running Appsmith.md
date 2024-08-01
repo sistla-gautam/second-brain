@@ -5,7 +5,6 @@
 
 ### **Pre-requisites**
 Before you can start to hack on the Appsmith server, your machine should have the following installed:
-
 - Java - OpenJDK 17.
 - Maven - Version 3+ (preferably 3.6).
 - A MongoDB database - Refer to the Setting up a local MongoDB instance section to setup a MongoDB instance using `Docker`.

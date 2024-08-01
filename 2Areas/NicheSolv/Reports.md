@@ -531,3 +531,8 @@
 		- worked on redirect of the URL
 		- changed the .env file to test the different approach of SSO login
 		- also added various understand the workflow of the application
+- August
+	- Aug 1, 2024
+		- successfully resolved and implemented the github SSO
+		- also understood the different functions that are used in SSO
+		- need to replicate this with the SAPCDC OAUTH2
