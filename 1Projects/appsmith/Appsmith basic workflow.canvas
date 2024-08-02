@@ -10,10 +10,9 @@
 		{"id":"86116158b60412ad","type":"text","text":"- does a sanity check before passing it down further for getting filtered by the required filters","x":-713,"y":5,"width":250,"height":135},
 		{"id":"51154dabbfd25763","type":"text","text":"CustomServerOAuth2AuthorizationRequestResolverCE (constructor)","x":900,"y":115,"width":250,"height":87,"color":"3"},
 		{"id":"d915c80f34fc6191","type":"text","text":"- assigns fields\n- keeps them ready for later usage ","x":901,"y":262,"width":250,"height":103},
-		{"id":"407c7cfcc91c9da7","x":1425,"y":-235,"width":250,"height":110,"color":"3","type":"text","text":"resolve (exchange, clientRegistrationId) (double param)"},
-		{"id":"2ca93a7a4a452420","x":1400,"y":-60,"width":301,"height":60,"color":"3","type":"text","text":"resolve (exchange) (single param)"},
-		{"id":"13d553e050605120","x":1426,"y":115,"width":250,"height":285,"type":"text","text":"- resolves the given url to get the URL params from it\n- once it gets it, it then passes it to another resolver that takes the exchange and the client registration URL"},
-		{"id":"cb6d742548232c57","x":1908,"y":-217,"width":250,"height":60,"type":"text","text":""}
+		{"id":"407c7cfcc91c9da7","type":"text","text":"resolve (exchange, clientRegistrationId) (double param)","x":1425,"y":-235,"width":250,"height":110,"color":"3"},
+		{"id":"2ca93a7a4a452420","type":"text","text":"resolve (exchange) (single param)","x":1400,"y":-60,"width":301,"height":60,"color":"3"},
+		{"id":"13d553e050605120","type":"text","text":"- resolves the given url to get the URL params from it\n- once it gets it, it then passes it to another resolver that takes the exchange and the client registration URL","x":1426,"y":115,"width":250,"height":285}
 	],
 	"edges":[
 		{"id":"99035770dede09e5","fromNode":"389eb16c1be5c14d","fromSide":"bottom","toNode":"6d9a9a28096fb00e","toSide":"top"},
@@ -26,7 +25,6 @@
 		{"id":"beef7e137ae5c36f","fromNode":"5ffd347b4080286b","fromSide":"bottom","toNode":"86116158b60412ad","toSide":"top"},
 		{"id":"b9611dbb0fb08ad5","fromNode":"db2567d5662d7ee6","fromSide":"right","toNode":"2ca93a7a4a452420","toSide":"left"},
 		{"id":"dc9a7dbc35c7f4d6","fromNode":"2ca93a7a4a452420","fromSide":"bottom","toNode":"13d553e050605120","toSide":"top"},
-		{"id":"424f9fc086dbce98","fromNode":"db2567d5662d7ee6","fromSide":"right","toNode":"407c7cfcc91c9da7","toSide":"left"},
-		{"id":"971c1bb5a1427b68","fromNode":"407c7cfcc91c9da7","fromSide":"right","toNode":"cb6d742548232c57","toSide":"left"}
+		{"id":"424f9fc086dbce98","fromNode":"db2567d5662d7ee6","fromSide":"right","toNode":"407c7cfcc91c9da7","toSide":"left"}
 	]
 }

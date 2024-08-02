@@ -536,3 +536,7 @@
 		- successfully resolved and implemented the github SSO
 		- also understood the different functions that are used in SSO
 		- need to replicate this with the SAPCDC OAUTH2
+	- Aug 2, 2024
+		- integrated SAP CDC SSO into the application
+		- had errors from the securityconfig.java which still need to be resolved 
+		- client side work is completely done 
