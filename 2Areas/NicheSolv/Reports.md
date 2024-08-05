@@ -540,3 +540,6 @@
 		- integrated SAP CDC SSO into the application
 		- had errors from the securityconfig.java which still need to be resolved 
 		- client side work is completely done 
+	- Aug 5, 2024
+		- worked on some more changes in the server side to get the required SAPCDC SSO login
+		- the server is throwing the error of AuthorizationGrantType is not defined
