@@ -1,0 +1,6 @@
+- ![[Pasted image 20240805205022.png]]
+	- ![[Pasted image 20240805205037.png]]
+	- did not read the question properly. did not consider that the votes from Simran were given to Ram
+- ![[Pasted image 20240805205700.png]]
+	- ![[Pasted image 20240805205716.png]]
+	- discounted the fixed cost and only considered the variable cost to be distributed among the students

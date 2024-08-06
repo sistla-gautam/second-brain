@@ -1,0 +1,3 @@
+- ![[Pasted image 20240805223328.png]]
+	- first calculate the time taken to fill the requirement per day
+	- then calculate the time taken to meet the requirement from the outlet drain
