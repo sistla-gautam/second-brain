@@ -22,4 +22,4 @@ npm run package:dev
 - once we do that, run the command
 	- `npm run start`
 - create a new application in the Acuity and point it to local (follow `Readme.me`)
-- the local should now be running 
+- the local should now be running d
