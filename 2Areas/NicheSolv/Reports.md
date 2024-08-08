@@ -543,10 +543,14 @@
 	- Aug 5, 2024
 		- worked on some more changes in the server side to get the required SAPCDC SSO login
 		- the server is throwing the error of AuthorizationGrantType is not defined
-	- Aug 4, 2024
+	- Aug 6, 2024
 		- got onto a call with Padma to discuss Assignment 6. Need to look into Model View Paradigm and make some changes to Assignment 6
 		- Worked on Appsmith and configured the server and client to detect SAP CDC to be a valid SSO provider
 		- Need to work on sending the client ID to the SSO providers
-	- Aug 5, 2024
+	- Aug 7, 2024
 		- changes the client to point to the correct location in the server
 		- the server now point to the right location and is also able to pick the code from the provider
+	- Aug 8, 2024
+		- went to YTI
+		- received the JWK set URI from Mallikarjun
+		- need to configure the userNameAttribute for the application to get the correct user details
