@@ -554,3 +554,11 @@
 		- went to YTI
 		- received the JWK set URI from Mallikarjun
 		- need to configure the userNameAttribute for the application to get the correct user details
+	- Aug 9, 2024
+		- successfully logged in with SSO to Appsmith
+		- also looked into how to send the form data from Appsmith via API
+	- Aug 12, 2024
+		- worked on creating a mock server that will handle a REST API
+		- created a way in Appsmith to push the data to this API
+		- got onto a call with YTI team to discuss how to process the forms
+		- pushed assignment 6 for second review
