@@ -1,0 +1,8 @@
+- ![[Pasted image 20240811201810.png]]
+	- we add 240L of milk
+	- therefore, the concentration of water changes from 5/12 to 1/4
+	- use replacement formula to get the total volume = 600 * 2
+	- now this total volume is in the ratio 7:5
+	- this mixture is formed from a mixture 7:3
+	- we need to find the volume of water added -> 200
+- 

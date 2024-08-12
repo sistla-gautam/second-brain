@@ -1,0 +1,19 @@
+- ![[Pasted image 20240808230748.png]]
+	- ![[Pasted image 20240808230807.png]]
+- transformation of equations
+	- assume a equation of the form ax^2 + bx + c = 0 having roots p and q
+	- we can find out the equation whose roots are p +2 and q + 2 by transformation of equations
+	- let the new equation be in the form of y
+	- this equation needs to have the roots p+2 and q+2. hence y = p+2, q+2
+	- ![[Pasted image 20240810123411.png]]
+	- therefore y = x+2 => x=y-2
+	- substitute this value in the original equation
+	- ![[Pasted image 20240810123536.png]]
+- ![[Pasted image 20240810125255.png]]
+- dependency check
+	- used when we are given multiple equations with multiple variables and we need to find the values of the variables
+	- ![[Pasted image 20240811204720.png]]
+	- from these equations, 2a + 3b should become 6p.
+	- this is only possible when we have the right value of a and b
+	- in this equation, we do not know the value of x. but we know the value of its equivalent from other equations
+	- so our job is to find a and b, which will be the values with which the equations will be multiplied by to get the correct value
