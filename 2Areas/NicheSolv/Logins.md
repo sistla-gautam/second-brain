@@ -13,6 +13,7 @@
 | SonarQube       | yti-user                                            | YokoYoko;2005                 |
 | SQL database    | root                                                | Gs4nQVug6C                    |
 | AppSmith        | sistlagautham@gmail.com                             | 12345678                      |
+| Postgres        | postgres                                            | newpassword                   |
 ### Github tokens
 
 | Token name | Token                                    | Account       |

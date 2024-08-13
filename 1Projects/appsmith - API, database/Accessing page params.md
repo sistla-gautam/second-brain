@@ -1,0 +1,5 @@
+- Appsmith does not allow for accessing the `window` or `document` object
+- this means, we cannot use the URLSearchParams
+- the alternative is to make use of `appsmith` object
+- `appsmith` object contains the query parameters in the `appsmith.URL.queryParams.[parameter_name]`
+- this object is accessible in both the `JS` and the `queries` tab
