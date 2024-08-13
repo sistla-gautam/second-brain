@@ -1,0 +1,6 @@
+- ![[Pasted image 20240812164008.png]]
+- 2 scenarios
+	- if someone has already created a record, how do we access that and show it in the form. when the user submits the form, then the DB is altered
+---
+- can the form read some type of argument which will be used to read the DB
+- can the DB be changed based on the form (if possible use postgress)
