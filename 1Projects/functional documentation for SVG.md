@@ -1,0 +1,27 @@
+- Allows the user to make use of SVGs to represent data.
+- SVGs can be placed into the dashboard either by uploading a new one from the file system or by choosing from one of the pre-existing ones.
+- File size cannot be greater than 5MB.
+- File names should be unique when uploading to MinIO. If a file with the same filename exists in MinIO, the file will not be uploaded. Update the filename to a unique name and continue with the upload process.
+- Once the SVG is selected, the different elements of the SVG can be targeted and manipulated based on hardcoded values or tag values.
+- Multiple such values containing the element and the attribute to be changed can be chained together.
+- Listing of elements is done in one of the following ways:
+	- If the SVG contains elements that have the attribute `YdxDataTarget` set to `true`, only those elements will be displayed for selection.
+	- If the SVG does not contain any such elements, then all elements will be displayed.
+- The element list will contain one of the two values:
+	- The ID of the element.
+	- The relative path to the element based on a parent that contains an ID.
+- The elements can be manipulated based on the following attributes:
+	- **Stroke**: Changes the color of the stroke of the particular element. Accepts String, `rgb()`, and hex values.
+	- **Stroke-width**: Changes the width of the stroke. Accepts float values.
+	- **Fill**: Changes the fill color of the element. Accepts String, `rgb()`, and hex values.
+	- **Opacity**: Changes the opacity of the element. Accepts float values from 0 to 1.
+	- **Text**: Sets the text of that particular element to the input text. Accepts String values.
+---
+- allows for either uploading an SVG from local file system or for choosing from pre-existing ones from MinIO
+- the different elements of the SVG can be targeted to be manipulated on the following fields
+	- stroke-color
+	- stroke-width
+	- fill
+	- opacity
+	- text
+- multiple such selections can be chained together 
