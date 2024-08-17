@@ -1,3 +1,9 @@
 - ![[Pasted image 20240817202138.png]]
 	- ![[Pasted image 20240817202150.png]]
 	- ![[Pasted image 20240817202457.png]]
+- Eulers totient function - to find the co primes less than a given number
+	- if we have a number n, for which we need to find the co prime
+	- we need to factorize the number
+		- $n=p^aq^br^c$ 
+	- now, the number of coprimes are
+		- E = $n(1-\frac{1}{p})(1-\frac{1}{q})(1-\frac{1}{r})$ 
