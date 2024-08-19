@@ -562,3 +562,7 @@
 		- created a way in Appsmith to push the data to this API
 		- got onto a call with YTI team to discuss how to process the forms
 		- pushed assignment 6 for second review
+	- Aug 13, 2024
+		- worked on connecting the workflow to the postgres DB
+		- not able to connect to them due to variation in the environments that they run at
+		- one is running on a WSL setup, while the other is running on a web application setup
