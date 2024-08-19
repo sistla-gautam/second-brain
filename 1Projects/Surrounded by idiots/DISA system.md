@@ -1,0 +1,6 @@
+- main way to distinguish people 
+	- dominance
+	- inducement
+	- submission
+	- analytic
+- communication happens at the listeners end. not at the senders end

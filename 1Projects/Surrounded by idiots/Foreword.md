@@ -1,0 +1,5 @@
+- author is the founder of TTI insights
+	- a software used for generating reports about human behavior 
+- aims to classify people into groups and understand each of them in a particular way
+	- primary classification - red, green, blue, yellow
+- if we do not understand how different people behave, we will consider each of them as idiots
