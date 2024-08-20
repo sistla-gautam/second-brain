@@ -562,7 +562,14 @@
 		- created a way in Appsmith to push the data to this API
 		- got onto a call with YTI team to discuss how to process the forms
 		- pushed assignment 6 for second review
-	- Aug 13, 2024
+	- Aug 19, 2024
 		- worked on connecting the workflow to the postgres DB
 		- not able to connect to them due to variation in the environments that they run at
 		- one is running on a WSL setup, while the other is running on a web application setup
+	- Aug 20, 2024
+		- was able to connect the plugins from console to the database
+		- the server is running on an EC2 instance that contains a postgresql DB
+		- need to now look into testing the entire flow 
+		- need to start working on the deployment of the application
+		- looked into some configuration settings for docker setup to understand how to proceed with assignment 6.1
+		- need to transfer the assignment from YTI laptop to the assignment laptop
