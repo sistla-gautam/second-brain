@@ -18,8 +18,13 @@ npm run package:dev
 - createDevPackages
 	- script that will create the .zip file for the different applications
 ### running locally
-- change the name, ID and the URL
+- change the name and the URL - `webpack.config.js`, `app.js`, `app-routing.js`
+	- change the routing to `react-local` in the `baseHref` 
+```javascript
+const baseHref = `/${process.env.REACT_APP_BASE_PATH}/portal/dashboard`;
+const baseHref = `/${process.env.REACT_APP_BASE_PATH}/portal/react-local`;
+```
 - once we do that, run the command
 	- `npm run start`
 - create a new application in the Acuity and point it to local (follow `Readme.me`)
-- the local should now be running d
+- the local should now be running 
