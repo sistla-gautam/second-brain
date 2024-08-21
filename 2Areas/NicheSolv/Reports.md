@@ -573,3 +573,7 @@
 		- need to start working on the deployment of the application
 		- looked into some configuration settings for docker setup to understand how to proceed with assignment 6.1
 		- need to transfer the assignment from YTI laptop to the assignment laptop
+	- Aug 21, 2024
+		- was able to check the complete flow of the Appsmith forms
+		- started working on the deployment of the appsmith on the subdomain
+		- not able to complete the transfer to the subdomain. running into issues with the build directory
