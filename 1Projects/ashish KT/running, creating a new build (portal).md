@@ -1,6 +1,6 @@
 - change the token in the .env with the following
 	- prod - `sp=r&st=2023-11-21T10:40:13Z&se=2024-11-19T18:40:13Z&spr=https&sv=2022-11-02&sr=c&sig=s9vwH%2Fn27ruZpX1V6mAW9HraZ5R1K2paVkS3QElNMDU%3D`
-	- dev - `sp=racwdl&st=2024-02-28T05:59:32Z&se=2025-02-27T13:59:32Z&spr=https&sv=2022-11-02&sr=c&sig=Mv7esnK0vA%2B%2FoTFJ8tDVPd7PFciANFwFGCdPW`
+	- dev - `sp=racwdl&st=2024-02-28T05:59:32Z&se=2025-02-27T13:59:32Z&spr=https&sv=2022-11-02&sr=c&sig=Mv7esnK0vA%2B%2FoTFJ8tDVPd7PFciANFwFGCdPWLn8doE%3D`
 	- only after replacing will the build or running work
 - remember to replace it back to `TOKEN` when pushing the code to GitHub
 #### changing from prod to dev
