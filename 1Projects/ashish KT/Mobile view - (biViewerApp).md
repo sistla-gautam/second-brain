@@ -1,4 +1,4 @@
-##### deployemtn
+##### deployment
 - completely handled by Aman
 
 ##### running local
