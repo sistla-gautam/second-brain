@@ -1,0 +1,11 @@
+- `profiledropdown.js`
+	- change `url`
+		- `window.location.origin`
+		- `https://api.dev.apps.yokogawa.build`
+- `index.html`
+	- change `clientTypeNew`
+		- `localStorage.getItem("clientType`
+		- `"CONSOLE"`
+	- change `url`
+		- `window.location.origin`
+		- `https://api.dev.apps.yokogawa.build`
