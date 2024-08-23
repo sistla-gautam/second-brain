@@ -562,6 +562,13 @@
 		- created a way in Appsmith to push the data to this API
 		- got onto a call with YTI team to discuss how to process the forms
 		- pushed assignment 6 for second review
+	- Aug 13, 2024
+		- worked on the overall flow of the Appsmith
+		- started creating the plugin that will connect to the DB
+		- worked on simulating a resource with test values for the sensors
+	- Aug 14, 2024
+		- worked on trying to setup a postgres DB on the local machine
+		- worked on accessing the encrypted setting details in the plugin
 	- Aug 19, 2024
 		- worked on connecting the workflow to the postgres DB
 		- not able to connect to them due to variation in the environments that they run at
