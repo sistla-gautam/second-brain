@@ -17,3 +17,6 @@
 	- this is only possible when we have the right value of a and b
 	- in this equation, we do not know the value of x. but we know the value of its equivalent from other equations
 	- so our job is to find a and b, which will be the values with which the equations will be multiplied by to get the correct value
+- maximum or minimum value of a quadratic equation
+	- for a standard quadratic equation, we get the max/min value at $x=\frac{-b}{2a}$ 
+	- use this to calculate the result of the equation 

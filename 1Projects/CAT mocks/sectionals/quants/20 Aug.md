@@ -1,0 +1,24 @@
+- 2 main wrong answers, due to silly mistakes in reading the questions
+- 2 wrong answers in TITA (this is fine for now as it does not loose marks)
+- Attempted only 5 questions, should aim for higher
+- did not revise the notes before taking the exam
+### Topics to focus on
+###### skipped
+- functions - 1
+- algebra (logs) - 1
+- progression - 2
+	- harmonic progression
+	- fancy series
+- algebra (roots of the equation) - 2
+- geometry
+	- triangle properties
+	- circle properties
+- profit loss
+	- only percentages
+- Arithmetic
+	- factors - number is a factor of another number
+	- maximum (combined with algebra)
+- SI and CI
+- coordinate geometry
+	- circle equations
+- probability
