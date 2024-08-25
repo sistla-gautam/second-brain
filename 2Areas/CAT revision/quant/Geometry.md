@@ -47,3 +47,5 @@
 - if we need to find the number of scalene triangles, we replace P in the formula with (P-6)
 	- if the perimeter is even - nearest integer($\frac{(P-6)^2}{48}$)
 	- if the perimeter is odd - nearest integer ($\frac{(P-3)^2}{48}$)
+- for a given perimeter, there is only either 1 or 0 equilateral triangles that can be formed
+- to find the number of isosceles triangles that can be formed, we find the total number of triangles and subtract scalene and equilateral triangles from it
