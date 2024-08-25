@@ -36,3 +36,14 @@
 - for a right angle triangle, we have 
 	- 2R = h, where h is the hypotenuse
 	- r = h - s, where h is the hypo and s is the semiperimeter 
+
+###### conditions for forming triangles
+- based on the sides
+	- when we have the sides of a triangle, we have the following condition
+	- **diff of two sides < third side < sum of two sides**
+- given the perimeter, find the number of distinct triangles
+	- if the perimeter is even - nearest integer($\frac{P^2}{48}$)
+	- if the perimeter is odd - nearest integer ($\frac{(P+3)^2}{48}$)
+- if we need to find the number of scalene triangles, we replace P in the formula with (P-6)
+	- if the perimeter is even - nearest integer($\frac{(P-6)^2}{48}$)
+	- if the perimeter is odd - nearest integer ($\frac{(P-3)^2}{48}$)
