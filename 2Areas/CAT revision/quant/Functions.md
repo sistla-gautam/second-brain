@@ -3,4 +3,34 @@
 	- we find that the g(x) is a function that changes based on odd or even values
 	- do now, we just replace the values into the final equation
 	- ![[Pasted image 20240823192558.png]]
-- 
+- every input to the function has a unique image in the output
+- function terminologies
+	- **domain** - set of values that x can take where f(x) is defined
+	- **range** - set of values that f(x) can take
+	- **codomain** - the other possible values in the output set which also includes values that f(x) might not reach
+- onto function (surjective function) - functions where the range and codomain are equal
+- one to one functions (injective function) - every element in the codomain is mapped by at most one element in range
+- bijective function - function that is both surjective and injective
+- into functions - functions that are not onto functions
+
+###### number of functions
+- total number of functions is given by
+	- $n_b ^ {n_a}$ 
+- total number of onto functions
+	- we first calculate the total number of functions and then remove the values that are not required
+	- if $n_b$ = 3 and $n_a$ = 5, then we calculate the following
+		- total number of functions = $3^5$
+		- number of functions mapping to only single element = 3
+		- number of elements that are mapped to exactly 2 elements = $3(2^5 - 2)$
+		- total onto functions = $3^5  -  3  -  3(2^5 - 2)$ 
+
+##### general solutions for functions
+- f(x+y) = f(x) + f(y) 
+	- its a linear equation
+	- we can assume f(x) to be equal to kx
+- f(x+y) = f(x).f(y)
+	- exponential
+	- assume f(x)=$a^x$
+- f(xy) = f(x) + f(y)
+	- log function
+	- assume f(x) 
