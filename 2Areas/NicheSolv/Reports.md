@@ -584,3 +584,8 @@
 		- was able to check the complete flow of the Appsmith forms
 		- started working on the deployment of the appsmith on the subdomain
 		- not able to complete the transfer to the subdomain. running into issues with the build directory
+	- Aug 26, 2024
+		- checked the different licenses that are available for Appsmith
+		- also crated a user flow POC for Appsmith and created a video of the workflow for backup
+		- got onto a call with YTI to showcase the overall workflow of Appsmith to YTI team
+		- got some suggestions on what to be done with Appsmith and how it is handling the user flow
