@@ -1,0 +1,10 @@
+- bulleted list of what the ideal the life looks like
+- needs to contain
+	- what a day in the life look like
+	- who are around you
+	- what are you doing
+	- how are you feeling
+- usually highlights inconsistencies in the goals and actions
+---
+- once we find out the end state, we can then see if our current state is aligned with our goals
+	- eg: end state might never say "driving around in fancy cars", but you might be saving up for a fancy car
