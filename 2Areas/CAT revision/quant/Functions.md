@@ -1,4 +1,4 @@
-- ![[Pasted image 20240823192413.png]]
+ - ![[Pasted image 20240823192413.png]]
 	- we first find the value of g(x) for 1 and2
 	- we find that the g(x) is a function that changes based on odd or even values
 	- do now, we just replace the values into the final equation
