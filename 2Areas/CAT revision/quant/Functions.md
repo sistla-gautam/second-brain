@@ -33,4 +33,10 @@
 	- assume f(x)=$a^x$
 - f(xy) = f(x) + f(y)
 	- log function
-	- assume f(x) 
+	- assume f(x)  = k log x
+- f(x).f($\frac{1}{x}$) = f(x) + f($\frac{1}{x}$)
+	- polynomial
+	- assume f(x) = $x^n + 1$
+- f(xy) = f(x).f(y)
+	- exponential
+	- assume f(x) = $x^n$
