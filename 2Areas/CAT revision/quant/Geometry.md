@@ -35,7 +35,7 @@
 ###### right angle triangles
 - for a right angle triangle, we have 
 	- 2R = h, where h is the hypotenuse
-	- r = h - s, where h is the hypo and s is the semiperimeter 
+	- r = s - h, where h is the hypo and s is the semiperimeter 
 
 ###### conditions for forming triangles
 - based on the sides
