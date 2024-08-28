@@ -3,3 +3,6 @@
 - least common is red or combination of red
 
 [[Red person]]
+[[Yellow person]]
+[[Blue person]]
+[[Green person]]
