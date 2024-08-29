@@ -21,4 +21,4 @@
 2. ![[Pasted image 20240828203705.png]]
 	- did not apply the proper concepts of the summation of series
 	- had to find the nth term and then apply the summation of it
-1. 
+3. 
