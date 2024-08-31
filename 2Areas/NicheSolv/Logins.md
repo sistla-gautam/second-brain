@@ -14,6 +14,7 @@
 | SQL database    | root                                                | Gs4nQVug6C                    |
 | AppSmith        | sistlagautham@gmail.com                             | 12345678                      |
 | Postgres        | postgres                                            | newpassword                   |
+| AWS IAM         | gautam                                              | 6sO71@@v1                     |
 ### Github tokens
 
 | Token name | Token                                    | Account       |

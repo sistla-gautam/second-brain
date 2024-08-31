@@ -1,0 +1,2 @@
+- not creating notes of the question
+- this is leading to re reading the question over and over again
