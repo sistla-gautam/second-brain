@@ -589,3 +589,21 @@
 		- also crated a user flow POC for Appsmith and created a video of the workflow for backup
 		- got onto a call with YTI to showcase the overall workflow of Appsmith to YTI team
 		- got some suggestions on what to be done with Appsmith and how it is handling the user flow
+	- Aug 27, 2024
+		- worked on the  the deployment of Appsmith
+		- ran into errors on how the App needs to be packaged
+		- did some changes, but did not solve this problem
+	- Aug 28, 2024
+		- worked on the deployment of Appsmith
+		- figured out the path of Appsmith, but still having issues with the way how the assets are being packaged and handled
+		- need to figure out some errors on the packaging of assets
+	- Aug 29, 2024
+		- went to YTI
+		- worked on fixing some minor bugs of bi-viewer app
+		- also worked on Appsmith deployment. got a temporary fix for the file location of the assets folder
+		- need to find a way to place the assets folder into the correct folder location
+		- also need to look into some API call routing issues as the app has the wrong URI path
+	- Aug 30, 2024
+		- worked on a permanent fix for the location of the assets folder
+		- worked on getting the API path right. need to connect with Vasuki for further guidance on the same
+		- worked on docker tutorials for Assignment 6.1
