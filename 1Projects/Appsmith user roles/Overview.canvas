@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"ecaf048e34434388","type":"text","text":"Admin","x":-480,"y":400,"width":250,"height":60},
+		{"id":"5acd148a8115af3c","type":"text","text":"Dev","x":-730,"y":400,"width":250,"height":60},
+		{"id":"62241ffcc52e801a","type":"text","text":"Viewer","x":-980,"y":400,"width":250,"height":60},
+		{"id":"2207bee52de850ea","type":"text","text":"Users","x":-730,"y":180,"width":250,"height":60},
+		{"id":"1367a4a3274b9baa","type":"text","text":"Tenants","x":-120,"y":180,"width":250,"height":60},
+		{"id":"de32f6e75fb7b7a1","x":-440,"y":740,"width":250,"height":60,"type":"text","text":"workspace"}
+	],
+	"edges":[
+		{"id":"a95d21a11f00df09","fromNode":"2207bee52de850ea","fromSide":"right","toNode":"1367a4a3274b9baa","toSide":"left","fromEnd":"arrow","label":"* : *"},
+		{"id":"73c655aa4debbf29","fromNode":"2207bee52de850ea","fromSide":"bottom","toNode":"5acd148a8115af3c","toSide":"top"},
+		{"id":"859b6e9604207161","fromNode":"2207bee52de850ea","fromSide":"bottom","toNode":"62241ffcc52e801a","toSide":"top"},
+		{"id":"898db84475cd136a","fromNode":"2207bee52de850ea","fromSide":"bottom","toNode":"ecaf048e34434388","toSide":"top"},
+		{"id":"30330a24fef2dbc7","fromNode":"1367a4a3274b9baa","fromSide":"bottom","toNode":"de32f6e75fb7b7a1","toSide":"right"},
+		{"id":"29a339647dc4a633","fromNode":"ecaf048e34434388","fromSide":"right","toNode":"de32f6e75fb7b7a1","toSide":"top","label":"can create applications"},
+		{"id":"2d1fa24dc3ba4848","fromNode":"62241ffcc52e801a","fromSide":"bottom","toNode":"de32f6e75fb7b7a1","toSide":"left","label":"can view and fill forms"},
+		{"id":"907f735760c4da69","fromNode":"5acd148a8115af3c","fromSide":"bottom","toNode":"de32f6e75fb7b7a1","toSide":"top","label":"can create applications"}
+	]
+}

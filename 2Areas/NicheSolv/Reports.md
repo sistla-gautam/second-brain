@@ -607,3 +607,8 @@
 		- worked on a permanent fix for the location of the assets folder
 		- worked on getting the API path right. need to connect with Vasuki for further guidance on the same
 		- worked on docker tutorials for Assignment 6.1
+- September
+	- Sept 1, 2024
+		- retrieved the code from github to work again on local machine
+		- while pushing to prod, some changes caused errors in running on local
+		- worked on creating workspaces that are tenant specific in Appsmith
