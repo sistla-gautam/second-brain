@@ -38,8 +38,7 @@ Before you can start to hack on the Appsmith server, your machine should have th
 ---
 # Running nginx
 
-##### Can either run from the script or directly from the docker container
-
+Can either run from the script or directly from the docker container
 > The container method will not work if the nginx has not been run ever before
 
 ###### script method
