@@ -8,3 +8,4 @@
 	- awarding them for their work is almost pointless. most often, they do not even celebrate their wins
 - despite such knowledge, they have no intention to boast about them
 	- if they know something, they almost never reveal about it unless someone asks them
+

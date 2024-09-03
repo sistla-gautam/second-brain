@@ -4,7 +4,7 @@
 ```shell
 docker logs <id> | grep GENERATED
 ```
-- this will give us the initial generated password that mysql generated
+- this will give us the initial generated password that mysql generated 
 
 #### changing the password of the root user
 - once we have the initial generated password, we will access the mysql shell with this command

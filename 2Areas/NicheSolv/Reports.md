@@ -612,3 +612,8 @@
 		- retrieved the code from github to work again on local machine
 		- while pushing to prod, some changes caused errors in running on local
 		- worked on creating workspaces that are tenant specific in Appsmith
+	- Sept 2, 2024
+		- worked on Appsmith user spaces
+		- found how the default workspace and applications are created
+		- need to look into how the user roles and permissions will be taken into account
+		- need to look into how the user tenant information and permissions and roles are passed on to AppSmith
