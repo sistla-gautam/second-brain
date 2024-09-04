@@ -617,3 +617,8 @@
 		- found how the default workspace and applications are created
 		- need to look into how the user roles and permissions will be taken into account
 		- need to look into how the user tenant information and permissions and roles are passed on to AppSmith
+	- Sept 3, 2024
+		- got the user's roles and tenant information
+		- need to figure out how to access these tenant information
+		- found out how the default workspaces and applications are being created, and changed them to show the tenant name (hard coded for now)
+		- once we figure out how to get the tenant name and roles and other information, should be able to set the workspace name based on the tenant name

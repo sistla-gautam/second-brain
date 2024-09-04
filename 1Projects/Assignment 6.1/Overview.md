@@ -1,0 +1,4 @@
+- [ ] look into sample java containers for sample java applications
+- [ ] use this to understand how containers are being built for different applications
+- [ ] try building a sample docker container for a sample hello world java application
+- [ ] finally try to build the docker container for the actual program
