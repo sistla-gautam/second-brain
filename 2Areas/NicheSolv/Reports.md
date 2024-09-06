@@ -608,17 +608,26 @@
 		- worked on getting the API path right. need to connect with Vasuki for further guidance on the same
 		- worked on docker tutorials for Assignment 6.1
 - September
-	- Sept 1, 2024
+	- Sept 2, 2024
 		- retrieved the code from github to work again on local machine
 		- while pushing to prod, some changes caused errors in running on local
 		- worked on creating workspaces that are tenant specific in Appsmith
-	- Sept 2, 2024
+	- Sept 3, 2024
 		- worked on Appsmith user spaces
 		- found how the default workspace and applications are created
 		- need to look into how the user roles and permissions will be taken into account
 		- need to look into how the user tenant information and permissions and roles are passed on to AppSmith
-	- Sept 3, 2024
+	- Sept 4, 2024
 		- got the user's roles and tenant information
 		- need to figure out how to access these tenant information
 		- found out how the default workspaces and applications are being created, and changed them to show the tenant name (hard coded for now)
 		- once we figure out how to get the tenant name and roles and other information, should be able to set the workspace name based on the tenant name
+	- Sept 5, 2024
+		- went to YTI
+		- worked on receiving the platform token from the YDX platform side
+		- looked into how the user object and user class might require changes, did not require any
+		- understood the workflow of how the entire platform will validate the given user
+		- need to check how to implement the same in the Appsmith
+	- Sept 6, 2024
+		- worked completely on some last minute bug fixes for KBC release
+		- did not look into Appsmith. Have some idea on how to accept the platform token from the YDX platform
