@@ -631,3 +631,10 @@
 	- Sept 6, 2024
 		- worked completely on some last minute bug fixes for KBC release
 		- did not look into Appsmith. Have some idea on how to accept the platform token from the YDX platform
+	- Sept 9, 2024
+		- tried to get the token information from the URL side. the server implementation is done, but unable to test it due to cookies
+		- will try to instead capture it in the frontend and send it directly to the backend, than asking the backend to capture it directly
+		- tried to fix this subdomain deployment, but ran into issues during the build process. the JDK is giving us trouble
+		- was able to run individual containers for both SQL and Java application
+		- having some problem with the connection with both of them. mostly has to do with the SQL string
+		- need to establish a connection and then create a compose file to run both the containers in tandem
