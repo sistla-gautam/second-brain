@@ -638,3 +638,8 @@
 		- was able to run individual containers for both SQL and Java application
 		- having some problem with the connection with both of them. mostly has to do with the SQL string
 		- need to establish a connection and then create a compose file to run both the containers in tandem
+	- Sept 10, 2024
+		- looked into capturing the token in the front end and then tried to processk it in the client itself than in the server
+		- tried to get the different ways in which the backend server will be able to get the URL and log the user in
+		- was not possible to do so
+		- looked into an alternative way of logging the user in, but faced other issue of the application not having the correct type of tenants being passed
