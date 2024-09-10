@@ -1,6 +1,6 @@
-| date   | marks | remarks/learnings                                   |
-| ------ | ----- | --------------------------------------------------- |
-| 9 Sept | 22    | focus on P&C. learn common tables, squares, cubes.  |
+| date   | marks | remarks/learnings                                  |
+| ------ | ----- | -------------------------------------------------- |
+| 9 Sept | 22    | focus on P&C. learn common tables, squares, cubes. |
 
 ### 9 sept (LR for OMETs)
 - permutation and combination needs practice. lost easy marks due to lack of practice
