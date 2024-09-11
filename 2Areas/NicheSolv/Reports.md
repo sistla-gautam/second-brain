@@ -643,3 +643,8 @@
 		- tried to get the different ways in which the backend server will be able to get the URL and log the user in
 		- was not possible to do so
 		- looked into an alternative way of logging the user in, but faced other issue of the application not having the correct type of tenants being passed
+	- Sept 11, 2024
+		- extracted the JWT from the token to get the tenant details
+		- passed this details to the workspace renaming
+		- renamed the workspace to the tenant name (currently tenant ID as we don't have access to the tenant name)
+		- once the renaming is done, we then redirect to the /applications home page which will reflect the workspace names
