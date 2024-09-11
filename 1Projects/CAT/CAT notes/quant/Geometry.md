@@ -19,7 +19,7 @@
 - ###### appolonius theorem
 	- ![[Pasted image 20240824120920.png]]
 	- ![[Pasted image 20240824120934.png]]
-	-  if the area of a triangle is x, then the area of a triangle formed by the medians is 3/4 the area of the original triangle 
+	-  if the area of a triangle is x, then the area of a triangle formed by the medians is 3/4 the area of the original triangle
 - distance between circumcenter and incenter
 	- $d^2=R(R-2r)$ 
 - area of a triangle
@@ -27,7 +27,8 @@
 	- using height and base
 	- $A=r.s$ (r is inradius, s is semiperimeter)
 	- $A=\frac{abc}{4R}$ (R is circumradius, a,b,c are sides)
-	- $A=\frac{1}{2}ab.sin(ab)$ 
+	- $A=\frac{1}{2}ab.sin(ab)$
+	- $A=\frac{4}{3}\sqrt{s_m(s_m-m_1)(s_m-m_2)(s_m-m_3)}$, where $s_m = \frac{m_1 + m_2 + m_3}{2}$
 ###### angle bisector theorem
 - if we have an angle that is bisector, then we have the following property
 - ![[Pasted image 20240824123033.png]]
