@@ -648,3 +648,7 @@
 		- passed this details to the workspace renaming
 		- renamed the workspace to the tenant name (currently tenant ID as we don't have access to the tenant name)
 		- once the renaming is done, we then redirect to the /applications home page which will reflect the workspace names
+	- Sept 12, 2024
+		- managed to invite other users to the same workspace and give them access to the workspace
+		- also managed to find the tenant name and other details of the user
+		- need to delete the default workspace that gets created when user logs in
