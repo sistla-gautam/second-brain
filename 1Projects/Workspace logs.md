@@ -138,5 +138,5 @@
 ```
 
 ```
-
+{"tenant":"de9788ec-bf1d-4c33-b112-820996790f7b","licenses":["rbac","tsanalytics"],"exp":1726073034,"domain":"ydx.dev.apps.yokogawa.build","groups":[],"permissions":["ydx2pi:all:cr","enrollment:all:crud","rdbms:all:crud","file:all:crud","bucketobject:all:crud","userinfo:all:ru","auditinfo:all:r","collector:all:cr","nifipermission:all:crud","deviceconnection:all:r","email:all:c","cms:all:crud","logdashboard:all:cr","exportimport:all:r","vissvc:all:crud","overtheairupdate:all:c","features:all:crud","scan:all:cr","esos:all:crud","tasks:me:crud","tasks:all:crud","resources:me:crud","plugs:me:crud","templates:me:crud","resources:all:crud","plugs:all:crud","alarms:me:crud","templates:all:crud","settings:me:crud","migration:me:crud","measurements:me:crud","alarms:all:crud","billing:me:crud","export:me:crud","settings:all:crud","migration:all:crud","measurements:all:crud","billing:all:crud","export:all:crud","tokens:me:crud","jobs:me:crud","tokens:all:crud","jobs:all:crud","vault:me:crud","vault:all:crud","users:all:crud","roles:all:crud","organisations:me:crud","organisations:all:crud","buckets:all:crud","byoml:me:crud","byoml:all:crud","pubsub:all:crud","apikeys:me:crud","apikeys:all:crud"],"iat":1726029834,"iss":"@waylay/auth","sub":"users/40d02cb6-7b36-4c21-99de-b42150e66c27"}
 ```
