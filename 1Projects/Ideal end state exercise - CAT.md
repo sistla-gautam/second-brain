@@ -1,0 +1,19 @@
+- Really high scores in VARC
+	- 3 RC passages, with at least 4 out of 5 questions being correct in each of them
+	- all VA questions answered correctly
+	- solve each RC question in 8 to 10 mins
+	- solve each VA question in total of 10 mins
+	- alternate the solving of each VA and RC
+- Solved 3 sets in DILR, all with 100 % accuracy
+	- solve each set in 10 mins max
+- Solved a minimum of 15 questions in quants sections with 100% accuracy
+	- or solved 18 questions with 80% minimum accuracy
+	- solve all easy questions in less than 1 min
+	- solve all medium question in less than 2 mins
+	- solve all hard questions (if any) in less than 4 mins
+	- aim to solve 4 out of 6 questions in the 5-6 batch
+---
+### end state for mocks
+- 99% in all subjects
+- consistently takes mocks - once every 3 days
+- analysis takes very less time - the only questions to analyse are the questions that are not answered or are wrong (which is in the minority)
