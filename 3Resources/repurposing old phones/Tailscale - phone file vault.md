@@ -1,0 +1,1 @@
+https://www.howtogeek.com/turn-an-old-android-phone-into-a-file-vault-using-tailscale/

@@ -1,2 +1,2 @@
-- [ ] surrounded by idiots
+- [x] surrounded by idiots
 - [ ] Happiness
