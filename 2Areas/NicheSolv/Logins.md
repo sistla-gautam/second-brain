@@ -1,20 +1,21 @@
 
-| Website/service | Username                                            | Password                      |
-| --------------- | --------------------------------------------------- | ----------------------------- |
-| Zoho            | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | KP3Ec5yhgqN*                  |
-| google          | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | &Pm0H8l7b7CL                  |
-| jira            | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | kdkfX*M3Ruc&                  |
-| Laptop          | nichesolve22                                        | nichesolve22                  |
-| YTI VPN         | asykgw/47790222                                     | Gs4nQVug6C <windows_password> |
-| github          | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 371auXfDzQDmLCv               |
-| YTI cloud       | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!hT                |
-| YTI wifi        | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!82                |
-| YTI wiki        | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | Yokogawa@1                    |
-| SonarQube       | yti-user                                            | YokoYoko;2005                 |
-| SQL database    | root                                                | Gs4nQVug6C                    |
-| AppSmith        | sistlagautham@gmail.com                             | 12345678                      |
-| Postgres        | postgres                                            | newpassword                   |
-| AWS IAM         | gautam                                              | 6sO71@@v1                     |
+| Website/service     | Username                                            | Password                      |
+| ------------------- | --------------------------------------------------- | ----------------------------- |
+| Zoho                | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | KP3Ec5yhgqN*                  |
+| google              | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | &Pm0H8l7b7CL                  |
+| jira                | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | kdkfX*M3Ruc&                  |
+| Laptop              | nichesolve22                                        | nichesolve22                  |
+| YTI VPN             | asykgw/47790222                                     | Gs4nQVug6C <windows_password> |
+| github              | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 371auXfDzQDmLCv               |
+| YTI cloud           | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!hT                |
+| YTI wifi            | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!82                |
+| YTI wiki            | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | Yokogawa@1                    |
+| SonarQube           | yti-user                                            | YokoYoko;2005                 |
+| SQL database        | root                                                | Gs4nQVug6C                    |
+| docker SQL database | root                                                | 1234                          |
+| AppSmith            | sistlagautham@gmail.com                             | 12345678                      |
+| Postgres            | postgres                                            | newpassword                   |
+| AWS IAM             | gautam                                              | 6sO71@@v1                     |
 ### Github tokens
 
 | Token name | Token                                    | Account       |
