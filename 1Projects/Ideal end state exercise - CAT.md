@@ -16,4 +16,4 @@
 ### end state for mocks
 - 99% in all subjects
 - consistently takes mocks - once every 3 days
-- analysis takes very less time - the only questions to analyse are the questions that are not answered or are wrong (which is in the minority)
+- analysis takes very less time - the only questions to analyze are the questions that are not answered or are wrong (which is in the minority)
