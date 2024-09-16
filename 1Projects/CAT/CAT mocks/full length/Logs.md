@@ -14,3 +14,6 @@
 
 ###### DILR
 - Question selection needs to be a little more specific. Most likely got lucky here when trying to solve this section
+
+###### QA
+- most questions were very much solvable, probably require more practice to identify the pattern
