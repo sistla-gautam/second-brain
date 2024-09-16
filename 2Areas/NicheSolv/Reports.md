@@ -658,3 +658,11 @@
 		- admins and non admins will do different workflow
 		- need to figure out how to pass the tenant workspace ID to fresh users so they can join the same workspace
 		- took a KT from Aman regarding deployment process and the basics of the structure of the entire YDX platform
+	- Sept 16, 2024
+		- deployed a version of Appsmith with SSO changes to dev portal
+		- created some endpoints that will help in getting the workspace ID and names
+		- running into issues with this, as the API seems to be failing with not much context of why it is failing
+		- got onto a weekly call with YTI team to show what is the update on appsmith SSO
+		- created containers for the Java application and the SQL container. both now communicate with each other
+		- need to push this code to Padma for review
+		- will be starting with Assignment 7 

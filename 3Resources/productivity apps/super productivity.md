@@ -1,0 +1,8 @@
+- open source
+- custom sync
+	- dropbox
+	- some other file syncing service
+- completely filled with multiple productivity tools
+	- focus timers
+	- time tracking
+- fully free
