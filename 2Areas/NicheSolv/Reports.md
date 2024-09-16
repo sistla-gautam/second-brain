@@ -639,7 +639,7 @@
 		- having some problem with the connection with both of them. mostly has to do with the SQL string
 		- need to establish a connection and then create a compose file to run both the containers in tandem
 	- Sept 10, 2024
-		- looked into capturing the token in the front end and then tried to processk it in the client itself than in the server
+		- looked into capturing the token in the front end and then tried to process it in the client itself than in the server
 		- tried to get the different ways in which the backend server will be able to get the URL and log the user in
 		- was not possible to do so
 		- looked into an alternative way of logging the user in, but faced other issue of the application not having the correct type of tenants being passed
@@ -649,6 +649,12 @@
 		- renamed the workspace to the tenant name (currently tenant ID as we don't have access to the tenant name)
 		- once the renaming is done, we then redirect to the /applications home page which will reflect the workspace names
 	- Sept 12, 2024
+		- went to YTI
 		- managed to invite other users to the same workspace and give them access to the workspace
 		- also managed to find the tenant name and other details of the user
 		- need to delete the default workspace that gets created when user logs in
+	- Sept 13, 2024
+		- managed to changes the workflows for different user roles
+		- admins and non admins will do different workflow
+		- need to figure out how to pass the tenant workspace ID to fresh users so they can join the same workspace
+		- took a KT from Aman regarding deployment process and the basics of the structure of the entire YDX platform
