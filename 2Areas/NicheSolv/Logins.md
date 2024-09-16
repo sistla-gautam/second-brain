@@ -12,7 +12,7 @@
 | YTI wiki            | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | Yokogawa@1                    |
 | SonarQube           | yti-user                                            | YokoYoko;2005                 |
 | SQL database        | root                                                | Gs4nQVug6C                    |
-| docker SQL database | root                                                | 1234                          |
+| docker SQL database | demo_java                                           | 1234                          |
 | AppSmith            | sistlagautham@gmail.com                             | 12345678                      |
 | Postgres            | postgres                                            | newpassword                   |
 | AWS IAM             | gautam                                              | 6sO71@@v1                     |
