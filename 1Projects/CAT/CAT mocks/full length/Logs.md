@@ -6,14 +6,13 @@
 ## 15 Sep
 - VARC got clapped
 - QA and DILR - gave a sense of - I know what I need to do in this. VARC did not give this at all
-
+- ==preserve the notes and workings from the exam. helpful for analysis==
 ###### VARC
 - felt very much tired when I tried to solve this section
 - taking too much time when I am trying to solve each RC
 - reading comprehension needs to improve speed
-
 ###### DILR
 - Question selection needs to be a little more specific. Most likely got lucky here when trying to solve this section
-
 ###### QA
 - most questions were very much solvable, probably require more practice to identify the pattern
+---

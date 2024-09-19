@@ -1,0 +1,3 @@
+- [ ] do separate workflows for admin and user
+- [ ] write a function and API endpoint to get the ID of the workspace based on the name of the workspace
+- [ ] invite the user based on the name of the workspace
