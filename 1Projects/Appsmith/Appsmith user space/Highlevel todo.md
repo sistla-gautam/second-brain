@@ -1,0 +1,4 @@
+- [ ] index entire java code
+- [ ] change the default permissions for admin and viewer roles
+- [ ] experiment with new users with these permissions
+- [ ] form logins will be admin, SSO will be non admin
