@@ -665,4 +665,17 @@
 		- got onto a weekly call with YTI team to show what is the update on appsmith SSO
 		- created containers for the Java application and the SQL container. both now communicate with each other
 		- need to push this code to Padma for review
-		- will be starting with Assignment 7 
+		- will be starting with Assignment 7
+	- Sept 17, 2024
+		- worked on Appsmith user spaces
+		- reworked the approach on how to invite users to the user space
+		- will now changes the permissions of the user to the required value
+		- form logins will now be the admin users, while the SSO will be the non admin users
+	- Sept 19, 2024
+		- worked on appsmith user permissions
+		- connected with Santosh from YTI for guacamole trouble shooting
+		- running into issues when trying to build it due to mismatch in the testing environment and the production environment
+	- Sept 20, 2024
+		- tried to build in the actual production environment, and confirmed the error
+		- the package used for creating the build is not supported on this version of Ubuntu (24.0)
+		- found some alternatives for this, but need to individually test them
