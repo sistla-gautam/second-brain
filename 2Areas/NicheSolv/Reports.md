@@ -679,3 +679,8 @@
 		- tried to build in the actual production environment, and confirmed the error
 		- the package used for creating the build is not supported on this version of Ubuntu (24.0)
 		- found some alternatives for this, but need to individually test them
+	- Sept 23, 2024
+		- finished assignment 7. will be pushing it for review
+		- started working on the alternative for checkinstall package for guacamole
+		- make seems to be a promising package, but needs further testing
+		- the other alternative is to make use of cPack. need to test this, if this method will fail
