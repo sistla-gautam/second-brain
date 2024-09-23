@@ -1,3 +1,4 @@
+# approach 1
 #### comprehension 
 - get the main idea and get out
 	- read the entire passage
@@ -23,3 +24,12 @@
 - improve the focus on the paragraph
 - easily understand the overall structure or idea of the paragraph and answer corresponding questions
 - will come back for technical or specific questions
+
+---
+# approach 2
+- skim the passage to get the type of passage
+	- high in data, philosophical, fact based
+- go to the questions to understand what is being asked from the passage
+	- while doing so, remember to understand the key points from the passage to keep note of
+	- some questions are specific, so keep track of these and find out where they are in the passage
+- go the passage, and find out 
