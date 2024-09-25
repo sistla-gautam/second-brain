@@ -17,3 +17,14 @@
 - 99% in all subjects
 - consistently takes mocks - once every 3 days
 - analysis takes very less time - the only questions to analyze are the questions that are not answered or are wrong (which is in the minority)
+---
+# MCII exercise
+- if there is some type of external noise
+	- use earphones to block out as much of the sound as possible
+- get distracted and start walking around the house
+	- drink water and return back. use pomodoro timer and keep the timer visible on the screen. do not get up until the timer is completely done
+- using phone
+	- place phone in a different room. place earphones also away
+- open youtube and start watching youtube
+	- use a different browser with only CAT related videos in it
+	- completely new browser profile

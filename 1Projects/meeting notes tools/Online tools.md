@@ -1,0 +1,2 @@
+- fireflies - has unlimited transcription if the entire summary needs to be shared with all the members of the meeting
+- superhuman - tested by Akash. this too sends all the meeting notes to everyone in the meeting

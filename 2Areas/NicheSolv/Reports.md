@@ -679,3 +679,15 @@
 		- tried to build in the actual production environment, and confirmed the error
 		- the package used for creating the build is not supported on this version of Ubuntu (24.0)
 		- found some alternatives for this, but need to individually test them
+	- Sept 23, 2024
+		- finished assignment 7. will be pushing it for review
+		- started working on the alternative for checkinstall package for guacamole
+		- make seems to be a promising package, but needs further testing
+		- the other alternative is to make use of cPack. need to test this, if this method will fail
+	- Sept 24, 2024
+		- worked on Appsmith user space
+		- in the process of testing, ran into problems on the database
+		- had to redo the database to sort out the errors
+		- also passed the guacamole script and the .deb file to Veerabadhra and Santosh
+		- did not have any VMs that are currently available for usage, so waiting for them to test it
+		- need to finalise a decision on if the PATH needs to be changed by the script or if the service file by itself will call from the direct path
