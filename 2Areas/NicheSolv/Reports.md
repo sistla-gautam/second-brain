@@ -691,3 +691,9 @@
 		- also passed the guacamole script and the .deb file to Veerabadhra and Santosh
 		- did not have any VMs that are currently available for usage, so waiting for them to test it
 		- need to finalise a decision on if the PATH needs to be changed by the script or if the service file by itself will call from the direct path
+	- Sept 25, 2024
+		- no updates on guacamole so far. still waiting for Veerabadra to test the script
+		- worked on guacamole user roles and permissions
+		- changes the users roles and was able to see it reflected in the app
+		- worked on admin workflow. found out where to remove the default workspace that is getting created, but not sure how to remove it without causing errors
+		- pushed Assignment 7 for review. need to check out Assignment 8 and start working on it
