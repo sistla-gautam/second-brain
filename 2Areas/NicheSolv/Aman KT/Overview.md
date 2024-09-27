@@ -10,6 +10,10 @@ this is only for stateless apps
 - deploy
 - pod
 - container
+also has 2 other components for storing ENV vars
+- secrets - holds secret values
+- config map - holds non secret values
+> once a secrets or configmap is changed, we need to restart the pods
 
 ##### exposing the application
 - if we ever need to make the STS or the deployment accessible, we need to connect it to a service

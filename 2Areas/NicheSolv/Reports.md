@@ -697,3 +697,13 @@
 		- changes the users roles and was able to see it reflected in the app
 		- worked on admin workflow. found out where to remove the default workspace that is getting created, but not sure how to remove it without causing errors
 		- pushed Assignment 7 for review. need to check out Assignment 8 and start working on it
+	- Sept 26, 2024
+		- went to YTI office
+		- worked on guacamole script
+		- new requirements - the script should be able to install and setup tomcat, guacamole server and guacamole client
+		- worked on setting up tomcat and setting up guacamole client on tomcat
+		- worked on creating the script that will install the tomcat
+	- Sept 27, 2024
+		- created a new script that will install tomcat, guacamole server and guacamole client
+		- sat down with Vasuki and helped resolving some test cases
+		- took KT from Aman on how applications are deployed
