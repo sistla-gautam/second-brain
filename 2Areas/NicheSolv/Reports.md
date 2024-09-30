@@ -707,3 +707,6 @@
 		- created a new script that will install tomcat, guacamole server and guacamole client
 		- sat down with Vasuki and helped resolving some test cases
 		- took KT from Aman on how applications are deployed
+	- Sept 29, 2024
+		- worked on guacamole script. created the final script to install both server and client
+		- got onto a call with YTI and discussed the whitelabelling of the application
