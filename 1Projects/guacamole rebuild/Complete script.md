@@ -134,7 +134,7 @@ ln -s /etc/guacamole/guacamole.war /opt/tomcat/tomcatapp/webapps
 ```
 - set `GUACAMOLE_HOME` env var
 ```bash
-echo "GUACAMOLE_HOME=/etc/guacamole" | sudo tee -a /etc/default/tomcat
+echo "GUACAMOLE_HOME=/etc/guacamole" | sudo tee -a /etc/defaultllllllll/tomcat
 echo "export GUACAMOLE_HOME=/etc/guacamole" | sudo tee -a /etc/profile
 ```
 - create a `guacamole.properties` file
@@ -160,14 +160,26 @@ chown -R tomcat: /opt/tomcat
 ```bash
 vim /etc/guacamole/user-mapping.xml
 ```
-- file contents
+
+### User mapping file
+- shows the different users and the different connections that are possible with that particular user
+- the documentation for other features of `user-mapping.xml` file can be found at the following location - [Guacamole documentation](https://guacamole.apache.org/doc/gug/configuring-guacamole.html#user-mapping-xml)
+
+sample file contents
 ```
 <user-mapping>
-	<authorize
-		username="admin"
-		password="admin">
-		<connection name = "sample"></connection>
-	</authorize>
+    <authorize username="admin" password="admin">
+        <connection name="RDP">
+            <protocol>rdp</protocol>
+            <param name="hostname">44.211.65.72</param>
+            <param name="username">Administrator</param>
+            <param name="port">3389</param>
+            <param name="password">R6s=N?;cNl$u0Y6Wy)dyvu()1KcsK)VG</param>
+            <param name="ignore-cert">true</param>
+            <param name="width">1920</param>
+            <param name="height">1080</param>
+        </connection>
+    </authorize>
 </user-mapping>
 ```
 
