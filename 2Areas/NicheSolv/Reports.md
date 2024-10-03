@@ -707,6 +707,13 @@
 		- created a new script that will install tomcat, guacamole server and guacamole client
 		- sat down with Vasuki and helped resolving some test cases
 		- took KT from Aman on how applications are deployed
-	- Sept 29, 2024
+	- Sept 30, 2024
 		- worked on guacamole script. created the final script to install both server and client
 		- got onto a call with YTI and discussed the whitelabelling of the application
+- October
+	- Oct 1, 2024
+		- Went to YTI
+		- used a new extension to finalise the whitelabelling part of guacamole
+		- submitted the final script with the required changes in it
+		- still waiting for the final confirmation on which logo to use, to finalise on the branding.jar build
+		- wrote out documentation on the usage of the script and the user-mapping file

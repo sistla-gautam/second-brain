@@ -1,4 +1,4 @@
-### Triangles
+	l### Triangles
 ###### centroid
 - center point of all the medians (median splits the opposite line into 2 equal halves)
 - the centroid splits the median in the ratio 2:1
