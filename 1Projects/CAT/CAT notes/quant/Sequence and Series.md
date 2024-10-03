@@ -18,3 +18,8 @@
 - we get $t_n= ar^{(n-1)}+bn + c$
 	- where r is the common ratio between the terms of different order
 - now use this to get the three different coefficients of the equations to finally find the $t_n$
+
+#### Jugaad approach
+- calculate the value of the first couple of terms
+- this will give us the approximate value of how much the final answer will be
+- using this, estimate the value of each option and compare with the guesstimated answer
