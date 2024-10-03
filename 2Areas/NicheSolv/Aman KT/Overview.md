@@ -21,6 +21,7 @@ also has 2 other components for storing ENV vars
 	- YTI uses Istio - this is a ingress controller
 		- istio is the best way to expose the application to a domain
 
+> istio and OPA are the two sidecar applications. these side car applications are used for most applications
 ###### Istio structure
 - gateway
 	- this holds the list of all the baseUrls
@@ -29,3 +30,8 @@ also has 2 other components for storing ENV vars
 	- handles the routing of the application to the different subdomains (paths)
 - kubernetes
 	- the same structure as the kubernetes
+
+###### OPA structure
+- this is the sidecar that will look into if the user has the required permissions
+- this will read the JWT token given from the platform
+- depending on that, it will allow or deny different URLs

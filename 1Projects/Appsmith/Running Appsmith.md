@@ -16,9 +16,9 @@ Before you can start to hack on the Appsmith server, your machine should have th
 - Connect to WSL using the VS Code 
 - Open the Rancher application and make sure it shows the online status
 - check all container of docker
-    ```bash
-    docker ps -a
-    ```
+```bash
+	docker ps -a
+```
 - find the required redis container and get the ID of it
 - start the container by the command
     ```bash
@@ -64,7 +64,7 @@ go to client location
     ```bash
     vi /etc/hosts
     ```
-- we remove the line that points to the internal (the one that is not of type [127.XXX.XXX](http://127.XXX.XXX))
+- we remove the line that points to the internal (the one that is NOT of type [127.XXX.XXX](http://127.XXX.XXX))
 - reload the nginx
     ```bash
     nginx -s reload
