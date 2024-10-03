@@ -134,7 +134,7 @@ ln -s /etc/guacamole/guacamole.war /opt/tomcat/tomcatapp/webapps
 ```
 - set `GUACAMOLE_HOME` env var
 ```bash
-echo "GUACAMOLE_HOME=/etc/guacamole" | sudo tee -a /etc/defaultllllllll/tomcat
+echo "GUACAMOLE_HOME=/etc/guacamole" | sudo tee -a /etc/default/tomcat
 echo "export GUACAMOLE_HOME=/etc/guacamole" | sudo tee -a /etc/profile
 ```
 - create a `guacamole.properties` file
