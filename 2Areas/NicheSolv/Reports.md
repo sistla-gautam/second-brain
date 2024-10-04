@@ -717,3 +717,7 @@
 		- submitted the final script with the required changes in it
 		- still waiting for the final confirmation on which logo to use, to finalise on the branding.jar build
 		- wrote out documentation on the usage of the script and the user-mapping file
+	- Oct 4, 2024
+		- got onto a call with Santosh and helped setup postgres DB for user management in guacamole
+		- need to integrate setup of postgres DB into the initial setup
+		- worked on appsmith user management. need to check out the sync service code and understand how it works

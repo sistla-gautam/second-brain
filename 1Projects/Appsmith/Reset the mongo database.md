@@ -33,3 +33,17 @@ function deleteAllRecordsAndDropAllIndexes() {
 deleteAllRecordsAndDropAllIndexes();
 ```
 - run this complete code as is in the mongo shell once we connect to the appsmith database
+
+#### connecting to appsmith database
+- connect to mongo shell
+```shell
+mongo --port 27017
+```
+- show all the databases available in the cluster
+```shell
+show databases
+```
+- select the `appsmith` database
+```shell
+use appsmith
+```
