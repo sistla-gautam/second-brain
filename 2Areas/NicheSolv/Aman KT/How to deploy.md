@@ -12,7 +12,7 @@
 > this is dependent on minio and azure
 ###### minio changes
 - for creating the required folders/ buckets, it can be done from the login screen side itself
-> do not do the same for test side. always use pipelines
+> ==do not do the same for test side. always use pipelines==
 
 *Common problems*
 - users usually will not be created once the minio is upgraded
