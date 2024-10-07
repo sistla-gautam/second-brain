@@ -721,3 +721,10 @@
 		- got onto a call with Santosh and helped setup postgres DB for user management in guacamole
 		- need to integrate setup of postgres DB into the initial setup
 		- worked on appsmith user management. need to check out the sync service code and understand how it works
+	- Oct 5, 2024
+		- was told to keep guacamole as the priority
+		- worked on guacamole integration with postgres
+		- created 80% of the script, but need to finalise some amount of the final touches
+		- still did not test the thing completely, will need to test it
+		- worked on Assignment 8. found that Intellij is creating the problems. will require to connect with Nithya to understand how to setup the servlet setup in Intellij
+		- if it the help is getting delayed, will be moving to STS tools to finish the assignment as soon as possible
