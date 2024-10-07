@@ -1,8 +1,8 @@
 ### finding the nth term of a series
-##### M1
+##### Method 1
 - find by observation the nth term
 - 2,3,4,5 -> nth term will be n + 1
-##### M2
+##### Method 2
 - in case we cant find the nth term easily, we need to find the nth term properly
 - we need to find the order at which the difference will become equal
 	- if the order is 1 - linear equation
