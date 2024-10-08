@@ -53,7 +53,7 @@ DB_USER="guacamole_user"
 DB_PASSWORD="some_password" PROPERTIES_FILE="/etc/guacamole/guacamole.properties"
 
 { 
-	secho "guacd-hostname: localhost"
+echo "guacd-hostname: localhost"
 echo "guacd-port: 4822"
 echo ""
 echo "auth-provider:net.sourceforge.guacamole.net.basic.BasicFileAuthenticationProvider"
