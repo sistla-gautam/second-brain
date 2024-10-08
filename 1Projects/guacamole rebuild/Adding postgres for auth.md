@@ -16,7 +16,7 @@ cd ./guacamole-auth-jdbc-1.5.5/postgresql/
 ```
 - place the jar file in the extensions folder
 ```bash
-sudo mv guacamole-auth-jdbc-postgresql-1.5.5.jar /etc/guacamole/extensions/
+sudo mv ./guacamole-auth-jdbc-1.5.5/postgresql/guacamole-auth-jdbc-postgresql-1.5.5.jar /etc/guacamole/extensions/
 ```
 - create the database
 ```bash
