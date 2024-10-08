@@ -728,3 +728,13 @@
 		- still did not test the thing completely, will need to test it
 		- worked on Assignment 8. found that Intellij is creating the problems. will require to connect with Nithya to understand how to setup the servlet setup in Intellij
 		- if it the help is getting delayed, will be moving to STS tools to finish the assignment as soon as possible
+	- Oct 7, 2024
+		- worked on integrating guacamole with postgres database
+		- was able to connect the database to the guacamole and use it
+		- still did not integrate it with the script
+		- got onto a KT call with Aman. discussed about how to deploy the different apps and services during deployment
+	- Oct 8, 2024
+		- worked on integrating the postgres. integrated the postgres to the guacamole via the script
+		- made changes to the script to setup the postgres setup and the postgres details
+		- also changed the readme file to reflect the postgres changes and the default users that will be part of it
+		- removed the requirement of the user-mapping.xml file for the script to run
