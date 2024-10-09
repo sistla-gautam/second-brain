@@ -738,3 +738,10 @@
 		- made changes to the script to setup the postgres setup and the postgres details
 		- also changed the readme file to reflect the postgres changes and the default users that will be part of it
 		- removed the requirement of the user-mapping.xml file for the script to run
+	- Oct 9, 2024
+		- worked on the deployment of the guacamole script to the repository
+		- made some final touches to the readme file and the script and passed it for deployment
+		- resumed working on appsmith. took help from Mathew on how to get the workspace ID based on the workspace name. 
+		- seems to be working with some errors that depend on the initial code config. will have to iron out the bugs
+		- need to also look into a related issue which is to remove the creation of the default application. this seems to be a related issue to the issue from the previous point
+		- need to also look into the removing the user flow of the initial application setup. this is not required

@@ -1,7 +1,4 @@
-
-
-
-| Website/service         | Username                                            | Password                      |
+| **Website/service**     | **Username**                                        | **Password**                  |
 | ----------------------- | --------------------------------------------------- | ----------------------------- |
 | Zoho                    | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | KP3Ec5yhgqN*                  |
 | google                  | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | &Pm0H8l7b7CL                  |
