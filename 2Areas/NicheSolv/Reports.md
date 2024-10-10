@@ -745,3 +745,7 @@
 		- seems to be working with some errors that depend on the initial code config. will have to iron out the bugs
 		- need to also look into a related issue which is to remove the creation of the default application. this seems to be a related issue to the issue from the previous point
 		- need to also look into the removing the user flow of the initial application setup. this is not required
+	- Oct 10, 2024
+		- looked into how the workspace id will be available provided we have the workspace name
+		- this seemed to have given some false positives. will require to contact Mathew once again on how to get the workspace ID.
+		- also found some places where the error seems to be arising from. will require to further debug it by not calling the function to create the default application
