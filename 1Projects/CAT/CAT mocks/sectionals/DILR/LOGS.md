@@ -10,3 +10,4 @@
 ### 7 Oct (LRDI)
 - solved 2 sets properly
 - need to work on data flow problems. vey easy set, but wasnt able to solve it due to lack of knowledge
+- need to practice on set theory. questions with lot of verbal start to get confusing
