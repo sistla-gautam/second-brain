@@ -1,7 +1,7 @@
-- [ ] speed racer
+- [x] speed racer
+- [ ] Mario movie
 - [ ] sector 36
 - [ ] ghost stories dub
-- [ ] Mario movie
 - [ ] Demon slayer latest ep
 - [ ] [anime movies](https://www.instagram.com/p/C81ewWpRn4B/)
 - [ ] one fast move
