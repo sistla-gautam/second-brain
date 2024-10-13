@@ -717,11 +717,11 @@
 		- submitted the final script with the required changes in it
 		- still waiting for the final confirmation on which logo to use, to finalise on the branding.jar build
 		- wrote out documentation on the usage of the script and the user-mapping file
-	- Oct 4, 2024
+	- Oct 3, 2024
 		- got onto a call with Santosh and helped setup postgres DB for user management in guacamole
 		- need to integrate setup of postgres DB into the initial setup
 		- worked on appsmith user management. need to check out the sync service code and understand how it works
-	- Oct 5, 2024
+	- Oct 4, 2024
 		- was told to keep guacamole as the priority
 		- worked on guacamole integration with postgres
 		- created 80% of the script, but need to finalise some amount of the final touches
@@ -749,3 +749,8 @@
 		- looked into how the workspace id will be available provided we have the workspace name
 		- this seemed to have given some false positives. will require to contact Mathew once again on how to get the workspace ID.
 		- also found some places where the error seems to be arising from. will require to further debug it by not calling the function to create the default application
+	- Oct 11, 2024
+		- worked on appsmith user invite part
+		- worked out on how to invite the user to the required workspace
+		- will still require to figure out how to get the workspace ID.
+		- was not able to connect with anyone for the help, but didnt want to be also be blocked. so went ahead to the next step and will come back later
