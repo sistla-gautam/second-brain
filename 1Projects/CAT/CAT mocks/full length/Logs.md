@@ -19,14 +19,8 @@
 ###### QA
 - most questions were very much solvable, probably require more practice to identify the pattern
 ---
-
-## 7th Oct
-- tried attempting a mock
-- too tired to properly attempt. gave up in between (woke up too early, not enough sleep)
-- will reattempt the same if possible
-
----
 ## 12th Oct
 
 ###### VARC
-- 
+- lot of VA error
+- RC errors have reduced quite significantly
