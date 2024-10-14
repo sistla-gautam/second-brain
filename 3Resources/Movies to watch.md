@@ -1,5 +1,5 @@
 - [x] speed racer
-- [ ] Mario movie
+- [ ] Mario movied
 - [ ] sector 36
 - [ ] ghost stories dub
 - [ ] Demon slayer latest ep

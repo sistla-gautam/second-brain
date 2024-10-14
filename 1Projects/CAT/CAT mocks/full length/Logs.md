@@ -1,7 +1,10 @@
+#### [Excel sheet](https://docs.google.com/spreadsheets/d/1tSdtngu0vIRJzMsBHEgAfyqIlMmf4L4RRzg_TsC2JjE/edit?gid=0#gid=0)
+---
 
-| Date   | Percentile | QA   | DILR | VARC   | Learning                                                                                             |
-| ------ | ---------- | ---- | ---- | ------ | ---------------------------------------------------------------------------------------------------- |
-| 15 Sep | 90         | 99.5 | 97   | ==25== | Got almost burnt out when solving VARC. Had to skip the last paragraph and just continue with the VA |
+| Date   | Percentile | QA    | DILR  | VARC   | Learning                                                                                             |
+| ------ | ---------- | ----- | ----- | ------ | ---------------------------------------------------------------------------------------------------- |
+| 15 Sep | 90         | 99.5  | 97    | ==25== | Got almost burnt out when solving VARC. Had to skip the last paragraph and just continue with the VA |
+| 12 Oct | 70.59      | 72.94 | 36.47 | 83.53  | Solved only 1 single set. Also solved very few quant. focused on improving VARC score                |
 
 ## 15 Sep
 - VARC got clapped
@@ -21,3 +24,9 @@
 - tried attempting a mock
 - too tired to properly attempt. gave up in between (woke up too early, not enough sleep)
 - will reattempt the same if possible
+
+---
+## 12th Oct
+
+###### VARC
+- 
