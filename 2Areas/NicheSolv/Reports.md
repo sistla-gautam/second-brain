@@ -754,3 +754,11 @@
 		- worked out on how to invite the user to the required workspace
 		- will still require to figure out how to get the workspace ID.
 		- was not able to connect with anyone for the help, but didnt want to be also be blocked. so went ahead to the next step and will come back later
+	- Oct 14, 2024
+		- worked on appsmith inviting to the user workspace
+		- took Mathews help and was able to get the function to work
+		- yet to test if the required user workspace is available
+		- managed to port the code that will invite the user to the workspace
+		- worked on Assignment 8. was able to get the frontend jsp file to communicate with the backend servlet files.
+		- migrated assignment 7s front end files and assignment 6s database mapping files. yet to map the different functions in the DB mapping to different endpoints and test it
+		- need to make changes to the front end to use the actual values and not the dummy data
