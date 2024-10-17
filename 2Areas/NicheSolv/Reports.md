@@ -762,3 +762,18 @@
 		- worked on Assignment 8. was able to get the frontend jsp file to communicate with the backend servlet files.
 		- migrated assignment 7s front end files and assignment 6s database mapping files. yet to map the different functions in the DB mapping to different endpoints and test it
 		- need to make changes to the front end to use the actual values and not the dummy data
+	- Oct 15, 2024
+		- worked on appsmith default application creation
+		- worked with Mathew to figure out why the findByName function is not returning the required workspace
+		- the workspace mono is empty
+		- took a half day leave
+	- Oct 16, 2024
+		- worked on appsmith default application creation
+		- looked into how the default application is getting created
+		- tried to remove the calling the functions, but is still running into issues with the return types and the compilations
+		- worked on assignment 8. was able to create the different servlets and DBMapping functions
+		- still need to connect the front end jsp files to the different servlets
+	- Oct 17, 2024
+		- connected the different pages in the jsp files to the respective servlets
+		- still need to connect couple more of the final ones
+		- need to still write test cases for the servlets and need to pass it for review

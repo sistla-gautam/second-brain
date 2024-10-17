@@ -1,9 +1,11 @@
-- [ ] Setup Manu and Riya laptop
+- [x] Setup Manu and Riya laptop
 - [ ] Connect with Mathew
 - [ ] Change harpoon config to show file names
-- [ ] Finish assignment 8 front end
+- [x] Finish assignment 8 front end
 - [ ] Practice set theory
 - [ ] Practice QA from mock
 - [ ] Mock
+- [ ] Connect the front end jsp files to the backend servlet files
+- [ ] Write down test cases for Assignment 8 servlet files
 - [ ] ==setup other laptops also for reserve==
 - Tech talk - 16:00 - 17:00
