@@ -9,3 +9,5 @@
 - [ ] Write down test cases for Assignment 8 servlet files
 - [ ] ==setup other laptops also for reserve==
 - Tech talk - 16:00 - 17:00
+- [ ] understand why the FORM login is going back to the login screen and not the default workspace homepage
+- [ ] look into why the neovim is taking the f key multiple times
