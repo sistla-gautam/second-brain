@@ -1,0 +1,7 @@
+- [ ] Setup Manu and Riya laptop
+- [ ] Connect with Mathew
+- [ ] Change harpoon config to show file names
+- [ ] Finish assignment 8 front end
+- [ ] Practice set theory
+- [ ] Practice QA from mock
+- [ ] Mock
