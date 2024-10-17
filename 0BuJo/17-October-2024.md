@@ -5,3 +5,5 @@
 - [ ] Practice set theory
 - [ ] Practice QA from mock
 - [ ] Mock
+- [ ] ==setup other laptops also for reserve==
+- Tech talk - 16:00 - 17:00
