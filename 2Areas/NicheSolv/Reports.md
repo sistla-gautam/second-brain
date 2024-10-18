@@ -777,3 +777,5 @@
 		- connected the different pages in the jsp files to the respective servlets
 		- still need to connect couple more of the final ones
 		- need to still write test cases for the servlets and need to pass it for review
+		- tested the creation of the workspace for the FORM login and SSO login. the SSO login is not causing any error so far, but the FORM login is now not going to the homepage
+		- the FORM login is redirecting to the login page once again, which is not the expected behavior
