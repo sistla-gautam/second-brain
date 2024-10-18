@@ -779,3 +779,8 @@
 		- need to still write test cases for the servlets and need to pass it for review
 		- tested the creation of the workspace for the FORM login and SSO login. the SSO login is not causing any error so far, but the FORM login is now not going to the homepage
 		- the FORM login is redirecting to the login page once again, which is not the expected behavior
+	- Oct 18, 2024
+		- worked on the guacamole script
+		- postgres installation gave rise to some errors
+		- found the errors and made some changes to the script. still need to test the script on a completely new system
+		- planning to test it line by line on a new system
