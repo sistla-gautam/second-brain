@@ -1,0 +1,6 @@
+- part of github release section
+- make sure the previous release version to the applications previous version (not the previous release version)
+- when we create a new release tag, we just link to the particular application github source code of that particular tag
+- when we do a new release, a github workflow will get triggered
+	- first part will pass
+	- second will fail
