@@ -24,3 +24,10 @@
 ###### VARC
 - lot of VA error
 - RC errors have reduced quite significantly
+- Skipped the passage that I should have taken up, but ended up leaving that passage
+- Instead took up a passage that I had very less interest in
+	- ==note==: skip passages that are more revolving around biology, history, politics?
+	- pick up passages that are about IT, technology, science, psychology, economics
+- Have to figure out how many questions and what level should I skip
+	- 3 passages, all questions?
+	- 4 passages, 3 questions each?
