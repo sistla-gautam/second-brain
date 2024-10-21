@@ -784,3 +784,11 @@
 		- postgres installation gave rise to some errors
 		- found the errors and made some changes to the script. still need to test the script on a completely new system
 		- planning to test it line by line on a new system
+	- Oct 21, 2024
+		- worked on the guacmole scirpt
+		- found the error originally are originating from the tomcat installation and got them fixed
+		- did some more testing and found some more potential bugs in the script
+		- fixed them and did a round of testing on the script
+		- need to still do some more testing on the final script
+		- worked on Assignment 8. while trying to add the dependency to the project for the test cases, managed to completely screw up the project
+		- will require help to understand how to add dependencies to the project without affecting the project running to write test cases

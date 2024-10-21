@@ -1,1 +1,0 @@
-### to get the different pods/services and other stuff
