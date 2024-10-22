@@ -1,4 +1,4 @@
-	l### webapps folder not present
+### webapps folder not present
 - getting error from line `ln: failed to create symbolic link '/opt/tomcat/tomcatapp/webapps': No such file or directory`
 - the webapps folder is probably not created in the system
 - happening right after the .war file is downloaded
@@ -26,6 +26,4 @@ sudo mkdir -p /etc/guacamole/lib
 - download the guacamole authentication extension
 	- extract the file to get the different folders
 	- run the schema files from the extracted folder (DB sepcific)
-	- place the .jar file in the /extensions folder
-- create the users for tomcat installation
-	- 
+	- place the .jar file in the /extensions folderO

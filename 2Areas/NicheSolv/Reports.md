@@ -792,3 +792,9 @@
 		- need to still do some more testing on the final script
 		- worked on Assignment 8. while trying to add the dependency to the project for the test cases, managed to completely screw up the project
 		- will require help to understand how to add dependencies to the project without affecting the project running to write test cases
+	- Oct 22, 2024
+		- went to YTI
+		- fixed the guacamole postgres install script
+		- tested it on fresh new machine and confirmed it works
+		- pushed the code for further testing
+		- pushed Assignment 8 for initial review
