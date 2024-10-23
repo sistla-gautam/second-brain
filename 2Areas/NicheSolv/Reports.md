@@ -798,3 +798,11 @@
 		- tested it on fresh new machine and confirmed it works
 		- pushed the code for further testing
 		- pushed Assignment 8 for initial review
+	- Oct 23, 2024
+		- worked on appsmith
+		- was able to figure out if the form credentials can be used to make API calls
+		- we can call the server using a FORM credentials to make further API calls. this call is required to get a token value
+		- worked on trying to figure out how to invite users to a workspace with a specific role or permission
+		- this is also possible, by calling a specific API before the actual invite API to get the different permission groups that are possible
+		- also got onto a call with Swamy to resolve some issues that are in the guacamole installation
+		- was able to fix the small issue and push the code out

@@ -31,6 +31,7 @@ curl 'https://dev.appsmith.com/api/v1/login' \
 
 this will return the cookie and a couple of headers
 
+---
 ### sending the SESSION cookie
 - while making a call to the API, pass the cookie as one of the headers
 - the cURL of one of the API is as follows
