@@ -806,3 +806,8 @@
 		- this is also possible, by calling a specific API before the actual invite API to get the different permission groups that are possible
 		- also got onto a call with Swamy to resolve some issues that are in the guacamole installation
 		- was able to fix the small issue and push the code out
+	- Oct 24, 2024
+		- got on a call with Surrendra to call the users to the workspace using API calls only
+		- was able to do the entire user workflow using just API calls
+		- created a postman collection to hold the same
+		- was able to find the workspace ID given the user's tenant name by using the `home` API call
