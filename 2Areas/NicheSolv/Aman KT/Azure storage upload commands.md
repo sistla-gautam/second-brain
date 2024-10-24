@@ -13,8 +13,8 @@ az storage blob upload --account-name dv1dxpdevsa189 -f DataSourceDef.csv -c ydx
 
 ---
 ## Final files
-- DataSourceDef
-![[DataSourceDef 2.csv]]
+- DataSourceDef csv
+![[Second Brain/5Files/DataSourceDef 2.csv]]
 
 - Unit conversion csv
-![[unitconversion (2).csv]]
+![[unitconversion.csv]]

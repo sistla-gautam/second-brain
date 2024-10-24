@@ -1,0 +1,6 @@
+DataCategory,SourceURL,SubscriptionURL
+Live,https://api.dev.apps.yokogawa.build/series/,wss://api.dev.apps.yokogawa.build/data/v1/events/{ResourceID}/subscribe
+Metadata,https://resources.dev.apps.yokogawa.build/api/,
+TimeSeries,https://api.appdev.apps.yokogawa.build/queries/v1/data,
+Alarm,https://api.dev.apps.yokogawa.build/alarms/v1/alarms,
+JSON,https://webscripts.dev.apps.yokogawa.build/api/v1/de9788ec-bf1d-4c33-b112-820996790f7b/,
