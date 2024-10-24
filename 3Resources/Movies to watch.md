@@ -1,5 +1,6 @@
 - [x] speed racer
-- [ ] Mario movied
+- [ ] Mario movie
+- [ ] eminence in shadow (season 3)
 - [ ] sector 36
 - [ ] ghost stories dub
 - [ ] Demon slayer latest ep
