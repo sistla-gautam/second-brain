@@ -811,3 +811,7 @@
 		- was able to do the entire user workflow using just API calls
 		- created a postman collection to hold the same
 		- was able to find the workspace ID given the user's tenant name by using the `home` API call
+	- Oct 25, 2024
+		- worked on some additional requirements for guacamole with certificates
+		- got onto a call with Swamy to develop the script. finalized it and passed it for testing
+		- got review comments for Assignment 8. Need to rework on the assignment 8 servelets
