@@ -26,7 +26,7 @@
 - will come back for technical or specific questions
 
 ---
-# approach 2
+# approach 2 (did not work, do not use)
 - skim the passage to get the type of passage
 	- high in data, philosophical, fact based
 - go to the questions to understand what is being asked from the passage
