@@ -13,8 +13,5 @@ az storage blob upload --account-name dv1dxpdevsa189 -f DataSourceDef.csv -c ydx
 
 ---
 ## Final files
-- DataSourceDef csv
-![[Second Brain/5Files/DataSourceDef 2.csv]]
-
-- Unit conversion csv
-![[unitconversion.csv]]
+- the files are in the same place as this repo. They are in the same folder as `/Nichesolv`
+- open it in the file explorer to find the files
