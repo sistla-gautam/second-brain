@@ -815,7 +815,7 @@
 		- worked on some additional requirements for guacamole with certificates
 		- got onto a call with Swamy to develop the script. finalized it and passed it for testing
 		- got review comments for Assignment 8. Need to rework on the assignment 8 servelets
-	- Oct 27, 2024
+	- Oct 28, 2024
 		- worked on Appsmith deployment
 		- unsure of how to deploy Appsmith. So had to get help from the YTI team on the same
 		- showcased the sync service integration to the YTI team in the weekly meeting
