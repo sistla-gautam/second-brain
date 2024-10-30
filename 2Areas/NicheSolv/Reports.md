@@ -810,7 +810,7 @@
 		- got on a call with Surrendra to call the users to the workspace using API calls only
 		- was able to do the entire user workflow using just API calls
 		- created a postman collection to hold the same
-		- was able to find the workspace ID given the user's tenant name by using the `home` API call
+		- was able to find the workspace ID given the user's tenant name by using the home API call
 	- Oct 25, 2024
 		- worked on some additional requirements for guacamole with certificates
 		- got onto a call with Swamy to develop the script. finalized it and passed it for testing
@@ -820,3 +820,7 @@
 		- unsure of how to deploy Appsmith. So had to get help from the YTI team on the same
 		- showcased the sync service integration to the YTI team in the weekly meeting
 		- worked on Assignment 8. Had to recreate the servlets. Created the find servlet to also house the list functionality. The other functionalities need to be still mapped to different servlets
+	- Oct 29, 2024
+		- got onto a call with YTI team to discuss the deployment of Appsmith
+		- need to provide more specifications regarging the deployment of appsmith
+		- will require updating the specification documentation
