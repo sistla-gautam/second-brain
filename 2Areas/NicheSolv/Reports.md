@@ -824,3 +824,7 @@
 		- got onto a call with YTI team to discuss the deployment of Appsmith
 		- need to provide more specifications regarging the deployment of appsmith
 		- will require updating the specification documentation
+		- worked on test cases for the dashboard
+	- Oct 30, 2024
+		- worked on the test cases for dashboard
+		- worked on Appsmith deployment documentation
