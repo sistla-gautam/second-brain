@@ -32,4 +32,12 @@
 - go to the questions to understand what is being asked from the passage
 	- while doing so, remember to understand the key points from the passage to keep note of
 	- some questions are specific, so keep track of these and find out where they are in the passage
-- go the passage, and find out 
+- go the passage, and find out
+
+---
+# final approach (hybrid of 2 of them)
+- read the questions first
+	- find out what the paragraph will talk about
+	- make note of the places of interest in the paragraph - nouns, where to look out for
+- read the paragraph, but keep keywords in mind
+- while reading, write down 1 liners about the paragraph once done with that paragraph
