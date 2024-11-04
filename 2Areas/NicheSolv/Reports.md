@@ -828,3 +828,9 @@
 	- Oct 30, 2024
 		- worked on the test cases for dashboard
 		- worked on Appsmith deployment documentation
+- November
+	- Nov 1, 2024
+		- worked on test cases for the release
+		- worked on the appsmith deployment document after discussing with Aman
+		- got a KT regarding the niche-ui-comp project from Shruthi
+		- completed the Assignment 8 review changes. Reworked the entire assignment. pushed for review
