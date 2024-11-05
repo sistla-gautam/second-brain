@@ -829,8 +829,12 @@
 		- worked on the test cases for dashboard
 		- worked on Appsmith deployment documentation
 - November
-	- Nov 1, 2024
+	- Nov 4, 2024
 		- worked on test cases for the release
 		- worked on the appsmith deployment document after discussing with Aman
 		- got a KT regarding the niche-ui-comp project from Shruthi
 		- completed the Assignment 8 review changes. Reworked the entire assignment. pushed for review
+	- Nov 5, 2024
+		- worked on Appsmith deployment. wanted to push the code for further testing, but deployment had problems
+		- got onto a call with Santosh to resolve these deployment issues
+		- worked on the Appsmith SSO problem, where the ID of the user is returned and not the username
