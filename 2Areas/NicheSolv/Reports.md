@@ -838,3 +838,9 @@
 		- worked on Appsmith deployment. wanted to push the code for further testing, but deployment had problems
 		- got onto a call with Santosh to resolve these deployment issues
 		- worked on the Appsmith SSO problem, where the ID of the user is returned and not the username
+	- Nov 6, 2024
+		- worked on Appsmith deployment. the values.yaml file was empty
+		- tried to get the values by debugging the existing values
+		- was unable to get the values from the debugging
+		- looked into the sync service. tried to do a simple API call in a sample project. did not work, will try again
+		- created a docker image of the local build, but was of not much use due to the blocker by the deployment issues
