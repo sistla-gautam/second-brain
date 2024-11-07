@@ -1,0 +1,12 @@
+- [ ] how to compile C# code - VS code
+- [ ] understand the flow for Dashboard users
+	- [ ] start from controller
+	- [ ] implementation of BI Dashboard operations 
+	    - main purpose is to reuse the code as much as possible 
+- [ ] find out the API calls for (appsmith)
+	- [ ] add users
+	- [ ] delete users
+	- [ ] update users
+	- [ ] user list
+---
+- good code base to understand the coding principles
