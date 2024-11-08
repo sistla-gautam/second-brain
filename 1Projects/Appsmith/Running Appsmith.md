@@ -1,4 +1,4 @@
-	### Things to run
+### Things to run
 - RTS server (8091 port)
 - redis (6379 port)
 - mongodb (27017 port)

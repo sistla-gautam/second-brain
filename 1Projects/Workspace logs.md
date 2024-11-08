@@ -204,3 +204,7 @@
 - 66ffd1ab6f5cb415e027c7dcv
 ###### form logins
 - 66ffd15d6f5cb415e027c7d2
+
+#### emails
+SSO
+- 602a144d2ae243efad91a525eba38813
