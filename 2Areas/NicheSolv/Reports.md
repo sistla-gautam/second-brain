@@ -844,3 +844,12 @@
 		- was unable to get the values from the debugging
 		- looked into the sync service. tried to do a simple API call in a sample project. did not work, will try again
 		- created a docker image of the local build, but was of not much use due to the blocker by the deployment issues
+	- Nov 7, 2024
+		- went to YTI
+		- worked on appsmith deployment. tried to look into Amans laptop for the updated values. weren't able to find out any of them on the laptop
+		- connected with Mallikarjun for the SAPCDC SSO part, but was unable to resolve the issue
+		- connected with Surrendra for the sync service code base. worked on the overall code flow of the different functionalities of sync service
+	- Nov 8, 2024
+		- worked on Appsmith bugs
+		- tried to resolve the bug where there is a 500 server error when a new SSO user is created
+		- tried to resolve this by backtracking the workspace changes. might have to do the workspace changes by using APIs from the sync service
