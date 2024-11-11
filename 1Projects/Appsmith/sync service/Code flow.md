@@ -80,3 +80,16 @@ public async Task<IActionResult> AddEngineeringConsoleUsers()
 	- list of all users data from the dashboard
 	- list of all users from the SAPCDC
 - all these details are tenant specific
+
+---
+# update function
+- the list of all the engineering console users and SSO users are taken, along with the required token
+- using this, we then check if the user in the engineering console exists
+	- if not, we add this user from the SSO list (API call)
+
+---
+# delete function
+- gets all the different user list from engineering console
+- gets all the users who are part of the SSO list
+- finds out all the users who are not in the SSO and in the engineering console list
+	- removes these users from the engineering console (API call)
