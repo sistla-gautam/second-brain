@@ -853,3 +853,10 @@
 		- worked on Appsmith bugs
 		- tried to resolve the bug where there is a 500 server error when a new SSO user is created
 		- tried to resolve this by backtracking the workspace changes. might have to do the workspace changes by using APIs from the sync service
+	- Nov 9, 2024
+		- worked on Appsmith bugs
+		- tried to connect with Mallikarjun for the sync service code, but wasn't able to
+		- Boobalan was also on leave, so Appsmith deployment was halted for today
+		- looked into the sync service code to understand the different update and delete functions
+		- looked into the reusable UI components library. took a pull and tried to install the branch locally
+		- tried to solve the SSO bugs in Appsmith, but was limited by the computer performance
