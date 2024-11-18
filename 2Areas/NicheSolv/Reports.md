@@ -866,3 +866,14 @@
 		- connected with Mallikarjun to get some feedback on the sync service code
 		- found 2 different ways to implement the sync service to Appsmith
 		- Got access to Assignment 9, need to look into it and start working on it
+	- Nov 13, 2024
+		- on leave, was not well
+	- Nov 14, 2024
+		- worked on AppSmith SSO bugs. Looked into why the SSO code is causing the user data to not be available.  
+		- wasn't able to debug and find the root cause. Still needs debugging  
+		- took a look into the sync service code. Yet to start working on AppSmith integration with it
+	- Nov 15, 2024
+		- worked on Appsmith bugs
+		- tried to resolve the VSCode lombok bug to get the debug to work
+		- looked into the classes that call the required oauth classes
+		- added some debug statements, need to debug further on the same issue
