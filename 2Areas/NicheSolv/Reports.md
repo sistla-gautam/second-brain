@@ -872,8 +872,15 @@
 		- worked on AppSmith SSO bugs. Looked into why the SSO code is causing the user data to not be available.  
 		- wasn't able to debug and find the root cause. Still needs debugging  
 		- took a look into the sync service code. Yet to start working on AppSmith integration with it
-	- Nov 15, 2024
+	- Nov 18, 2024
 		- worked on Appsmith bugs
 		- tried to resolve the VSCode lombok bug to get the debug to work
 		- looked into the classes that call the required oauth classes
 		- added some debug statements, need to debug further on the same issue
+	- Nov 19, 2024
+		- worked on sync service code
+		- was able to configure the local to get the build of the application
+		- was also able to run the application in development mode
+		- started working on sample functions to integrate with the sync service
+		- need to test the dev mode with postman calls to check what is happening
+		- need to resolve the namespace bugs to further develop the sync service
