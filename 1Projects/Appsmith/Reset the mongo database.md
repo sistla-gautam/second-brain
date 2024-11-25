@@ -5,7 +5,7 @@
 ```javascript
 
 // Switch to your database
-use yourDatabaseName;
+use appsmith;
 
 // Get a list of all collections
 const collections = db.getCollectionNames();

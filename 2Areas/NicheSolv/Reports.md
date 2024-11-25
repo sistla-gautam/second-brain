@@ -884,3 +884,9 @@
 		- started working on sample functions to integrate with the sync service
 		- need to test the dev mode with postman calls to check what is happening
 		- need to resolve the namespace bugs to further develop the sync service
+	- Nov 25, 2024
+		- worked on debugging the VS code error with Surrendra
+		- decided to make use of Spring for the run and debug method
+		- found out that there is a mismatch in the scopes in what is received and what are requested
+		- worked on Sync service code. created a document of all the required documents that will be required for the sync service to work
+		- need to complete this document with the complete details of the API
