@@ -890,3 +890,12 @@
 		- found out that there is a mismatch in the scopes in what is received and what are requested
 		- worked on Sync service code. created a document of all the required documents that will be required for the sync service to work
 		- need to complete this document with the complete details of the API
+	- Nov 26 2024
+		- worked on debugging using introspect token
+		- integrated the introspect method to the application to try and understand the scopes that are being used
+		- wasn't able to get the scopes that were required in the debug
+	- Nov 27, 2024
+		- connected with Mallikarjun to understand if the scopes will be part of the access token. Scopes are not part of the access token the same way how github handles them
+		- need to look into alternate ways of finding out the scope values and then get the required values
+		- two potential ways is to override some classes and to find out more about the introspect method and implement it completely
+		- dev had issues with login. wasn't able to get the access token to work for the introspect call
