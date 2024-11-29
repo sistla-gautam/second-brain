@@ -899,3 +899,15 @@
 		- need to look into alternate ways of finding out the scope values and then get the required values
 		- two potential ways is to override some classes and to find out more about the introspect method and implement it completely
 		- dev had issues with login. wasn't able to get the access token to work for the introspect call
+	- Nov 28, 2024
+		- went to YTI
+		- figured out the reason why the introspect is not working properly
+		- tried to look into the code to find out how to call the introspect call after token validation
+		- need to also try out a new way of adding scopes manually to the response to get the required values from Surrendra
+	- Nov 29, 2024
+		- worked on configuring the code to add the new response modifier
+		- ran into issues with the code, but was able to resolve them
+		- need to still test it with other approaches to get the code working properly
+- December
+	- Dec 1, 2024
+		- 
