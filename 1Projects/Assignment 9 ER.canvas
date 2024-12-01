@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"a034ef389dc2672f","x":-233,"y":70,"width":250,"height":60,"type":"text","text":"School"},
+		{"id":"6e0087ab069b3301","x":387,"y":111,"width":250,"height":60,"type":"text","text":"Grade"},
+		{"id":"15c835b2122a0938","x":430,"y":-292,"width":250,"height":60,"type":"text","text":"Calendar"},
+		{"id":"5fa106d04bf83abb","x":-625,"y":-242,"width":250,"height":60,"type":"text","text":"Section"},
+		{"id":"8fa9cfa6535a38ee","x":-670,"y":-2,"width":250,"height":60,"type":"text","text":"Student"},
+		{"id":"ff8ce83a021411ba","x":-388,"y":-88,"width":250,"height":60,"type":"text","text":"Staff"},
+		{"id":"d406ce7966d4d975","x":48,"y":-231,"width":250,"height":60,"type":"text","text":"Subject"},
+		{"id":"617ef4803037e5fa","x":152,"y":-87,"width":250,"height":60,"type":"text","text":"Time Table"}
+	],
+	"edges":[]
+}
