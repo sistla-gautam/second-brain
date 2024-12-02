@@ -909,5 +909,8 @@
 		- ran into issues with the code, but was able to resolve them
 		- need to still test it with other approaches to get the code working properly
 - December
-	- Dec 1, 2024
-		- 
+	- Dec 2, 2024
+		- worked on SVG widget issue of not being able to save into the storage of the mini environment
+		- also worked on appsmith. 
+		- looked into some more changes in the custom OIDC class to try and solve the user issue
+		- created the ER diagram of Assignment 9. also pushed the diagram for review
