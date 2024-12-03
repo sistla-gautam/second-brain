@@ -914,3 +914,7 @@
 		- also worked on appsmith. 
 		- looked into some more changes in the custom OIDC class to try and solve the user issue
 		- created the ER diagram of Assignment 9. also pushed the diagram for review
+	- Dec 3, 2024
+		- worked on Appsmith debug. connected with Surrendra to try and find a way to get the mono to work better, but was not working as intended
+		- worked on sync service code and tried to build it, but seems to be having some type of issues with how the code is created
+		- worked on the clean up of the code base and the commit of Assignment 8
