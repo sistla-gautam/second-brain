@@ -29,3 +29,15 @@
 	- ![[Pasted image 20241208122809.png]]
 - 3x3 matrix
 	- use the Serrus method to find the inverse of the matrix
+---
+## matrix operations
+- reversal law
+	- ![[Pasted image 20241208155215.png]]
+- condition for multiplication
+	- number of columns of 1st matrix = number of rows of 2nd matrix
+	- matrix multiplication is not commutative (A* B is not the same as B* A)
+- condition to find A +- B
+	- matrices must be of the same order
+- division of matrices does not exist, so we make use of inverse of a matrix
+	- multiply both sides by the inverse of the matrix -> this will be the same as dividing the entire equation by the matrix
+	- make sure to remember which side to place the operation, as multiplication is not commutative
