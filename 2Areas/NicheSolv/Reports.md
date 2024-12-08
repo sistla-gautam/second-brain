@@ -918,3 +918,7 @@
 		- worked on Appsmith debug. connected with Surrendra to try and find a way to get the mono to work better, but was not working as intended
 		- worked on sync service code and tried to build it, but seems to be having some type of issues with how the code is created
 		- worked on the clean up of the code base and the commit of Assignment 8
+	- Dec 4, 2024
+		- worked on isolting mongo to a different laptop to reduce the computation burden on one PC
+		- was able to isolate it to a different PC and be able to run some debugs on top of it
+		- 
