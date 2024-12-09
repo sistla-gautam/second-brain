@@ -208,3 +208,13 @@
 #### emails
 SSO
 - 602a144d2ae243efad91a525eba38813
+
+
+---
+![[Pasted image 20241209153645.png]]
+
+---
+![[Pasted image 20241209153734.png]]
+
+---
+![[Pasted image 20241209153759.png]]

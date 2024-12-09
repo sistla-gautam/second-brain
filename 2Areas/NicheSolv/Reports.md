@@ -921,4 +921,18 @@
 	- Dec 4, 2024
 		- worked on isolting mongo to a different laptop to reduce the computation burden on one PC
 		- was able to isolate it to a different PC and be able to run some debugs on top of it
-		- 
+	- Dec 5, 2024
+		- went to YTI
+		- tried to arrange for a virtual machine for Appsmith development. but will take a while
+		- worked on SVG bugs and sent out fixes for the same. yet to be tested
+	- Dec 6, 2024
+		- worked on SVG fixes for a while
+		- was able to finally debug the issue of the email and the user information
+		- still needs some final tweaks in the code to set the source of the user to the right values
+		- started working on sync service code to add the required functions for the adduser implementation
+		- implemented the controller, but having issues with other aspects of the code
+	- Dec 9, 2024
+		- worked on SVG bugs. got some errors with the elements and the custom SVG upload
+		- tried resolving the issue, but the issue is deeper than what was initially anticipated
+		- worked on sync service code and tried to find out the required files for the build
+		- added the additional files, but found some more error with the keywords of the additional files
