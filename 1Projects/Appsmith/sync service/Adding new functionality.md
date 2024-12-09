@@ -111,3 +111,13 @@ namespace YourNamespace.Controllers
 }
 
 ```
+
+- [x] change appsmith endpoint to 'form'
+- [x] add environment variables in the .env file
+- [x] add into `startup.cs` the env values
+- [x] add the builder.registermodule also in `startup.cs`
+- [ ] add the builder in the other files
+- [ ] create the `appsmith operation` file
+- [ ] contact with Mallikarjun about the sync service sync code
+- [ ] find out what all environment variables are required
+- [ ] write the `add` implementation of `AppSmithOperation.cs` file
