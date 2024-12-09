@@ -116,8 +116,10 @@ namespace YourNamespace.Controllers
 - [x] add environment variables in the .env file
 - [x] add into `startup.cs` the env values
 - [x] add the builder.registermodule also in `startup.cs`
-- [ ] add the builder in the other files
+- [x] add the builder in the other files
 - [ ] create the `appsmith operation` file
 - [ ] contact with Mallikarjun about the sync service sync code
 - [ ] find out what all environment variables are required
 - [ ] write the `add` implementation of `AppSmithOperation.cs` file
+- [ ] include the `.csproj` files in the `syncuser.appsmith.syncuser` folder
+- [ ] call the project reference in the `syncuserservice.api.csproj` file
