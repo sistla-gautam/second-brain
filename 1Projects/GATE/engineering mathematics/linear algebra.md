@@ -1,12 +1,13 @@
 # matrices
 #### common topics to know about
-- square and rectangle matrices
-- determinant
-- trace
-- inverse
-- transpose
-- tranjugate
-- diagonal elements
+- square and rectangle matrices - (different orders)
+- determinant - (single value of the matrix)
+- trace - (sum of diagonal elements)
+- inverse - ($A^{-1}$)
+- transpose - (flip the matrix along the diagonal)
+- conjugate - (the conjugate of complex numbers are taken)
+- tranjugate - (transpose + conjugate)
+- diagonal elements 
 ---
 ### determinant
 - only possible for square matrices
@@ -41,3 +42,28 @@
 - division of matrices does not exist, so we make use of inverse of a matrix
 	- multiply both sides by the inverse of the matrix -> this will be the same as dividing the entire equation by the matrix
 	- make sure to remember which side to place the operation, as multiplication is not commutative
+---
+## types of matrices
+- symmetric matrix - $A^T=A$ (transpose is the matrix iteself)
+- skew symmetric - $A^T=-A$
+- hermitian matrix - $A^\theta = A$ (transpose + conjugate is the matrix itself)
+- skew hermitian matrix - $A^\theta = - A$
+- orthogonal - $AA^T=I$ (matrix and transpose give identity)
+- unitary - $AA^\theta = I$ (matrix and conjugate give identity)
+- nilpotent - $A^K=0$ where k is the least positive integer
+- idenpotent - $A^2 = A$
+- involuntary - $A^2 = I$
+
+### some properties of square skew symmetric matrices
+- determinant of A will be 
+	- 0 if n is odd
+	- perfect square if n is even
+- sum of all elements will be 0
+	- $\Sigma a_{ij} = 0$
+### maximum number of elements
+- for skew matrix
+	- n(n+1)/2
+- general expression when matrix is expanded
+	- n!
+
+---
