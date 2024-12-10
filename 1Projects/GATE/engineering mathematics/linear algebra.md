@@ -67,3 +67,11 @@
 	- n!
 
 ---
+## rank of a matrix
+- it is the highest order of a non singular submatrix
+
+#### properties of rank
+- rank ($A_{m\times n} <= min(m,n)$)
+- rank of null matrix is 0
+- 1 <= rank($A_{m\times n}$) <= min(m, n)
+- rank (A) = rank
