@@ -911,7 +911,7 @@
 - December
 	- Dec 2, 2024
 		- worked on SVG widget issue of not being able to save into the storage of the mini environment
-		- also worked on appsmith. 
+		- also worked on appsmith. . 
 		- looked into some more changes in the custom OIDC class to try and solve the user issue
 		- created the ER diagram of Assignment 9. also pushed the diagram for review
 	- Dec 3, 2024
@@ -936,3 +936,8 @@
 		- tried resolving the issue, but the issue is deeper than what was initially anticipated
 		- worked on sync service code and tried to find out the required files for the build
 		- added the additional files, but found some more error with the keywords of the additional files
+	- Dec 10, 2024
+		- worked on SVG variable input bug. reworked the upload custom SVG component and fixed the bug
+		- looked into the sync service code to find the missing import issue.
+		- tried to contact Mallikarjun, but was unable to get him onto a call for the sync service code help
+		- still need to look into new SVG new tickets and sync service import code
