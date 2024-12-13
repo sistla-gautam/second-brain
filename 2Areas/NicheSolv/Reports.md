@@ -941,3 +941,15 @@
 		- looked into the sync service code to find the missing import issue.
 		- tried to contact Mallikarjun, but was unable to get him onto a call for the sync service code help
 		- still need to look into new SVG new tickets and sync service import code
+	- Dec 11, 2024
+		- worked on sync service code
+		- tried to implement a add user functionality to the code base
+		- wasn't able to link it properly and hence not able to build it
+	- Dec 12, 2024
+		- worked on sync service code
+		- was able to link the code successfully to the controller and hence call the functionality from an API call
+		- still need to edit the functionality to get the required functionality for Appsmith
+	- Dec 13, 2024
+		- had multiple interviews to handle
+		- looked into the different SVG tickets that were still pending
+		- need to implement 2 different functionalities in SVG widget - SVG resizing, filtering of tags in SVG from "Edit properties"
