@@ -953,6 +953,12 @@
 		- had multiple interviews to handle
 		- looked into the different SVG tickets that were still pending
 		- need to implement 2 different functionalities in SVG widget - SVG resizing, filtering of tags in SVG from "Edit properties"
+	- Dec 16, 2024
+		- worked on appsmith VM issue. tried to connect to the VM, but was stuck with some VPN issues
+		- worked on SVG resizing issue. still need to find out the right formula for the "fit" and "fill" methods
 	- Dec 17, 2024
 		- worked on SVG resizing issue. was not able to find out the proper scaling for the fit and fill
 		- tried to work on Appsmith, but was stuck on the virtual machine issue. was still not able to connect with the VPN
+	- Dec 18, 2024
+		- went to YTI office. worked on Appsmith changes that need to be done for the deployed version
+		- made some extra changes to the config map, but they don't seem to fit the right requirements in the initial login flow
