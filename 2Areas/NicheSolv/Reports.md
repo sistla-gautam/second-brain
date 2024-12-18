@@ -961,4 +961,4 @@
 		- tried to work on Appsmith, but was stuck on the virtual machine issue. was still not able to connect with the VPN
 	- Dec 18, 2024
 		- went to YTI office. worked on Appsmith changes that need to be done for the deployed version
-		- made some extra changes to the config map, but they don't seem to fit the right requirements in the initial login flow
+		- made some extra changes to the Appsmith config map, but they don't seem to fit the right requirements in the initial login flow
