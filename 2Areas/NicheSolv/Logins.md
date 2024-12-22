@@ -4,7 +4,7 @@
 | google                  | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | &Pm0H8l7b7CL                  |
 | jira                    | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | kdkfX*M3Ruc&                  |
 | Laptop                  | nichesolve22                                        | nichesolve22                  |
-| YTI VPN                 | asykgw/47790222                                     | Gs4nQVug6C <windows_password> |
+| YTI VPN                 | asykgw/47790222                                     | Gs4nQVug6C!<windows_password> |
 | github                  | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 371auXfDzQDmLCv               |
 | YTI cloud               | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!hTy               |
 | YTI wifi                | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!82                |
@@ -12,11 +12,12 @@
 | SonarQube               | yti-user                                            | YokoYoko;2005                 |
 | SQL database            | root                                                | Gs4nQVug6C                    |
 | docker SQL database     | demo_java                                           | 1234                          |
-| AppSmith                | sistlagautham@gmail.com                             | 12345678                      |
+| AppSmith                | yti@yti.com                                         | yokoyoko                      |
 | Postgres                | postgres                                            | newpassword                   |
 | AWS IAM                 | gautam                                              | 6sO71@@v1                     |
 | guacamole postgres user | postgres                                            | 22nichesolv                   |
 | postgres db user        | guacamole_user                                      | yokoyoko                      |
+
 ### Github tokens
 
 | Token name | Token                                    | Account       |
