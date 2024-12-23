@@ -1,0 +1,16 @@
+- set goals for this quarter
+	- health
+	- fitness
+	- wealth
+- if I repeat this weeks actions for the rest of my life, where would I be?
+- what is the goal, what is the bottleneck?
+- in case of conflicting goals, do the following
+	- 10 goals - write it on a sheet of paper
+	- if one goal would become true in the next 24 hrs, which one would have the greatest impact in your life
+	- now transfer that to a clean piece of paper and work on it using the following steps
+		- write it down
+		- set a deadline
+		- make a list of everything that needs to be done
+		- organize the list into a checklist
+		- take action
+		- do something everyday
