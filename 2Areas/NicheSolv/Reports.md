@@ -962,3 +962,14 @@
 	- Dec 18, 2024
 		- went to YTI office. worked on Appsmith changes that need to be done for the deployed version
 		- made some extra changes to the Appsmith config map, but they don't seem to fit the right requirements in the initial login flow
+	- Dec 19, 2024
+		- worked on sync service code
+		- tried implementing the add users functionality
+		- stuck while sending the SESSION token to the further API calls
+	- Dec 20, 2024
+		- worked on sync service code
+		- was able to send the SESSION token to the API calls
+		- have one more final API call to make for the required user to be added to the group
+	- Dec 23, 2024
+		- worked on sync service code. was able to replicate the behavior of the other API calls
+		- changed the structure of the code to better match the existing ones
