@@ -1,6 +1,11 @@
 - create different aspects of life
 	- health
-	- fitness
-	- wealth
+	- career
+	- love
+	- spirituality
+	- family
+	- money
+	- fun
+	- friends
 - give a score of 1 to 10 for the different aspects
 - helps give an idea of where to focus on and what not to
