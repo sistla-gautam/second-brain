@@ -1,4 +1,4 @@
-# getting the workspace ID using the name
+p# getting the workspace ID using the name
 - we can get the workspace ID from the `/api/v1/workspaces/home` API call
 - this will return us a body that will contain the details of all the workspaces that the user is a part of
 	- since we will be doing this call with the details of the FORM user, we will get the workspaces that the FORM user will be a part of

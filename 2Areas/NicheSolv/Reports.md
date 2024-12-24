@@ -973,3 +973,6 @@
 	- Dec 23, 2024
 		- worked on sync service code. was able to replicate the behavior of the other API calls
 		- changed the structure of the code to better match the existing ones
+	- Dec 24, 2023
+		- worked on cleaning up the sync service code to complete the add user implementation
+		- need to make more changes to the code to make it much cleaner and reduce the security risks
