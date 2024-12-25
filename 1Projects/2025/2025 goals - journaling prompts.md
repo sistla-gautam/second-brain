@@ -5,7 +5,7 @@
 - if I repeat this weeks actions for another 10 years, where would that lead me to?
 	- can be done for even a day or a month
 	- every action either compounds negatively or positively
-- circle of life
+- whees of life
 	- 9 different parts of life that can be used for weekly reviews
 - the odyssey plan
 	- the normal path
