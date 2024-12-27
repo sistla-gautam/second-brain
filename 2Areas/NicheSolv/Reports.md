@@ -976,3 +976,10 @@
 	- Dec 24, 2023
 		- worked on cleaning up the sync service code to complete the add user implementation
 		- need to make more changes to the code to make it much cleaner and reduce the security risks
+	- Dec 26, 2024
+		- worked on sync user add user functionality
+		- finished the functionality, but wasn't able to test the final implementation of it due to restrictions from SAPCDC calls
+		- will try it out to tomorrow to wrap up that method
+	- Dec 27, 2024
+		- finished the implementation of addUser functionality
+		- started working on the implementation of update user functionality and the delete user functionality
