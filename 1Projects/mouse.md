@@ -1,0 +1,3 @@
+- [zebronics wired](https://www.amazon.in/ZEBRONICS-Gaming-Rainbow-Precision-Buttons/dp/B0CG13FJ5M/ref=sr_1_3?sr=8-3)
+- [artic fox transparent wireless](https://www.amazon.in/Arctic-Fox-Transparent-Bluetooth-Rechargeable/dp/B0CP9NSXYJ/ref=sr_1_14?sr=8-14)
+- [evo fox wired](https://www.amazon.in/EvoFox-Spectre-Lighting-Breathing-White/dp/B0CNQ75PC8/ref=sr_1_16?sr=8-16)
