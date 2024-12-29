@@ -33,3 +33,13 @@
 - hung out with them this week, should be fine for another month or so
 ---
 ## goals
+- workout everyday for 1 week
+- maintain focus during work for 2x2 hr sessions everyday
+
+## bottlenecks
+- not enough energy in the evening to work out, not enough motivation to workout in the morning
+- getting distracted by others
+---
+## actions
+- finish working out in the morning. start small, workout only 10 mins per day
+- sit elsewhere when work needs to be done. set timers to finish work
