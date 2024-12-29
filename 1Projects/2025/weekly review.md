@@ -1,7 +1,12 @@
 - set goals for this quarter
 	- health
-	- fitness
-	- wealth
+	- career
+	- love
+	- spirituality
+	- family
+	- money
+	- fun
+	- friends
 - if I repeat this weeks actions for the rest of my life, where would I be?
 - what is the goal, what is the bottleneck?
 - in case of conflicting goals, do the following
