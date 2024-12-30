@@ -983,3 +983,8 @@
 	- Dec 27, 2024
 		- finished the implementation of addUser functionality
 		- started working on the implementation of update user functionality and the delete user functionality
+	- Dec 30, 2024
+		- completed working on appsmith sync service code
+		- started working on the unit test cases for sync service
+		- looked into whitelabeling of Appsmith
+		- got assignment 9 ER diagram reviewed by Padma. Need to make minor improvements in the ER diagram and then start with the queries of part 2
