@@ -988,3 +988,6 @@
 		- started working on the unit test cases for sync service
 		- looked into whitelabeling of Appsmith
 		- got assignment 9 ER diagram reviewed by Padma. Need to make minor improvements in the ER diagram and then start with the queries of part 2
+	- Dec 31, 2024
+		- worked on appsmith test cases
+		- looked into white labelling
