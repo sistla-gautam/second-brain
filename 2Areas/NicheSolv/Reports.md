@@ -989,5 +989,6 @@
 		- looked into whitelabeling of Appsmith
 		- got assignment 9 ER diagram reviewed by Padma. Need to make minor improvements in the ER diagram and then start with the queries of part 2
 	- Dec 31, 2024
-		- worked on appsmith test cases
+		- worked on appsmith test cases. finished the controller test cases. Still working on sync users and operations test cases
 		- looked into white labelling
+		- got onto a call with Ashish to discuss about the requirements of Appsmith 
