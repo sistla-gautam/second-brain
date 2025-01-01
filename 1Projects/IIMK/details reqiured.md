@@ -54,4 +54,8 @@ A key area for improvement is time management. I sometimes find it challenging t
 
 **What is your most significant accomplishment so far ?**
 
-During my pre final year of college, I came across an invite for a social media manager for a week to help with a fashion event. I really wanted to try for the job, but my fear of talking to strangers held me from making the phone call
+During my pre final year of college, I discovered an opportunity to work as a social media manager for a fashion event. Despite my initial hesitation and fear of reaching out to unfamiliar people, I decided to step out of my comfort zone, made the call, and successfully secured the role. This experience was pivotal in building my confidence and strengthening my professional communication skills.
+
+**What are your present hobbies ?**
+
+My current hobbies include listening to audiobooks, particularly in the sci-fi and fantasy genres. I find these stories engaging and immersive, with Brandon Sanderson being one of my favorite authors for his intricate world-building and compelling narratives. In addition to audiobooks, I enjoy listening to music throughout the day.
