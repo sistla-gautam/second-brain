@@ -1,994 +1,1002 @@
-- March
-    - March 5, 2024
-        
-        - completed the assignment 0 in Java and also did minor changes to the test file
-        - new objects are now being created before running any type of test
-        - was waiting for review of the assignment from Suhas
-    - March 6, 2024
-        
-        - received git tutorial and started working on it
-        - started working on changes told by Suhas
-        - also implemented the pyramid scheme problem
-    - March 7, 2024
-        
-        - worked on the git crashcourse
-        - made changes to project 0
-        - attended orientation meeting
-        - looked into test cases that can test print functions
-    - March 8, 2024
-        
-        - worked on assignment 0 to bring about changes and optimise multiple problems
-        - looked into file operations in Java
-        - completed git crashcourse
-        - yet to do more optimisations to the pyramid problem
-        - need to check out about git merge conflicts
-        - yet to push the assignment 0 to git
-            - readme file in main branch
-            - new branch for assignment 0 → push code to that branch → create a PR
-    - March 11, 2024
-        
-        - finished working on assignment0
-        - pushed into git and created a PR
-        - accidentally also accepted the PR
-        - need to change the structure of the entire repo to contain the proper structure
-            - different folders for every assignment
-            - one single readme file for the main branch
-            - raise a PR for the assignemt0 branch to the main branch
-    - March 12, 2024
-        
-        - received assignment 1 and finished working on the functions and the test cases
-        - need to implement javadocs for this assignment
-        - have some issues with github where one branch is ahead of the other. need to sort that out
-        - should raise a PR with the javadocs implemented in assignment1
-    - March 14, 2024
-        
-        - fixed the github branch naming issue where the names of the branches were done weirdly
-        - pushed review changes of assignmen0 for review after modifying the test cases
-        - pushed review changes of assignment1 for review
-        - waiting for review of both assignment0 and assignment1
-    - March 15, 2024
-        
-        - got assignment0 PR approved
-        - also overloaded some function in assignment1 and pushed for PR
-        - got onboard the YGX project
-        - received assignment2, need to start working
-    - March 18, 2024
-        
-        - completed initial working of assignment2
-        - yet to complete test cases for assignment2
-        - looked into different svg manipulation libraries
-        - started working on a basic react app that can showcase the features of these libraries to see if it will be useful
-    - March 19, 2024
-        
-        - worked on creating a react app that can dynamically render and edit svgs
-        - realised, this might not be feasible as the svg needs to be properly organised based id, which is not possible when the user uploads custom svg
-        - started created test cases for assignment2
-        - pushed assignment2 and raised PR, although testcases are yet to be pushed
-    - March 20, 2024
-        
-        - created a react app to check if SVGR library and the SVGMT library are working as required
-        - SVGMT library works as per our requirement, and needs to be developed further
-        - also worked on assignment2 and generated more testcases
-        - need to work on assignment2 updates
-        - need to work on react app. need to see if the svg reacts to global state data
-    - March 21, 2024
-        
-        - worked on assignment2 updates
-        - created a sample svg to test the capability of the svg library
-        - had a KT on the working of the application
-        - got access to the code and tried setting up the environment in local
-    - March 22, 2024
-        
-        - worked on assignment2
-        - created new components to test the functionality of d3.js and archer.js library
-        - archer library did not work as per the requirements
-        - d3 is somewhat better, but is not vastly different from the SVGMT library
-        - if anything, d3 has a bigger community support and is more supported than SVGMT
-    - March 25, 2024
-        
-        - looked into using css for creating svg
-        - was not possible to edit the svg using external css, but was possible with internal css
-        - worked on assignment 1 updates and assignment 2 updates
-        - need to finalise assignment 2 and assignment 1 and push for review
-    - March 26, 2024
-        
-        - worked on modifying svg with external css
-            - this is not possible, as the only way we can is by adding the svg as inline code to the HTML doc
-            - the other way to style a svg is to use style tag within the svg component, which does not align with our requirement
-        - made changes to assignment1 and pushed for further review
-    - March 27, 2024
-        
-        - made review changes to assignment1 and assignment2 and pushed both for PR
-        - was asked to check if the SVGMT library can react to changes from a JSON object in the morning meeting
-            - worked on this and created an app that will showcase the ability to changes the values of a svg based on external information
-            - conveyed this information to Akash. waiting for response
-        - got access to Jira and was assigned my first task
-    - March 28, 2024
-        
-        - no update on assignment2 or assignment1
-        - worked on removing any js scripts in svg
-            - did this by completely removing the script tag from the svg element when it is first uploaded by the user
-            - this might not be required, as the SVGMT library itself does not seem to allow scripts to run
-                - no output from the script tag was seen when loading a svg with the SVGMT library
-    - March 29, 2024    
-- April
-    - April 1, 2024
-        
-        assignments - 7, YTI - 1
-        
-        - started working on assignment 3
-        - decided to implement quick sort method for the sort functionality
-        - yet to implement sort and print to file methods
-    - April 2, 2024
-        
-        assignments - 3, YTI - 5
-        
-        - worked on creating an app that reads data from css to be fed into the SVGMT library
-        - was not possible to do so with the library
-        - need to work on making the library react to changes to the text element of the SVG
-        - need to go to Yokogawa office for laptop configuration
-        - learn about quick sort
-        - created a function to sort the array either into ascending or descending based on a boolean value
-        - need to create a function to write to a file
-        - need to create test case to test the functions of the class
-    - April 3, 2024
-        
-        - went to YTI office to get laptop configured
-        - got the laptop configured and got access to the different accounts of YTI
-        - worked on manipulating text tag in SVG
-    - April 4, 2024
-        
-        - wrote functions to write the contents to a file for assignment 3
-        - started writing test cases for assignment 3
-        - look into svg libraries that can manipulate the values of data inside the tags
-        - SVGJS seemed to work as intended
-    - April 5, 2024
-        
-        - created a react app with SVGJS that can manipulate the values of the text
-        - also made the app read the values from a JSON object to change dynamically
-        - wrote couple more test cases and pushed assignment 3 for review
-        - after review worked on the deleteValue() function to perform better
-    - April 8, 2024
-        
-        - looked into the code base to understand how the widgets are created
-    - April 10, 2024
-        
-        - worked on review comments of assignment 3
-        - pushed the assignment for next review
-        - replicated the markdown widget to create a rudimentary widget for svg
-        - got the document to create an widget from Ashish and created a svg widget. But still need to look into couple of steps of the same
-    - April 11, 2024
-        
-        - worked on creating the svg as a widget
-        - implemented the svg in the widget swap menu
-        - configured the edit properties panel to show the “upload file” input and passed the file information to the widget
-    - April 12, 2024
-        
-        - worked on passing the props to the svg to render as a URL
-        - also worked on the default values that will be passed to the widget when initially loaded
-        - cleaned up the widget
-    - April 15, 2024
-        
-        - implemented merge sort operations besides the already existing quicksort
-        - looked into static keywords and how it affects the program
-        - some more minor changes in the assignment as per the review comments
-        - solved the bug where the new svg is appending to the existing svg
-        - looked into the svg scaling issue where the svg scales to a fixed value instead of the dimensions of the svg file
-        - wrote documentation for the creating and implementing a new widget into the codebase and submitted it to Ashish
-        - need to look into a way to list and query all the different IDs and classes that the svg has on offer and how the data will be bound to it
-        - need to check if the svg is getting saved in the dashboard json file
-    - April 16, 2024
-        
-        - worked on solving a github issue. Accidentally made it worse, so will require more work on the same
-        - the svg that gets loaded would not be saved for a long time
-        - the URL gets timed out and hence the svg would be replaced with a blank one
-        - also looked into getting the different IDs of the elements of svg
-    - April 17, 2024
-        
-        - solved the issue where the URL would time out
-        - replaced the svgURL with the imgURL to get the updated URL and get the updated URL every time the URL is changed
-        - also solved the git branch issue where files that should not have been deleted were deleted
-    - April 18, 2024
-        
-        - went to YTI office
-        - worked on getting the different IDs of the svg
-        - made changes to remove the svg rendering from the useEffect
-        - need to remove the fetch from the rendering code
-    - April 19, 2024
-        
-        - worked on passing the array of elementID to the property from
-        - created a redux store to hold the value of the elementID array
-        - created a dispatch to send the value, but is running into problems
-        - the dispatch is being called even before the entire svg is rendered. need to use useEffect to know when the dispatch needs to be sent
-        - also the dispatch is receiving the imgUrl too. need to see where the value is coming from and need to rectify it with a different value that handles both the URL and the element array
-    - April 22, 2024
-        
-        - worked on passing the element ID array to the property form
-        - displayed the different IDs along with dummy attributes in 3 separate dropdowns
-        - need to show the actual attributes and the possible mapping values in the third dropdown
-        - also placed these dummy values into a JSON object. need to pass this JSON object back to the widget side to be able to make dynamic changes to the svg
-    - April 23, 2024
-        
-        - started working on assignment4. wrote an initial draft of the LinkedNode and started working on the LinkedList file
-        - need to create new branches for the previous assignments
-        - worked on creating a JSON object for the svg values which will be sent from the property form to the widget
-        - the widget is receiving the widget, and is mapping through them to dynamically change the svg
-        - need to make sure only the required attributes of the element are showing up
-        - also need to look into displaying the different data mappings that the user can link it to
-    - April 24, 2024
-        
-        - worked on finding the different attributes for a particular element in the svg
-        - passed these attributes as a list to the property form
-        - need to still pass the data tags to the widget and see if the widget is reacting to the data
-        - worked on assignment 4 part 1. created some basic methods and added javadocs for both the node class and the linkedlist class
-        - also created the driver class
-    - April 25, 2024
-        
-        - went to YTI office
-        - created a new mapping and tested the working of the mapping to the svg widget
-        - not sure how the data from the tags will be provided to make changes to the svg accordingly
-    - April 26, 2024
-        
-        - requested lot of changes to the overall structure of the code
-        - need to use less number of keys that are used by the widget
-            - the data needs to get stored in the displayData of the widget than the widgetProperties
-            - migrate the function of reading the different elements of the svg from the widget to the property form itself
-            - remove the function of reading the different attributes of the elements and replace with semi-hardcoded values
-        - also worked on assignment 4 part 1
-            - worked on the remove function of the LinkedList
-            - will aim to finish for first review by Monday
-    - April 29, 2024
-        
-        - worked on transferring the svg reading file from the widget section to the property form section
-        - also worked on showing a predefined set of attributes and not the list of all possible values
-        - need to look into the how to read the value from the tag. will be looking into the card widget to know more about how the live data is being transferred to the card widget
-        - pushed assignment 4.1 for review, will be starting with 4.2
-    - April 30, 2024
-        
-        - worked on receiving data from the tags and passing the data to the widget to be displayed
-        - also worked on storing the data in the widget displayData and not the widget display properties
-        - started working on assignment 4.2
-- May
-    - May 2, 2024
-        - looked at reading values from data tags
-        - was able to read the values and able to convert the data to the tag data
-        - yet to pass this data to the widget and pass it to the svg for rendering
-    - May 3, 2024
-        - looked into how to test the data in the widget
-        - decided to place the tag data as a text in the svg
-        - need to work on creating multiple inputs for the svg in the property form
-        - worked on assignment 4.1 test cases and started working on assignment 4.2
-    - May 6, 2024
-        - worked on changing the property form of the svg widget
-        - cleaned up the input form
-        - added the support for multiple tag input
-        - need to change the structure to hold multiple objects for input than a single object
-    - May 7, 2024
-        - worked on creating the drop down menu for the svg widget
-        - now supports multiple input fields for multiple svg element selection objects
-        - the multiple selection objects are also now being reflected in the svg
-        - also worked on initial draft of assignment 4.2
-    - May 8, 2024
-        - finished working on the svg widget
-        - made changes to the onBlur and onSelect functions to get the right value
-        - worked on assignment 4.1 review comments
-    - May 9, 2024
-        - worked on assignment 4.1 review comments
-        - pushed assignment 4.1 for review
-        - removed the scale image option in the property form
-        - worked on multiple approaches to re-render the svg once the changes are applied to the svg, but did not work
-    - May 10, 2024
-        - worked on rerendering the svg once the styling is applied to the complete svg using a hooks approach, but was not satisfactory
-        - also cleaned up the entire code to be more easier to understand
-        - worked on assingment 4.2 comparators and comparables
-    - May 13, 2024
-        - worked on assignment 4.3. refactored the code to be more decentralized to the other parts of the code
-        - worked on re-rendering the svg once the changes in the attributes have changes in them
-        - also got onto a call with YTI to discuss the progress on the svg widget
-        - need to validate the svg that is being uploaded - see if it is a valid svg and if it does not have any type of JS in it
-    - May 14, 2024
-        - worked on validating the svg to be a valid svg
-        - worked on checking if the svg contains any type of script tags or any event handllerse
-        - cleaned up code for the live data of the svg
-    - May 15, 2024
-        - wanted bubble sort and merge sort both to be implemented for the linkedlist in assignment 4.2
-        - worked on how to bubble sort in 4.3, but failed to implement
-        - looked into SVGO for validating the svg - does not form a compelling option for validating svg, as the primary function is optimization
-        - also looked into [snyk.io](http://snyk.io) for validation, but will be far from our requirements as it requires API calls and is priced very steep
-    - May 16, 2024
-        - went to YTI office
-        - wrote a function that validates the svg with the fast-xml-parser library
-        - also created a workflow where the user is warned about unsafe svg uploads
-        - started working on highlighting the svg element based on hovering of the elements in the element list
-        - need to dispatch this particular element to a dummy variable and pass it to the svg widget
-    - May 17, 2024
-        - worked on the highlighting effect of the different elements of the svg
-        - managed to showcase the highlight of the element
-        - it also reverts back to original state once the mouse is out of the element
-    - May 20, 2024
-        - worked on the sort function of the linkedlist
-        - created a new merge sort function for 4.2
-        - created a function that is currently partially sorting the list elements and not the entire list
-        - worked on showing the initial data of the svg, but was not able to get the required result
-        - also worked on the rerendering of the svg when an elements in the attribute array is removed, but was not able to make it work
-    - May 21, 2024
-        - scrapped the entire bubble sort method for 4.2
-        - replaced it with insertion sort and merge sort methods
-        - also worked on creating a graph mapping component for the svg widget
-        - was able to create a sample line graph plot for hard coded numbers
-    - May 22, 2024
-        - worked on creating insertion sort and merge sort
-        - completed merge sort and pushed for review
-        - yet to complete insertion sort
-        - resolved some issues in the graph for the time series data
-    - May 23, 2024
-        - went to YTI office
-        - had to scrap the entire highlighting aspect of the svg element
-        - also worked on some security concerns for the svg
-        - need to make some changes for the input component for the svg
-        - also implemented a method to rerender the svg once some element is removed from the property form
-    - May 24, 2024
-        - worked on the input component of the svg
-        - also checked some other conditions that the svg upload might raise some concerns
-        - worked on some review comments of assignment 4.2 and assignment 4.3
-    - May 27, 2024
-        - worked on the input component for the svg
-        - created a switch that can switch between the different available methods
-        - got onto a call with YTI for the feedback on the flow of the svg widget
-        - was also asked for some changes in the workflow of the svg
-    - May 28, 2024
-        - worked on svg dropdown
-        - was able to link the svg name to the link of the svg and pass it to the svg component
-        - also need to fix an issue where the svg url is not getting stored in the JSON, and is hence returning an empty string once the dashboard is loaded in
-    - May 29, 2024
-        - wasnt able to fix the issue of loading the svg url to the JSON
-        - started working on assignment 5 finished a draft version of the find function and the initial setup
-    - May 30, 2024
-        - done with the assessment today. sent the files to Suhas and Padma
-        - also worked on showing a error message that will be shown if the file is reuploaded
-        - still need to work on the problem where the imgUrl is not being saved in the JSON
-        - also, need to work on a way to show the different IDs when the URL is loaded from the dropdown
-    - May 31, 2024
-        - worked on resolving the error of the svg imgUrl not displaying in the dashboard
-        - worked on the find functions in assignment 5
-- June
-    - June 3, 2024
-        - worked on assignment 5 find functions
-        - also looked into the svg fetch function to get the different elements of the svg
-    - June 4, 2024
-        - finished assignment 5
-        - also finished writing test cases for assignment 5
-        - had a call with KBC where improvements for the svg widget were mentioned
-            - need to update the regex for detecting the event handlers
-            - also need to find a way to showcase only the essential elements that need to be changed and not all the elements
-    - June 5, 2024
-        - changed the svg iteration to use xPath
-        - found a way to do eventhandlers in a better manner
-        - checked if svg can hold a custom attribute
-        - worked on a method that do not have an id
-        - researched about svgs that use custom name space attributes
-        - also worked on assignment 5 and got review comments
-    - June 6, 2024
-        - was on leave due to vehicle fitness certification
-    - June 7, 2024
-        - changed the approach to showcase both the svgs that do not have the custom attribute and the svgs that do have custom attribute
-        - worked on assignment 5 review comments
-        - made changes to the enum to manage most of the values
-        - need to work on how to optimize the usage of hashmaps for assignment 5
-    - June 10, 2024
-        - worked on the optimization of usage of hashmaps in assignment 5
-        - also started working on the new feature of getting a apache guacamole
-        - need to create a simple way for the CICD to include the guacamole to be on the build
-    - June 11, 2024
-        - pushed svg widget for code review and deployement
-        - got review comments, fixed and pushed again
-        - installed apache guacamole on local linux machine
-        - still need to install guacamole client program and connect to server
-        - gave a KT for Kavitha and Sushma on the svg widget to explain them on how things work - required for them to perform testing on the svg widget
-        - pushed assignment 5 for review
-    - June 12, 2024
-        - created jest test cases and ran the test case
-        - looked into how to package the guacamole server into a .rpm package
-        - was not able to compile it into a single .rpm file, need to check it with the rpm build package
-    - June 13, 2024
-        - went to YTI
-        - worked on last minute changes to svg widget and confirming some behavior changes in the svg widget
-    - June 14, 2024
-        - worked on creating test cases for svg widget
-        - did not finish the test cases for the entire widget
-        - still have to make sure all the code is covered
-    - June 17, 2024
-        - was a holiday, but worked on that day due to deadlines. will take a comp off later
-        - worked on increasing the coverage of the test cases for the svg test cases
-    - June 18, 2024
-        - worked on some last minute bugs from the testing of the svg
-        - also did some more test case coverage and removal of duplicate code
-    - June 19, 2024
-        - worked on deployment of the svg widget branch to production
-        - still need to create documentation for the svg widget
-    - June 20, 2024
-        - went to YTI office to release the SVG widget
-        - gave a demo to Nilesh about the working of the widget
-        - Also started working on the technical documentation of the SVG widget
-    - June 21, 2024
-        - created the .deb package for the guacamole server
-        - also worked on assignment 5 to reduce the clutter in assignment 5 test cases
-        - need to look into elastic search and implement it into assignment 5
-    - June 24, 2024
-        - worked on guacamole dependency resolution. added a way to include the required dependencies in the .deb package
-        - also got onto a call with Vijay and Santosh from YTI to discuss more about the guacamole package
-        - also made a fix for a bug in the upload and select svg component and created a PR for the same
-        - also worked on assignment 5. made some changes to the person class to hold the data elements in a better way
-        - also fixed some other review comments in the add and update functions
-    - June 25, 2024
-        - created a guacamole server .deb file also installs the required prerequisites
-        - tested the installer on a fresh laptop and verified that it works as intended
-        - created a doc that will explain the procedure of creating the .deb file if we have access to the .tar file
-        - pushed assignment 5 code for review and awaiting both Padma and Sushas for their code review
-    - June 26, 2024
-        - installed tomcat on linux to get guacamole client application running
-        - was not able to get the application to run
-        - also had a small problem with the ubuntu not recognising the guacamole server when being run
-        - needed to get review comments from Padma, but was not able to
-        - got onto a call with Adi for a KT session with him for AppSmith configuration
-    - June 27, 2024
-        - worked on running the guacamole client on tomcat. not able to as most of the logs are not accessible even with super user access
-        - also got a KT with Adithya on AppSmith
-        - discussed with Padma on the review comments of assignment 5. made some changes on assignment 5
-- July
-    - July 1, 2024
-        - worked only on Guacamole client testing
-        - was able to run guacamole server and guacamole client
-        - was not able to connect each other due to the lack of dependencies that were required for the connection, but was able to log in to the client user profile
-        - sent in Assignment 5 for review for Padma
-    - July 2, 2024
-        - worked on guacamole client and server interaction
-    - July 3, 2024
-        - worked on guacamole packaging
-        - got some tickets on SVG widget
-    - July 4, 2024
-        - went to YTI
-        - resolved some bugs in the SVG widget
-    - July 5, 2024
-        - resolved some more bugs in the SVG widget
-        - also worked on the guacamole client and server
-        - was able to connect the server to the client
-    - July 8, 2024
-        - finished some minor bugs in the SVG widget
-        - was also able to also create a VNC connection between the server and the client via the guacd
-    - July 9, 2024
-        - pushed the code to dev environment for the demo call for KBC from the YTI side
-        - worked on the guacamole .deb package and created a script that will create the .deb file given the .tar file
-        - also edited the wiki for the SVG widget
-        - created docs for the guacamole server and creation of the .deb file along with the further steps
-        - worked on assignment review comments and pushed it for review
-    - July 10, 2024
-        - worked on the changes required in the SVG widget for the next release
-        - worked on the appsmith application. was able to start up all the required services for the appsmith to start up
-        - got onto a call with Nilesh to talk about the different changes that took place in the SVG widget so that they can be documented into the wiki
-        - created the final copy of the guacamole documentation which should be put up on confluence. need to update the confluence doc with the latest screen shots
-    - July 11, 2024
-        - went to YTI office
-        - gave the demo for the SVG features
-        - gave the demo for the guacamole implementation and the testing
-        - updated the document on confluence
-        - submitted the .deb installer and the script files to Aman to be uploaded to the editor repo
-	- July 15, 2024
-		- worked on appsmith project
-		- tried to set it up, but ran into some issues
-		- most likely an issue with the way how steps are being executed
-	- July 16, 2024
-		- worked on getting appsmith up and running
-		- was able to get appsmith running 
-		- worked on assignment 5 review comments 
-		- started working on assignment 6
-	- July 17, 2024
-		- worked on appsmith login part
-		- was able to configure the app to point to a SAP/CDC login page
-		- worked on configuring SQL database for assignment 6
-	- July 18, 2024
-		- worked on getting back the code form the SAP/CDC page of yokogava
-		- tried and failed multiple ways to extract the code from the redirect URL
-	- July 19, 2024
-		- worked on passing the SAP/CDC code of yokogava as a prop to the required component
-		- was able to pass the code to the component
-	- July 22, 2024
-		- tried and failed on using the code as a prop in the component
-		- worked on rerouting the app to get access to the code on the required component
-		- the next calls are going through, but the calls are failing due to CORs error
-		- contacted Mallikarjun regarding the same, waiting for response
-	- July 23, 2024
-		- worked on getting the appsmith JWT token
-		- was facing a CORS issue, but was able to solve it while sitting with Surrendra
-		- need to pass this JWT to the login for the application to pick up
-	- July 24, 2024
-		- worked on passing the JWT as a valid token for the login
-		- was not able to do so. main problem is the form sends as traditional username, password, while our application contains a JWT directly
-		- worked on porting the common code of assignment of 5 and 6
-		- need to create a table with the required columns and need to also write queries that will interact with them
-		- need to create a new driver class that will do both the initial connection and the query handling
-	- July 25, 2024
-		- went to YTI
-		- worked on appsmith routing
-		- traced where in the server is the API for the login 
-		- made some changes to the server code to see if any of the alternatives would work
-		- helped Sanjeeva with the tag values of his video widget
-	- July 26, 2024
-		- connected with Shubham to understand the workflow of the API
-		- looked into configuring the server to enable SSO login with third party login systems
-		- wrote some test cases for SVG widget new upload button
-		- Wrote SQL queries for Assignment 6
-	- July 29, 2024
-		- connected with Surrendra to figure out the workflow of the application
-		- found some headway into the possible Oauth2 integration methods
-		- worked on separation of code for SQL
-		- passed the security config file to Shubam for further discussion regarding the same
-	- July 30, 2024
-		- worked on replacing some values in the security config to find out the difference it makes
-		- replaced some values in the .env file to get the different outputs
-		- the login screen works, but the redirect URL does not seem to be working as intended
-	- July 31, 2024
-		- worked on redirect of the URL
-		- changed the .env file to test the different approach of SSO login
-		- also added various understand the workflow of the application
-- August
-	- Aug 1, 2024
-		- successfully resolved and implemented the github SSO
-		- also understood the different functions that are used in SSO
-		- need to replicate this with the SAPCDC OAUTH2
-	- Aug 2, 2024
-		- integrated SAP CDC SSO into the application
-		- had errors from the securityconfig.java which still need to be resolved 
-		- client side work is completely done 
-	- Aug 5, 2024
-		- worked on some more changes in the server side to get the required SAPCDC SSO login
-		- the server is throwing the error of AuthorizationGrantType is not defined
-	- Aug 6, 2024
-		- got onto a call with Padma to discuss Assignment 6. Need to look into Model View Paradigm and make some changes to Assignment 6
-		- Worked on Appsmith and configured the server and client to detect SAP CDC to be a valid SSO provider
-		- Need to work on sending the client ID to the SSO providers
-	- Aug 7, 2024
-		- changes the client to point to the correct location in the server
-		- the server now point to the right location and is also able to pick the code from the provider
-	- Aug 8, 2024
-		- went to YTI
-		- received the JWK set URI from Mallikarjun
-		- need to configure the userNameAttribute for the application to get the correct user details
-	- Aug 9, 2024
-		- successfully logged in with SSO to Appsmith
-		- also looked into how to send the form data from Appsmith via API
-	- Aug 12, 2024
-		- worked on creating a mock server that will handle a REST API
-		- created a way in Appsmith to push the data to this API
-		- got onto a call with YTI team to discuss how to process the forms
-		- pushed assignment 6 for second review
-	- Aug 13, 2024
-		- worked on the overall flow of the Appsmith
-		- started creating the plugin that will connect to the DB
-		- worked on simulating a resource with test values for the sensors
-	- Aug 14, 2024
-		- worked on trying to setup a postgres DB on the local machine
-		- worked on accessing the encrypted setting details in the plugin
-	- Aug 19, 2024
-		- worked on connecting the workflow to the postgres DB
-		- not able to connect to them due to variation in the environments that they run at
-		- one is running on a WSL setup, while the other is running on a web application setup
-	- Aug 20, 2024
-		- was able to connect the plugins from console to the database
-		- the server is running on an EC2 instance that contains a postgresql DB
-		- need to now look into testing the entire flow 
-		- need to start working on the deployment of the application
-		- looked into some configuration settings for docker setup to understand how to proceed with assignment 6.1
-		- need to transfer the assignment from YTI laptop to the assignment laptop
-	- Aug 21, 2024
-		- was able to check the complete flow of the Appsmith forms
-		- started working on the deployment of the appsmith on the subdomain
-		- not able to complete the transfer to the subdomain. running into issues with the build directory
-	- Aug 26, 2024
-		- checked the different licenses that are available for Appsmith
-		- also crated a user flow POC for Appsmith and created a video of the workflow for backup
-		- got onto a call with YTI to showcase the overall workflow of Appsmith to YTI team
-		- got some suggestions on what to be done with Appsmith and how it is handling the user flow
-	- Aug 27, 2024
-		- worked on the  the deployment of Appsmith
-		- ran into errors on how the App needs to be packaged
-		- did some changes, but did not solve this problem
-	- Aug 28, 2024
-		- worked on the deployment of Appsmith
-		- figured out the path of Appsmith, but still having issues with the way how the assets are being packaged and handled
-		- need to figure out some errors on the packaging of assets
-	- Aug 29, 2024
-		- went to YTI
-		- worked on fixing some minor bugs of bi-viewer app
-		- also worked on Appsmith deployment. got a temporary fix for the file location of the assets folder
-		- need to find a way to place the assets folder into the correct folder location
-		- also need to look into some API call routing issues as the app has the wrong URI path
-	- Aug 30, 2024
-		- worked on a permanent fix for the location of the assets folder
-		- worked on getting the API path right. need to connect with Vasuki for further guidance on the same
-		- worked on docker tutorials for Assignment 6.1
-- September
-	- Sept 2, 2024
-		- retrieved the code from github to work again on local machine
-		- while pushing to prod, some changes caused errors in running on local
-		- worked on creating workspaces that are tenant specific in Appsmith
-	- Sept 3, 2024
-		- worked on Appsmith user spaces
-		- found how the default workspace and applications are created
-		- need to look into how the user roles and permissions will be taken into account
-		- need to look into how the user tenant information and permissions and roles are passed on to AppSmith
-	- Sept 4, 2024
-		- got the user's roles and tenant information
-		- need to figure out how to access these tenant information
-		- found out how the default workspaces and applications are being created, and changed them to show the tenant name (hard coded for now)
-		- once we figure out how to get the tenant name and roles and other information, should be able to set the workspace name based on the tenant name
-	- Sept 5, 2024
-		- went to YTI
-		- worked on receiving the platform token from the YDX platform side
-		- looked into how the user object and user class might require changes, did not require any
-		- understood the workflow of how the entire platform will validate the given user
-		- need to check how to implement the same in the Appsmith
-	- Sept 6, 2024
-		- worked completely on some last minute bug fixes for KBC release
-		- did not look into Appsmith. Have some idea on how to accept the platform token from the YDX platform
-	- Sept 9, 2024
-		- tried to get the token information from the URL side. the server implementation is done, but unable to test it due to cookies
-		- will try to instead capture it in the frontend and send it directly to the backend, than asking the backend to capture it directly
-		- tried to fix this subdomain deployment, but ran into issues during the build process. the JDK is giving us trouble
-		- was able to run individual containers for both SQL and Java application
-		- having some problem with the connection with both of them. mostly has to do with the SQL string
-		- need to establish a connection and then create a compose file to run both the containers in tandem
-	- Sept 10, 2024
-		- looked into capturing the token in the front end and then tried to process it in the client itself than in the server
-		- tried to get the different ways in which the backend server will be able to get the URL and log the user in
-		- was not possible to do so
-		- looked into an alternative way of logging the user in, but faced other issue of the application not having the correct type of tenants being passed
-	- Sept 11, 2024
-		- extracted the JWT from the token to get the tenant details
-		- passed this details to the workspace renaming
-		- renamed the workspace to the tenant name (currently tenant ID as we don't have access to the tenant name)
-		- once the renaming is done, we then redirect to the /applications home page which will reflect the workspace names
-	- Sept 12, 2024
-		- went to YTI
-		- managed to invite other users to the same workspace and give them access to the workspace
-		- also managed to find the tenant name and other details of the user
-		- need to delete the default workspace that gets created when user logs in
-	- Sept 13, 2024
-		- managed to changes the workflows for different user roles
-		- admins and non admins will do different workflow
-		- need to figure out how to pass the tenant workspace ID to fresh users so they can join the same workspace
-		- took a KT from Aman regarding deployment process and the basics of the structure of the entire YDX platform
-	- Sept 16, 2024
-		- deployed a version of Appsmith with SSO changes to dev portal
-		- created some endpoints that will help in getting the workspace ID and names
-		- running into issues with this, as the API seems to be failing with not much context of why it is failing
-		- got onto a weekly call with YTI team to show what is the update on appsmith SSO
-		- created containers for the Java application and the SQL container. both now communicate with each other
-		- need to push this code to Padma for review
-		- will be starting with Assignment 7
-	- Sept 17, 2024
-		- worked on Appsmith user spaces
-		- reworked the approach on how to invite users to the user space
-		- will now changes the permissions of the user to the required value
-		- form logins will now be the admin users, while the SSO will be the non admin users
-	- Sept 19, 2024
-		- worked on appsmith user permissions
-		- connected with Santosh from YTI for guacamole trouble shooting
-		- running into issues when trying to build it due to mismatch in the testing environment and the production environment
-	- Sept 20, 2024
-		- tried to build in the actual production environment, and confirmed the error
-		- the package used for creating the build is not supported on this version of Ubuntu (24.0)
-		- found some alternatives for this, but need to individually test them
-	- Sept 23, 2024
-		- finished assignment 7. will be pushing it for review
-		- started working on the alternative for checkinstall package for guacamole
-		- make seems to be a promising package, but needs further testing
-		- the other alternative is to make use of cPack. need to test this, if this method will fail
-	- Sept 24, 2024
-		- worked on Appsmith user space
-		- in the process of testing, ran into problems on the database
-		- had to redo the database to sort out the errors
-		- also passed the guacamole script and the .deb file to Veerabadhra and Santosh
-		- did not have any VMs that are currently available for usage, so waiting for them to test it
-		- need to finalise a decision on if the PATH needs to be changed by the script or if the service file by itself will call from the direct path
-	- Sept 25, 2024
-		- no updates on guacamole so far. still waiting for Veerabadra to test the script
-		- worked on guacamole user roles and permissions
-		- changes the users roles and was able to see it reflected in the app
-		- worked on admin workflow. found out where to remove the default workspace that is getting created, but not sure how to remove it without causing errors
-		- pushed Assignment 7 for review. need to check out Assignment 8 and start working on it
-	- Sept 26, 2024
-		- went to YTI office
-		- worked on guacamole script
-		- new requirements - the script should be able to install and setup tomcat, guacamole server and guacamole client
-		- worked on setting up tomcat and setting up guacamole client on tomcat
-		- worked on creating the script that will install the tomcat
-	- Sept 27, 2024
-		- created a new script that will install tomcat, guacamole server and guacamole client
-		- sat down with Vasuki and helped resolving some test cases
-		- took KT from Aman on how applications are deployed
-	- Sept 30, 2024
-		- worked on guacamole script. created the final script to install both server and client
-		- got onto a call with YTI and discussed the whitelabelling of the application
-- October
-	- Oct 1, 2024
-		- Went to YTI
-		- used a new extension to finalise the whitelabelling part of guacamole
-		- submitted the final script with the required changes in it
-		- still waiting for the final confirmation on which logo to use, to finalise on the branding.jar build
-		- wrote out documentation on the usage of the script and the user-mapping file
-	- Oct 3, 2024
-		- got onto a call with Santosh and helped setup postgres DB for user management in guacamole
-		- need to integrate setup of postgres DB into the initial setup
-		- worked on appsmith user management. need to check out the sync service code and understand how it works
-	- Oct 4, 2024
-		- was told to keep guacamole as the priority
-		- worked on guacamole integration with postgres
-		- created 80% of the script, but need to finalise some amount of the final touches
-		- still did not test the thing completely, will need to test it
-		- worked on Assignment 8. found that Intellij is creating the problems. will require to connect with Nithya to understand how to setup the servlet setup in Intellij
-		- if it the help is getting delayed, will be moving to STS tools to finish the assignment as soon as possible
-	- Oct 7, 2024
-		- worked on integrating guacamole with postgres database
-		- was able to connect the database to the guacamole and use it
-		- still did not integrate it with the script
-		- got onto a KT call with Aman. discussed about how to deploy the different apps and services during deployment
-	- Oct 8, 2024
-		- worked on integrating the postgres. integrated the postgres to the guacamole via the script
-		- made changes to the script to setup the postgres setup and the postgres details
-		- also changed the readme file to reflect the postgres changes and the default users that will be part of it
-		- removed the requirement of the user-mapping.xml file for the script to run
-	- Oct 9, 2024
-		- worked on the deployment of the guacamole script to the repository
-		- made some final touches to the readme file and the script and passed it for deployment
-		- resumed working on appsmith. took help from Mathew on how to get the workspace ID based on the workspace name. 
-		- seems to be working with some errors that depend on the initial code config. will have to iron out the bugs
-		- need to also look into a related issue which is to remove the creation of the default application. this seems to be a related issue to the issue from the previous point
-		- need to also look into the removing the user flow of the initial application setup. this is not required
-	- Oct 10, 2024
-		- looked into how the workspace id will be available provided we have the workspace name
-		- this seemed to have given some false positives. will require to contact Mathew once again on how to get the workspace ID.
-		- also found some places where the error seems to be arising from. will require to further debug it by not calling the function to create the default application
-	- Oct 11, 2024
-		- worked on appsmith user invite part
-		- worked out on how to invite the user to the required workspace
-		- will still require to figure out how to get the workspace ID.
-		- was not able to connect with anyone for the help, but didnt want to be also be blocked. so went ahead to the next step and will come back later
-	- Oct 14, 2024
-		- worked on appsmith inviting to the user workspace
-		- took Mathews help and was able to get the function to work
-		- yet to test if the required user workspace is available
-		- managed to port the code that will invite the user to the workspace
-		- worked on Assignment 8. was able to get the frontend jsp file to communicate with the backend servlet files.
-		- migrated assignment 7s front end files and assignment 6s database mapping files. yet to map the different functions in the DB mapping to different endpoints and test it
-		- need to make changes to the front end to use the actual values and not the dummy data
-	- Oct 15, 2024
-		- worked on appsmith default application creation
-		- worked with Mathew to figure out why the findByName function is not returning the required workspace
-		- the workspace mono is empty
-		- took a half day leave
-	- Oct 16, 2024
-		- worked on appsmith default application creation
-		- looked into how the default application is getting created
-		- tried to remove the calling the functions, but is still running into issues with the return types and the compilations
-		- worked on assignment 8. was able to create the different servlets and DBMapping functions
-		- still need to connect the front end jsp files to the different servlets
-	- Oct 17, 2024
-		- connected the different pages in the jsp files to the respective servlets
-		- still need to connect couple more of the final ones
-		- need to still write test cases for the servlets and need to pass it for review
-		- tested the creation of the workspace for the FORM login and SSO login. the SSO login is not causing any error so far, but the FORM login is now not going to the homepage
-		- the FORM login is redirecting to the login page once again, which is not the expected behavior
-	- Oct 18, 2024
-		- worked on the guacamole script
-		- postgres installation gave rise to some errors
-		- found the errors and made some changes to the script. still need to test the script on a completely new system
-		- planning to test it line by line on a new system
-	- Oct 21, 2024
-		- worked on the guacmole scirpt
-		- found the error originally are originating from the tomcat installation and got them fixed
-		- did some more testing and found some more potential bugs in the script
-		- fixed them and did a round of testing on the script
-		- need to still do some more testing on the final script
-		- worked on Assignment 8. while trying to add the dependency to the project for the test cases, managed to completely screw up the project
-		- will require help to understand how to add dependencies to the project without affecting the project running to write test cases
-	- Oct 22, 2024
-		- went to YTI
-		- fixed the guacamole postgres install script
-		- tested it on fresh new machine and confirmed it works
-		- pushed the code for further testing
-		- pushed Assignment 8 for initial review
-	- Oct 23, 2024
-		- worked on appsmith
-		- was able to figure out if the form credentials can be used to make API calls
-		- we can call the server using a FORM credentials to make further API calls. this call is required to get a token value
-		- worked on trying to figure out how to invite users to a workspace with a specific role or permission
-		- this is also possible, by calling a specific API before the actual invite API to get the different permission groups that are possible
-		- also got onto a call with Swamy to resolve some issues that are in the guacamole installation
-		- was able to fix the small issue and push the code out
-	- Oct 24, 2024
-		- got on a call with Surrendra to call the users to the workspace using API calls only
-		- was able to do the entire user workflow using just API calls
-		- created a postman collection to hold the same
-		- was able to find the workspace ID given the user's tenant name by using the home API call
-	- Oct 25, 2024
-		- worked on some additional requirements for guacamole with certificates
-		- got onto a call with Swamy to develop the script. finalized it and passed it for testing
-		- got review comments for Assignment 8. Need to rework on the assignment 8 servelets
-	- Oct 28, 2024
-		- worked on Appsmith deployment
-		- unsure of how to deploy Appsmith. So had to get help from the YTI team on the same
-		- showcased the sync service integration to the YTI team in the weekly meeting
-		- worked on Assignment 8. Had to recreate the servlets. Created the find servlet to also house the list functionality. The other functionalities need to be still mapped to different servlets
-	- Oct 29, 2024
-		- got onto a call with YTI team to discuss the deployment of Appsmith
-		- need to provide more specifications regarging the deployment of appsmith
-		- will require updating the specification documentation
-		- worked on test cases for the dashboard
-	- Oct 30, 2024
-		- worked on the test cases for dashboard
-		- worked on Appsmith deployment documentation
-- November
-	- Nov 4, 2024
-		- worked on test cases for the release
-		- worked on the appsmith deployment document after discussing with Aman
-		- got a KT regarding the niche-ui-comp project from Shruthi
-		- completed the Assignment 8 review changes. Reworked the entire assignment. pushed for review
-	- Nov 5, 2024
-		- worked on Appsmith deployment. wanted to push the code for further testing, but deployment had problems
-		- got onto a call with Santosh to resolve these deployment issues
-		- worked on the Appsmith SSO problem, where the ID of the user is returned and not the username
-	- Nov 6, 2024
-		- worked on Appsmith deployment. the values.yaml file was empty
-		- tried to get the values by debugging the existing values
-		- was unable to get the values from the debugging
-		- looked into the sync service. tried to do a simple API call in a sample project. did not work, will try again
-		- created a docker image of the local build, but was of not much use due to the blocker by the deployment issues
-	- Nov 7, 2024
-		- went to YTI
-		- worked on appsmith deployment. tried to look into Amans laptop for the updated values. weren't able to find out any of them on the laptop
-		- connected with Mallikarjun for the SAPCDC SSO part, but was unable to resolve the issue
-		- connected with Surrendra for the sync service code base. worked on the overall code flow of the different functionalities of sync service
-	- Nov 8, 2024
-		- worked on Appsmith bugs
-		- tried to resolve the bug where there is a 500 server error when a new SSO user is created
-		- tried to resolve this by backtracking the workspace changes. might have to do the workspace changes by using APIs from the sync service
-	- Nov 11, 2024
-		- worked on Appsmith bugs
-		- tried to connect with Mallikarjun for the sync service code, but wasn't able to
-		- Boobalan was also on leave, so Appsmith deployment was halted for today
-		- looked into the sync service code to understand the different update and delete functions
-		- looked into the reusable UI components library. took a pull and tried to install the branch locally
-		- tried to solve the SSO bugs in Appsmith, but was limited by the computer performance
-	- Nov 12, 2024
-		- connected with Surrendra to solve the SSO bug
-		- looked into the SSO, but was not able to get the required solution
-		- connected with Mallikarjun to get some feedback on the sync service code
-		- found 2 different ways to implement the sync service to Appsmith
-		- Got access to Assignment 9, need to look into it and start working on it
-	- Nov 13, 2024
-		- on leave, was not well
-	- Nov 14, 2024
-		- worked on AppSmith SSO bugs. Looked into why the SSO code is causing the user data to not be available.  
-		- wasn't able to debug and find the root cause. Still needs debugging  
-		- took a look into the sync service code. Yet to start working on AppSmith integration with it
-	- Nov 18, 2024
-		- worked on Appsmith bugs
-		- tried to resolve the VSCode lombok bug to get the debug to work
-		- looked into the classes that call the required oauth classes
-		- added some debug statements, need to debug further on the same issue
-	- Nov 19, 2024
-		- worked on sync service code
-		- was able to configure the local to get the build of the application
-		- was also able to run the application in development mode
-		- started working on sample functions to integrate with the sync service
-		- need to test the dev mode with postman calls to check what is happening
-		- need to resolve the namespace bugs to further develop the sync service
-	- Nov 25, 2024
-		- worked on debugging the VS code error with Surrendra
-		- decided to make use of Spring for the run and debug method
-		- found out that there is a mismatch in the scopes in what is received and what are requested
-		- worked on Sync service code. created a document of all the required documents that will be required for the sync service to work
-		- need to complete this document with the complete details of the API
-	- Nov 26 2024
-		- worked on debugging using introspect token
-		- integrated the introspect method to the application to try and understand the scopes that are being used
-		- wasn't able to get the scopes that were required in the debug
-	- Nov 27, 2024
-		- connected with Mallikarjun to understand if the scopes will be part of the access token. Scopes are not part of the access token the same way how github handles them
-		- need to look into alternate ways of finding out the scope values and then get the required values
-		- two potential ways is to override some classes and to find out more about the introspect method and implement it completely
-		- dev had issues with login. wasn't able to get the access token to work for the introspect call
-	- Nov 28, 2024
-		- went to YTI
-		- figured out the reason why the introspect is not working properly
-		- tried to look into the code to find out how to call the introspect call after token validation
-		- need to also try out a new way of adding scopes manually to the response to get the required values from Surrendra
-	- Nov 29, 2024
-		- worked on configuring the code to add the new response modifier
-		- ran into issues with the code, but was able to resolve them
-		- need to still test it with other approaches to get the code working properly
-- December
-	- Dec 2, 2024
-		- worked on SVG widget issue of not being able to save into the storage of the mini environment
-		- also worked on appsmith. . 
-		- looked into some more changes in the custom OIDC class to try and solve the user issue
-		- created the ER diagram of Assignment 9. also pushed the diagram for review
-	- Dec 3, 2024
-		- worked on Appsmith debug. connected with Surrendra to try and find a way to get the mono to work better, but was not working as intended
-		- worked on sync service code and tried to build it, but seems to be having some type of issues with how the code is created
-		- worked on the clean up of the code base and the commit of Assignment 8
-	- Dec 4, 2024
-		- worked on isolting mongo to a different laptop to reduce the computation burden on one PC
-		- was able to isolate it to a different PC and be able to run some debugs on top of it
-	- Dec 5, 2024
-		- went to YTI
-		- tried to arrange for a virtual machine for Appsmith development. but will take a while
-		- worked on SVG bugs and sent out fixes for the same. yet to be tested
-	- Dec 6, 2024
-		- worked on SVG fixes for a while
-		- was able to finally debug the issue of the email and the user information
-		- still needs some final tweaks in the code to set the source of the user to the right values
-		- started working on sync service code to add the required functions for the adduser implementation
-		- implemented the controller, but having issues with other aspects of the code
-	- Dec 9, 2024
-		- worked on SVG bugs. got some errors with the elements and the custom SVG upload
-		- tried resolving the issue, but the issue is deeper than what was initially anticipated
-		- worked on sync service code and tried to find out the required files for the build
-		- added the additional files, but found some more error with the keywords of the additional files
-	- Dec 10, 2024
-		- worked on SVG variable input bug. reworked the upload custom SVG component and fixed the bug
-		- looked into the sync service code to find the missing import issue.
-		- tried to contact Mallikarjun, but was unable to get him onto a call for the sync service code help
-		- still need to look into new SVG new tickets and sync service import code
-	- Dec 11, 2024
-		- worked on sync service code
-		- tried to implement a add user functionality to the code base
-		- wasn't able to link it properly and hence not able to build it
-	- Dec 12, 2024
-		- worked on sync service code
-		- was able to link the code successfully to the controller and hence call the functionality from an API call
-		- still need to edit the functionality to get the required functionality for Appsmith
-	- Dec 13, 2024
-		- had multiple interviews to handle
-		- looked into the different SVG tickets that were still pending
-		- need to implement 2 different functionalities in SVG widget - SVG resizing, filtering of tags in SVG from "Edit properties"
-	- Dec 16, 2024
-		- worked on appsmith VM issue. tried to connect to the VM, but was stuck with some VPN issues
-		- worked on SVG resizing issue. still need to find out the right formula for the "fit" and "fill" methods
-	- Dec 17, 2024
-		- worked on SVG resizing issue. was not able to find out the proper scaling for the fit and fill
-		- tried to work on Appsmith, but was stuck on the virtual machine issue. was still not able to connect with the VPN
-	- Dec 18, 2024
-		- went to YTI office. worked on Appsmith changes that need to be done for the deployed version
-		- made some extra changes to the Appsmith config map, but they don't seem to fit the right requirements in the initial login flow
-	- Dec 19, 2024
-		- worked on sync service code
-		- tried implementing the add users functionality
-		- stuck while sending the SESSION token to the further API calls
-	- Dec 20, 2024
-		- worked on sync service code
-		- was able to send the SESSION token to the API calls
-		- have one more final API call to make for the required user to be added to the group
-	- Dec 23, 2024
-		- worked on sync service code. was able to replicate the behavior of the other API calls
-		- changed the structure of the code to better match the existing ones
-	- Dec 24, 2023
-		- worked on cleaning up the sync service code to complete the add user implementation
-		- need to make more changes to the code to make it much cleaner and reduce the security risks
-	- Dec 26, 2024
-		- worked on sync user add user functionality
-		- finished the functionality, but wasn't able to test the final implementation of it due to restrictions from SAPCDC calls
-		- will try it out to tomorrow to wrap up that method
-	- Dec 27, 2024
-		- finished the implementation of addUser functionality
-		- started working on the implementation of update user functionality and the delete user functionality
-	- Dec 30, 2024
-		- completed working on appsmith sync service code
-		- started working on the unit test cases for sync service
-		- looked into whitelabeling of Appsmith
-		- got assignment 9 ER diagram reviewed by Padma. Need to make minor improvements in the ER diagram and then start with the queries of part 2
-	- Dec 31, 2024
-		- worked on appsmith test cases. finished the controller test cases. Still working on sync users and operations test cases
-		- looked into white labelling
-		- got onto a call with Ashish to discuss about the requirements of Appsmith 
+- 2024
+	- March
+	    - March 5, 2024
+	        
+	        - completed the assignment 0 in Java and also did minor changes to the test file
+	        - new objects are now being created before running any type of test
+	        - was waiting for review of the assignment from Suhas
+	    - March 6, 2024
+	        
+	        - received git tutorial and started working on it
+	        - started working on changes told by Suhas
+	        - also implemented the pyramid scheme problem
+	    - March 7, 2024
+	        
+	        - worked on the git crashcourse
+	        - made changes to project 0
+	        - attended orientation meeting
+	        - looked into test cases that can test print functions
+	    - March 8, 2024
+	        
+	        - worked on assignment 0 to bring about changes and optimise multiple problems
+	        - looked into file operations in Java
+	        - completed git crashcourse
+	        - yet to do more optimisations to the pyramid problem
+	        - need to check out about git merge conflicts
+	        - yet to push the assignment 0 to git
+	            - readme file in main branch
+	            - new branch for assignment 0 → push code to that branch → create a PR
+	    - March 11, 2024
+	        
+	        - finished working on assignment0
+	        - pushed into git and created a PR
+	        - accidentally also accepted the PR
+	        - need to change the structure of the entire repo to contain the proper structure
+	            - different folders for every assignment
+	            - one single readme file for the main branch
+	            - raise a PR for the assignemt0 branch to the main branch
+	    - March 12, 2024
+	        
+	        - received assignment 1 and finished working on the functions and the test cases
+	        - need to implement javadocs for this assignment
+	        - have some issues with github where one branch is ahead of the other. need to sort that out
+	        - should raise a PR with the javadocs implemented in assignment1
+	    - March 14, 2024
+	        
+	        - fixed the github branch naming issue where the names of the branches were done weirdly
+	        - pushed review changes of assignmen0 for review after modifying the test cases
+	        - pushed review changes of assignment1 for review
+	        - waiting for review of both assignment0 and assignment1
+	    - March 15, 2024
+	        
+	        - got assignment0 PR approved
+	        - also overloaded some function in assignment1 and pushed for PR
+	        - got onboard the YGX project
+	        - received assignment2, need to start working
+	    - March 18, 2024
+	        
+	        - completed initial working of assignment2
+	        - yet to complete test cases for assignment2
+	        - looked into different svg manipulation libraries
+	        - started working on a basic react app that can showcase the features of these libraries to see if it will be useful
+	    - March 19, 2024
+	        
+	        - worked on creating a react app that can dynamically render and edit svgs
+	        - realised, this might not be feasible as the svg needs to be properly organised based id, which is not possible when the user uploads custom svg
+	        - started created test cases for assignment2
+	        - pushed assignment2 and raised PR, although testcases are yet to be pushed
+	    - March 20, 2024
+	        
+	        - created a react app to check if SVGR library and the SVGMT library are working as required
+	        - SVGMT library works as per our requirement, and needs to be developed further
+	        - also worked on assignment2 and generated more testcases
+	        - need to work on assignment2 updates
+	        - need to work on react app. need to see if the svg reacts to global state data
+	    - March 21, 2024
+	        
+	        - worked on assignment2 updates
+	        - created a sample svg to test the capability of the svg library
+	        - had a KT on the working of the application
+	        - got access to the code and tried setting up the environment in local
+	    - March 22, 2024
+	        
+	        - worked on assignment2
+	        - created new components to test the functionality of d3.js and archer.js library
+	        - archer library did not work as per the requirements
+	        - d3 is somewhat better, but is not vastly different from the SVGMT library
+	        - if anything, d3 has a bigger community support and is more supported than SVGMT
+	    - March 25, 2024
+	        
+	        - looked into using css for creating svg
+	        - was not possible to edit the svg using external css, but was possible with internal css
+	        - worked on assignment 1 updates and assignment 2 updates
+	        - need to finalise assignment 2 and assignment 1 and push for review
+	    - March 26, 2024
+	        
+	        - worked on modifying svg with external css
+	            - this is not possible, as the only way we can is by adding the svg as inline code to the HTML doc
+	            - the other way to style a svg is to use style tag within the svg component, which does not align with our requirement
+	        - made changes to assignment1 and pushed for further review
+	    - March 27, 2024
+	        
+	        - made review changes to assignment1 and assignment2 and pushed both for PR
+	        - was asked to check if the SVGMT library can react to changes from a JSON object in the morning meeting
+	            - worked on this and created an app that will showcase the ability to changes the values of a svg based on external information
+	            - conveyed this information to Akash. waiting for response
+	        - got access to Jira and was assigned my first task
+	    - March 28, 2024
+	        
+	        - no update on assignment2 or assignment1
+	        - worked on removing any js scripts in svg
+	            - did this by completely removing the script tag from the svg element when it is first uploaded by the user
+	            - this might not be required, as the SVGMT library itself does not seem to allow scripts to run
+	                - no output from the script tag was seen when loading a svg with the SVGMT library
+	    - March 29, 2024    
+	- April
+	    - April 1, 2024
+	        
+	        assignments - 7, YTI - 1
+	        
+	        - started working on assignment 3
+	        - decided to implement quick sort method for the sort functionality
+	        - yet to implement sort and print to file methods
+	    - April 2, 2024
+	        
+	        assignments - 3, YTI - 5
+	        
+	        - worked on creating an app that reads data from css to be fed into the SVGMT library
+	        - was not possible to do so with the library
+	        - need to work on making the library react to changes to the text element of the SVG
+	        - need to go to Yokogawa office for laptop configuration
+	        - learn about quick sort
+	        - created a function to sort the array either into ascending or descending based on a boolean value
+	        - need to create a function to write to a file
+	        - need to create test case to test the functions of the class
+	    - April 3, 2024
+	        
+	        - went to YTI office to get laptop configured
+	        - got the laptop configured and got access to the different accounts of YTI
+	        - worked on manipulating text tag in SVG
+	    - April 4, 2024
+	        
+	        - wrote functions to write the contents to a file for assignment 3
+	        - started writing test cases for assignment 3
+	        - look into svg libraries that can manipulate the values of data inside the tags
+	        - SVGJS seemed to work as intended
+	    - April 5, 2024
+	        
+	        - created a react app with SVGJS that can manipulate the values of the text
+	        - also made the app read the values from a JSON object to change dynamically
+	        - wrote couple more test cases and pushed assignment 3 for review
+	        - after review worked on the deleteValue() function to perform better
+	    - April 8, 2024
+	        
+	        - looked into the code base to understand how the widgets are created
+	    - April 10, 2024
+	        
+	        - worked on review comments of assignment 3
+	        - pushed the assignment for next review
+	        - replicated the markdown widget to create a rudimentary widget for svg
+	        - got the document to create an widget from Ashish and created a svg widget. But still need to look into couple of steps of the same
+	    - April 11, 2024
+	        
+	        - worked on creating the svg as a widget
+	        - implemented the svg in the widget swap menu
+	        - configured the edit properties panel to show the “upload file” input and passed the file information to the widget
+	    - April 12, 2024
+	        
+	        - worked on passing the props to the svg to render as a URL
+	        - also worked on the default values that will be passed to the widget when initially loaded
+	        - cleaned up the widget
+	    - April 15, 2024
+	        
+	        - implemented merge sort operations besides the already existing quicksort
+	        - looked into static keywords and how it affects the program
+	        - some more minor changes in the assignment as per the review comments
+	        - solved the bug where the new svg is appending to the existing svg
+	        - looked into the svg scaling issue where the svg scales to a fixed value instead of the dimensions of the svg file
+	        - wrote documentation for the creating and implementing a new widget into the codebase and submitted it to Ashish
+	        - need to look into a way to list and query all the different IDs and classes that the svg has on offer and how the data will be bound to it
+	        - need to check if the svg is getting saved in the dashboard json file
+	    - April 16, 2024
+	        
+	        - worked on solving a github issue. Accidentally made it worse, so will require more work on the same
+	        - the svg that gets loaded would not be saved for a long time
+	        - the URL gets timed out and hence the svg would be replaced with a blank one
+	        - also looked into getting the different IDs of the elements of svg
+	    - April 17, 2024
+	        
+	        - solved the issue where the URL would time out
+	        - replaced the svgURL with the imgURL to get the updated URL and get the updated URL every time the URL is changed
+	        - also solved the git branch issue where files that should not have been deleted were deleted
+	    - April 18, 2024
+	        
+	        - went to YTI office
+	        - worked on getting the different IDs of the svg
+	        - made changes to remove the svg rendering from the useEffect
+	        - need to remove the fetch from the rendering code
+	    - April 19, 2024
+	        
+	        - worked on passing the array of elementID to the property from
+	        - created a redux store to hold the value of the elementID array
+	        - created a dispatch to send the value, but is running into problems
+	        - the dispatch is being called even before the entire svg is rendered. need to use useEffect to know when the dispatch needs to be sent
+	        - also the dispatch is receiving the imgUrl too. need to see where the value is coming from and need to rectify it with a different value that handles both the URL and the element array
+	    - April 22, 2024
+	        
+	        - worked on passing the element ID array to the property form
+	        - displayed the different IDs along with dummy attributes in 3 separate dropdowns
+	        - need to show the actual attributes and the possible mapping values in the third dropdown
+	        - also placed these dummy values into a JSON object. need to pass this JSON object back to the widget side to be able to make dynamic changes to the svg
+	    - April 23, 2024
+	        
+	        - started working on assignment4. wrote an initial draft of the LinkedNode and started working on the LinkedList file
+	        - need to create new branches for the previous assignments
+	        - worked on creating a JSON object for the svg values which will be sent from the property form to the widget
+	        - the widget is receiving the widget, and is mapping through them to dynamically change the svg
+	        - need to make sure only the required attributes of the element are showing up
+	        - also need to look into displaying the different data mappings that the user can link it to
+	    - April 24, 2024
+	        
+	        - worked on finding the different attributes for a particular element in the svg
+	        - passed these attributes as a list to the property form
+	        - need to still pass the data tags to the widget and see if the widget is reacting to the data
+	        - worked on assignment 4 part 1. created some basic methods and added javadocs for both the node class and the linkedlist class
+	        - also created the driver class
+	    - April 25, 2024
+	        
+	        - went to YTI office
+	        - created a new mapping and tested the working of the mapping to the svg widget
+	        - not sure how the data from the tags will be provided to make changes to the svg accordingly
+	    - April 26, 2024
+	        
+	        - requested lot of changes to the overall structure of the code
+	        - need to use less number of keys that are used by the widget
+	            - the data needs to get stored in the displayData of the widget than the widgetProperties
+	            - migrate the function of reading the different elements of the svg from the widget to the property form itself
+	            - remove the function of reading the different attributes of the elements and replace with semi-hardcoded values
+	        - also worked on assignment 4 part 1
+	            - worked on the remove function of the LinkedList
+	            - will aim to finish for first review by Monday
+	    - April 29, 2024
+	        
+	        - worked on transferring the svg reading file from the widget section to the property form section
+	        - also worked on showing a predefined set of attributes and not the list of all possible values
+	        - need to look into the how to read the value from the tag. will be looking into the card widget to know more about how the live data is being transferred to the card widget
+	        - pushed assignment 4.1 for review, will be starting with 4.2
+	    - April 30, 2024
+	        
+	        - worked on receiving data from the tags and passing the data to the widget to be displayed
+	        - also worked on storing the data in the widget displayData and not the widget display properties
+	        - started working on assignment 4.2
+	- May
+	    - May 2, 2024
+	        - looked at reading values from data tags
+	        - was able to read the values and able to convert the data to the tag data
+	        - yet to pass this data to the widget and pass it to the svg for rendering
+	    - May 3, 2024
+	        - looked into how to test the data in the widget
+	        - decided to place the tag data as a text in the svg
+	        - need to work on creating multiple inputs for the svg in the property form
+	        - worked on assignment 4.1 test cases and started working on assignment 4.2
+	    - May 6, 2024
+	        - worked on changing the property form of the svg widget
+	        - cleaned up the input form
+	        - added the support for multiple tag input
+	        - need to change the structure to hold multiple objects for input than a single object
+	    - May 7, 2024
+	        - worked on creating the drop down menu for the svg widget
+	        - now supports multiple input fields for multiple svg element selection objects
+	        - the multiple selection objects are also now being reflected in the svg
+	        - also worked on initial draft of assignment 4.2
+	    - May 8, 2024
+	        - finished working on the svg widget
+	        - made changes to the onBlur and onSelect functions to get the right value
+	        - worked on assignment 4.1 review comments
+	    - May 9, 2024
+	        - worked on assignment 4.1 review comments
+	        - pushed assignment 4.1 for review
+	        - removed the scale image option in the property form
+	        - worked on multiple approaches to re-render the svg once the changes are applied to the svg, but did not work
+	    - May 10, 2024
+	        - worked on rerendering the svg once the styling is applied to the complete svg using a hooks approach, but was not satisfactory
+	        - also cleaned up the entire code to be more easier to understand
+	        - worked on assingment 4.2 comparators and comparables
+	    - May 13, 2024
+	        - worked on assignment 4.3. refactored the code to be more decentralized to the other parts of the code
+	        - worked on re-rendering the svg once the changes in the attributes have changes in them
+	        - also got onto a call with YTI to discuss the progress on the svg widget
+	        - need to validate the svg that is being uploaded - see if it is a valid svg and if it does not have any type of JS in it
+	    - May 14, 2024
+	        - worked on validating the svg to be a valid svg
+	        - worked on checking if the svg contains any type of script tags or any event handllerse
+	        - cleaned up code for the live data of the svg
+	    - May 15, 2024
+	        - wanted bubble sort and merge sort both to be implemented for the linkedlist in assignment 4.2
+	        - worked on how to bubble sort in 4.3, but failed to implement
+	        - looked into SVGO for validating the svg - does not form a compelling option for validating svg, as the primary function is optimization
+	        - also looked into [snyk.io](http://snyk.io) for validation, but will be far from our requirements as it requires API calls and is priced very steep
+	    - May 16, 2024
+	        - went to YTI office
+	        - wrote a function that validates the svg with the fast-xml-parser library
+	        - also created a workflow where the user is warned about unsafe svg uploads
+	        - started working on highlighting the svg element based on hovering of the elements in the element list
+	        - need to dispatch this particular element to a dummy variable and pass it to the svg widget
+	    - May 17, 2024
+	        - worked on the highlighting effect of the different elements of the svg
+	        - managed to showcase the highlight of the element
+	        - it also reverts back to original state once the mouse is out of the element
+	    - May 20, 2024
+	        - worked on the sort function of the linkedlist
+	        - created a new merge sort function for 4.2
+	        - created a function that is currently partially sorting the list elements and not the entire list
+	        - worked on showing the initial data of the svg, but was not able to get the required result
+	        - also worked on the rerendering of the svg when an elements in the attribute array is removed, but was not able to make it work
+	    - May 21, 2024
+	        - scrapped the entire bubble sort method for 4.2
+	        - replaced it with insertion sort and merge sort methods
+	        - also worked on creating a graph mapping component for the svg widget
+	        - was able to create a sample line graph plot for hard coded numbers
+	    - May 22, 2024
+	        - worked on creating insertion sort and merge sort
+	        - completed merge sort and pushed for review
+	        - yet to complete insertion sort
+	        - resolved some issues in the graph for the time series data
+	    - May 23, 2024
+	        - went to YTI office
+	        - had to scrap the entire highlighting aspect of the svg element
+	        - also worked on some security concerns for the svg
+	        - need to make some changes for the input component for the svg
+	        - also implemented a method to rerender the svg once some element is removed from the property form
+	    - May 24, 2024
+	        - worked on the input component of the svg
+	        - also checked some other conditions that the svg upload might raise some concerns
+	        - worked on some review comments of assignment 4.2 and assignment 4.3
+	    - May 27, 2024
+	        - worked on the input component for the svg
+	        - created a switch that can switch between the different available methods
+	        - got onto a call with YTI for the feedback on the flow of the svg widget
+	        - was also asked for some changes in the workflow of the svg
+	    - May 28, 2024
+	        - worked on svg dropdown
+	        - was able to link the svg name to the link of the svg and pass it to the svg component
+	        - also need to fix an issue where the svg url is not getting stored in the JSON, and is hence returning an empty string once the dashboard is loaded in
+	    - May 29, 2024
+	        - wasnt able to fix the issue of loading the svg url to the JSON
+	        - started working on assignment 5 finished a draft version of the find function and the initial setup
+	    - May 30, 2024
+	        - done with the assessment today. sent the files to Suhas and Padma
+	        - also worked on showing a error message that will be shown if the file is reuploaded
+	        - still need to work on the problem where the imgUrl is not being saved in the JSON
+	        - also, need to work on a way to show the different IDs when the URL is loaded from the dropdown
+	    - May 31, 2024
+	        - worked on resolving the error of the svg imgUrl not displaying in the dashboard
+	        - worked on the find functions in assignment 5
+	- June
+	    - June 3, 2024
+	        - worked on assignment 5 find functions
+	        - also looked into the svg fetch function to get the different elements of the svg
+	    - June 4, 2024
+	        - finished assignment 5
+	        - also finished writing test cases for assignment 5
+	        - had a call with KBC where improvements for the svg widget were mentioned
+	            - need to update the regex for detecting the event handlers
+	            - also need to find a way to showcase only the essential elements that need to be changed and not all the elements
+	    - June 5, 2024
+	        - changed the svg iteration to use xPath
+	        - found a way to do eventhandlers in a better manner
+	        - checked if svg can hold a custom attribute
+	        - worked on a method that do not have an id
+	        - researched about svgs that use custom name space attributes
+	        - also worked on assignment 5 and got review comments
+	    - June 6, 2024
+	        - was on leave due to vehicle fitness certification
+	    - June 7, 2024
+	        - changed the approach to showcase both the svgs that do not have the custom attribute and the svgs that do have custom attribute
+	        - worked on assignment 5 review comments
+	        - made changes to the enum to manage most of the values
+	        - need to work on how to optimize the usage of hashmaps for assignment 5
+	    - June 10, 2024
+	        - worked on the optimization of usage of hashmaps in assignment 5
+	        - also started working on the new feature of getting a apache guacamole
+	        - need to create a simple way for the CICD to include the guacamole to be on the build
+	    - June 11, 2024
+	        - pushed svg widget for code review and deployement
+	        - got review comments, fixed and pushed again
+	        - installed apache guacamole on local linux machine
+	        - still need to install guacamole client program and connect to server
+	        - gave a KT for Kavitha and Sushma on the svg widget to explain them on how things work - required for them to perform testing on the svg widget
+	        - pushed assignment 5 for review
+	    - June 12, 2024
+	        - created jest test cases and ran the test case
+	        - looked into how to package the guacamole server into a .rpm package
+	        - was not able to compile it into a single .rpm file, need to check it with the rpm build package
+	    - June 13, 2024
+	        - went to YTI
+	        - worked on last minute changes to svg widget and confirming some behavior changes in the svg widget
+	    - June 14, 2024
+	        - worked on creating test cases for svg widget
+	        - did not finish the test cases for the entire widget
+	        - still have to make sure all the code is covered
+	    - June 17, 2024
+	        - was a holiday, but worked on that day due to deadlines. will take a comp off later
+	        - worked on increasing the coverage of the test cases for the svg test cases
+	    - June 18, 2024
+	        - worked on some last minute bugs from the testing of the svg
+	        - also did some more test case coverage and removal of duplicate code
+	    - June 19, 2024
+	        - worked on deployment of the svg widget branch to production
+	        - still need to create documentation for the svg widget
+	    - June 20, 2024
+	        - went to YTI office to release the SVG widget
+	        - gave a demo to Nilesh about the working of the widget
+	        - Also started working on the technical documentation of the SVG widget
+	    - June 21, 2024
+	        - created the .deb package for the guacamole server
+	        - also worked on assignment 5 to reduce the clutter in assignment 5 test cases
+	        - need to look into elastic search and implement it into assignment 5
+	    - June 24, 2024
+	        - worked on guacamole dependency resolution. added a way to include the required dependencies in the .deb package
+	        - also got onto a call with Vijay and Santosh from YTI to discuss more about the guacamole package
+	        - also made a fix for a bug in the upload and select svg component and created a PR for the same
+	        - also worked on assignment 5. made some changes to the person class to hold the data elements in a better way
+	        - also fixed some other review comments in the add and update functions
+	    - June 25, 2024
+	        - created a guacamole server .deb file also installs the required prerequisites
+	        - tested the installer on a fresh laptop and verified that it works as intended
+	        - created a doc that will explain the procedure of creating the .deb file if we have access to the .tar file
+	        - pushed assignment 5 code for review and awaiting both Padma and Sushas for their code review
+	    - June 26, 2024
+	        - installed tomcat on linux to get guacamole client application running
+	        - was not able to get the application to run
+	        - also had a small problem with the ubuntu not recognising the guacamole server when being run
+	        - needed to get review comments from Padma, but was not able to
+	        - got onto a call with Adi for a KT session with him for AppSmith configuration
+	    - June 27, 2024
+	        - worked on running the guacamole client on tomcat. not able to as most of the logs are not accessible even with super user access
+	        - also got a KT with Adithya on AppSmith
+	        - discussed with Padma on the review comments of assignment 5. made some changes on assignment 5
+	- July
+	    - July 1, 2024
+	        - worked only on Guacamole client testing
+	        - was able to run guacamole server and guacamole client
+	        - was not able to connect each other due to the lack of dependencies that were required for the connection, but was able to log in to the client user profile
+	        - sent in Assignment 5 for review for Padma
+	    - July 2, 2024
+	        - worked on guacamole client and server interaction
+	    - July 3, 2024
+	        - worked on guacamole packaging
+	        - got some tickets on SVG widget
+	    - July 4, 2024
+	        - went to YTI
+	        - resolved some bugs in the SVG widget
+	    - July 5, 2024
+	        - resolved some more bugs in the SVG widget
+	        - also worked on the guacamole client and server
+	        - was able to connect the server to the client
+	    - July 8, 2024
+	        - finished some minor bugs in the SVG widget
+	        - was also able to also create a VNC connection between the server and the client via the guacd
+	    - July 9, 2024
+	        - pushed the code to dev environment for the demo call for KBC from the YTI side
+	        - worked on the guacamole .deb package and created a script that will create the .deb file given the .tar file
+	        - also edited the wiki for the SVG widget
+	        - created docs for the guacamole server and creation of the .deb file along with the further steps
+	        - worked on assignment review comments and pushed it for review
+	    - July 10, 2024
+	        - worked on the changes required in the SVG widget for the next release
+	        - worked on the appsmith application. was able to start up all the required services for the appsmith to start up
+	        - got onto a call with Nilesh to talk about the different changes that took place in the SVG widget so that they can be documented into the wiki
+	        - created the final copy of the guacamole documentation which should be put up on confluence. need to update the confluence doc with the latest screen shots
+	    - July 11, 2024
+	        - went to YTI office
+	        - gave the demo for the SVG features
+	        - gave the demo for the guacamole implementation and the testing
+	        - updated the document on confluence
+	        - submitted the .deb installer and the script files to Aman to be uploaded to the editor repo
+		- July 15, 2024
+			- worked on appsmith project
+			- tried to set it up, but ran into some issues
+			- most likely an issue with the way how steps are being executed
+		- July 16, 2024
+			- worked on getting appsmith up and running
+			- was able to get appsmith running 
+			- worked on assignment 5 review comments 
+			- started working on assignment 6
+		- July 17, 2024
+			- worked on appsmith login part
+			- was able to configure the app to point to a SAP/CDC login page
+			- worked on configuring SQL database for assignment 6
+		- July 18, 2024
+			- worked on getting back the code form the SAP/CDC page of yokogava
+			- tried and failed multiple ways to extract the code from the redirect URL
+		- July 19, 2024
+			- worked on passing the SAP/CDC code of yokogava as a prop to the required component
+			- was able to pass the code to the component
+		- July 22, 2024
+			- tried and failed on using the code as a prop in the component
+			- worked on rerouting the app to get access to the code on the required component
+			- the next calls are going through, but the calls are failing due to CORs error
+			- contacted Mallikarjun regarding the same, waiting for response
+		- July 23, 2024
+			- worked on getting the appsmith JWT token
+			- was facing a CORS issue, but was able to solve it while sitting with Surrendra
+			- need to pass this JWT to the login for the application to pick up
+		- July 24, 2024
+			- worked on passing the JWT as a valid token for the login
+			- was not able to do so. main problem is the form sends as traditional username, password, while our application contains a JWT directly
+			- worked on porting the common code of assignment of 5 and 6
+			- need to create a table with the required columns and need to also write queries that will interact with them
+			- need to create a new driver class that will do both the initial connection and the query handling
+		- July 25, 2024
+			- went to YTI
+			- worked on appsmith routing
+			- traced where in the server is the API for the login 
+			- made some changes to the server code to see if any of the alternatives would work
+			- helped Sanjeeva with the tag values of his video widget
+		- July 26, 2024
+			- connected with Shubham to understand the workflow of the API
+			- looked into configuring the server to enable SSO login with third party login systems
+			- wrote some test cases for SVG widget new upload button
+			- Wrote SQL queries for Assignment 6
+		- July 29, 2024
+			- connected with Surrendra to figure out the workflow of the application
+			- found some headway into the possible Oauth2 integration methods
+			- worked on separation of code for SQL
+			- passed the security config file to Shubam for further discussion regarding the same
+		- July 30, 2024
+			- worked on replacing some values in the security config to find out the difference it makes
+			- replaced some values in the .env file to get the different outputs
+			- the login screen works, but the redirect URL does not seem to be working as intended
+		- July 31, 2024
+			- worked on redirect of the URL
+			- changed the .env file to test the different approach of SSO login
+			- also added various understand the workflow of the application
+	- August
+		- Aug 1, 2024
+			- successfully resolved and implemented the github SSO
+			- also understood the different functions that are used in SSO
+			- need to replicate this with the SAPCDC OAUTH2
+		- Aug 2, 2024
+			- integrated SAP CDC SSO into the application
+			- had errors from the securityconfig.java which still need to be resolved 
+			- client side work is completely done 
+		- Aug 5, 2024
+			- worked on some more changes in the server side to get the required SAPCDC SSO login
+			- the server is throwing the error of AuthorizationGrantType is not defined
+		- Aug 6, 2024
+			- got onto a call with Padma to discuss Assignment 6. Need to look into Model View Paradigm and make some changes to Assignment 6
+			- Worked on Appsmith and configured the server and client to detect SAP CDC to be a valid SSO provider
+			- Need to work on sending the client ID to the SSO providers
+		- Aug 7, 2024
+			- changes the client to point to the correct location in the server
+			- the server now point to the right location and is also able to pick the code from the provider
+		- Aug 8, 2024
+			- went to YTI
+			- received the JWK set URI from Mallikarjun
+			- need to configure the userNameAttribute for the application to get the correct user details
+		- Aug 9, 2024
+			- successfully logged in with SSO to Appsmith
+			- also looked into how to send the form data from Appsmith via API
+		- Aug 12, 2024
+			- worked on creating a mock server that will handle a REST API
+			- created a way in Appsmith to push the data to this API
+			- got onto a call with YTI team to discuss how to process the forms
+			- pushed assignment 6 for second review
+		- Aug 13, 2024
+			- worked on the overall flow of the Appsmith
+			- started creating the plugin that will connect to the DB
+			- worked on simulating a resource with test values for the sensors
+		- Aug 14, 2024
+			- worked on trying to setup a postgres DB on the local machine
+			- worked on accessing the encrypted setting details in the plugin
+		- Aug 19, 2024
+			- worked on connecting the workflow to the postgres DB
+			- not able to connect to them due to variation in the environments that they run at
+			- one is running on a WSL setup, while the other is running on a web application setup
+		- Aug 20, 2024
+			- was able to connect the plugins from console to the database
+			- the server is running on an EC2 instance that contains a postgresql DB
+			- need to now look into testing the entire flow 
+			- need to start working on the deployment of the application
+			- looked into some configuration settings for docker setup to understand how to proceed with assignment 6.1
+			- need to transfer the assignment from YTI laptop to the assignment laptop
+		- Aug 21, 2024
+			- was able to check the complete flow of the Appsmith forms
+			- started working on the deployment of the appsmith on the subdomain
+			- not able to complete the transfer to the subdomain. running into issues with the build directory
+		- Aug 26, 2024
+			- checked the different licenses that are available for Appsmith
+			- also crated a user flow POC for Appsmith and created a video of the workflow for backup
+			- got onto a call with YTI to showcase the overall workflow of Appsmith to YTI team
+			- got some suggestions on what to be done with Appsmith and how it is handling the user flow
+		- Aug 27, 2024
+			- worked on the  the deployment of Appsmith
+			- ran into errors on how the App needs to be packaged
+			- did some changes, but did not solve this problem
+		- Aug 28, 2024
+			- worked on the deployment of Appsmith
+			- figured out the path of Appsmith, but still having issues with the way how the assets are being packaged and handled
+			- need to figure out some errors on the packaging of assets
+		- Aug 29, 2024
+			- went to YTI
+			- worked on fixing some minor bugs of bi-viewer app
+			- also worked on Appsmith deployment. got a temporary fix for the file location of the assets folder
+			- need to find a way to place the assets folder into the correct folder location
+			- also need to look into some API call routing issues as the app has the wrong URI path
+		- Aug 30, 2024
+			- worked on a permanent fix for the location of the assets folder
+			- worked on getting the API path right. need to connect with Vasuki for further guidance on the same
+			- worked on docker tutorials for Assignment 6.1
+	- September
+		- Sept 2, 2024
+			- retrieved the code from github to work again on local machine
+			- while pushing to prod, some changes caused errors in running on local
+			- worked on creating workspaces that are tenant specific in Appsmith
+		- Sept 3, 2024
+			- worked on Appsmith user spaces
+			- found how the default workspace and applications are created
+			- need to look into how the user roles and permissions will be taken into account
+			- need to look into how the user tenant information and permissions and roles are passed on to AppSmith
+		- Sept 4, 2024
+			- got the user's roles and tenant information
+			- need to figure out how to access these tenant information
+			- found out how the default workspaces and applications are being created, and changed them to show the tenant name (hard coded for now)
+			- once we figure out how to get the tenant name and roles and other information, should be able to set the workspace name based on the tenant name
+		- Sept 5, 2024
+			- went to YTI
+			- worked on receiving the platform token from the YDX platform side
+			- looked into how the user object and user class might require changes, did not require any
+			- understood the workflow of how the entire platform will validate the given user
+			- need to check how to implement the same in the Appsmith
+		- Sept 6, 2024
+			- worked completely on some last minute bug fixes for KBC release
+			- did not look into Appsmith. Have some idea on how to accept the platform token from the YDX platform
+		- Sept 9, 2024
+			- tried to get the token information from the URL side. the server implementation is done, but unable to test it due to cookies
+			- will try to instead capture it in the frontend and send it directly to the backend, than asking the backend to capture it directly
+			- tried to fix this subdomain deployment, but ran into issues during the build process. the JDK is giving us trouble
+			- was able to run individual containers for both SQL and Java application
+			- having some problem with the connection with both of them. mostly has to do with the SQL string
+			- need to establish a connection and then create a compose file to run both the containers in tandem
+		- Sept 10, 2024
+			- looked into capturing the token in the front end and then tried to process it in the client itself than in the server
+			- tried to get the different ways in which the backend server will be able to get the URL and log the user in
+			- was not possible to do so
+			- looked into an alternative way of logging the user in, but faced other issue of the application not having the correct type of tenants being passed
+		- Sept 11, 2024
+			- extracted the JWT from the token to get the tenant details
+			- passed this details to the workspace renaming
+			- renamed the workspace to the tenant name (currently tenant ID as we don't have access to the tenant name)
+			- once the renaming is done, we then redirect to the /applications home page which will reflect the workspace names
+		- Sept 12, 2024
+			- went to YTI
+			- managed to invite other users to the same workspace and give them access to the workspace
+			- also managed to find the tenant name and other details of the user
+			- need to delete the default workspace that gets created when user logs in
+		- Sept 13, 2024
+			- managed to changes the workflows for different user roles
+			- admins and non admins will do different workflow
+			- need to figure out how to pass the tenant workspace ID to fresh users so they can join the same workspace
+			- took a KT from Aman regarding deployment process and the basics of the structure of the entire YDX platform
+		- Sept 16, 2024
+			- deployed a version of Appsmith with SSO changes to dev portal
+			- created some endpoints that will help in getting the workspace ID and names
+			- running into issues with this, as the API seems to be failing with not much context of why it is failing
+			- got onto a weekly call with YTI team to show what is the update on appsmith SSO
+			- created containers for the Java application and the SQL container. both now communicate with each other
+			- need to push this code to Padma for review
+			- will be starting with Assignment 7
+		- Sept 17, 2024
+			- worked on Appsmith user spaces
+			- reworked the approach on how to invite users to the user space
+			- will now changes the permissions of the user to the required value
+			- form logins will now be the admin users, while the SSO will be the non admin users
+		- Sept 19, 2024
+			- worked on appsmith user permissions
+			- connected with Santosh from YTI for guacamole trouble shooting
+			- running into issues when trying to build it due to mismatch in the testing environment and the production environment
+		- Sept 20, 2024
+			- tried to build in the actual production environment, and confirmed the error
+			- the package used for creating the build is not supported on this version of Ubuntu (24.0)
+			- found some alternatives for this, but need to individually test them
+		- Sept 23, 2024
+			- finished assignment 7. will be pushing it for review
+			- started working on the alternative for checkinstall package for guacamole
+			- make seems to be a promising package, but needs further testing
+			- the other alternative is to make use of cPack. need to test this, if this method will fail
+		- Sept 24, 2024
+			- worked on Appsmith user space
+			- in the process of testing, ran into problems on the database
+			- had to redo the database to sort out the errors
+			- also passed the guacamole script and the .deb file to Veerabadhra and Santosh
+			- did not have any VMs that are currently available for usage, so waiting for them to test it
+			- need to finalise a decision on if the PATH needs to be changed by the script or if the service file by itself will call from the direct path
+		- Sept 25, 2024
+			- no updates on guacamole so far. still waiting for Veerabadra to test the script
+			- worked on guacamole user roles and permissions
+			- changes the users roles and was able to see it reflected in the app
+			- worked on admin workflow. found out where to remove the default workspace that is getting created, but not sure how to remove it without causing errors
+			- pushed Assignment 7 for review. need to check out Assignment 8 and start working on it
+		- Sept 26, 2024
+			- went to YTI office
+			- worked on guacamole script
+			- new requirements - the script should be able to install and setup tomcat, guacamole server and guacamole client
+			- worked on setting up tomcat and setting up guacamole client on tomcat
+			- worked on creating the script that will install the tomcat
+		- Sept 27, 2024
+			- created a new script that will install tomcat, guacamole server and guacamole client
+			- sat down with Vasuki and helped resolving some test cases
+			- took KT from Aman on how applications are deployed
+		- Sept 30, 2024
+			- worked on guacamole script. created the final script to install both server and client
+			- got onto a call with YTI and discussed the whitelabelling of the application
+	- October
+		- Oct 1, 2024
+			- Went to YTI
+			- used a new extension to finalise the whitelabelling part of guacamole
+			- submitted the final script with the required changes in it
+			- still waiting for the final confirmation on which logo to use, to finalise on the branding.jar build
+			- wrote out documentation on the usage of the script and the user-mapping file
+		- Oct 3, 2024
+			- got onto a call with Santosh and helped setup postgres DB for user management in guacamole
+			- need to integrate setup of postgres DB into the initial setup
+			- worked on appsmith user management. need to check out the sync service code and understand how it works
+		- Oct 4, 2024
+			- was told to keep guacamole as the priority
+			- worked on guacamole integration with postgres
+			- created 80% of the script, but need to finalise some amount of the final touches
+			- still did not test the thing completely, will need to test it
+			- worked on Assignment 8. found that Intellij is creating the problems. will require to connect with Nithya to understand how to setup the servlet setup in Intellij
+			- if it the help is getting delayed, will be moving to STS tools to finish the assignment as soon as possible
+		- Oct 7, 2024
+			- worked on integrating guacamole with postgres database
+			- was able to connect the database to the guacamole and use it
+			- still did not integrate it with the script
+			- got onto a KT call with Aman. discussed about how to deploy the different apps and services during deployment
+		- Oct 8, 2024
+			- worked on integrating the postgres. integrated the postgres to the guacamole via the script
+			- made changes to the script to setup the postgres setup and the postgres details
+			- also changed the readme file to reflect the postgres changes and the default users that will be part of it
+			- removed the requirement of the user-mapping.xml file for the script to run
+		- Oct 9, 2024
+			- worked on the deployment of the guacamole script to the repository
+			- made some final touches to the readme file and the script and passed it for deployment
+			- resumed working on appsmith. took help from Mathew on how to get the workspace ID based on the workspace name. 
+			- seems to be working with some errors that depend on the initial code config. will have to iron out the bugs
+			- need to also look into a related issue which is to remove the creation of the default application. this seems to be a related issue to the issue from the previous point
+			- need to also look into the removing the user flow of the initial application setup. this is not required
+		- Oct 10, 2024
+			- looked into how the workspace id will be available provided we have the workspace name
+			- this seemed to have given some false positives. will require to contact Mathew once again on how to get the workspace ID.
+			- also found some places where the error seems to be arising from. will require to further debug it by not calling the function to create the default application
+		- Oct 11, 2024
+			- worked on appsmith user invite part
+			- worked out on how to invite the user to the required workspace
+			- will still require to figure out how to get the workspace ID.
+			- was not able to connect with anyone for the help, but didnt want to be also be blocked. so went ahead to the next step and will come back later
+		- Oct 14, 2024
+			- worked on appsmith inviting to the user workspace
+			- took Mathews help and was able to get the function to work
+			- yet to test if the required user workspace is available
+			- managed to port the code that will invite the user to the workspace
+			- worked on Assignment 8. was able to get the frontend jsp file to communicate with the backend servlet files.
+			- migrated assignment 7s front end files and assignment 6s database mapping files. yet to map the different functions in the DB mapping to different endpoints and test it
+			- need to make changes to the front end to use the actual values and not the dummy data
+		- Oct 15, 2024
+			- worked on appsmith default application creation
+			- worked with Mathew to figure out why the findByName function is not returning the required workspace
+			- the workspace mono is empty
+			- took a half day leave
+		- Oct 16, 2024
+			- worked on appsmith default application creation
+			- looked into how the default application is getting created
+			- tried to remove the calling the functions, but is still running into issues with the return types and the compilations
+			- worked on assignment 8. was able to create the different servlets and DBMapping functions
+			- still need to connect the front end jsp files to the different servlets
+		- Oct 17, 2024
+			- connected the different pages in the jsp files to the respective servlets
+			- still need to connect couple more of the final ones
+			- need to still write test cases for the servlets and need to pass it for review
+			- tested the creation of the workspace for the FORM login and SSO login. the SSO login is not causing any error so far, but the FORM login is now not going to the homepage
+			- the FORM login is redirecting to the login page once again, which is not the expected behavior
+		- Oct 18, 2024
+			- worked on the guacamole script
+			- postgres installation gave rise to some errors
+			- found the errors and made some changes to the script. still need to test the script on a completely new system
+			- planning to test it line by line on a new system
+		- Oct 21, 2024
+			- worked on the guacmole scirpt
+			- found the error originally are originating from the tomcat installation and got them fixed
+			- did some more testing and found some more potential bugs in the script
+			- fixed them and did a round of testing on the script
+			- need to still do some more testing on the final script
+			- worked on Assignment 8. while trying to add the dependency to the project for the test cases, managed to completely screw up the project
+			- will require help to understand how to add dependencies to the project without affecting the project running to write test cases
+		- Oct 22, 2024
+			- went to YTI
+			- fixed the guacamole postgres install script
+			- tested it on fresh new machine and confirmed it works
+			- pushed the code for further testing
+			- pushed Assignment 8 for initial review
+		- Oct 23, 2024
+			- worked on appsmith
+			- was able to figure out if the form credentials can be used to make API calls
+			- we can call the server using a FORM credentials to make further API calls. this call is required to get a token value
+			- worked on trying to figure out how to invite users to a workspace with a specific role or permission
+			- this is also possible, by calling a specific API before the actual invite API to get the different permission groups that are possible
+			- also got onto a call with Swamy to resolve some issues that are in the guacamole installation
+			- was able to fix the small issue and push the code out
+		- Oct 24, 2024
+			- got on a call with Surrendra to call the users to the workspace using API calls only
+			- was able to do the entire user workflow using just API calls
+			- created a postman collection to hold the same
+			- was able to find the workspace ID given the user's tenant name by using the home API call
+		- Oct 25, 2024
+			- worked on some additional requirements for guacamole with certificates
+			- got onto a call with Swamy to develop the script. finalized it and passed it for testing
+			- got review comments for Assignment 8. Need to rework on the assignment 8 servelets
+		- Oct 28, 2024
+			- worked on Appsmith deployment
+			- unsure of how to deploy Appsmith. So had to get help from the YTI team on the same
+			- showcased the sync service integration to the YTI team in the weekly meeting
+			- worked on Assignment 8. Had to recreate the servlets. Created the find servlet to also house the list functionality. The other functionalities need to be still mapped to different servlets
+		- Oct 29, 2024
+			- got onto a call with YTI team to discuss the deployment of Appsmith
+			- need to provide more specifications regarging the deployment of appsmith
+			- will require updating the specification documentation
+			- worked on test cases for the dashboard
+		- Oct 30, 2024
+			- worked on the test cases for dashboard
+			- worked on Appsmith deployment documentation
+	- November
+		- Nov 4, 2024
+			- worked on test cases for the release
+			- worked on the appsmith deployment document after discussing with Aman
+			- got a KT regarding the niche-ui-comp project from Shruthi
+			- completed the Assignment 8 review changes. Reworked the entire assignment. pushed for review
+		- Nov 5, 2024
+			- worked on Appsmith deployment. wanted to push the code for further testing, but deployment had problems
+			- got onto a call with Santosh to resolve these deployment issues
+			- worked on the Appsmith SSO problem, where the ID of the user is returned and not the username
+		- Nov 6, 2024
+			- worked on Appsmith deployment. the values.yaml file was empty
+			- tried to get the values by debugging the existing values
+			- was unable to get the values from the debugging
+			- looked into the sync service. tried to do a simple API call in a sample project. did not work, will try again
+			- created a docker image of the local build, but was of not much use due to the blocker by the deployment issues
+		- Nov 7, 2024
+			- went to YTI
+			- worked on appsmith deployment. tried to look into Amans laptop for the updated values. weren't able to find out any of them on the laptop
+			- connected with Mallikarjun for the SAPCDC SSO part, but was unable to resolve the issue
+			- connected with Surrendra for the sync service code base. worked on the overall code flow of the different functionalities of sync service
+		- Nov 8, 2024
+			- worked on Appsmith bugs
+			- tried to resolve the bug where there is a 500 server error when a new SSO user is created
+			- tried to resolve this by backtracking the workspace changes. might have to do the workspace changes by using APIs from the sync service
+		- Nov 11, 2024
+			- worked on Appsmith bugs
+			- tried to connect with Mallikarjun for the sync service code, but wasn't able to
+			- Boobalan was also on leave, so Appsmith deployment was halted for today
+			- looked into the sync service code to understand the different update and delete functions
+			- looked into the reusable UI components library. took a pull and tried to install the branch locally
+			- tried to solve the SSO bugs in Appsmith, but was limited by the computer performance
+		- Nov 12, 2024
+			- connected with Surrendra to solve the SSO bug
+			- looked into the SSO, but was not able to get the required solution
+			- connected with Mallikarjun to get some feedback on the sync service code
+			- found 2 different ways to implement the sync service to Appsmith
+			- Got access to Assignment 9, need to look into it and start working on it
+		- Nov 13, 2024
+			- on leave, was not well
+		- Nov 14, 2024
+			- worked on AppSmith SSO bugs. Looked into why the SSO code is causing the user data to not be available.  
+			- wasn't able to debug and find the root cause. Still needs debugging  
+			- took a look into the sync service code. Yet to start working on AppSmith integration with it
+		- Nov 18, 2024
+			- worked on Appsmith bugs
+			- tried to resolve the VSCode lombok bug to get the debug to work
+			- looked into the classes that call the required oauth classes
+			- added some debug statements, need to debug further on the same issue
+		- Nov 19, 2024
+			- worked on sync service code
+			- was able to configure the local to get the build of the application
+			- was also able to run the application in development mode
+			- started working on sample functions to integrate with the sync service
+			- need to test the dev mode with postman calls to check what is happening
+			- need to resolve the namespace bugs to further develop the sync service
+		- Nov 25, 2024
+			- worked on debugging the VS code error with Surrendra
+			- decided to make use of Spring for the run and debug method
+			- found out that there is a mismatch in the scopes in what is received and what are requested
+			- worked on Sync service code. created a document of all the required documents that will be required for the sync service to work
+			- need to complete this document with the complete details of the API
+		- Nov 26 2024
+			- worked on debugging using introspect token
+			- integrated the introspect method to the application to try and understand the scopes that are being used
+			- wasn't able to get the scopes that were required in the debug
+		- Nov 27, 2024
+			- connected with Mallikarjun to understand if the scopes will be part of the access token. Scopes are not part of the access token the same way how github handles them
+			- need to look into alternate ways of finding out the scope values and then get the required values
+			- two potential ways is to override some classes and to find out more about the introspect method and implement it completely
+			- dev had issues with login. wasn't able to get the access token to work for the introspect call
+		- Nov 28, 2024
+			- went to YTI
+			- figured out the reason why the introspect is not working properly
+			- tried to look into the code to find out how to call the introspect call after token validation
+			- need to also try out a new way of adding scopes manually to the response to get the required values from Surrendra
+		- Nov 29, 2024
+			- worked on configuring the code to add the new response modifier
+			- ran into issues with the code, but was able to resolve them
+			- need to still test it with other approaches to get the code working properly
+	- December
+		- Dec 2, 2024
+			- worked on SVG widget issue of not being able to save into the storage of the mini environment
+			- also worked on appsmith. . 
+			- looked into some more changes in the custom OIDC class to try and solve the user issue
+			- created the ER diagram of Assignment 9. also pushed the diagram for review
+		- Dec 3, 2024
+			- worked on Appsmith debug. connected with Surrendra to try and find a way to get the mono to work better, but was not working as intended
+			- worked on sync service code and tried to build it, but seems to be having some type of issues with how the code is created
+			- worked on the clean up of the code base and the commit of Assignment 8
+		- Dec 4, 2024
+			- worked on isolting mongo to a different laptop to reduce the computation burden on one PC
+			- was able to isolate it to a different PC and be able to run some debugs on top of it
+		- Dec 5, 2024
+			- went to YTI
+			- tried to arrange for a virtual machine for Appsmith development. but will take a while
+			- worked on SVG bugs and sent out fixes for the same. yet to be tested
+		- Dec 6, 2024
+			- worked on SVG fixes for a while
+			- was able to finally debug the issue of the email and the user information
+			- still needs some final tweaks in the code to set the source of the user to the right values
+			- started working on sync service code to add the required functions for the adduser implementation
+			- implemented the controller, but having issues with other aspects of the code
+		- Dec 9, 2024
+			- worked on SVG bugs. got some errors with the elements and the custom SVG upload
+			- tried resolving the issue, but the issue is deeper than what was initially anticipated
+			- worked on sync service code and tried to find out the required files for the build
+			- added the additional files, but found some more error with the keywords of the additional files
+		- Dec 10, 2024
+			- worked on SVG variable input bug. reworked the upload custom SVG component and fixed the bug
+			- looked into the sync service code to find the missing import issue.
+			- tried to contact Mallikarjun, but was unable to get him onto a call for the sync service code help
+			- still need to look into new SVG new tickets and sync service import code
+		- Dec 11, 2024
+			- worked on sync service code
+			- tried to implement a add user functionality to the code base
+			- wasn't able to link it properly and hence not able to build it
+		- Dec 12, 2024
+			- worked on sync service code
+			- was able to link the code successfully to the controller and hence call the functionality from an API call
+			- still need to edit the functionality to get the required functionality for Appsmith
+		- Dec 13, 2024
+			- had multiple interviews to handle
+			- looked into the different SVG tickets that were still pending
+			- need to implement 2 different functionalities in SVG widget - SVG resizing, filtering of tags in SVG from "Edit properties"
+		- Dec 16, 2024
+			- worked on appsmith VM issue. tried to connect to the VM, but was stuck with some VPN issues
+			- worked on SVG resizing issue. still need to find out the right formula for the "fit" and "fill" methods
+		- Dec 17, 2024
+			- worked on SVG resizing issue. was not able to find out the proper scaling for the fit and fill
+			- tried to work on Appsmith, but was stuck on the virtual machine issue. was still not able to connect with the VPN
+		- Dec 18, 2024
+			- went to YTI office. worked on Appsmith changes that need to be done for the deployed version
+			- made some extra changes to the Appsmith config map, but they don't seem to fit the right requirements in the initial login flow
+		- Dec 19, 2024
+			- worked on sync service code
+			- tried implementing the add users functionality
+			- stuck while sending the SESSION token to the further API calls
+		- Dec 20, 2024
+			- worked on sync service code
+			- was able to send the SESSION token to the API calls
+			- have one more final API call to make for the required user to be added to the group
+		- Dec 23, 2024
+			- worked on sync service code. was able to replicate the behavior of the other API calls
+			- changed the structure of the code to better match the existing ones
+		- Dec 24, 2023
+			- worked on cleaning up the sync service code to complete the add user implementation
+			- need to make more changes to the code to make it much cleaner and reduce the security risks
+		- Dec 26, 2024
+			- worked on sync user add user functionality
+			- finished the functionality, but wasn't able to test the final implementation of it due to restrictions from SAPCDC calls
+			- will try it out to tomorrow to wrap up that method
+		- Dec 27, 2024
+			- finished the implementation of addUser functionality
+			- started working on the implementation of update user functionality and the delete user functionality
+		- Dec 30, 2024
+			- completed working on appsmith sync service code
+			- started working on the unit test cases for sync service
+			- looked into whitelabeling of Appsmith
+			- got assignment 9 ER diagram reviewed by Padma. Need to make minor improvements in the ER diagram and then start with the queries of part 2
+		- Dec 31, 2024
+			- worked on appsmith test cases. finished the controller test cases. Still working on sync users and operations test cases
+			- looked into white labelling
+			- got onto a call with Ashish to discuss about the requirements of Appsmith
+- 2025
+	- January
+		- Jan 1, 2025
+			- Got onto a call with Santosh to explain the current state of Appsmith
+			- Explained the current state of Sync Service and the unit tests
+			- Focused on white labeling of Appsmith
+			- Worked on creating a basic user flow of Appsmith form which will accept the URL params
