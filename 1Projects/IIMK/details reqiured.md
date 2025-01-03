@@ -53,7 +53,7 @@ I sometimes find it challenging to prioritize effectively, especially when manag
 
 **What is your most significant accomplishment so far ?**
 
-During my pre final year of college, I discovered an opportunity to work as a social media manager for a fashion event. Despite my initial hesitation and fear of reaching out to unfamiliar people, I decided to step out of my comfort zone, made the call, and successfully secured the role. This experience was pivotal in building my confidence and strengthening my professional communication skills.
+During my pre final year of college, I discovered an opportunity to work as a social media manager for a freelance fashion event. Despite my initial hesitation and fear of reaching out to unfamiliar people, I decided to step out of my comfort zone, made the call, and successfully secured the role. This experience was pivotal in building my confidence and strengthening my professional communication skills.
 
 **What are your present hobbies ?**
 
