@@ -41,15 +41,15 @@ talk about how you can overcome the weakness and what I am currently doing to ov
 
 ~~I aspire to get a consulting role in a esteemed organization where I can drive impactful solutions and contribute to organizational success. To achieve this, I aim to enhance my management expertise, gain practical experience in business operations, and strengthen my team management capabilities. IIM Kozhikode aligns perfectly with my career aspirations, offering a platform to develop advanced business acumen, collaborate with a diverse peer group, and leverage opportunities that support my professional growth and long-term objectives.~~
 
-I have a strong ambition to solve complex business problems and create meaningful impact. While working as a developer has honed my technical skills, it has also limited me to a specific aspect of the solution. to create large-scale impact, I believe transitioning into a role such as general manager or a project manager would align with my aspirations.
+I have a strong ambition to solve complex business problems and create meaningful impact. While working as a developer has honed my technical skills, it has also limited me to a specific aspect of the solution. To create large-scale impact, I believe transitioning into a role which fosters collaboration across multiple levels and teams would align with my aspirations.
 
 IIMK offers the opportunity to develop my skills, with proper hands on experience and focus on business acumen. more over, being  from a tier 3 college, IIMK offers me much better opportunities to make the transition effective.
 
 **Describe your strengths and weakness as identified by you.**
 
-One of my key strengths is my ability to work effectively in team settings, fostering collaboration and ensuring that all perspectives are valued. I also possess strong communication skills, enabling me to articulate ideas clearly and build meaningful professional relationships. Additionally, I excel under pressure, maintaining focus and delivering high-quality results even in demanding situations.
+One of my key strengths is my ability to work effectively in team settings. I also possess strong communication skills, enabling me to articulate ideas clearly and build meaningful professional relationships.
 
-A key area for improvement is time management. I sometimes find it challenging to prioritize effectively, especially when managing multiple responsibilities. To address this, I have adopted tools such as planners and digital calendars to organize my tasks better. By consistently applying these methods, I am steadily improving my ability to manage time more efficiently and balance competing priorities effectively.
+I sometimes find it challenging to prioritize effectively, especially when managing multiple responsibilities. To address this, I have adopted tools such as planners and digital calendars to organize my tasks better. I need help in managing collaborations better. ~~By consistently applying these methods, I am steadily improving my ability to manage time more efficiently and balance competing priorities effectively.~~
 
 **What is your most significant accomplishment so far ?**
 
@@ -61,6 +61,6 @@ I have a strong interest in audiobooks, particularly those in the fantasy and sc
 
 **Any other information you would like to share ?**
 
-During my engineering studies, I explored affiliate marketing as a side hustle by managing an Instagram page. Within six months, the page gained over 6,000 followers, demonstrating my ability to grow an audience and create engaging content. However, despite the page's success in building a following, I was unable to monetize it effectively. This experience taught me valuable lessons about digital marketing strategies and the challenges of converting engagement into revenue.
+During my engineering studies, I explored affiliate marketing as a side hustle by managing an Instagram page. Within six months, the page gained over 6,000 followers, demonstrating my ability to grow an audience. However, despite the page's success in building a following, I was unable to monetize it effectively. This experience taught me valuable lessons about digital marketing strategies and the challenges of converting engagement into revenue.
 
-Additionally, I had the opportunity to lead a team in my college’s design department. We were responsible for creating digital assets and videos for the college cultural festival. Managing a team of multiple members under tight deadlines and adapting to frequent changes in requirements was challenging but rewarding. Through effective coordination and a shared commitment to quality, we successfully delivered all the necessary digital materials for the event. This experience honed my leadership, teamwork, and project management skills, all of which I continue to leverage in my professional endeavors.
+Additionally, I had the opportunity to lead a team in my college’s design department. We were responsible for creating digital assets and videos for the college cultural festival. Managing a team of multiple members under tight deadlines and adapting to frequent changes in requirements was challenging and rewarding. Through effective coordination and a shared commitment to quality, we successfully delivered all the necessary digital materials for the event. This experience honed my leadership, teamwork, and project management skills, all of which I continue to leverage in my professional endeavors.
