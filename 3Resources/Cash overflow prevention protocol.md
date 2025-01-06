@@ -1,7 +1,7 @@
 ## mouse
-- [zebronics wired](https://www.amazon.in/ZEBRONICS-Gaming-Rainbow-Precision-Buttons/dp/B0CG13FJ5M/ref=sr_1_3?sr=8-3)
-- [artic fox transparent wireless](https://www.amazon.in/Arctic-Fox-Transparent-Bluetooth-Rechargeable/dp/B0CP9NSXYJ/ref=sr_1_14?sr=8-14)
-- [evo fox wired](https://www.amazon.in/EvoFox-Spectre-Lighting-Breathing-White/dp/B0CNQ75PC8/ref=sr_1_16?sr=8-16)
+- ~~[zebronics wired](https://www.amazon.in/ZEBRONICS-Gaming-Rainbow-Precision-Buttons/dp/B0CG13FJ5M/ref=sr_1_3?sr=8-3)
+- ~~[artic fox transparent wireless](https://www.amazon.in/Arctic-Fox-Transparent-Bluetooth-Rechargeable/dp/B0CP9NSXYJ/ref=sr_1_14?sr=8-14)
+- ~~[evo fox wired](https://www.amazon.in/EvoFox-Spectre-Lighting-Breathing-White/dp/B0CNQ75PC8/ref=sr_1_16?sr=8-16)
 - [portronics wireless mouse](https://www.amazon.in/Portronics-Wireless-Bluetooth-Connectivity-Rechargeable/dp/B0BG8LZNYL?crid=45LYL8G7RP9T&dib=eyJ2IjoiMSJ9.9QZp3CLXta-C6BmopFOujpJldyefGRbRht8HF-9pk9ntYQkxNjBfAItd2lRDUr66pCViiBhrFgklCsHqw3-_MwtqJTgXpFmCr3rJQy_BObHBwWAjMFX364w0HE7oS-LpRmG8f8apUjJLCOCy1J8XXLmXzABbj3ikxzoVQzoXa_-uZEJ6c8-6imtjiMnOCYaP4LDAsj7T3Y_TGT7iwU-azxLjMMFbzn_eNp78wXcabiY.FPQWlv5XaEQvoUuS_BP5a3uyRezvFDCk4OuAbjDNHic&dib_tag=se&keywords=portronics+toad+one&nsdOptOutParam=true&qid=1736087795&sprefix=portonics+to,aps,605&sr=8-3)
 
 ## IEMs
