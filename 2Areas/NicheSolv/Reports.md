@@ -995,8 +995,17 @@
 			- got onto a call with Ashish to discuss about the requirements of Appsmith
 - 2025
 	- January
-		- Jan 1, 2025
+		- Jan 2, 2025
 			- Got onto a call with Santosh to explain the current state of Appsmith
 			- Explained the current state of Sync Service and the unit tests
 			- Focused on white labeling of Appsmith
 			- Worked on creating a basic user flow of Appsmith form which will accept the URL params
+		- Jan 3, 2025
+			- worked on appsmith whitelabeling
+			- finished the whitelabeling and showed the demo to YTI team
+			- created a sample app to show the user workflow from dashboard to appsmith
+		- Jan 6, 2025
+			- worked on final whitelabeling changes
+			- removed the workspaces and the share ability
+			- found a new bug, where the workflow of the user is getting created despite SSO logins
+			- tried to debug, but the issue still persists. trying to resolve this using the API method
