@@ -1009,3 +1009,9 @@
 			- removed the workspaces and the share ability
 			- found a new bug, where the workflow of the user is getting created despite SSO logins
 			- tried to debug, but the issue still persists. trying to resolve this using the API method
+		- Jan 7, 2025
+			- went to YTI
+			- worked on sync service test cases
+			- finished white labelling of Appsmith
+			- worked on appsmith server issue, but still have the same issue
+			- worked on some bug in bi editor and data mapping, solved it and pushed it for release
