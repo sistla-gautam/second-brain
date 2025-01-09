@@ -1015,3 +1015,6 @@
 			- finished white labelling of Appsmith
 			- worked on appsmith server issue, but still have the same issue
 			- worked on some bug in bi editor and data mapping, solved it and pushed it for release
+		- Jan 8, 2025
+			- worked on bugs in dashboard editor for the release
+			- fixed some bugs and code smells in the release
