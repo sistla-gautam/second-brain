@@ -1021,3 +1021,7 @@
 		- Jan 9, 2025
 			- worked on bugs for latest release
 			- started implementing wrapper classes for http clients in sync service code
+		- Jan 10, 2025
+			- worked on refactoring the code base into HTTP client wrappers
+			- refactored GET requests with wrapper classes
+			- still refactoring POST requests with wrapper classes
