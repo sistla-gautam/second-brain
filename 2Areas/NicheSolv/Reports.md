@@ -1025,3 +1025,4 @@
 			- worked on refactoring the code base into HTTP client wrappers
 			- refactored GET requests with wrapper classes
 			- still refactoring POST requests with wrapper classes
+			- still need to refactor other methods with wrapper classes
