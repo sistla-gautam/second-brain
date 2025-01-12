@@ -66,4 +66,4 @@
 		- new tech news, trends
 		- AI
 		- other trends
-		- meta, VR, AR
+		- metaverse, VR, AR
