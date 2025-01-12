@@ -8,6 +8,8 @@
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
     }
     ul {
       list-style-type: none;
@@ -27,6 +29,7 @@
       background: #f4f4f4;
       padding: 10px;
       border-radius: 5px;
+      overflow-x: auto;
     }
     #file-contents {
       margin-top: 20px;
@@ -35,30 +38,69 @@
       border-radius: 5px;
       background: #f9f9f9;
     }
+    .error {
+      color: #dc3545;
+      padding: 10px;
+      background: #f8d7da;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
   </style>
 </head>
 <body>
   <h1>GitHub Repository Browser</h1>
+  <div id="auth-section">
+    <input type="text" id="token-input" placeholder="Enter GitHub Personal Access Token" style="width: 300px; padding: 5px;">
+    <button onclick="saveToken()">Save Token</button>
+  </div>
   <div id="repo-info"></div>
   <ul id="file-list"></ul>
   <div id="file-contents"></div>
 
   <script>
-    const username = 'sistla-gautam'; // Replace with your GitHub username
-    const repo = 'second-brain'; // Replace with your repository name
-    const branch = 'main'; // Replace with your branch name
-    let currentPath = ''; // Keeps track of the current folder path
+    const username = 'sistla-gautam';
+    const repo = 'second-brain';
+    const branch = 'main';
+    let currentPath = '';
+    let githubToken = localStorage.getItem('githubToken');
+
+    function saveToken() {
+      const token = document.getElementById('token-input').value.trim();
+      if (token) {
+        localStorage.setItem('githubToken', token);
+        githubToken = token;
+        document.getElementById('token-input').value = '';
+        fetchRepoContents();
+      }
+    }
+
+    async function fetchWithAuth(url, options = {}) {
+      if (!githubToken) {
+        throw new Error('GitHub token not found. Please enter your Personal Access Token.');
+      }
+      
+      const headers = {
+        'Authorization': `token ${githubToken}`,
+        ...options.headers
+      };
+      
+      return fetch(url, { ...options, headers });
+    }
 
     async function fetchRepoContents(path = '') {
-      const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${path}?ref=${branch}`;
-      const response = await fetch(apiUrl);
+      try {
+        const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${path}?ref=${branch}`;
+        const response = await fetchWithAuth(apiUrl);
 
-      if (response.ok) {
-        const contents = await response.json();
-        displayContents(contents, path);
-        document.getElementById('file-contents').innerHTML = ''; // Clear file contents when navigating
-      } else {
-        document.getElementById('file-list').innerHTML = '<li>Error fetching contents.</li>';
+        if (response.ok) {
+          const contents = await response.json();
+          displayContents(contents, path);
+          document.getElementById('file-contents').innerHTML = '';
+        } else {
+          throw new Error(`Failed to fetch contents: ${response.statusText}`);
+        }
+      } catch (error) {
+        showError(error.message);
       }
     }
 
@@ -83,50 +125,79 @@
     }
 
     async function viewFile(filePath) {
-      const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${filePath}?ref=${branch}`;
-      const response = await fetch(apiUrl);
+      try {
+        const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${filePath}?ref=${branch}`;
+        const response = await fetchWithAuth(apiUrl);
 
-      if (response.ok) {
-        const fileData = await response.json();
-        const decodedContent = atob(fileData.content.replace(/\n/g, '')); // Decode Base64 content
+        if (response.ok) {
+          const fileData = await response.json();
+          const decodedContent = atob(fileData.content.replace(/\n/g, ''));
 
-        if (filePath.endsWith('.md')) {
-          renderMarkdown(decodedContent);
+          if (filePath.endsWith('.md')) {
+            await renderMarkdown(decodedContent);
+          } else {
+            document.getElementById('file-contents').innerHTML = `
+              <h2>Contents of ${filePath}</h2>
+              <pre><code>${escapeHtml(decodedContent)}</code></pre>
+            `;
+          }
         } else {
-          document.getElementById('file-contents').innerHTML = `
-            <h2>Contents of ${filePath}</h2>
-            <pre>${decodedContent}</pre>
-          `;
+          throw new Error(`Failed to load file: ${response.statusText}`);
         }
-      } else {
-        document.getElementById('file-contents').innerHTML = '<p>Error loading file contents.</p>';
+      } catch (error) {
+        showError(error.message);
       }
     }
 
     async function renderMarkdown(markdownContent) {
-      const apiUrl = 'https://api.github.com/markdown';
-      const response = await fetch(apiUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ text: markdownContent, mode: 'gfm' }), // 'gfm' = GitHub Flavored Markdown
-      });
+      try {
+        const apiUrl = 'https://api.github.com/markdown';
+        const response = await fetchWithAuth(apiUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            text: markdownContent,
+            mode: 'gfm',
+            context: `${username}/${repo}`
+          })
+        });
 
-      if (response.ok) {
-        const renderedHtml = await response.text();
-        document.getElementById('file-contents').innerHTML = `
-          <h2>Rendered Markdown</h2>
-          <div>${renderedHtml}</div>
-        `;
-      } else {
-        document.getElementById('file-contents').innerHTML = '<p>Error rendering Markdown.</p>';
+        if (response.ok) {
+          const renderedHtml = await response.text();
+          document.getElementById('file-contents').innerHTML = `
+            <h2>Rendered Markdown</h2>
+            <div class="markdown-body">${renderedHtml}</div>
+          `;
+        } else {
+          throw new Error(`Failed to render markdown: ${response.statusText}`);
+        }
+      } catch (error) {
+        showError(error.message);
       }
     }
 
     function navigateTo(path) {
       currentPath = path;
       fetchRepoContents(path);
+    }
+
+    function showError(message) {
+      const errorDiv = document.createElement('div');
+      errorDiv.className = 'error';
+      errorDiv.textContent = message;
+      document.getElementById('file-contents').innerHTML = '';
+      document.getElementById('file-contents').appendChild(errorDiv);
+    }
+
+    function escapeHtml(unsafe) {
+      return unsafe
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
     }
 
     // Initial fetch
