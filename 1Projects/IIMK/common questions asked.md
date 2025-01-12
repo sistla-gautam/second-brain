@@ -1,0 +1,69 @@
+- place where I am from
+	- state, capital city, famous places
+- place where I got admissions
+	- state, capital city, famous places
+- career details
+	- company motive
+	- client motive
+	- profits, investments
+	- other clients
+	- products and services offered
+	- clients profits
+- education
+	- when was it founded
+	- who
+	- other branches
+	- slogan
+	- courses offered
+- resume
+	- team setting scenario
+		- what was my contribution
+		- what was others contribution
+	- prioritizing tasks effectively
+		- what changes done
+		- what results have I seen
+	- significant accomplishment
+		- what was it
+		- how did it change
+	- audiobooks/books
+		- differences
+		- audible, amazon
+		- ready player one
+		- podcasts
+	- tech news
+		- general knowledge
+	- TTRPG
+- other things
+	- instagram page
+		- why it did not work
+		- what failed
+		- why stop
+		- changes to be made
+		- what did you learn
+	- design team
+		- what happened
+		- what changed
+		- how did it effect
+		- how to lead
+		- how to utilize in job
+- why MBA
+	- why here
+	- why not continue job
+	- what other options
+	- why not mTech
+- general knowledge
+	- india
+		- tech news
+		- sports news
+		- current affairs
+		- defense info
+		- economic info
+		- taxes
+	- state
+		- chief minister
+		- other ministers
+	- bangalore
+		- new tech news, trends
+		- AI
+		- other trends
+		- meta, VR, AR
