@@ -235,7 +235,6 @@
   </div>
 
   <script>
-    // JavaScript code remains the same as in the previous version
     const username = 'sistla-gautam';
     const repo = 'second-brain';
     const branch = 'main';
@@ -257,9 +256,116 @@
       mangle: false
     });
 
-    // Previous JavaScript functions remain the same...
-    // (fetchRepoContents, displayContents, viewFile, displayFileContents, etc.)
-    
+    function updateBreadcrumb(path) {
+      const parts = path ? path.split('/') : [];
+      const breadcrumb = document.getElementById('breadcrumb');
+      
+      let html = `<a href="#" onclick="navigateTo('')">root</a>`;
+      let currentPath = '';
+      
+      parts.forEach((part, index) => {
+        currentPath += (index === 0 ? part : '/' + part);
+        html += ` / <a href="#" onclick="navigateTo('${currentPath}')">${part}</a>`;
+      });
+      
+      breadcrumb.innerHTML = html;
+    }
+
+    async function fetchRepoContents(path = '') {
+      const fileContents = document.getElementById('file-contents');
+      fileContents.innerHTML = '<div class="loading">Loading...</div>';
+      
+      const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${path}?ref=${branch}`;
+      try {
+        const response = await fetch(apiUrl);
+        if (response.ok) {
+          const contents = await response.json();
+          displayContents(contents, path);
+          fileContents.innerHTML = '';
+          updateBreadcrumb(path);
+        } else {
+          throw new Error('Failed to fetch contents');
+        }
+      } catch (error) {
+        document.getElementById('file-list').innerHTML = '<li class="error">Error fetching contents.</li>';
+        fileContents.innerHTML = '';
+      }
+    }
+
+    function displayContents(contents, path) {
+      const fileList = document.getElementById('file-list');
+      fileList.innerHTML = '';
+      
+      if (path !== '') {
+        const parentPath = path.substring(0, path.lastIndexOf('/'));
+        fileList.innerHTML += `<li><a href="#" onclick="navigateTo('${parentPath}')">..</a></li>`;
+      }
+
+      // Sort contents: directories first, then files
+      contents.sort((a, b) => {
+        if (a.type !== b.type) {
+          return a.type === 'dir' ? -1 : 1;
+        }
+        return a.name.localeCompare(b.name);
+      });
+
+      contents.forEach(item => {
+        const listItem = document.createElement('li');
+        if (item.type === 'dir') {
+          listItem.innerHTML = `<a href="#" onclick="navigateTo('${item.path}')">📁 ${item.name}/</a>`;
+        } else {
+          listItem.innerHTML = `<a href="#" onclick="viewFile('${item.path}')">📄 ${item.name}</a>`;
+        }
+        fileList.appendChild(listItem);
+      });
+    }
+
+    async function viewFile(filePath) {
+      const fileContents = document.getElementById('file-contents');
+      fileContents.innerHTML = '<div class="loading">Loading file contents...</div>';
+      
+      const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${filePath}?ref=${branch}`;
+      try {
+        const response = await fetch(apiUrl);
+        if (response.ok) {
+          const fileData = await response.json();
+          const decodedContent = atob(fileData.content.replace(/\n/g, ''));
+          displayFileContents(filePath, decodedContent);
+        } else {
+          throw new Error('Failed to load file');
+        }
+      } catch (error) {
+        fileContents.innerHTML = '<div class="error">Error loading file contents.</div>';
+      }
+    }
+
+    function displayFileContents(filePath, content) {
+      const fileContentsDiv = document.getElementById('file-contents');
+      const isMarkdown = filePath.toLowerCase().endsWith('.md');
+      
+      let html = `<div class="file-header">${filePath}</div>`;
+      
+      if (isMarkdown) {
+        const renderedContent = marked.parse(content);
+        html += `<div class="markdown-body">${renderedContent}</div>`;
+      } else {
+        html += `<pre><code>${escapeHtml(content)}</code></pre>`;
+      }
+      
+      fileContentsDiv.innerHTML = html;
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function navigateTo(path) {
+      currentPath = path;
+      fetchRepoContents(path);
+    }
+
     // Initial fetch
     fetchRepoContents();
   </script>
