@@ -23,12 +23,23 @@
     a:hover {
       text-decoration: underline;
     }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+      overflow: auto;
+    }
+    #file-contents {
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
   <h1>GitHub Repository Browser</h1>
   <div id="repo-info"></div>
   <ul id="file-list"></ul>
+  <div id="file-contents"></div>
+
 
   <script>
     const username = 'sistla-gautam'; // Replace with your GitHub username
