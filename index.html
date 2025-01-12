@@ -43,6 +43,7 @@
       if (response.ok) {
         const contents = await response.json();
         displayContents(contents, path);
+        document.getElementById('file-contents').innerHTML = ''; // Clear file contents when navigating
       } else {
         document.getElementById('file-list').innerHTML = '<li>Error fetching contents.</li>';
       }
@@ -62,10 +63,31 @@
         if (item.type === 'dir') {
           listItem.innerHTML = `<a href="#" onclick="navigateTo('${item.path}')">${item.name}/</a>`;
         } else {
-          listItem.innerHTML = `<a href="${item.html_url}" target="_blank">${item.name}</a>`;
+          listItem.innerHTML = `<a href="#" onclick="viewFile('${item.path}')">${item.name}</a>`;
         }
         fileList.appendChild(listItem);
       });
+    }
+
+    async function viewFile(filePath) {
+      const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${filePath}?ref=${branch}`;
+      const response = await fetch(apiUrl);
+
+      if (response.ok) {
+        const fileData = await response.json();
+        const decodedContent = atob(fileData.content.replace(/\n/g, '')); // Decode Base64 content
+        displayFileContents(filePath, decodedContent);
+      } else {
+        document.getElementById('file-contents').innerHTML = '<p>Error loading file contents.</p>';
+      }
+    }
+
+    function displayFileContents(filePath, content) {
+      const fileContentsDiv = document.getElementById('file-contents');
+      fileContentsDiv.innerHTML = `
+        <h2>Contents of ${filePath}</h2>
+        <pre>${content}</pre>
+      `;
     }
 
     function navigateTo(path) {
