@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Repo Browser</title>
+  <title>GitHub Repo Browser with Markdown Rendering</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -23,24 +23,29 @@
     a:hover {
       text-decoration: underline;
     }
-    pre {
+    pre, code {
       background: #f4f4f4;
       padding: 10px;
       border-radius: 5px;
-      overflow: auto;
     }
     #file-contents {
       margin-top: 20px;
     }
+    .markdown-body {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+    }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css">
 </head>
 <body>
   <h1>GitHub Repository Browser</h1>
   <div id="repo-info"></div>
   <ul id="file-list"></ul>
-  <div id="file-contents"></div>
+  <div id="file-contents" class="markdown-body"></div>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     const username = 'sistla-gautam'; // Replace with your GitHub username
     const repo = 'second-brain'; // Replace with your repository name
@@ -87,18 +92,29 @@
       if (response.ok) {
         const fileData = await response.json();
         const decodedContent = atob(fileData.content.replace(/\n/g, '')); // Decode Base64 content
-        displayFileContents(filePath, decodedContent);
+        renderMarkdown(filePath, decodedContent);
       } else {
         document.getElementById('file-contents').innerHTML = '<p>Error loading file contents.</p>';
       }
     }
 
-    function displayFileContents(filePath, content) {
+    function renderMarkdown(filePath, content) {
       const fileContentsDiv = document.getElementById('file-contents');
-      fileContentsDiv.innerHTML = `
-        <h2>Contents of ${filePath}</h2>
-        <pre>${content}</pre>
-      `;
+
+      if (filePath.endsWith('.md')) {
+        // Use marked.js to render Markdown
+        const renderedMarkdown = marked(content);
+        fileContentsDiv.innerHTML = `
+          <h2>Contents of ${filePath}</h2>
+          <div>${renderedMarkdown}</div>
+        `;
+      } else {
+        // Display as plain text for non-Markdown files
+        fileContentsDiv.innerHTML = `
+          <h2>Contents of ${filePath}</h2>
+          <pre>${content}</pre>
+        `;
+      }
     }
 
     function navigateTo(path) {
