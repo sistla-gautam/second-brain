@@ -30,22 +30,19 @@
     }
     #file-contents {
       margin-top: 20px;
-    }
-    .markdown-body {
       border: 1px solid #ddd;
       padding: 20px;
       border-radius: 5px;
+      background: #f9f9f9;
     }
   </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css">
 </head>
 <body>
   <h1>GitHub Repository Browser</h1>
   <div id="repo-info"></div>
   <ul id="file-list"></ul>
-  <div id="file-contents" class="markdown-body"></div>
+  <div id="file-contents"></div>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     const username = 'sistla-gautam'; // Replace with your GitHub username
     const repo = 'second-brain'; // Replace with your repository name
@@ -92,28 +89,38 @@
       if (response.ok) {
         const fileData = await response.json();
         const decodedContent = atob(fileData.content.replace(/\n/g, '')); // Decode Base64 content
-        renderMarkdown(filePath, decodedContent);
+
+        if (filePath.endsWith('.md')) {
+          renderMarkdown(decodedContent);
+        } else {
+          document.getElementById('file-contents').innerHTML = `
+            <h2>Contents of ${filePath}</h2>
+            <pre>${decodedContent}</pre>
+          `;
+        }
       } else {
         document.getElementById('file-contents').innerHTML = '<p>Error loading file contents.</p>';
       }
     }
 
-    function renderMarkdown(filePath, content) {
-      const fileContentsDiv = document.getElementById('file-contents');
+    async function renderMarkdown(markdownContent) {
+      const apiUrl = 'https://api.github.com/markdown';
+      const response = await fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ text: markdownContent, mode: 'gfm' }), // 'gfm' = GitHub Flavored Markdown
+      });
 
-      if (filePath.endsWith('.md')) {
-        // Use marked.js to render Markdown
-        const renderedMarkdown = marked(content);
-        fileContentsDiv.innerHTML = `
-          <h2>Contents of ${filePath}</h2>
-          <div>${renderedMarkdown}</div>
+      if (response.ok) {
+        const renderedHtml = await response.text();
+        document.getElementById('file-contents').innerHTML = `
+          <h2>Rendered Markdown</h2>
+          <div>${renderedHtml}</div>
         `;
       } else {
-        // Display as plain text for non-Markdown files
-        fileContentsDiv.innerHTML = `
-          <h2>Contents of ${filePath}</h2>
-          <pre>${content}</pre>
-        `;
+        document.getElementById('file-contents').innerHTML = '<p>Error rendering Markdown.</p>';
       }
     }
 
