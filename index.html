@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Folder Contents Viewer</title>
+  <title>GitHub Repo Browser</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -16,40 +16,65 @@
     li {
       margin: 5px 0;
     }
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>Contents of the Folder</h1>
+  <h1>GitHub Repository Browser</h1>
+  <div id="repo-info"></div>
   <ul id="file-list"></ul>
 
   <script>
-    async function fetchFolderContents() {
-      try {
-        // Fetch the list of files using a local file server
-        const response = await fetch("https://github.com/sistla-gautam/second-brain/tree/main/");
-        const text = await response.text();
+    const username = 'sistla-gautam'; // Replace with your GitHub username
+    const repo = 'second-brain'; // Replace with your repository name
+    const branch = 'main'; // Replace with your branch name
+    let currentPath = ''; // Keeps track of the current folder path
 
-        // Parse the directory listing (works with simple file servers)
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(text, 'text/html');
-        const links = doc.querySelectorAll('a');
+    async function fetchRepoContents(path = '') {
+      const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${path}?ref=${branch}`;
+      const response = await fetch(apiUrl);
 
-        const fileList = document.getElementById('file-list');
-        links.forEach(link => {
-          const fileName = link.textContent;
-          if (fileName !== '../') { // Ignore parent directory link
-            const li = document.createElement('li');
-            li.textContent = fileName;
-            fileList.appendChild(li);
-          }
-        });
-      } catch (error) {
-        console.error('Error fetching folder contents:', error);
-        document.body.innerHTML = '<p>Error loading folder contents. Make sure you are running this on a local server.</p>';
+      if (response.ok) {
+        const contents = await response.json();
+        displayContents(contents, path);
+      } else {
+        document.getElementById('file-list').innerHTML = '<li>Error fetching contents.</li>';
       }
     }
 
-    fetchFolderContents();
+    function displayContents(contents, path) {
+      const fileList = document.getElementById('file-list');
+      fileList.innerHTML = '';
+
+      if (path !== '') {
+        const parentPath = path.substring(0, path.lastIndexOf('/'));
+        fileList.innerHTML += `<li><a href="#" onclick="navigateTo('${parentPath}')">../ (Go Back)</a></li>`;
+      }
+
+      contents.forEach(item => {
+        const listItem = document.createElement('li');
+        if (item.type === 'dir') {
+          listItem.innerHTML = `<a href="#" onclick="navigateTo('${item.path}')">${item.name}/</a>`;
+        } else {
+          listItem.innerHTML = `<a href="${item.html_url}" target="_blank">${item.name}</a>`;
+        }
+        fileList.appendChild(listItem);
+      });
+    }
+
+    function navigateTo(path) {
+      currentPath = path;
+      fetchRepoContents(path);
+    }
+
+    // Initial fetch
+    fetchRepoContents();
   </script>
 </body>
 </html>
