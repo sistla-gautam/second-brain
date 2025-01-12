@@ -3,67 +3,214 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Repo Browser</title>
-  <!-- Add marked.js for markdown rendering -->
+  <title>Second Brain</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"></script>
-  <!-- Add GitHub-like markdown styling -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #24292e;
+      --border-color: #e1e4e8;
+      --header-bg: #f6f8fa;
+      --link-color: #0366d6;
+      --pre-bg: #f4f4f4;
     }
+
+    [data-theme="dark"] {
+      --bg-color: #0d1117;
+      --text-color: #c9d1d9;
+      --border-color: #30363d;
+      --header-bg: #161b22;
+      --link-color: #58a6ff;
+      --pre-bg: #161b22;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      padding: 20px;
+      margin: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.3s ease;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .theme-toggle {
+      background: var(--header-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-color);
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
     ul {
       list-style-type: none;
       padding: 0;
+      background: var(--bg-color);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      margin: 0;
     }
+
     li {
-      margin: 5px 0;
+      margin: 0;
+      border-bottom: 1px solid var(--border-color);
     }
-    a {
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    li a {
+      padding: 8px 16px;
+      display: block;
+      color: var(--link-color);
       text-decoration: none;
-      color: #007bff;
     }
-    a:hover {
-      text-decoration: underline;
+
+    li a:hover {
+      background: var(--header-bg);
     }
+
     pre {
-      background: #f4f4f4;
-      padding: 10px;
-      border-radius: 5px;
+      background: var(--pre-bg);
+      padding: 16px;
+      border-radius: 6px;
       overflow: auto;
+      border: 1px solid var(--border-color);
+      margin: 0;
     }
+
     #file-contents {
       margin-top: 20px;
     }
+
     .markdown-body {
       box-sizing: border-box;
       min-width: 200px;
       max-width: 980px;
       margin: 0 auto;
-      padding: 45px;
-      border: 1px solid #e1e4e8;
-      border-radius: 6px;
+      padding: 20px;
+      border: 1px solid var(--border-color);
+      border-radius: 0 0 6px 6px;
+      background-color: var(--bg-color) !important;
+      color: var(--text-color) !important;
     }
+
     .file-header {
-      padding: 10px;
-      background: #f6f8fa;
-      border: 1px solid #e1e4e8;
+      padding: 16px;
+      background: var(--header-bg);
+      border: 1px solid var(--border-color);
       border-radius: 6px 6px 0 0;
       margin-bottom: -1px;
+      font-family: monospace;
+      font-size: 14px;
+    }
+
+    /* Dark theme overrides for markdown content */
+    [data-theme="dark"] .markdown-body {
+      color-scheme: dark;
+    }
+
+    [data-theme="dark"] .markdown-body a {
+      color: var(--link-color);
+    }
+
+    [data-theme="dark"] .markdown-body hr {
+      border-color: var(--border-color);
+    }
+
+    [data-theme="dark"] .markdown-body blockquote {
+      color: var(--text-color);
+      border-left-color: var(--border-color);
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .markdown-body {
+        padding: 15px;
+      }
+
+      pre {
+        max-width: 100%;
+        font-size: 14px;
+      }
+
+      .file-header {
+        font-size: 12px;
+      }
+    }
+
+    /* Loading indicator */
+    .loading {
+      text-align: center;
+      padding: 20px;
+      color: var(--text-color);
+    }
+
+    .breadcrumb {
+      margin-bottom: 15px;
+      padding: 8px 16px;
+      background: var(--header-bg);
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      overflow-x: auto;
+      white-space: nowrap;
     }
   </style>
 </head>
 <body>
-  <h1>GitHub Repository Browser</h1>
-  <div id="repo-info"></div>
-  <ul id="file-list"></ul>
-  <div id="file-contents"></div>
+  <div class="container">
+    <div class="header">
+      <h1>second Brain</h1>
+      <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+    </div>
+    <div class="breadcrumb" id="breadcrumb"></div>
+    <ul id="file-list"></ul>
+    <div id="file-contents"></div>
+  </div>
+
   <script>
     const username = 'sistla-gautam';
     const repo = 'second-brain';
     const branch = 'main';
     let currentPath = '';
+
+    // Theme management
+    function toggleTheme() {
+      const isDark = document.body.getAttribute('data-theme') === 'dark';
+      document.body.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    }
+
+    // Initialize theme from localStorage
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.body.setAttribute('data-theme', savedTheme);
 
     // Configure marked options
     marked.setOptions({
@@ -73,45 +220,86 @@
       mangle: false
     });
 
+    function updateBreadcrumb(path) {
+      const parts = path ? path.split('/') : [];
+      const breadcrumb = document.getElementById('breadcrumb');
+      
+      let html = `<a href="#" onclick="navigateTo('')">root</a>`;
+      let currentPath = '';
+      
+      parts.forEach((part, index) => {
+        currentPath += (index === 0 ? part : '/' + part);
+        html += ` / <a href="#" onclick="navigateTo('${currentPath}')">${part}</a>`;
+      });
+      
+      breadcrumb.innerHTML = html;
+    }
+
     async function fetchRepoContents(path = '') {
+      const fileContents = document.getElementById('file-contents');
+      fileContents.innerHTML = '<div class="loading">Loading...</div>';
+      
       const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${path}?ref=${branch}`;
-      const response = await fetch(apiUrl);
-      if (response.ok) {
-        const contents = await response.json();
-        displayContents(contents, path);
-        document.getElementById('file-contents').innerHTML = '';
-      } else {
-        document.getElementById('file-list').innerHTML = '<li>Error fetching contents.</li>';
+      try {
+        const response = await fetch(apiUrl);
+        if (response.ok) {
+          const contents = await response.json();
+          displayContents(contents, path);
+          fileContents.innerHTML = '';
+          updateBreadcrumb(path);
+        } else {
+          throw new Error('Failed to fetch contents');
+        }
+      } catch (error) {
+        document.getElementById('file-list').innerHTML = '<li class="error">Error fetching contents.</li>';
+        fileContents.innerHTML = '';
       }
     }
 
     function displayContents(contents, path) {
       const fileList = document.getElementById('file-list');
       fileList.innerHTML = '';
+      
       if (path !== '') {
         const parentPath = path.substring(0, path.lastIndexOf('/'));
-        fileList.innerHTML += `<li><a href="#" onclick="navigateTo('${parentPath}')">../ (Go Back)</a></li>`;
+        fileList.innerHTML += `<li><a href="#" onclick="navigateTo('${parentPath}')">..</a></li>`;
       }
+
+      // Sort contents: directories first, then files
+      contents.sort((a, b) => {
+        if (a.type !== b.type) {
+          return a.type === 'dir' ? -1 : 1;
+        }
+        return a.name.localeCompare(b.name);
+      });
+
       contents.forEach(item => {
         const listItem = document.createElement('li');
         if (item.type === 'dir') {
-          listItem.innerHTML = `<a href="#" onclick="navigateTo('${item.path}')">${item.name}/</a>`;
+          listItem.innerHTML = `<a href="#" onclick="navigateTo('${item.path}')">📁 ${item.name}/</a>`;
         } else {
-          listItem.innerHTML = `<a href="#" onclick="viewFile('${item.path}')">${item.name}</a>`;
+          listItem.innerHTML = `<a href="#" onclick="viewFile('${item.path}')">📄 ${item.name}</a>`;
         }
         fileList.appendChild(listItem);
       });
     }
 
     async function viewFile(filePath) {
+      const fileContents = document.getElementById('file-contents');
+      fileContents.innerHTML = '<div class="loading">Loading file contents...</div>';
+      
       const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${filePath}?ref=${branch}`;
-      const response = await fetch(apiUrl);
-      if (response.ok) {
-        const fileData = await response.json();
-        const decodedContent = atob(fileData.content.replace(/\n/g, ''));
-        displayFileContents(filePath, decodedContent);
-      } else {
-        document.getElementById('file-contents').innerHTML = '<p>Error loading file contents.</p>';
+      try {
+        const response = await fetch(apiUrl);
+        if (response.ok) {
+          const fileData = await response.json();
+          const decodedContent = atob(fileData.content.replace(/\n/g, ''));
+          displayFileContents(filePath, decodedContent);
+        } else {
+          throw new Error('Failed to load file');
+        }
+      } catch (error) {
+        fileContents.innerHTML = '<div class="error">Error loading file contents.</div>';
       }
     }
 
@@ -122,12 +310,10 @@
       let html = `<div class="file-header">${filePath}</div>`;
       
       if (isMarkdown) {
-        // Render markdown content
         const renderedContent = marked.parse(content);
         html += `<div class="markdown-body">${renderedContent}</div>`;
       } else {
-        // Display other files as plain text
-        html += `<pre>${escapeHtml(content)}</pre>`;
+        html += `<pre><code>${escapeHtml(content)}</code></pre>`;
       }
       
       fileContentsDiv.innerHTML = html;
