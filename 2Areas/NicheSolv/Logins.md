@@ -20,10 +20,11 @@
 
 ### Github tokens
 
-| Token name | Token                                    | Account       |
-| ---------- | ---------------------------------------- | ------------- |
-| YTI-laptop | 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 | gautam-ns     |
-| YTI-laptop | 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 | sistla-gautam |
+| Token name       | Token                                    | Account       |
+| ---------------- | ---------------------------------------- | ------------- |
+| YTI-laptop       | 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 | gautam-ns     |
+| YTI-laptop       | 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 | sistla-gautam |
+| YTI-laptop (new) | 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 | sistla-gautam |
 
 ### Github recovery codes
 22951-5f735 9ea7c-1cf73 15591-a7cb8 c4c73-65913 65b19-6270a 59a76-c5671 941ce-ac2cf 9ccfc-07d9a 41167-24f3a 6801a-d31ff 07096-42797 33a99-bf57c 26216-0701c 75be4-cf95b 729b5-8a799 fa261-bdb93
