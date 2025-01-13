@@ -5,3 +5,9 @@
 - [ ] breaking Rosalind
 - [ ] [limitless trilogy](https://www.amazon.in/Black-Swan-Improbable-Randomness-Antifragile/dp/B09GYFSWN8/262-4393834-8109511?pd_rd_w=qg7t3&content-id=amzn1.sym.6d6d3d39-5982-495f-839b-479a2134f3e8&pf_rd_p=6d6d3d39-5982-495f-839b-479a2134f3e8&pf_rd_r=4ZTA5H14TMBDHRSY3ZV7&pd_rd_wg=OELZd&pd_rd_r=ae00b9ca-a174-4e5a-a484-c46c8b939501&pd_rd_i=B09GYFSWN8&psc=1)
 - [ ] million dollar weekend
+- [ ] dopamine nation
+- [ ] diary of a CEO
+- [ ] great thinkers
+- [ ] antifragile
+- [ ] the go giver
+- [ ] oversubscribed

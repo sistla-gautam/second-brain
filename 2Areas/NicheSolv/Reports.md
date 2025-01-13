@@ -1026,3 +1026,10 @@
 			- refactored GET requests with wrapper classes
 			- still refactoring POST requests with wrapper classes
 			- still need to refactor other methods with wrapper classes
+		- Jan 13, 2025
+			- worked on the appsmith workspace issue
+			- tried out a method, but it only seems to resolve the issue to a certain extent
+			- need to try out other methods to figure out what happened
+			- worked on sync service code and got the PUT method resolution
+			- yet to implement the solution
+			- finished assignment 9. need to push it for review
