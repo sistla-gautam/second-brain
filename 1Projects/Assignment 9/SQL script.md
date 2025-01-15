@@ -552,7 +552,7 @@ WHERE school_id = 2;
 DELETE FROM School 
 WHERE school_id = 2;
 
-SELECT * FROM School;
+-- SELECT * FROM School;
 
 -- Grade CRUD
 INSERT INTO Grade (grade_id, school_id, grade_number) 
@@ -565,7 +565,7 @@ WHERE grade_id = 5;
 DELETE FROM Grade 
 WHERE grade_id = 5;
 
-SELECT * FROM Grade;
+-- SELECT * FROM Grade;
 
 -- Section CRUD
 INSERT INTO Section (section_id, grade_id, section_name, class_teacher_id) 
@@ -578,7 +578,7 @@ WHERE section_id = 6;
 DELETE FROM Section 
 WHERE section_id = 6;
 
-SELECT * FROM Section;
+-- SELECT * FROM Section;
 
 -- Student CRUD
 INSERT INTO Student (student_id, first_name, last_name, date_of_birth, phone_number, section_id) 
@@ -591,7 +591,7 @@ WHERE student_id = 7;
 DELETE FROM Student 
 WHERE student_id = 7;
 
-SELECT * FROM Student;
+-- SELECT * FROM Student;
 
 -- Staff CRUD
 INSERT INTO Staff (staff_id, school_id, first_name, last_name, is_teaching, phone_number) 
@@ -604,21 +604,24 @@ WHERE staff_id = 8;
 DELETE FROM Staff 
 WHERE staff_id = 8;
 
-SELECT * FROM Staff;
+-- SELECT * FROM Staff;
 
 -- REPORTS
 
 -- 1. How many staff members are there in the school?
+PRINT 'How many staff members are there in the school?';
 SELECT COUNT(*) as total_staff
 FROM Staff
 WHERE school_id = 1;
 
 -- 2. How many staff members are teachers?
+PRINT 'How many staff members are teachers?';
 SELECT COUNT(*) as total_teachers
 FROM Staff
 WHERE school_id = 1 AND is_teaching = 1;
 
 -- 3. For each teacher, report the number of subjects they are teaching
+PRINT 'For each teacher, report the number of subjets they are teaching';
 SELECT 
     s.staff_id,
     s.first_name + ' ' + s.last_name as teacher_name,
@@ -629,6 +632,7 @@ WHERE s.is_teaching = 1
 GROUP BY s.staff_id, s.first_name, s.last_name;
 
 -- 4. Which subject is taught by the most number of teachers?
+PRINT 'Which subject is taught by the most number of teachers?';
 SELECT TOP 1
     s.name as subject_name,
     COUNT(DISTINCT ts.staff_id) as teachers_count
@@ -638,6 +642,7 @@ GROUP BY s.subject_id, s.name
 ORDER BY teachers_count DESC;
 
 -- 5. How many students are in a given section?
+PRINT 'How many students are in a given section?';
 DECLARE @section_id INT = 1;
 SELECT 
     COUNT(*) as student_count
@@ -645,6 +650,7 @@ FROM Student
 WHERE section_id = @section_id;
 
 -- 6. What fraction of the staff are teachers?
+PRINT 'What fraction of the staff are teachers?';
 SELECT 
     CAST(SUM(CASE WHEN is_teaching = 1 THEN 1 ELSE 0 END) AS FLOAT) / 
     COUNT(*) as teacher_fraction
@@ -652,6 +658,7 @@ FROM Staff
 WHERE school_id = 1;
 
 -- 7. How many students are in a given grade?
+PRINT 'How many students are in a given grade?';
 DECLARE @grade_id INT = 1;
 SELECT 
     COUNT(*) as student_count
@@ -660,6 +667,7 @@ JOIN Section sec ON s.section_id = sec.section_id
 WHERE sec.grade_id = @grade_id;
 
 -- 8. Who is the class teacher of a given student?
+PRINT 'Who is the class teacher of a given student?';
 DECLARE @student_id INT = 1;
 SELECT 
     st.first_name + ' ' + st.last_name as class_teacher_name
@@ -669,6 +677,7 @@ JOIN Staff st ON sec.class_teacher_id = st.staff_id
 WHERE s.student_id = @student_id;
 
 -- 9. What subjects does a given grade have?
+PRINT 'What subjects does a given grade have?';
 DECLARE @grade_id_for_subjects INT = 1;
 SELECT 
     s.name as subject_name
@@ -677,6 +686,7 @@ JOIN GradeSubject gs ON s.subject_id = gs.subject_id
 WHERE gs.grade_id = @grade_id_for_subjects;
 
 -- 10. How many sections is a given teacher teaching?
+PRINT 'How many sections is a given teacher teaching?';
 DECLARE @teacher_id INT = 1;
 SELECT 
     COUNT(DISTINCT section_id) as sections_count
@@ -684,6 +694,7 @@ FROM SectionTeacher
 WHERE staff_id = @teacher_id;
 
 -- 11. What is the average number of sections a teacher is teaching?
+PRINT 'What is the average number of sections a teacher is teaching?';
 SELECT 
     AVG(sections_per_teacher) as avg_sections
 FROM (
@@ -695,6 +706,7 @@ FROM (
 ) as teacher_sections;
 
 -- 12. In a given week, how many hours is a teacher teaching?
+PRINT 'In a given week, how many hours is a teacher teaching?';
 DECLARE @week_teacher_id INT = 1;
 SELECT 
     COUNT(*) as total_periods
@@ -702,6 +714,7 @@ FROM Timetable
 WHERE teacher_id = @week_teacher_id;
 
 -- 13. For a given section, how many hours of each subject is being taught per week?
+PRINT 'For a given section, how many hours of each subject is being taught per week?';
 DECLARE @section_id_for_hours INT = 1;
 SELECT 
     s.name as subject_name,
@@ -713,6 +726,7 @@ GROUP BY s.subject_id, s.name
 ORDER BY periods_per_week DESC;
 
 -- 14. How many language teachers are there in the school?
+PRINT 'How many language teachers are there in the school?';
 SELECT 
     COUNT(DISTINCT ts.staff_id) as language_teachers_count
 FROM TeacherSubject ts
