@@ -1033,3 +1033,13 @@
 			- worked on sync service code and got the PUT method resolution
 			- yet to implement the solution
 			- finished assignment 9. need to push it for review
+		- Jan 15, 2024
+			- worked on Appsmith workspace issue
+			- divided the issue into multiple smaller issues
+			- resolved the FORM login positive and negative workflow
+			- got onto a call with Santosh for discussing a bug in SVG
+		- Jan 16, 2024
+			- worked on Appsmith workspace issue
+			- resolved the SSO positive workflow
+			- will require to further fine tune the proper roles for the SSO user
+			- got a VPN issue resolved. able to connect to the VM now
