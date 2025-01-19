@@ -1,0 +1,52 @@
+- January
+	- Jan 2, 2025
+		- Got onto a call with Santosh to explain the current state of Appsmith
+		- Explained the current state of Sync Service and the unit tests
+		- Focused on white labeling of Appsmith
+		- Worked on creating a basic user flow of Appsmith form which will accept the URL params
+	- Jan 3, 2025
+		- worked on appsmith whitelabeling
+		- finished the whitelabeling and showed the demo to YTI team
+		- created a sample app to show the user workflow from dashboard to appsmith
+	- Jan 6, 2025
+		- worked on final whitelabeling changes
+		- removed the workspaces and the share ability
+		- found a new bug, where the workflow of the user is getting created despite SSO logins
+		- tried to debug, but the issue still persists. trying to resolve this using the API method
+	- Jan 7, 2025
+		- went to YTI
+		- worked on sync service test cases
+		- finished white labelling of Appsmith
+		- worked on appsmith server issue, but still have the same issue
+		- worked on some bug in bi editor and data mapping, solved it and pushed it for release
+	- Jan 8, 2025
+		- worked on bugs in dashboard editor for the release
+		- fixed some bugs and code smells in the release
+	- Jan 9, 2025
+		- worked on bugs for latest release
+		- started implementing wrapper classes for http clients in sync service code
+	- Jan 10, 2025
+		- worked on refactoring the code base into HTTP client wrappers
+		- refactored GET requests with wrapper classes
+		- still refactoring POST requests with wrapper classes
+		- still need to refactor other methods with wrapper classes
+	- Jan 13, 2025
+		- worked on the appsmith workspace issue
+		- tried out a method, but it only seems to resolve the issue to a certain extent
+		- need to try out other methods to figure out what happened
+		- worked on sync service code and got the PUT method resolution
+		- yet to implement the solution
+		- finished assignment 9. need to push it for review
+	- Jan 15, 2024
+		- worked on Appsmith workspace issue
+		- divided the issue into multiple smaller issues
+		- resolved the FORM login positive and negative workflow
+		- got onto a call with Santosh for discussing a bug in SVG
+	- Jan 16, 2024
+		- worked on Appsmith workspace issue
+		- resolved the SSO positive workflow
+		- will require to further fine tune the proper roles for the SSO user
+		- got a VPN issue resolved. able to connect to the VM now
+	- Jan 17, 2024
+		- worked on Appsmith deployment
+		- got onto a call with Ashish for the deployment 
