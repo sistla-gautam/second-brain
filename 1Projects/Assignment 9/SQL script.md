@@ -733,4 +733,3 @@ FROM TeacherSubject ts
 JOIN Subject s ON ts.subject_id = s.subject_id
 JOIN Staff st ON ts.staff_id = st.staff_id
 WHERE s.is_language = 1 AND st.school_id = 1;
-```
