@@ -1,0 +1,3 @@
+- push the wake up slowly behind.
+- move the alarm by 15 mins day by day
+- keep the same alarm for 2 or 3 days if not possible for a single day
