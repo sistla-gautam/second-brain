@@ -32,21 +32,25 @@
 		- still need to refactor other methods with wrapper classes
 	- Jan 13, 2025
 		- worked on the appsmith workspace issue
-		- tried out a method, but it only seems to resolve the issue to a certain extent
+		- tried out  a method, but it only seems to resolve the issue to a certain extent
 		- need to try out other methods to figure out what happened
 		- worked on sync service code and got the PUT method resolution
 		- yet to implement the solution
 		- finished assignment 9. need to push it for review
-	- Jan 15, 2024
+	- Jan 15, 2025
 		- worked on Appsmith workspace issue
 		- divided the issue into multiple smaller issues
 		- resolved the FORM login positive and negative workflow
 		- got onto a call with Santosh for discussing a bug in SVG
-	- Jan 16, 2024
+	- Jan 16, 2025
 		- worked on Appsmith workspace issue
 		- resolved the SSO positive workflow
 		- will require to further fine tune the proper roles for the SSO user
 		- got a VPN issue resolved. able to connect to the VM now
-	- Jan 17, 2024
+	- Jan 17, 2025
 		- worked on Appsmith deployment
-		- got onto a call with Ashish for the deployment 
+		- got onto a call with Ashish for the deployment
+	- Jan 20, 2025
+		- resolved the workspace issue
+		- pushed the code to dev
+		- need to work on removing the workspace management and share UI
