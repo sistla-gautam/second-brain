@@ -10,6 +10,7 @@
 | YTI wifi                | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!82                |
 | YTI wiki                | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | Yokogawa@1                    |
 | Cisco VPN               | asykgw\47790234                                     | Cessna@2021                   |
+| Yokogawa VM             | administrator (10.157.122.71)                       | YokoYoko@2020                 |
 | SonarQube               | yti-user                                            | YokoYoko;2005                 |
 | SQL database            | root                                                | Gs4nQVug6C                    |
 | docker SQL database     | demo_java                                           | 1234                          |
