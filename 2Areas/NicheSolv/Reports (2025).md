@@ -54,3 +54,7 @@
 		- resolved the workspace issue
 		- pushed the code to dev
 		- need to work on removing the workspace management and share UI
+	- Jan 21, 2025
+		- worked on appsmith whitelabeling
+		- worked on appsmith deployment
+		- worked on assignment 9 SQL CRUD. still waiting for review.
