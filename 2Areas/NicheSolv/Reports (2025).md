@@ -58,3 +58,15 @@
 		- worked on appsmith whitelabeling
 		- worked on appsmith deployment
 		- worked on assignment 9 SQL CRUD. still waiting for review.
+	- Jan 22, 2025
+		- worked on appsmith deployment
+		- tried pushing the code to sync service. had some bugs, resolved them
+	- Jan 23, 2025
+		- went to YTI
+		- tried to get appsmith deployed, but had some issues in the UI. solved them
+		- tried to push sync service to master repo, but had commit history differences. have to cherry pick the files and add to the main repo
+		- had more changes to be done in the appsmith implementation
+	- Jan 24, 2025
+		- worked on resolving the mongo error
+		- got more requirements in the sync service and appsmith deployment
+		- pushed the sync service code to the github repo
