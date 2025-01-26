@@ -1,0 +1,85 @@
+- imitating the close
+	- people imitate others who are around them
+	- closer they are to someone, the more likely to imitate
+	- most common people whom we imitate
+		- close
+		- many
+		- powerful
+	- surround yourself with people where you desired behavior is the common behavior and have something common with the group
+- fixing bad habits
+	- "have to" to "get to"
+		- this change of mindset helps reduce burden
+		- "Im not confined by the wheel chair, I am liberated by it. without it, I would have been stuck to the bed"
+		- refrain the habit to make it seem like you get the chance to do it, than as a burden
+	- "three deep breaths and smile"
+		- reprogram what you think about when a cue happens
+		- prepare the "three deep breaths and smile" routine by doing the following
+			- take three deep breaths and smile
+			- then immediately do something that makes you happy
+				- petting the dog, music
+			- whenever need a mood change, this can be used
+	- habit stacking + motivation ritual
+		- implementation intentions
+			- "I will do X at time T and location L"
+		- habit stacking
+			- do a positive habit right before a negative ritual
+			- this can also be used to stack one habit right after any other pre existing habit
+- walk slowly, but not backwards
+	- focusing on best approach so much, we never take action
+	- being in motion vs taking action
+		- being in motion - false sense of movement towards the goal
+			- researching gyms, creating diet plans
+		- taking action - true sense of movement towards the goal
+			- working out 3 times a week, reducing sugar intake
+	- motion makes us "feel" like we are making progress
+		- sometimes motion is required to understand the basic research
+		- but this is not to be mistaken as action
+- The law of least effort
+	- the path of least resistance
+		- human nature. people will always do the thing that has the most value with the least effort
+	- break every habit into the most convenient one possible
+		- single push up per day
+		- most distracting things are VERY convenient - hence people do them so easily
+	- combining this with environment design
+		- this will greatly reduce the amount of friction, making it much easier to do
+	- the garden hose problem
+		- if a garden hose has a kink in the middle, there are 2 ways to solve the problem
+			- increase the pressure from one end to get the water to flow more
+			- remove the kink
+		- removing the kink is nothing but making the habit more convenient - hence easier to perform
+- decisive moments
+	- small moments where there is a fork in the different decisions that we can make that will change the course of the day
+		- homework vs video games
+		- healthy food vs takeout
+		- making the right, productive and healthy choices here will often dictate if it is a good day or a bad day
+- 2 mins rule
+	- when you start a habit, the habit should only take 2 mins to do it
+		- break every habit into the 2 mins rule
+		- establish the habit first, then look on improving it
+- one line journaling
+	- a very simple way of journaling
+		- just write a single sentence about the day. also called the highlight of the day or the story of the day
+- show up
+	- casts the vote towards the identity of the person you want to become
+		- 1 push a day or a full workout, showing up is much more important
+- commitment device
+	- a device or a contract that will prevent bad habits
+	- present you will restrict the behavior of the future you to reduce distractions
+		- give away your phone to your friend/family
+		- Victor Hugo wardrobe clean up - gave away his winter clothes, so he couldn't go out at all
+	- some commitment devices/one time actions
+		- good mattress, blackout curtains
+		- unsubscribe to emails, mute notifications, phone to silent
+		- get a dog, buy good shoes
+- reset the passwords
+	- ask someone to reset the passwords of your social media at the start of the week
+	- once the weekend approached, get the passwords to enjoy the social media
+- what is immediately rewarded is encouraged, what is immediately punished is discouraged
+	- human brain is wired for immediate rewards and punishment
+	- this will be our driver until the long term rewards come through
+- dont break the chain
+	- habit tracking makes it very satisfying, and rewards us visually
+	- never miss twice
+		- being perfect is not possible, but avoiding a second lapse is possible
+- dont be fair weather
+	- dont just follow your habits when the weather is fair. following you habits even during bad times is also part of the habit building cycle
