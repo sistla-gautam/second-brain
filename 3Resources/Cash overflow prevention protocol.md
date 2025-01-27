@@ -8,14 +8,13 @@
 - [KZ EDX pro bundle](https://www.headphonezone.in/products/kz-edx-pro-headphone-zone-x-ddhifi-hi-res-dac)
 
 ## phone holder
-- [portonics phone holder](https://www.amazon.in/Portronics-Holder-Rotation-Suction-Shockproof/dp/B07N7H1PPY?crid=95HBC4UOGL61&dib=eyJ2IjoiMSJ9.QXNdR8o65Yp0dGhQ8_BCP6Z05kcqwgNDbftcyubLBbZg6eSo6fPEVM6B8UK7EBZsgnyY6_ofW2y2hY17R23UEst1jcCc4Wq9rLws67NJdNS8oZ5pmYZwXfu9cmWCy5yFXdDImxnLcTg3yoUeSAizPuFdbXduTugjRT-j_JtJLx6_3tTmkl8MVOt_RRAyxFtHGj5AsPNZuXKy1-gGndcAgOXYmc6YS4LAUwsxgZUGJzg.0eAx7KhPxiC_tCewx3s60nsZoGZ0gnZdi24GuExs9gY&dib_tag=se&keywords=portronics+phone+holder+car&nsdOptOutParam=true&qid=1736088844&sprefix=portonics+pho,aps,254&sr=8-4&th=1
+- ~~[portonics phone holder](https://www.amazon.in/Portronics-Holder-Rotation-Suction-Shockproof/dp/B07N7H1PPY?crid=95HBC4UOGL61&dib=eyJ2IjoiMSJ9.QXNdR8o65Yp0dGhQ8_BCP6Z05kcqwgNDbftcyubLBbZg6eSo6fPEVM6B8UK7EBZsgnyY6_ofW2y2hY17R23UEst1jcCc4Wq9rLws67NJdNS8oZ5pmYZwXfu9cmWCy5yFXdDImxnLcTg3yoUeSAizPuFdbXduTugjRT-j_JtJLx6_3tTmkl8MVOt_RRAyxFtHGj5AsPNZuXKy1-gGndcAgOXYmc6YS4LAUwsxgZUGJzg.0eAx7KhPxiC_tCewx3s60nsZoGZ0gnZdi24GuExs9gY&dib_tag=se&keywords=portronics+phone+holder+car&nsdOptOutParam=true&qid=1736088844&sprefix=portonics+pho,aps,254&sr=8-4&th=1)
 
 ## field watches
 - [casio mrw](https://www.casio.com/in/watches/casio/product.MRW-200H-1BV/)
 - [Sonata poze](https://www.sonatawatches.in/product/sonata-poze-quartz-analog-black-dial-watch-for-men-with-brown-colour-pu-leather-strap-sp70011nl01w.html?lang=en_IN&plp=true)
 ##### straps
 - [Nato straps](https://watchtopia.in/products/nato-strap-18mm)
-
 
 ## Keyboards
 - [Aula f75](https://meckeys.com:8443/shop/keyboard/75-keyboard/aula-f75-wireless/)
