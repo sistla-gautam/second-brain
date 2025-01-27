@@ -3,7 +3,7 @@ apiVersion: v1
 data:
   APPSMITH_CLOUD_SERVICES_BASE_URL: https://release-cs.appsmith.com
   APPSMITH_CODEC_SIZE: "10"
-  APPSMITH_DB_URL: mongodb://ydxyokoadmin:m4Vo*E0o9E@10.202.64.14:27017,10.202.64.15:27017,10.202.64.16:27017/appsmith?replicaSet=rs0&authSource=admin&ssl=false
+  APPSMITH_DB_URL: mongodb://ydxyokoadmin:m4Vo*E0o9E@10.202.64.14:27017,10.202.64.16:27017/appsmith?replicaSet=rs0&authSource=admin&socketTimeoutMS=120000&connectTimeoutMS=30000
   APPSMITH_DISABLE_IFRAME_WIDGET_SANDBOX: "false"
   APPSMITH_ENCRYPTION_PASSWORD: abcd
   APPSMITH_ENCRYPTION_SALT: abcd
@@ -17,6 +17,9 @@ data:
   APPSMITH_OAUTH2_SAPCDC_CLIENT_SECRET: MIsfNP7UTEwm0viZ4Sm98eNGnLY4JTqgrCsT6mQstStbWs9p3Li_SCKnmAiiI0szokCuBAvsksFqsDanVyUL9A
   APPSMITH_REDIS_URL: redis://appsmith-alpha-redis-master-0.appsmith-alpha-redis-headless.appsmith-alpha.svc.cluster.local:6379
   APPSMITH_SIGNUP_DISABLED: "false"
+  BACKEND_PORT: "8080"
+  RTS_PORT: "8091"
+  SUPERVISOR_PORT: "9001"
 kind: ConfigMap
 metadata:
   annotations:
@@ -30,7 +33,7 @@ metadata:
     appsmith.sh/chart: appsmith-alpha-1.0.0
   name: appsmith-alpha
   namespace: appsmith-alpha
-  resourceVersion: "214868267"
+  resourceVersion: "215146988"
   uid: 61c4dd68-32b5-49f6-ac05-91940efa908a
 ```
 
