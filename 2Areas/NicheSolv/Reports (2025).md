@@ -70,3 +70,10 @@
 		- worked on resolving the mongo error
 		- got more requirements in the sync service and appsmith deployment
 		- pushed the sync service code to the github repo
+	- Jan 27, 2025
+		- worked on appsmith mongo issue
+		- tried to debug using various methods
+		- solved the issue by switching the primary and the secondary values
+		- got onto a call with Santosh to decide what to be done with the sync service
+		- yet to implement the solution of the sync service
+		- completed OOPs assignment. pushed it for review. yet to get a review from Natraj
