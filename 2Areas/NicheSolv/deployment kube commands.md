@@ -22,3 +22,10 @@ kubectl rollout restart sts <> stsname -n namespace
 ```
 - once this is done, delete the pod
 - the STS will allow it to restart the pod once this is done automatically 
+
+---
+```
+ BACKEND_PORT: "8080"
+  RTS_PORT: "8091"
+  SUPERVISOR_PORT: "9001"
+```
