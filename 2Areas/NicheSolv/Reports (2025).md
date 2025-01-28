@@ -77,3 +77,8 @@
 		- got onto a call with Santosh to decide what to be done with the sync service
 		- yet to implement the solution of the sync service
 		- completed OOPs assignment. pushed it for review. yet to get a review from Natraj
+	- Jan  28,  2024
+		- got onto a call with Ashish to discuss about the implementation of Mongo server
+		- implemented the tenant name into the database url for the deployment
+		- resolved some failing test cases from SVG and pushed for release
+		- resolved some issues in sync service.  still need to retrieve the value from config maps to get the correct baseURL
