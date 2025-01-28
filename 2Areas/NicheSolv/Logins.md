@@ -40,6 +40,7 @@ ssh ydxuser@20.6.35.2
 YokoYoko@2025
 ```
 **Mongo access**
+can only  be access from the jump server 
 ```bash
 ssh ydxyokogawa@10.202.64.14
 3Aa4Eh6v*9 
