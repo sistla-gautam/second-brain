@@ -32,17 +32,3 @@
 22951-5f735 9ea7c-1cf73 15591-a7cb8 c4c73-65913 65b19-6270a 59a76-c5671 941ce-ac2cf 9ccfc-07d9a 41167-24f3a 6801a-d31ff 07096-42797 33a99-bf57c 26216-0701c 75be4-cf95b 729b5-8a799 fa261-bdb93
 
 https://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@github.com/Niche-Soft/gautham-2024.git
-
-
-## jump server access
-for deployment related stuff
-```bash
-ssh ydxuser@20.6.35.2
-YokoYoko@2025
-```
-**Mongo access**
-can only  be access from the jump server 
-```bash
-ssh ydxyokogawa@10.202.64.14
-3Aa4Eh6v*9 
-```
