@@ -35,6 +35,7 @@ https://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@github.com/Niche-Soft/gautham-2
 
 
 ## jump server access
+for deployment related stuff
 ```bash
 ssh ydxuser@20.6.35.2
 YokoYoko@2025
