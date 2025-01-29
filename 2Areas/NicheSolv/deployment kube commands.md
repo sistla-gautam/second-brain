@@ -1,8 +1,7 @@
 ## jump server access
 for deployment related stuff
 ```bash
-ssh ydxuser@20.6.35.2
-YokoYoko@2025
+sshpass -p YokoYoko@2025 ssh ydxuser@20.6.35.2
 ```
 **Mongo access**
 can only  be access from the jump server 

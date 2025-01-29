@@ -82,3 +82,7 @@
 		- implemented the tenant name into the database url for the deployment
 		- resolved some failing test cases from SVG and pushed for release
 		- resolved some issues in sync service.  still need to retrieve the value from config maps to get the correct baseURL
+	- Jan 29, 2024
+		- showed a demo of appsmith to Neelesh for wikii
+		- worked on sync service issue of inviting users
+		- tested the appsmith on multiple node cluster and validated  all the features
