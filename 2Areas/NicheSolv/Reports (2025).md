@@ -87,6 +87,8 @@
 		- worked on sync service issue of inviting users
 		- tested the appsmith on multiple node cluster and validated  all the features
 	- Jan 30, 2025
-			- went to YTI
-			- pushed the final version of sync service to dev for testing
-			- made some small and minor changed to appsmith and pushed it to dev
+		- went to YTI
+		- pushed the final version of sync service to dev for testing
+		- need to discuss with Santosh on how it will be implemented
+		- need to discuss with Ashish on how to make use of curl commands to login and rename the workspace
+		- made some small and minor whitelabeling changes to appsmith and pushed it to dev
