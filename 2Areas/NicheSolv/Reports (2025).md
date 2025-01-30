@@ -87,6 +87,6 @@
 		- worked on sync service issue of inviting users
 		- tested the appsmith on multiple node cluster and validated  all the features
 	- Jan 30, 2025
-		- went to YTI
-		- pushed the final version of sync service to dev for testing
-		- made some small and minor changed to appsmith and pushed it to dev
+			- went to YTI
+			- pushed the final version of sync service to dev for testing
+			- made some small and minor changed to appsmith and pushed it to dev
