@@ -92,3 +92,9 @@
 		- need to discuss with Santosh on how it will be implemented
 		- need to discuss with Ashish on how to make use of curl commands to login and rename the workspace
 		- made some small and minor whitelabeling changes to appsmith and pushed it to dev
+	- Jan 31, 2025
+		- finalized sync service code and pushed it to dev
+		- edited some test cases in sync service and pushed it
+		- contacted Santosh for code review
+		- updated postman collection with the latest sync service changes
+		- helped in pipeline deployment of appsmith
