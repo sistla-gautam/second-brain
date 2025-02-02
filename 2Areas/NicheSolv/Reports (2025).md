@@ -98,3 +98,4 @@
 		- contacted Santosh for code review
 		- updated postman collection with the latest sync service changes
 		- helped in pipeline deployment of appsmith
+		- wrote out the integration test cases for appsmith and submitted them
