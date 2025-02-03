@@ -18,4 +18,4 @@ The Operations team must take the following points into account while working wi
 ##### The stability of the service is defined by 
 - the appsmith-0 pod should be up and running without any errors in the pods
 - the mongodb should be up and running without any type of errors in the mongodb
-- SAPCDC login should be working fine without any type of issue
+- SAPCDC login should be working fine without any type of issue 
