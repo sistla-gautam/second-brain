@@ -12,6 +12,7 @@ The Operations team must take the following points into account while working wi
 | Service  | appsmith-0                | k8 pods         |
 | Service  | appsmith-redis-master-0   | k8 pods         |
 | Service  | appsmith-redis-replicas-0 | ks pods         |
+| Database | Mongo-DB                  | mongo database  |
 
 ##### The stability of the service is defined by 
 - the appsmith-0 pod should be up and running without any errors in the pods
