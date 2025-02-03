@@ -25,3 +25,9 @@
 - one workspace is created per tenant. this workspace will be used only for that tenant
 - every user who has access to the tenant, will be invited to the workspace from sync service
 - every user can be part of multiple workspaces, if they have access to different tenants from SAPCDC
+
+#### post deployment workspace initialization script
+- this is a script that will be run right after the deployment
+- this script will create the first ever user with predefined values
+- the creation of the user will also create the default workspace belonging to that tenant
+- the default workspace that is created will also be renamed with the tenant name 
