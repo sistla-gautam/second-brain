@@ -347,32 +347,28 @@
     if (response.ok) {
       const fileData = await response.json();
       const isPdf = filePath.toLowerCase().endsWith('.pdf');
-      const isAndroid = /Android/i.test(navigator.userAgent);
       
       if (isPdf) {
-        if (isAndroid && fileData.download_url) {
-          // For Android, use the download_url directly with Google Viewer
-          displayFileContents(filePath, fileData.download_url, true);
-        } else {
-          // For other platforms, process the PDF data as before
-          let pdfData;
-          if (fileData.content) {
-            const byteCharacters = atob(fileData.content.replace(/\n/g, ''));
-            const byteNumbers = new Array(byteCharacters.length);
-            for (let i = 0; i < byteCharacters.length; i++) {
-              byteNumbers[i] = byteCharacters.charCodeAt(i);
-            }
-            const byteArray = new Uint8Array(byteNumbers);
-            const blob = new Blob([byteArray], { type: 'application/pdf' });
-            pdfData = URL.createObjectURL(blob);
-          } else if (fileData.download_url) {
-            const pdfResponse = await fetch(fileData.download_url);
-            const pdfBlob = await pdfResponse.blob();
-            pdfData = URL.createObjectURL(pdfBlob);
+        // For PDFs, always fetch the raw content using download_url
+        if (fileData.download_url) {
+          const pdfResponse = await fetch(fileData.download_url);
+          if (!pdfResponse.ok) throw new Error('Failed to fetch PDF content');
+          
+          // Create a blob with proper MIME type
+          const pdfBlob = await pdfResponse.blob();
+          const properPdfBlob = new Blob([pdfBlob], { type: 'application/pdf' });
+          const pdfUrl = URL.createObjectURL(properPdfBlob);
+          
+          // For Android, we'll use Google Docs viewer
+          const isAndroid = /Android/i.test(navigator.userAgent);
+          if (isAndroid) {
+            const googleDocsUrl = `https://docs.google.com/gview?embedded=true&url=${encodeURIComponent(fileData.download_url)}`;
+            displayFileContents(filePath, googleDocsUrl, true, 'android');
           } else {
-            throw new Error('No PDF content available');
+            displayFileContents(filePath, pdfUrl, true, 'desktop');
           }
-          displayFileContents(filePath, pdfData, true);
+        } else {
+          throw new Error('PDF download URL not available');
         }
       } else {
         // Handle other file types as before
@@ -395,44 +391,58 @@
   }
 }
 
- function displayFileContents(filePath, content, isPdf) {
+function displayFileContents(filePath, content, isPdf, platform = 'desktop') {
   const fileContentsDiv = document.getElementById('file-contents');
   let html = `<div class="file-header">${filePath}</div>`;
   
   if (isPdf) {
-    // Check if running on Android
-    const isAndroid = /Android/i.test(navigator.userAgent);
-    
-    if (isAndroid) {
-      // Use Google PDF Viewer for Android
-      const googleViewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(content)}&embedded=true`;
+    if (platform === 'android') {
+      // Use Google Docs viewer for Android
       html += `
         <div class="pdf-container">
           <iframe 
             class="pdf-viewer" 
-            src="${googleViewerUrl}"
+            src="${content}"
             frameborder="0"
             allowfullscreen
           ></iframe>
+        </div>
+        <div style="margin-top: 10px; text-align: center;">
+          <a href="${content.replace('gview?embedded=true&', '')}" 
+             target="_blank" 
+             class="theme-toggle" 
+             style="text-decoration: none;">
+            Open in New Tab
+          </a>
         </div>`;
     } else {
-      // Use native PDF viewer for other platforms
+      // Use native PDF viewer for desktop
       html += `
         <div class="pdf-container">
           <iframe 
             class="pdf-viewer" 
-            src="${content}#toolbar=1&navpanes=1" 
+            src="${content}"
             type="application/pdf"
           ></iframe>
+        </div>
+        <div style="margin-top: 10px; text-align: center;">
+          <a href="${content}" 
+             target="_blank" 
+             class="theme-toggle" 
+             style="text-decoration: none;">
+            Open in New Tab
+          </a>
         </div>`;
     }
     
     // Clean up the object URL when the content changes
-    const cleanup = () => {
-      URL.revokeObjectURL(content);
-      fileContentsDiv.removeEventListener('DOMNodeRemoved', cleanup);
-    };
-    fileContentsDiv.addEventListener('DOMNodeRemoved', cleanup);
+    if (platform === 'desktop') {
+      const cleanup = () => {
+        URL.revokeObjectURL(content);
+        fileContentsDiv.removeEventListener('DOMNodeRemoved', cleanup);
+      };
+      fileContentsDiv.addEventListener('DOMNodeRemoved', cleanup);
+    }
   } else {
     const isMarkdown = filePath.toLowerCase().endsWith('.md');
     if (isMarkdown) {
