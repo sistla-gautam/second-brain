@@ -7,8 +7,196 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
   <style>
-    /* Previous styles remain the same */
-    /* Adding styles for PDF viewer */
+    /* Catppuccin Mocha Colors */
+    :root {
+      /* Light theme */
+      --bg-color: #ffffff;
+      --text-color: #24292e;
+      --border-color: #e1e4e8;
+      --header-bg: #f6f8fa;
+      --link-color: #0366d6;
+      --pre-bg: #f4f4f4;
+    }
+
+    [data-theme="dark"] {
+      /* Catppuccin Mocha palette */
+      --bg-color: #1e1e2e;        /* Base */
+      --surface0: #313244;        /* Surface0 */
+      --surface1: #45475a;        /* Surface1 */
+      --surface2: #585b70;        /* Surface2 */
+      --text-color: #cdd6f4;      /* Text */
+      --subtext0: #a6adc8;        /* Subtext0 */
+      --border-color: #313244;    /* Surface0 */
+      --header-bg: #181825;       /* Mantle */
+      --link-color: #89b4fa;      /* Blue */
+      --pre-bg: #11111b;          /* Crust */
+      --accent: #cba6f7;          /* Mauve */
+      --green: #a6e3a1;           /* Green */
+      --red: #f38ba8;             /* Red */
+      --yellow: #f9e2af;          /* Yellow */
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      padding: 20px;
+      margin: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.3s ease;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .theme-toggle {
+      background: var(--surface0);
+      border: 1px solid var(--border-color);
+      color: var(--text-color);
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s ease;
+    }
+
+    [data-theme="dark"] .theme-toggle:hover {
+      background: var(--surface1);
+      border-color: var(--accent);
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      background: var(--bg-color);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      margin: 0;
+    }
+
+    li {
+      margin: 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    li a {
+      padding: 8px 16px;
+      display: block;
+      color: var(--link-color);
+      text-decoration: none;
+    }
+
+    [data-theme="dark"] li a:hover {
+      background: var(--surface0);
+    }
+
+    pre {
+      background: var(--pre-bg);
+      padding: 16px;
+      border-radius: 6px;
+      overflow: auto;
+      border: 1px solid var(--border-color);
+      margin: 0;
+      color: var(--text-color);
+    }
+
+    #file-contents {
+      margin-top: 20px;
+    }
+
+    .markdown-body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid var(--border-color);
+      border-radius: 0 0 6px 6px;
+      background-color: var(--bg-color) !important;
+      color: var(--text-color) !important;
+    }
+
+    .file-header {
+      padding: 16px;
+      background: var(--header-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px 6px 0 0;
+      margin-bottom: -1px;
+      font-family: monospace;
+      font-size: 14px;
+      color: var(--subtext0);
+    }
+
+    /* Dark theme overrides for markdown content */
+    [data-theme="dark"] .markdown-body {
+      color-scheme: dark;
+    }
+
+    [data-theme="dark"] .markdown-body a {
+      color: var(--link-color);
+    }
+
+    [data-theme="dark"] .markdown-body hr {
+      border-color: var(--border-color);
+    }
+
+    [data-theme="dark"] .markdown-body blockquote {
+      color: var(--subtext0);
+      border-left-color: var(--surface1);
+      background: var(--surface0);
+    }
+
+    [data-theme="dark"] .markdown-body h1,
+    [data-theme="dark"] .markdown-body h2,
+    [data-theme="dark"] .markdown-body h3,
+    [data-theme="dark"] .markdown-body h4,
+    [data-theme="dark"] .markdown-body h5,
+    [data-theme="dark"] .markdown-body h6 {
+      color: var(--accent);
+      border-bottom-color: var(--border-color);
+    }
+
+    [data-theme="dark"] .markdown-body code {
+      background: var(--pre-bg);
+      color: var(--green);
+    }
+
+    .breadcrumb {
+      margin-bottom: 15px;
+      padding: 8px 16px;
+      background: var(--header-bg);
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    [data-theme="dark"] .breadcrumb a {
+      color: var(--link-color);
+    }
+
+    .loading {
+      text-align: center;
+      padding: 20px;
+      color: var(--text-color);
+    }
+
+    /* PDF viewer styles */
     .pdf-container {
       width: 100%;
       height: 800px;
@@ -21,12 +209,133 @@
       height: 100%;
       border: none;
     }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .markdown-body {
+        padding: 15px;
+      }
+
+      pre {
+        max-width: 100%;
+        font-size: 14px;
+      }
+
+      .file-header {
+        font-size: 12px;
+      }
+
+      .pdf-container {
+        height: 500px;
+      }
+    }
   </style>
 </head>
 <body>
-  <!-- Previous HTML remains the same -->
+  <div class="container">
+    <div class="header">
+      <h1>GitHub Repository Browser</h1>
+      <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+    </div>
+    <div class="breadcrumb" id="breadcrumb"></div>
+    <ul id="file-list"></ul>
+    <div id="file-contents"></div>
+  </div>
+
   <script>
-    // Previous JavaScript remains the same until viewFile function
+    const username = 'sistla-gautam';
+    const repo = 'second-brain';
+    const branch = 'main';
+    let currentPath = '';
+
+    function toggleTheme() {
+      const isDark = document.body.getAttribute('data-theme') === 'dark';
+      document.body.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    }
+
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.body.setAttribute('data-theme', savedTheme);
+
+    marked.setOptions({
+      breaks: true,
+      gfm: true,
+      headerIds: true,
+      mangle: false
+    });
+
+    function updateBreadcrumb(path) {
+      const parts = path ? path.split('/') : [];
+      const breadcrumb = document.getElementById('breadcrumb');
+      
+      let html = `<a href="#" onclick="navigateTo('')">root</a>`;
+      let currentPath = '';
+      
+      parts.forEach((part, index) => {
+        currentPath += (index === 0 ? part : '/' + part);
+        html += ` / <a href="#" onclick="navigateTo('${currentPath}')">${part}</a>`;
+      });
+      
+      breadcrumb.innerHTML = html;
+    }
+
+    async function fetchRepoContents(path = '') {
+      const fileContents = document.getElementById('file-contents');
+      fileContents.innerHTML = '<div class="loading">Loading...</div>';
+      
+      const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${path}?ref=${branch}`;
+      try {
+        const response = await fetch(apiUrl);
+        if (response.ok) {
+          const contents = await response.json();
+          displayContents(contents, path);
+          fileContents.innerHTML = '';
+          updateBreadcrumb(path);
+        } else {
+          throw new Error('Failed to fetch contents');
+        }
+      } catch (error) {
+        document.getElementById('file-list').innerHTML = '<li class="error">Error fetching contents.</li>';
+        fileContents.innerHTML = '';
+      }
+    }
+
+    function displayContents(contents, path) {
+      const fileList = document.getElementById('file-list');
+      fileList.innerHTML = '';
+      
+      if (path !== '') {
+        const parentPath = path.substring(0, path.lastIndexOf('/'));
+        fileList.innerHTML += `<li><a href="#" onclick="navigateTo('${parentPath}')">..</a></li>`;
+      }
+
+      // Sort contents: directories first, then files
+      contents.sort((a, b) => {
+        if (a.type !== b.type) {
+          return a.type === 'dir' ? -1 : 1;
+        }
+        return a.name.localeCompare(b.name);
+      });
+
+      contents.forEach(item => {
+        const listItem = document.createElement('li');
+        if (item.type === 'dir') {
+          listItem.innerHTML = `<a href="#" onclick="navigateTo('${item.path}')">📁 ${item.name}/</a>`;
+        } else {
+          listItem.innerHTML = `<a href="#" onclick="viewFile('${item.path}')">📄 ${item.name}</a>`;
+        }
+        fileList.appendChild(listItem);
+      });
+    }
 
     async function viewFile(filePath) {
       const fileContents = document.getElementById('file-contents');
@@ -96,7 +405,19 @@
       fileContentsDiv.innerHTML = html;
     }
 
-    // Rest of the JavaScript remains the same
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function navigateTo(path) {
+      currentPath = path;
+      fetchRepoContents(path);
+    }
+
+    // Initial fetch
+    fetchRepoContents();
   </script>
 </body>
 </html>
