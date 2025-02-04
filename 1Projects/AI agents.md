@@ -29,4 +29,3 @@ https://zapier.com/
 1. data
 2. model selection
 3. model training
-4. 
