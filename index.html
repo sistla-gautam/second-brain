@@ -337,7 +337,7 @@
       });
     }
 
-    async function viewFile(filePath) {
+   async function viewFile(filePath) {
   const fileContents = document.getElementById('file-contents');
   fileContents.innerHTML = '<div class="loading">Loading file contents...</div>';
   
@@ -347,30 +347,35 @@
     if (response.ok) {
       const fileData = await response.json();
       const isPdf = filePath.toLowerCase().endsWith('.pdf');
+      const isAndroid = /Android/i.test(navigator.userAgent);
       
       if (isPdf) {
-        let pdfData;
-        if (fileData.content) {
-          // Small file, content is available directly
-          const byteCharacters = atob(fileData.content.replace(/\n/g, ''));
-          const byteNumbers = new Array(byteCharacters.length);
-          for (let i = 0; i < byteCharacters.length; i++) {
-            byteNumbers[i] = byteCharacters.charCodeAt(i);
-          }
-          const byteArray = new Uint8Array(byteNumbers);
-          const blob = new Blob([byteArray], { type: 'application/pdf' });
-          pdfData = URL.createObjectURL(blob);
-        } else if (fileData.download_url) {
-          // Large file, need to fetch from download_url
-          const pdfResponse = await fetch(fileData.download_url);
-          const pdfBlob = await pdfResponse.blob();
-          pdfData = URL.createObjectURL(pdfBlob);
+        if (isAndroid && fileData.download_url) {
+          // For Android, use the download_url directly with Google Viewer
+          displayFileContents(filePath, fileData.download_url, true);
         } else {
-          throw new Error('No PDF content available');
+          // For other platforms, process the PDF data as before
+          let pdfData;
+          if (fileData.content) {
+            const byteCharacters = atob(fileData.content.replace(/\n/g, ''));
+            const byteNumbers = new Array(byteCharacters.length);
+            for (let i = 0; i < byteCharacters.length; i++) {
+              byteNumbers[i] = byteCharacters.charCodeAt(i);
+            }
+            const byteArray = new Uint8Array(byteNumbers);
+            const blob = new Blob([byteArray], { type: 'application/pdf' });
+            pdfData = URL.createObjectURL(blob);
+          } else if (fileData.download_url) {
+            const pdfResponse = await fetch(fileData.download_url);
+            const pdfBlob = await pdfResponse.blob();
+            pdfData = URL.createObjectURL(pdfBlob);
+          } else {
+            throw new Error('No PDF content available');
+          }
+          displayFileContents(filePath, pdfData, true);
         }
-        displayFileContents(filePath, pdfData, true);
       } else {
-        // Handle other file types
+        // Handle other file types as before
         if (fileData.content) {
           const decodedContent = atob(fileData.content.replace(/\n/g, ''));
           displayFileContents(filePath, decodedContent, false);
@@ -390,38 +395,56 @@
   }
 }
 
-    function displayFileContents(filePath, content, isPdf) {
-      const fileContentsDiv = document.getElementById('file-contents');
-      let html = `<div class="file-header">${filePath}</div>`;
-      
-      if (isPdf) {
-        html += `
-          <div class="pdf-container">
-            <iframe 
-              class="pdf-viewer" 
-              src="${content}#toolbar=1&navpanes=1" 
-              type="application/pdf"
-            ></iframe>
-          </div>`;
-        
-        // Clean up the object URL when the content changes
-        const cleanup = () => {
-          URL.revokeObjectURL(content);
-          fileContentsDiv.removeEventListener('DOMNodeRemoved', cleanup);
-        };
-        fileContentsDiv.addEventListener('DOMNodeRemoved', cleanup);
-      } else {
-        const isMarkdown = filePath.toLowerCase().endsWith('.md');
-        if (isMarkdown) {
-          const renderedContent = marked.parse(content);
-          html += `<div class="markdown-body">${renderedContent}</div>`;
-        } else {
-          html += `<pre><code>${escapeHtml(content)}</code></pre>`;
-        }
-      }
-      
-      fileContentsDiv.innerHTML = html;
+ function displayFileContents(filePath, content, isPdf) {
+  const fileContentsDiv = document.getElementById('file-contents');
+  let html = `<div class="file-header">${filePath}</div>`;
+  
+  if (isPdf) {
+    // Check if running on Android
+    const isAndroid = /Android/i.test(navigator.userAgent);
+    
+    if (isAndroid) {
+      // Use Google PDF Viewer for Android
+      const googleViewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(content)}&embedded=true`;
+      html += `
+        <div class="pdf-container">
+          <iframe 
+            class="pdf-viewer" 
+            src="${googleViewerUrl}"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>`;
+    } else {
+      // Use native PDF viewer for other platforms
+      html += `
+        <div class="pdf-container">
+          <iframe 
+            class="pdf-viewer" 
+            src="${content}#toolbar=1&navpanes=1" 
+            type="application/pdf"
+          ></iframe>
+        </div>`;
     }
+    
+    // Clean up the object URL when the content changes
+    const cleanup = () => {
+      URL.revokeObjectURL(content);
+      fileContentsDiv.removeEventListener('DOMNodeRemoved', cleanup);
+    };
+    fileContentsDiv.addEventListener('DOMNodeRemoved', cleanup);
+  } else {
+    const isMarkdown = filePath.toLowerCase().endsWith('.md');
+    if (isMarkdown) {
+      const renderedContent = marked.parse(content);
+      html += `<div class="markdown-body">${renderedContent}</div>`;
+    } else {
+      html += `<pre><code>${escapeHtml(content)}</code></pre>`;
+    }
+  }
+  
+  fileContentsDiv.innerHTML = html;
+}
 
     function escapeHtml(text) {
       const div = document.createElement('div');
