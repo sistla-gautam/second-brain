@@ -338,39 +338,57 @@
     }
 
     async function viewFile(filePath) {
-      const fileContents = document.getElementById('file-contents');
-      fileContents.innerHTML = '<div class="loading">Loading file contents...</div>';
+  const fileContents = document.getElementById('file-contents');
+  fileContents.innerHTML = '<div class="loading">Loading file contents...</div>';
+  
+  const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${filePath}?ref=${branch}`;
+  try {
+    const response = await fetch(apiUrl);
+    if (response.ok) {
+      const fileData = await response.json();
+      const isPdf = filePath.toLowerCase().endsWith('.pdf');
       
-      const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${filePath}?ref=${branch}`;
-      try {
-        const response = await fetch(apiUrl);
-        if (response.ok) {
-          const fileData = await response.json();
-          const isPdf = filePath.toLowerCase().endsWith('.pdf');
-          
-          if (isPdf) {
-            // For PDFs, we need to create a blob and object URL
-            const byteCharacters = atob(fileData.content.replace(/\n/g, ''));
-            const byteNumbers = new Array(byteCharacters.length);
-            for (let i = 0; i < byteCharacters.length; i++) {
-              byteNumbers[i] = byteCharacters.charCodeAt(i);
-            }
-            const byteArray = new Uint8Array(byteNumbers);
-            const blob = new Blob([byteArray], { type: 'application/pdf' });
-            const pdfUrl = URL.createObjectURL(blob);
-            displayFileContents(filePath, pdfUrl, true);
-          } else {
-            // Handle other file types as before
-            const decodedContent = atob(fileData.content.replace(/\n/g, ''));
-            displayFileContents(filePath, decodedContent, false);
+      if (isPdf) {
+        let pdfData;
+        if (fileData.content) {
+          // Small file, content is available directly
+          const byteCharacters = atob(fileData.content.replace(/\n/g, ''));
+          const byteNumbers = new Array(byteCharacters.length);
+          for (let i = 0; i < byteCharacters.length; i++) {
+            byteNumbers[i] = byteCharacters.charCodeAt(i);
           }
+          const byteArray = new Uint8Array(byteNumbers);
+          const blob = new Blob([byteArray], { type: 'application/pdf' });
+          pdfData = URL.createObjectURL(blob);
+        } else if (fileData.download_url) {
+          // Large file, need to fetch from download_url
+          const pdfResponse = await fetch(fileData.download_url);
+          const pdfBlob = await pdfResponse.blob();
+          pdfData = URL.createObjectURL(pdfBlob);
         } else {
-          throw new Error('Failed to load file');
+          throw new Error('No PDF content available');
         }
-      } catch (error) {
-        fileContents.innerHTML = '<div class="error">Error loading file contents.</div>';
+        displayFileContents(filePath, pdfData, true);
+      } else {
+        // Handle other file types
+        if (fileData.content) {
+          const decodedContent = atob(fileData.content.replace(/\n/g, ''));
+          displayFileContents(filePath, decodedContent, false);
+        } else if (fileData.download_url) {
+          const textResponse = await fetch(fileData.download_url);
+          const textContent = await textResponse.text();
+          displayFileContents(filePath, textContent, false);
+        } else {
+          throw new Error('No content available');
+        }
       }
+    } else {
+      throw new Error('Failed to load file');
     }
+  } catch (error) {
+    fileContents.innerHTML = `<div class="error">Error loading file contents: ${error.message}</div>`;
+  }
+}
 
     function displayFileContents(filePath, content, isPdf) {
       const fileContentsDiv = document.getElementById('file-contents');
