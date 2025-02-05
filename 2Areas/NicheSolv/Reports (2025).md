@@ -112,3 +112,4 @@
 		- needed to clean up the workflow files, hence created a new tag
 		- connected with Mallikarjun to make some changes to the SAPCDC redirect URL
 		- connected with Santosh and Ashish for the deployment of Appsmith and documentation of the same
+		- connected with  Archie for the integration of sync service
