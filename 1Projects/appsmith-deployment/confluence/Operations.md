@@ -22,7 +22,6 @@ The Operations team must take the following points into account while working wi
 #### Service probe
 > checks if the service is up or not
 
-
 | Name   | Endpoint         | Probe Frequency | Alert                                   |
 | ------ | ---------------- | --------------- | --------------------------------------- |
 | Health | `/api/v1/health` | 1hr             | Checks if the service is working or not |

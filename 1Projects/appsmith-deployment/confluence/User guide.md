@@ -6,7 +6,8 @@
 ### Accessing the interactive forms
 - Open the link containing the interactive forms application
 - This will open the login page for interactive forms
-- Click on the SAPCDC login button![[Pasted image 20250203140355.png]]
+- Click on the SAPCDC login button
+	- ![[Pasted image 20250203140355.png]]
 - Continue the process to login from the SAPCDC portal
 - This will open the workspace for the particular tenant
 ![[Pasted image 20250203140619.png]]

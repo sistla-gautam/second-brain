@@ -99,3 +99,16 @@
 		- updated postman collection with the latest sync service changes
 		- helped in pipeline deployment of appsmith
 		- wrote out the integration test cases for appsmith and submitted them
+- February
+	- Feb 3, 2025
+		- went to YTI
+		- worked on the final part of the documentation
+		- connected with Sanoth to create tags for appsmith
+	- Feb 4, 2025
+		- sick leave
+	- Feb 5, 2025
+		- went to YTI
+		- started working on the final QA handover document
+		- needed to clean up the workflow files, hence created a new tag
+		- connected with Mallikarjun to make some changes to the SAPCDC redirect URL
+		- connected with Santosh and Ashish for the deployment of Appsmith and documentation of the same
