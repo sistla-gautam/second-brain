@@ -113,3 +113,9 @@
 		- connected with Mallikarjun to make some changes to the SAPCDC redirect URL
 		- connected with Santosh and Ashish for the deployment of Appsmith and documentation of the same
 		- connected with  Archie for the integration of sync service
+	- Feb 6, 2025
+		- went to YTI
+		- worked on sonarqube fixes of sync service
+		- made some change to the cron job calling of sync service that will call Appsmith Endpoints
+		- wrote test cases for sync service
+		- need to work on image and tag creation of sync service for deployment
