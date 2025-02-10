@@ -119,3 +119,16 @@
 		- made some change to the cron job calling of sync service that will call Appsmith Endpoints
 		- wrote test cases for sync service
 		- need to work on image and tag creation of sync service for deployment
+	- Feb 7, 2025
+		- went to YTI
+		- worked on sync service code
+		- got some issues while running the sync service and hence failing the deployment
+		- solved the issues and deployed the application
+		- worked on finishing the documentation for the QA handover
+	- Feb 10, 2025
+		- went to YTI
+		- created tags for sync service and deployed to dev
+		- fixed some issues in the secrets that will be accessed by sync service
+		- did final touchups for the QA handover documents
+		- connected with Ashish for the revision of the deployment of appsmith and sync service
+		- handed over interactive forms in the QA handover meeting
