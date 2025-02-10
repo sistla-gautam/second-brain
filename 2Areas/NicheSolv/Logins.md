@@ -12,6 +12,7 @@
 | Cisco VPN               | asykgw\47790234                                     | Cessna@2021                   |
 | Yokogawa VM             | administrator (10.157.122.71)                       | YokoYoko@2020                 |
 | SonarQube               | yti-user                                            | YokoYoko;2005                 |
+| YTI-Graphana            | admin                                               | 1Nt3Lz5n**                    |
 | SQL database            | root                                                | Gs4nQVug6C                    |
 | docker SQL database     | demo_java                                           | 1234                          |
 | AppSmith                | yti@yti.com                                         | yokoyoko                      |
