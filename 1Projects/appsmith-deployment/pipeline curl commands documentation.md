@@ -116,7 +116,7 @@ echo "Workspace update completed successfully"
 ```
 - call the script with the required parameters
 ```shell
- sudo bash ./workspace.sh "https://forms.dev.apps.yokogawa.build" "newuser2@yti.com" "yokoyoko" "new-tenant"
+ sudo bash ./workspace.sh "https://forms-tdec.dev.apps.yokogawa.build" "ops@apps.yokogawa.com" "xxxxxxxxxx" "TDEC"
 ```
 **format/syntax**
 ```shell

@@ -132,3 +132,9 @@
 		- did final touchups for the QA handover documents
 		- connected with Ashish for the revision of the deployment of appsmith and sync service
 		- handed over interactive forms in the QA handover meeting
+	- Feb 11, 2025
+		- verified the delete job on sync service
+		- delete job failed under circumstances, so changed the code to take care of the same
+		- made changes to the curl command document in the post deployment steps
+		- reviewed the wikijs documentation and provided some changes to the same
+		- edited sync service application to accommodate the new changes in the application name and the URL
