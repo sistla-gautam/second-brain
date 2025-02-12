@@ -138,3 +138,9 @@
 		- made changes to the curl command document in the post deployment steps
 		- reviewed the wikijs documentation and provided some changes to the same
 		- edited sync service application to accommodate the new changes in the application name and the URL
+	- Feb 12, 2025
+		- worked on SVG resizing. created a POC for the same
+		- showcased the changes of the resizing and got some comments that need to be worked on
+		- will require to also scale the SVG to a bigger size if the SVG is smaller than the container size
+		- pushed a new branch of sync service with the changes in the sync service application name and delete operation changes
+		- will require Mallikarjun to cover the test cases to create tags for sync service
