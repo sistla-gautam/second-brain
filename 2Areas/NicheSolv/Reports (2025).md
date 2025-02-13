@@ -144,3 +144,8 @@
 		- will require to also scale the SVG to a bigger size if the SVG is smaller than the container size
 		- pushed a new branch of sync service with the changes in the sync service application name and delete operation changes
 		- will require Mallikarjun to cover the test cases to create tags for sync service
+	- Feb 13, 2025
+		- worked on SVG scaling. was able to find a way to scale the image regardless of the ratio was higher or lower than 1
+		- worked on some changes in wiki js and communicated the same with Nilesh to get it updated
+		- resolved some code smells and bugs in sync service. pushed the code and created new tags
+		- communicated the same with Ashish to update in docs
