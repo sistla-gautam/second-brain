@@ -149,3 +149,12 @@
 		- worked on some changes in wiki js and communicated the same with Nilesh to get it updated
 		- resolved some code smells and bugs in sync service. pushed the code and created new tags
 		- communicated the same with Ashish to update in docs
+	- Feb 14, 2025
+		- Leave
+	- Feb 17, 2025
+		- Completed SVG resize flow from edit properties pane
+		- Tested a ticket for the SVG rendering for R3 release
+		- Created slides for book review
+		- Pushed OOPs assignment 2 for review
+		- Need to write test cases for the SVG
+		- Connected with Ashish for the final documentations in the post deployment with Sync Service

@@ -139,7 +139,7 @@
 ## who is this book for/what is it about
 - people who want to start a business, but not sure how to
 - people who want to learn the basics of starting a business
-- very basic approach to find ideas, start small and scale to a certain
+- very basic approach to find ideas, start small and scale to a certain size
 ---
 ## who is this book ==NOT== for
 - already started a business and want to scale it
