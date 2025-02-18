@@ -8,4 +8,9 @@
 ```
 [ { "tenantname" : "tenant1", "URL" : "https://forms-tenant1.dev.apps.yokogawa.build/" }, { "tenantname" : "tenant2", "URL" : "https://forms-tenant2.dev.apps.yokogawa.build/" }]
 ```
-- the new tenant name and the URL for the same needs to be updated into the array 
+- the new tenant name and the URL for the same needs to be updated into the array
+
+#### configuring SAPCDC URL
+- the callback URL of the same needs to be configured in the SAPCDC URIs
+- the callback URI will be of the form `{baseUrl}/login/oauth2/code/sapcdc`, where baseUrl is the url where the interactive forms is deployed for that particular tenant
+- this needs to be configured for the particular client-id `redZClCiq003bqsBt8aMMNM3` 
