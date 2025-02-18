@@ -158,3 +158,8 @@
 		- Pushed OOPs assignment 2 for review
 		- Need to write test cases for the SVG
 		- Connected with Ashish for the final documentations in the post deployment with Sync Service
+	- Feb 18, 2025
+		- wrote test cases for the SVG resizing
+		- worked on calling the gigya logout endpoint while logging the user our of interactive forms
+		- ran into some errors in how to access the endpoint while calling the logout function
+		- need to figure out a way on how to retrieve the logout URL from either the application properties or from the .env values
