@@ -163,3 +163,7 @@
 		- worked on calling the gigya logout endpoint while logging the user our of interactive forms
 		- ran into some errors in how to access the endpoint while calling the logout function
 		- need to figure out a way on how to retrieve the logout URL from either the application properties or from the .env values
+	- Feb 19, 2025
+		- worked on fixing the gigya logout
+		- was able to pass the URL to the security webfilter and call the required API
+		- worked on assignment review comments. pushed the code for review
