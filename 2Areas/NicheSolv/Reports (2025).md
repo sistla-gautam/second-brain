@@ -167,3 +167,8 @@
 		- worked on fixing the gigya logout
 		- was able to pass the URL to the security webfilter and call the required API
 		- worked on assignment review comments. pushed the code for review
+	- Feb 20, 2025
+		- changed the approach for calling the logout URL
+		- need to call from the client than the server
+		- changed the client code to do the redirect to the URL
+		- got assignment comments. need to work on them
