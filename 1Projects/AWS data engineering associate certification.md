@@ -93,3 +93,7 @@ Now that you understand **data engineering concepts**, start learning **AWS-spec
 ✔ **Stay consistent** – Study **1-2 hours/day** for steady progress  
 ✔ **Take Notes** – Summarize what you learn 
 ✔ **Work on a real-world project** (Example: Build a **Sales Dashboard** using AWS Redshift, Glue, and QuickSight)
+
+## Course Links
+-  [udemy course](https://www.udemy.com/course/aws-data-engineer/)
+- [practice exams](https://www.udemy.com/course/practice-exams-aws-certified-data-engineer-associate-r/)
