@@ -172,3 +172,8 @@
 		- need to call from the client than the server
 		- changed the client code to do the redirect to the URL
 		- got assignment comments. need to work on them
+	- Feb 21, 2025
+		- worked on created a new patch for the different changes to be applied for appsmith
+		- worked on assignment changes for OOPS-2
+		- made changes to the script to now accept different parameters
+		- need to discuss with Ashish on if this method will make sense or not
