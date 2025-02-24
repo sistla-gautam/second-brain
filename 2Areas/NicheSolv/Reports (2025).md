@@ -177,3 +177,9 @@
 		- worked on assignment changes for OOPS-2
 		- made changes to the script to now accept different parameters
 		- need to discuss with Ashish on if this method will make sense or not
+	- Feb 24, 2025
+		- worked on SVG elements issue ticket
+		- refactored the approach on how the elements are stored
+		- pushed the code for further review
+		- wrote down documentation for the SVG resizing part
+		- worked on OOPS assignment 2. got review comments on the same and finished the assignment
