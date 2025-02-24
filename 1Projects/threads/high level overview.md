@@ -1,0 +1,10 @@
+- [ ] create a new email account
+- [ ] create a new instagram account
+- [ ] edit the insta account with details
+	- [ ] create a new bio
+	- [ ] change the pic
+- [ ] create a new threads account
+- [ ] edit account with details
+	- [ ] create a new bio
+	- [ ] change the pic
+- [ ] download apps to download posts
