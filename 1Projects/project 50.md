@@ -6,3 +6,8 @@
 - dedicate 1 hr towards a new skill
 - follow a healthy diet
 - track your daily progress
+
+
+## daily progress
+- 24 feb
+	- 
