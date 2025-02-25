@@ -1,4 +1,4 @@
-- January
+ss- January
 	- Jan 2, 2025
 		- Got onto a call with Santosh to explain the current state of Appsmith
 		- Explained the current state of Sync Service and the unit tests
@@ -183,3 +183,8 @@
 		- pushed the code for further review
 		- wrote down documentation for the SVG resizing part
 		- worked on OOPS assignment 2. got review comments on the same and finished the assignment
+	- Feb 25, 2025
+		- went to YTI
+		- worked on additional test cases for SVG
+		- pushed the same for creating tags
+		- connected with Ashish to discuss the Appsmith and sync service implementation in higher environments
