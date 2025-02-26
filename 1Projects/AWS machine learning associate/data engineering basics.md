@@ -1,37 +1,36 @@
-- types of data
+types of data
 	- structured
 	- unstructured
 	- semi structured
 
-- three different V of data
+three different V of data
 	- volume
 	- velocity
 	- variety
 	- also has veracity
 
-- data warehouses vs data lakes
-	- warehouses
-		- structured format storage
-		- read heavy format
-		- star or snow flake format storage
-		- data undergoes ETL process
-		- amazon redshift
-	- lake
-		- large repo of all types of data
-		- structured, semi structured and unstructured data - holds in its native format
-		- no pre processing
-		- supports real time, batch and stream processing
-		- data undergoes ELT process or just store
-		- amazon s3 as a data lake
-
+data warehouses vs data lakes
+- warehouses
+	- structured format storage
+	- read heavy format
+	- star or snow flake format storage
+	- data undergoes ETL process
+	- amazon redshift
+- lake
+	- large repo of all types of data
+	- structured, semi structured and unstructured data - holds in its native format
+	- no pre processing
+	- supports real time, batch and stream processing
+	- data undergoes ELT process or just store
+	- amazon s3 as a data lake
 - data lakehouses
 	- hybrid between lakes and warehouses
 	- structured and unstructured
 	- schema on read and schema on write
 
-- data mesh
-	- decentralized approach to storage of data
-	- every team will store their own data
+data mesh
+- decentralized approach to storage of data
+- every team will store and govern their own data
 
 ETL pipelines
 - extract
