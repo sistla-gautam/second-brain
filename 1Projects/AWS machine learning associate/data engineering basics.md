@@ -1,13 +1,13 @@
 types of data
-	- structured
-	- unstructured
-	- semi structured
+-  structured
+- unstructured
+- semi structured
 
 three different V of data
-	- volume
-	- velocity
-	- variety
-	- also has veracity
+- volume
+- velocity
+- variety
+- also has veracity
 
 data warehouses vs data lakes
 - warehouses
