@@ -47,5 +47,5 @@ ETL pipelines
 - loading
 	- can be done in batches or realtime
 	- ensure data integrity
-- amazon glue
+- amazon 
 
