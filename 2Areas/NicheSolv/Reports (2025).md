@@ -1,4 +1,4 @@
-ss- January
+- January
 	- Jan 2, 2025
 		- Got onto a call with Santosh to explain the current state of Appsmith
 		- Explained the current state of Sync Service and the unit tests
@@ -112,7 +112,7 @@ ss- January
 		- needed to clean up the workflow files, hence created a new tag
 		- connected with Mallikarjun to make some changes to the SAPCDC redirect URL
 		- connected with Santosh and Ashish for the deployment of Appsmith and documentation of the same
-		- connected with  Archie for the integration of sync service
+		- connected with Archie for the integration of sync service
 	- Feb 6, 2025
 		- went to YTI
 		- worked on sonarqube fixes of sync service
@@ -188,3 +188,6 @@ ss- January
 		- worked on additional test cases for SVG
 		- pushed the same for creating tags
 		- connected with Ashish to discuss the Appsmith and sync service implementation in higher environments
+	- Feb 27, 2025
+		- worked on some changes in the library code
+		- made changes to the archival section in the code

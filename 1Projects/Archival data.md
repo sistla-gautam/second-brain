@@ -1,0 +1,3 @@
+- pass new argument in the `getSeriesTagValues` function as `isArchival`
+- pass this to the `processSeriesTagValues` function
+- this function will then
