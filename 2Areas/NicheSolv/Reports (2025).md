@@ -191,3 +191,7 @@
 	- Feb 27, 2025
 		- worked on some changes in the library code
 		- made changes to the archival section in the code
+	- Feb 28, 2025
+		- conducted interviews for candidates
+		- made changes to the archival section of the library code
+		- still need to discuss if this is the expected value or not
