@@ -59,10 +59,10 @@ _Hint 2-F: Direct Insight_ The most important revelation in this stage is that E
 
 1. Who committed the murder? _Correct Answer: Daniel Brooks and Dr. Lillian Carter working together._
 2. What was their true motive? _Correct Answer: Eleanor discovered that Daniel's publishing company was laundering money for illegal pharmaceutical trials conducted by Dr. Carter, including a connection to her research assistant's death._
-3. How exactly was the poison administered? *Correct Answer:
-    - Part 1: Dr. Carter prescribed diazepam to Eleanor (taken at normal dosage)
-    - Part 2: Daniel added amobarbital to Eleanor's whiskey during an earlier meeting
-    - Part 3: The experimental compound XR-27 from Dr. Carter's trials was added to the glass directly*
+3. How exactly was the poison administered? *Correct Answer:*
+    - *Part 1: Dr. Carter prescribed diazepam to Eleanor (taken at normal dosage)*
+    - *Part 2: Daniel added amobarbital to Eleanor's whiskey during an earlier meeting*
+    - *Part 3: The experimental compound XR-27 from Dr. Carter's trials was added to the glass directly*
 4. How was the locked room scenario created? _Correct Answer: Daniel waited outside the study window until Eleanor lost consciousness. He entered through the window, arranged evidence to suggest suicide, then exited the same way, using a thin wire through the keyhole to lock the door from the outside._
 5. What evidence definitively proves their guilt? *Correct Answer: (Must identify at least 3)
     - The toxicology report showing the experimental drug only Dr. Carter had access to

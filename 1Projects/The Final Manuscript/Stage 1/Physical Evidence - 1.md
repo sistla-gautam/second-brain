@@ -14,7 +14,7 @@
 - **Item:** Oak door with antique locking mechanism.
 - **Location:** Main entrance to private study.
 - **Details:** **Locked from the inside**, key found in Eleanor’s pocket. No signs of **forced entry**.
-- **Notes:** The study has **two entry points**: the **main door** and a **window overlooking the garden**.
+- **Notes:** The study has **two entry points**: the **main door** and a **window overlooking the garden**. The lock mechanism has thin scratches on the inside.
 
 ---
 
