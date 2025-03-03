@@ -195,3 +195,7 @@
 		- conducted interviews for candidates
 		- made changes to the archival section of the library code
 		- still need to discuss if this is the expected value or not
+- March 3, 2025
+	- worked on backend service
+	- needed to connect with Santosh, but was busy with release work
+	- worked on assignments
