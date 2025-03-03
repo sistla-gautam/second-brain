@@ -9,7 +9,7 @@ Your task is to begin unraveling the truth.
 
 🔎 Examine the crime scene and collect initial clues.  
 🕵️‍♂️ Get to know the five key figures in Eleanor's life—each with their own secrets.  
-📖 Analyze Eleanor’s unfinished manuscript and its eerie connection to the case.  
+📖 Analyze Eleanor’s unfinished manuscript.
 🚪 Determine how the locked study might have played a role in her death.  
 ⏳ Piece together a rough timeline of what happened between **8:00 PM - 10:00 PM**.
 

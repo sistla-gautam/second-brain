@@ -21,7 +21,7 @@
 - **Item:** Typewritten pages with handwritten notes.
 - **Location:** Found on Eleanor’s desk.
 - **Details:** **Unfinished manuscript titled "The Perfect Murder."** The **first page** describes a murder involving a **locked room and poisoning**.
-- **Notes:** Some sections are annotated, but **most of the text is still unread**.
+- **Notes:** Some sections are annotated, but **most of the text is still unread**
 
 ---
 
