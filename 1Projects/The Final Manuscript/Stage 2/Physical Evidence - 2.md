@@ -20,3 +20,18 @@
 - **Location:** Found in Vera Sinclair’s bag
 - **Details:** One-way ticket to Portland, departure at 8:30 PM on the night of the murder
 - **Relevance:** Passenger manifest confirms Vera was on board, but the train made a brief stop at Harlow Station, three miles from Blackwood Manor
+
+---
+
+### **EVIDENCE #8: NOTE**
+
+- **Location**: Found in Eleanor study room
+- **Description**: A torn piece of paper
+- **Relevance**: The paper states - "*Vera knows. Too Dangerous*"
+
+---
+
+### **EVIDENCE #9: MANUSCRIPT COPY**
+
+- Location: Found in from Daniel Brooks' briefcase
+- Details: 

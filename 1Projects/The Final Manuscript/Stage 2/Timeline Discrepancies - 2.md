@@ -34,7 +34,7 @@
 - Dr. Carter’s whereabouts are unclear; she claims she was driving to a patient.
 - The 8:30 PM train makes a brief stop at Harlow Station at 9:45 PM.
 
-#### **10:00 PM - 10:30 PM**
+#### **10:00 PM - 11:00 PM**
 
 - Katherine Blackwood returns to her hotel at 10:15 PM.
 - Daniel Brooks arrives back at the hotel at 10:22 PM.

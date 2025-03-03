@@ -15,7 +15,6 @@
 - **Occupation:** General practitioner
 - **Background:** Has been Eleanor’s physician for years.
 - **Statement:** "I attended the Riverview Hospital charity dinner from 7:00 PM to 9:30 PM. I left early due to a patient emergency."
-- **Note:** Found a prescription bottle of Diazepam in **Dr. Carter's car**.
 
 ---
 
@@ -26,7 +25,6 @@
 - **Occupation:** Senior Editor at Midnight Press
 - **Background:** Has edited Eleanor’s novels for over a decade.
 - **Statement:** "I was at the Harrington Hotel bar from 8:00 PM until around 10:30 PM. I hadn’t seen Eleanor since our lunch meeting three days ago."
-- **Note:** Pages from Eleanor’s unfinished **manuscript were found in his briefcase**
 
 ---
 
@@ -37,7 +35,6 @@
 - **Occupation:** Aspiring author
 - **Background:** Left Eleanor’s employment to pursue her own writing.
 - **Statement:** "I took the 8:30 PM train to Portland for a writing conference. I haven’t spoken to Eleanor in months."
-- **Evidence Connection:** A **handwritten note** in Eleanor’s study says: **"Vera knows. Too dangerous."**
 
 ---
 
