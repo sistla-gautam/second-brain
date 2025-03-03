@@ -1,5 +1,6 @@
 ### **EVIDENCE #1: WHISKEY GLASS**
-
+ 
+![[IMG-20250302-WA0015.jpg]]
 - **Item:** Crystal tumbler with whiskey residue.
 - **Location:** Found on Eleanor’s desk.
 - **Details:** Partial fingerprints matching **Robert Blackwood** and **Eleanor Blackwood**. Toxicology detected traces of an **unidentified drug**.
@@ -9,6 +10,7 @@
 
 ### **EVIDENCE #2: LOCKED STUDY DOOR**
 
+![[IMG-20250302-WA0016.jpg]]
 - **Item:** Oak door with antique locking mechanism.
 - **Location:** Main entrance to private study.
 - **Details:** **Locked from the inside**, key found in Eleanor’s pocket. No signs of **forced entry**.
@@ -18,6 +20,7 @@
 
 ### **EVIDENCE #3: MANUSCRIPT PAGES**
 
+![[IMG-20250302-WA0020.jpg]]
 - **Item:** Typewritten pages with handwritten notes.
 - **Location:** Found on Eleanor’s desk.
 - **Details:** **Unfinished manuscript titled "The Perfect Murder."** The **first page** describes a murder involving a **locked room and poisoning**.
@@ -27,6 +30,7 @@
 
 ### **EVIDENCE #4: PRESCRIPTION BOTTLE**
 
+![[IMG-20250302-WA0022.jpg]]
 - **Item:** Pharmacy bottle containing **diazepam**.
 - **Location:** Found in **Dr. Lillian Carter’s vehicle**.
 - **Details:** Prescribed to **Eleanor Blackwood** **two weeks prior** to her death.
