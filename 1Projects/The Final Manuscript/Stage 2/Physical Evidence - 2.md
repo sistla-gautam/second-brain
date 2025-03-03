@@ -1,27 +1,22 @@
-**EVIDENCE #5: BURNED MATCHSTICK**
+### **EVIDENCE #5: BURNED MATCHSTICK**
 
-Item: Partially burned wooden match
-
-Location: Found beneath window of study
-
-Details: Match head shows it was struck and burned briefly. Brand matches distinctive cigars smoked by Henry Dawson. Notes: Eleanor was known to dislike cigar smoke and did not permit smoking in her home.
-
----
-
-**EVIDENCE #6: VOICEMAIL RECORDING**
-
-Item: Digital audio file
-
-Location: Retrieved from Eleanor's lawyer's phone system
-
-Details: Message from Eleanor at 7:58 PM: "I've finally figured it out. If something happens to me, check the—" (static, then silence) Notes: Phone records show the message was remotely accessed and deleted at 9:15 PM from an unknown device.
+- **Location:** Beneath the study window
+- **Description:** A partially burned wooden match, briefly struck and extinguished
+- **Relevance:** Matches the brand commonly used by Henry Dawson, a known cigar smoker
+- **Observation:** Eleanor disliked smoking and did not allow it in her home
 
 ---
 
-**EVIDENCE #7: TRAIN TICKET**
+### **EVIDENCE #6: VOICEMAIL RECORDING**
 
-Item: One-way ticket to Portland
+- **Location:** Retrieved from Eleanor's lawyer's voicemail system
+- **Content:** Message left at 7:58 PM— "I've finally figured it out. If something happens to me, check the—" (cut off by static)
+- **Relevance:** The message was remotely accessed and deleted at 9:15 PM from an unknown device
 
-Location: Found in Vera Sinclair's bag
+---
 
-Details: Departure at 8:30 PM on the night of the murder. Passenger manifest confirms Vera boarded the train. Notes: The train makes a brief 5-minute stop at Harlow Station, 3 miles from Blackwood Manor, before continuing to Portland.
+### **EVIDENCE #7: TRAIN TICKET**
+
+- **Location:** Found in Vera Sinclair’s bag
+- **Details:** One-way ticket to Portland, departure at 8:30 PM on the night of the murder
+- **Relevance:** Passenger manifest confirms Vera was on board, but the train made a brief stop at Harlow Station, three miles from Blackwood Manor

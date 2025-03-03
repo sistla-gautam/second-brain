@@ -1,19 +1,22 @@
-## Stage 2: Deepening Mystery
+![[Pasted image 20250303121353.png]]
+### **Stage 2: Deepening the Mystery**
 
-**New Evidence Unlocked:**
+New clues emerge, and the picture of what happened to **Eleanor Blackwood** grows more complicated. As you dig deeper, you realize that some alibis don’t hold up—and that Eleanor may have been onto something far bigger than anyone suspected.
 
-- Physical Evidence Cards #5-7 (Burned Matchstick, Voicemail Recording, Train Ticket)
-- Timeline Discrepancies document (full version)
-- Complete Manuscript Excerpt with margin notes
-- Toxicology Report (basic findings only)
-- Two New Suspect Profiles (James Morrison, Katherine Blackwood)
+### **New Evidence Unlocked:**
 
-**Stage 2 Objectives:**
+🕯️ **Burned Matchstick** – A small clue with a big implication.  
+📱 **Voicemail Recording** – A message from Eleanor, cut off before she could reveal something crucial.  
+🎟️ **Train Ticket** – A timeline-altering discovery tied to one of your suspects.  
+📜 **Complete Manuscript Excerpt** – Now with margin notes that hint at hidden truths.  
+🕰️ **Timeline Discrepancies** – A closer look at inconsistencies in witness statements.  
+🧪 **Toxicology Report** – The poison wasn’t ordinary—it required expertise to create.  
+🕵️‍♂️ **New Suspect Profiles** – Two more players enter the game: **James Morrison** and **Katherine Blackwood**.
 
-1. Recognize that multiple people had opportunity despite their alibis
-2. Identify the significance of the deleted voicemail
-3. Determine that the poison was a multi-compound mixture requiring specialized knowledge
-4. Evaluate the new suspects and their potential connections
-5. Begin to notice connections between certain suspects (especially Daniel and Lillian)
+### **Your Investigation Goals:**
 
-**Completion Requirement:** Players must correctly deduce that at least two people were involved in the murder and identify the significance of the manuscript as more than just a blueprint (hint that it contains real information, not just fiction).
+🔍 Challenge the suspects' alibis—some don’t add up.  
+📱 Uncover why the deleted voicemail was so important.  
+🧪 Determine the nature of the poison—it wasn’t just a simple dose.  
+🔗 Examine the new suspects and their possible motives.  
+👁️ Start noticing unexpected connections—especially between **Daniel and Lillian**.
