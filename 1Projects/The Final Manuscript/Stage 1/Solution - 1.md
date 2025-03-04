@@ -3,9 +3,9 @@
 **Case Status:** INITIAL INVESTIGATION COMPLETE
 
 **Key Findings:**
-✅ The death was NOT a suicide—Eleanor was poisoned.  
+✅ The death was NOT a suicide — Eleanor was poisoned.  
 ✅ The locked room was STAGED to mislead investigators.  
-✅ The manuscript wasn’t just fiction—it mirrored the murder details.  
+✅ The manuscript wasn’t just fiction — it mirrored the murder details.  
 ✅ At least one suspect is hiding critical information.
 
 **Confirmed Evidence:**
