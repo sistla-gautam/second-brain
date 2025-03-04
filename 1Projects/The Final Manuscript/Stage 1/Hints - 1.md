@@ -1,0 +1,4 @@
+- Was the suicide truly a suicide or was any foul play involved?
+- Are the fingerprints consistent?
+- What does the manuscript say?
+- 
