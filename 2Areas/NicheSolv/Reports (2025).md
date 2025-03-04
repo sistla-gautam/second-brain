@@ -199,3 +199,9 @@
 	- worked on backend service
 	- needed to connect with Santosh, but was busy with release work
 	- worked on assignments
+- March 4, 2025
+	- completed 1 year here lmao
+	- worked on the backend service
+	- replaces the url with a hardcoded value
+	- the request is currently blocked by CORS policy, but the URL seems to be working fine
+	- need to look into assignment 3 review changes
