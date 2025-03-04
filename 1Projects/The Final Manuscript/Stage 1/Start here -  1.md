@@ -6,3 +6,9 @@ You step into **Blackwood Manor**, where renowned author Eleanor Blackwood has b
 Your task is to begin unraveling the truth.
 
 Your first step is to determine whether Eleanor’s death was as straightforward as it seems… or if a hidden hand was at play.
+
+---
+1. Establish basic understanding of the crime scene
+2. Identify the five initial suspects and their apparent motives
+3. What are some anomalies you found with the manuscript?
+4. What are some inconsistencies in the case material so far?
