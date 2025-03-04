@@ -1,0 +1,1 @@
+The case is not a suicide. The Manuscript showcases the flow of the events. Eleanor knew of this and had tried to prepare for the same. The Whiskey was tampered with and that lead to her toxication. The killer had made it seem like the case was a suicide by tampering with the evidence.
