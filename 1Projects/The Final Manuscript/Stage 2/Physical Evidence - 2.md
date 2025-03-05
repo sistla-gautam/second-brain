@@ -32,5 +32,5 @@
 
 ### **EVIDENCE #9: MANUSCRIPT COPY**
 
-- Location: Found in from Daniel Brooks' briefcase
-- Details: 
+- **Location**: Found in from Daniel Brooks' briefcase
+- **Details**: Found it in 

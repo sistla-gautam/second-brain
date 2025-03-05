@@ -352,7 +352,10 @@ NOTE: Compound XR-27 is currently in Phase II clinical trials. Records indicate 
 
 **FRAGMENT 1: TORN CALENDAR PAGE**
 
-November 10 7:30 AM - Morning pages (3) 10:00 AM - Call MM about chapter revisions 2:00 PM - Tea with "The Raven" (bring R+L files) 6:30 PM - Review final evidence before submission
+November 10 7:30 AM - Morning pages (3) 
+10:00 AM - Call MM about chapter revisions
+2:00 PM - Tea with "The Raven" (bring R+L files)
+6:30 PM - Review final evidence before submission
 
 **FRAGMENT 2: BOOKMARK NOTE** Check Middlemarch p.194, Gatsby p.72, Clockwork p.118 "When combined they will reveal the truth"
 
