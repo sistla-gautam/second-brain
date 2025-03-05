@@ -1,9 +1,8 @@
 ### **EVIDENCE #5: BURNED MATCHSTICK**
 
 - **Location:** Beneath the study window
-- **Description:** A partially burned wooden match, briefly struck and extinguished
-- **Relevance:** Matches the brand commonly used by Henry Dawson, a known cigar smoker
-- **Observation:** Eleanor disliked smoking and did not allow it in her home
+- **Description:** A partially burned wooden match, briefly struck and extinguished. Matches the brand commonly used by Henry Dawson, a known cigar smoker
+- **Note:** Eleanor disliked smoking and did not allow it in her home
 
 ---
 
@@ -11,7 +10,7 @@
 
 - **Location:** Retrieved from Eleanor's lawyer's voicemail system
 - **Content:** Message left at 7:58 PM— "I've finally figured it out. If something happens to me, check the—" (cut off by static)
-- **Relevance:** The message was remotely accessed and deleted at 9:15 PM from an unknown device
+- **Note:** The message was remotely accessed and deleted at 9:15 PM from an unknown device
 
 ---
 
@@ -19,7 +18,7 @@
 
 - **Location:** Found in Vera Sinclair’s bag
 - **Details:** One-way ticket to Portland, departure at 8:30 PM on the night of the murder
-- **Relevance:** Passenger manifest confirms Vera was on board, but the train made a brief stop at Harlow Station, three miles from Blackwood Manor
+- **Note:** Passenger manifest confirms Vera was on board, but the train made a brief stop at Harlow Station, three miles from Blackwood Manor
 
 ---
 
