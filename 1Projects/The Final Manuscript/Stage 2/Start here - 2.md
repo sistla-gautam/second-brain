@@ -13,13 +13,5 @@ New clues emerge, and the picture of what happened to **Eleanor Blackwood** grow
 🧪 **Toxicology Report** – The poison wasn’t ordinary—it required expertise to create.  
 🕵️‍♂️ **New Suspect Profiles** – Two more players enter the game: **James Morrison** and **Katherine Blackwood**.
 
-### **Your Investigation Goals:**
-
-🔍 Challenge the suspects' alibis—some don’t add up.  
-📱 Uncover why the deleted voicemail was so important.  
-🧪 Determine the nature of the poison—it wasn’t just a simple dose.  
-🔗 Examine the new suspects and their possible motives.  
-👁️ Start noticing unexpected connections—especially between **Daniel and Lillian**.
-
----
-Understand who are the potential suspects responsible for the murder of Eleanor Blackwood and the objects of murder
+### **Investigation goal**
+Understand who are the potential suspects responsible for the murder of Eleanor Blackwood and how it was done.
