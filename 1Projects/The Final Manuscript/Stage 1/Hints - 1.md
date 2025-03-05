@@ -1,3 +1,6 @@
+![[hints - 1 1.png]]
+
+---
 The hints are in the order of lowest to highest
 1. Pay close attention to what the Manuscript is saying
 2. Cross reference the evidence and the suspect list to find anything that catches your eye.
