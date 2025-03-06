@@ -205,3 +205,12 @@
 	- replaces the url with a hardcoded value
 	- the request is currently blocked by CORS policy, but the URL seems to be working fine
 	- need to look into assignment 3 review changes
+- March 5, 2025
+	- worked on the test cases for the archival setup
+	- created a new branch and pushed the data
+	- could not work on assignment due to internet stopage
+- March 6, 2025
+	- created the required documentation of Archival
+	- got write access for the same and pushed the code for CI testing
+	- made sure that the sonarqube is passing for the branch
+	- discussed with Natraj about OOPS-3 assignment. need to make changes to the assignment
