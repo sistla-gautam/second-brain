@@ -9,4 +9,4 @@
 
 **INITIAL ASSESSMENT**
 
-Eleanor Blackwood was found deceased in her private study at 10:48 PM by her husband, Robert Blackwood. The door to the study was locked from the inside, with the key in the victim's pocket. The window was closed but unlocked. A glass of whiskey on the desk contained traces of diazepam and an unidentified compound. The victim's personal physician, Dr. Lillian Carter, initially suggested the death may have been suicide, given the locked room and the victim's recent bouts of insomnia.
+Eleanor Blackwood was found deceased in her private study at 10:48 PM by her husband, Robert Blackwood. The door to the study was locked from the inside, with the key in the victim's pocket. The window was closed but unlocked. A glass of whiskey on the desk contained traces of diazepam and an unidentified compound. The victim's personal physician, Dr. Lillian Carter, initially suggested the death may have been suicide, given the locked room and the victim's recent bouts of insomnia. 
