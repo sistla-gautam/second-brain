@@ -4,7 +4,7 @@
 **Reporting Officer**: Detective Michael Hayes
 **Victim**: Eleanor Blackwood, 58
 **Location**: Blackwood Manor, 1427 Raven Hill Road
-**Time of Death**: Between 8:00 PM - 10:00 PM on November 11, 2024
+**Time of Death**: Between 8:00 PM - 10:00 PM on November 11, 1995
 **Cause of Death**: Poisoning (toxicology details pending)
 
 **INITIAL ASSESSMENT**

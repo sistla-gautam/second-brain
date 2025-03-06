@@ -4,3 +4,26 @@
 - This `dataMapperUtil` `getSeriesDataValues` will then call the `getSeriesDataResponse` function
 - this function will then do the final checking
 ![[Pasted image 20250227165607.png]]
+---
+## updated code
+
+---
+## documentation 
+
+```js
+getSeriesTagValues(
+    tagData,
+    callBack,
+    mappingId,
+    fromDate,
+    toDate,
+    samplesCount,
+    window,
+    grouping,
+    index,
+    params,
+    isArchival
+  )
+```
+
+
