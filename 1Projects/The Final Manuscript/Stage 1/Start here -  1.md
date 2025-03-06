@@ -8,5 +8,5 @@ Your first step is to piece together what happened in Eleanor’s final hours.
 
 1. Examine the crime scene and note any relevant details.
 2. Identify five individuals connected to Eleanor and their relationships with her.
-3. Review her unfinished manuscript—does it hold any significance?
-4. Consider the case materials—do they all align with the expected conclusion?
+3. Review her unfinished manuscript.
+4. Consider the case materials.
