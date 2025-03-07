@@ -8,3 +8,12 @@
     - No clear view of what, if anything, was touched or altered.
     - No visible reaction from the patron who later drank from the glass.
 - **Notes:** Bar tab confirms Daniel was present that evening, but no receipts show him purchasing a drink for anyone else.
+
+---
+
+### **EVIDENCE #11: HOTEL NAPKIN**
+
+- **Location:** Found in a waste bin at the Harrington Hotel bar
+- **Details:** White cloth napkin with an indistinct stain
+- **Forensic Analysis:** Preliminary tests reveal a faint chemical residue, requiring further analysis
+- **Timeline:** Discarded between **8:00 PM - 8:30 PM** on the night of the murder
