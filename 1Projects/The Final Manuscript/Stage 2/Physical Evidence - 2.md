@@ -34,3 +34,13 @@
 
 - **Location**: Found in from Daniel Brooks' briefcase
 - **Details**: Found a copy of the manuscript of Eleanor
+
+---
+
+### **EVIDENCE #10: HOTEL NAPKIN**
+
+- **Location:** Found in a waste bin at the Harrington Hotel bar
+- **Details:** White cloth napkin with an indistinct stain
+- **Toxicology report:** Pending
+- **Timeline:** Discarded between **8:00 PM - 8:30 PM** on the night of the murder
+-%%  **Notes:** Hotel records confirm Eleanor was **not** at the Harrington Hotel that evening. Bartender recalls a **guest handling another patron’s drink** but cannot identify the individual. No recoverable fingerprints. %%
