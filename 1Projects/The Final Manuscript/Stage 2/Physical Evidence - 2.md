@@ -33,4 +33,4 @@
 ### **EVIDENCE #9: MANUSCRIPT COPY**
 
 - **Location**: Found in from Daniel Brooks' briefcase
-- **Details**: Found it in 
+- **Details**: Found a copy of the manuscript of Eleanor
