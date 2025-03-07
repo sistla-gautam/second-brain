@@ -39,8 +39,7 @@
 
 ### **EVIDENCE #10: HOTEL NAPKIN**
 
-- **Location:** Found in a waste bin at the Harrington Hotel bar
+- **Location:** Found in a waste bin at the **The Whitmore Hotel** 
 - **Details:** White cloth napkin with an indistinct stain
-- **Toxicology report:** Pending
+- **Toxicology Report:** Preliminary tests reveal a faint chemical residue, requiring further analysis
 - **Timeline:** Discarded between **8:00 PM - 8:30 PM** on the night of the murder
--%%  **Notes:** Hotel records confirm Eleanor was **not** at the Harrington Hotel that evening. Bartender recalls a **guest handling another patron’s drink** but cannot identify the individual. No recoverable fingerprints. %%

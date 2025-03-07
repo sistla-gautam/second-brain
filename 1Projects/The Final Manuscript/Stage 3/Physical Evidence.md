@@ -15,5 +15,5 @@
 
 - **Location:** Found in a waste bin at the Harrington Hotel bar
 - **Details:** White cloth napkin with an indistinct stain
-- **Forensic Analysis:** Preliminary tests reveal a faint chemical residue, requiring further analysis
+- **Toxicology Report:** Preliminary tests reveal a faint chemical residue, requiring further analysis
 - **Timeline:** Discarded between **8:00 PM - 8:30 PM** on the night of the murder
