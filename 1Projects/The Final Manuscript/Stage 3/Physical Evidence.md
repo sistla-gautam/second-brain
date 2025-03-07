@@ -17,3 +17,12 @@
 - **Details:** White cloth napkin with an indistinct stain
 - **Toxicology Report:** Preliminary tests reveal a faint chemical residue, requiring further analysis
 - **Timeline:** Discarded between **8:00 PM - 8:30 PM** on the night of the murder
+
+---
+
+### **EVIDENCE #11: MANUSCRIPTS
+
+- **Location:** Found from a previous case file
+- **Details:** Found manuscripts from an old suicide case of 
+- **Toxicology Report:** Preliminary tests reveal a faint chemical residue, requiring further analysis
+- **Timeline:** Discarded between **8:00 PM - 8:30 PM** on the night of the murder
