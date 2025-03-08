@@ -33,7 +33,7 @@
 ### **EVIDENCE #9: MANUSCRIPT COPY**
 
 - **Location**: Found in from Daniel Brooks' briefcase
-- **Details**: Found a copy of the manuscript of "The Perfect Murder"
+- **Details**: Found a copy of the manuscript of "The Perfect Murder" in the briefcase of Daniel Brooks
 
 ---
 
