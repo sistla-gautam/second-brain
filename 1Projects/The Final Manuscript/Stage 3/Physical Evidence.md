@@ -16,16 +16,6 @@ Details: Records show transfers from Midnight Press to offshore accounts linked 
 
 ---
 
-### **EVIDENCE #9: SECURITY CAMERA FOOTAGE**
-
-Item: Digital video file
-
-Location: Retrieved from Harrington Hotel security system
-
-Details: Shows Daniel Brooks in hotel lobby at 8:05 PM, leaving at 8:17 PM, and returning at 10:22 PM. Contradicts his statement about continuous presence at the hotel bar. Notes: Hotel bar is not visible in security footage. Bartender has no recollection of serving Daniel that evening.
-
----
-
 ### **EVIDENCE #10: WILL MODIFICATION**
 
 Item: Legal document with recent amendments
