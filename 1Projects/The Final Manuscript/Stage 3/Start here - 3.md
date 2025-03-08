@@ -1,6 +1,10 @@
-![[Pasted image 20250303121353.png]]
-### **Stage 3: Piecing the puzzle**
+![[Pasted image 20250308223119.png]]
+### **Stage 3: Piecing the Puzzle**
 
-The case seems to be much more deeper than what it seemed like. Find out what the intent of suspects is. Can you uncover much deeper problems and what has actually happened?
-### **Investigation goal**
-Understand who are the potential suspects responsible for the murder of Eleanor Blackwood and how it was done.
+The deeper you dig, the more tangled the mystery becomes. The suspects' motives are not as simple as they first appeared—there’s something bigger at play. What were they truly after? What secrets are still hidden?
+
+New revelations and hidden agendas come to light. Follow the clues to uncover the real story behind Eleanor Blackwood’s murder.
+
+### **Investigation Goal**
+
+Unravel the truth behind the suspects’ actions and expose the deeper mystery at the heart of the case.
