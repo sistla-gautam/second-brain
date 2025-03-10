@@ -1,3 +1,5 @@
+![[Pasted image 20250310115546.png]]
+
 The book "**Waiting for Something**" contained a bookmark with the following text:
 #### ***Bookmark contents***
 
