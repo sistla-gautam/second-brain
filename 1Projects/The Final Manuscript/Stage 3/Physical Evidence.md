@@ -1,12 +1,3 @@
-### **EVIDENCE #8: FINANCIAL DOCUMENTS**
-
-- **Item**: Bundle of bank statements and financial records
-- **Location**: Hidden in false bottom of Eleanor's desk drawer
-- **Note**: Some pages seem to be missing. The missing pages seem to align with what was found in the fireplace
-
-
----
-
 ### **EVIDENCE #10: WILL MODIFICATION**
 
 - **Item**: Legal document with recent amendments
@@ -16,16 +7,17 @@
 
 ---
 
-### **EVIDENCE #10: ELEANOR'S CALENDAR
-
-- **Item**: Calendar Schedule of Eleanor Blackwood
-- **Location**: Found in Eleanor's study
-- **Notes**: Seems to contain her recent schedule for the month of October and November
-
----
-
 ### **EVIDENCE #10: VEERA'S MANUSCRIPT
 
 - **Item**: Old manuscripts of Vera Sinclair
 - **Location**: Manuscript of Vera Sinclair's first novel - "**Three Days to Nowhere**"
 - **Notes**: Vera's first novel manuscript contains striking similarities to Eleanor's current work.
+
+---
+
+### **EVIDENCE #10: OLD CASE FILES
+
+- **Item**: Case file from an old missing person case
+- **Notes**: Case belongs to a person who was said to work for MP Research Clinic. The case is once again brought to light due to the connection in the current case.
+
+---

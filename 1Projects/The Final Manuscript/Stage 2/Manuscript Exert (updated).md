@@ -18,4 +18,4 @@ The phone slipped from her grasp as the paralysis began to take hold. She could 
 
 The perfect murder, designed to look like suicide. Just as they had done to...
 
-**[HANDWRITTEN NOTE IN MARGIN: "Check LC's involvement in trial drugs + DB financial transactions from March-June"]**
+**[HANDWRITTEN NOTE IN MARGIN: "Check LC's involvement in trial drugs + DB financial transactions"]**

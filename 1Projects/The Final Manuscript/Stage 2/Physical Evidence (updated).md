@@ -53,7 +53,7 @@
 
 ---
 
-### **EVIDENCE #11: BURNT RECORDS
+### **EVIDENCE #12: BURNT RECORDS
 
 - **Location:** Found in a fireplace of Eleanor Blackwood's study
 - **Details:** Appears to be financial records that are burnt
@@ -61,8 +61,8 @@
 
 ---
 
-### **EVIDENCE #12: ELEANOR'S CALENDAR**
+### **EVIDENCE #13: ELEANOR'S CALENDAR**
 
 - **Location**: Found in Eleanor Blackwood's study
-- Details: Contains the schedule for the month of November and October
-- Note: It also contains what seems to be some type of additional data
+- **Details**: Contains the schedule for the month of November and October
+- **Note**: It also contains what seems to be some type of numbers
