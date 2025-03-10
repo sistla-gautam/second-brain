@@ -14,4 +14,4 @@
 Toxicology indicates the presence of multiple sedatives. The exact cause of death remains undetermined pending further investigation.
 
 **ADDITIONAL CONCLUSION:**
-Amobarbital takes effect in the human body after 72 hours in the body. Diazepam reacts with this to cause immediate respirator failure
+Amobarbital takes effect in the human body after 72 hours in the body. Diazepam reacts with this to cause immediate respirator failure.
