@@ -37,9 +37,8 @@
 
 ---
 
-%% ### **EVIDENCE #10: HOTEL NAPKIN**
+### **EVIDENCE #10: BOOKMARK NOTE**
 
-- **Location:** Found in a waste bin at the **The Whitmore Hotel** 
-- **Details:** White cloth napkin with an indistinct stain
-- **Toxicology Report:** Preliminary tests reveal a faint chemical residue, requiring further analysis
-- **Timeline:** Discarded between **8:00 PM - 8:30 PM** on the night of the murder %%
+- **Location**: Found in a Book Titled "*Waiting for something*"
+- **Details**: The book contained a bookmark in page 3
+- **Note**: 

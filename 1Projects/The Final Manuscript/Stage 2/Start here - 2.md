@@ -6,3 +6,6 @@ New clues emerge, and the picture of what happened to **Eleanor Blackwood** grow
 New evidences and new suspect profiles have opened up. Investigate further to figure out more.
 ### **Investigation goal**
 Understand who are the potential suspects responsible for the murder of Eleanor Blackwood and how it was done.
+
+---
+**NOTE**: Some clues might not make complete sense in this stage. Make sure to combine them with the next stage to find bigger clues
