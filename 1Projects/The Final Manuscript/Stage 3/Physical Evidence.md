@@ -1,4 +1,4 @@
-### **EVIDENCE #10: WILL MODIFICATION**
+### **EVIDENCE #14: WILL MODIFICATION**
 
 - **Item**: Legal document with recent amendments
 - **Location**: Found in Eleanor's lawyer's office
@@ -7,7 +7,7 @@
 
 ---
 
-### **EVIDENCE #10: VEERA'S MANUSCRIPT
+### **EVIDENCE #15: VEERA'S MANUSCRIPT
 
 - **Item**: Old manuscripts of Vera Sinclair
 - **Location**: Manuscript of Vera Sinclair's first novel - "**Three Days to Nowhere**"
@@ -15,7 +15,7 @@
 
 ---
 
-### **EVIDENCE #10: OLD CASE FILES
+### **EVIDENCE #16: OLD CASE FILES
 
 - **Item**: Case file from an old missing person case
 - **Notes**: Case belongs to a person who was said to work for MP Research Clinic. The case is once again brought to light due to the connection in the current case.
