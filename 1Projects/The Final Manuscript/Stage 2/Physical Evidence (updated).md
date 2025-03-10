@@ -40,5 +40,4 @@
 ### **EVIDENCE #10: BOOKMARK NOTE**
 
 - **Location**: Found in a Book Titled "*Waiting for something*"
-- **Details**: The book contained a bookmark in page 3
-- **Note**: 
+- **Details**: The book contained a bookmark in page 3 with some text
