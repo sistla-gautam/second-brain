@@ -41,3 +41,28 @@
 
 - **Location**: Found in a Book Titled "*Waiting for something*"
 - **Details**: The book contained a bookmark in page 3 with some text
+
+---
+
+### **EVIDENCE #11: WINE BOTTLE**
+
+- **Location:** Found in a waste bin at the Harrington Hotel bar
+- **Details:** Wine Bottle brought in by Daniel Brooks
+- **Toxicology Report:** Preliminary tests reveal a faint chemical residue, requiring further analysis
+- **Timeline:** Discarded between **12:00 - 14:30** on November 10
+
+---
+
+### **EVIDENCE #11: BURNT RECORDS
+
+- **Location:** Found in a fireplace of Eleanor Blackwood's study
+- **Details:** Appears to be financial records that are burnt
+- **Note**: No text is understandable. The pages seem to show some records containing the company "MP Clinical Research"
+
+---
+
+### **EVIDENCE #12: ELEANOR'S CALENDAR**
+
+- **Location**: Found in Eleanor Blackwood's study
+- Details: Contains the schedule for the month of November and October
+- Note: It also contains what seems to be some type of additional data
