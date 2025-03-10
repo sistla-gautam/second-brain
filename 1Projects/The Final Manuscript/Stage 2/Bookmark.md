@@ -12,6 +12,6 @@ The book "**Waiting for Something**" contained a bookmark with the following tex
 
 *C8H10N4O2 + ? = ???*
 
-*4B 7A 6F 09*
+*2A 30B 8C 10D 19E 4F*
 
 *The sky is not green unless you wait.*
