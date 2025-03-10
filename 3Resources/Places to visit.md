@@ -12,6 +12,8 @@
 - Waffles
 	- **Location**: Vijarnagar
 	- **Source**: [Insta reel]([https://www.instagram.com/reel/DEpaj4eTPyB/?igsh=MTVxcm1tOWVwcXVtdQ==](https://www.instagram.com/reel/DEpaj4eTPyB/?igsh=MTVxcm1tOWVwcXVtdQ==))
+- Purred by Charlies
+	- **Location** - JP nagar
 
 ## gift shops
 
