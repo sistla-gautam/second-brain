@@ -10,6 +10,11 @@
 - instead it will be a new column in the timeseries row
 
 ---
+### things to keep in mind
+- make sure the Azure blob is pointing to `dv1dxpdevsa189`
+- when this is not as expected, contact YTI-Santosh. This happens when the pipeline is deployed on dev
+
+---
 ## documentation 
 
 ```js
