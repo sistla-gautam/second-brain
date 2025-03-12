@@ -214,3 +214,15 @@
 	- got write access for the same and pushed the code for CI testing
 	- made sure that the sonarqube is passing for the branch
 	- discussed with Natraj about OOPS-3 assignment. need to make changes to the assignment
+- March 7, 2025
+	- got onto a call with Santosh
+	- some changes were made to how the URL will be given
+	- changed the code to access the URL from the new requirements
+- March 10, 2025
+	- tested y-axis title and colour change
+	- created test cases and logged those values
+	- still need to create an excel sheet for the same
+- March 11, 2025
+	- pushed the library code to dev
+	- having issues with the changes being reflected on dev
+	- fixed that to be able to get it for testing with client
