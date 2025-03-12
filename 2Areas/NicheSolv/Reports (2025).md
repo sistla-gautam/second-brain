@@ -226,3 +226,7 @@
 	- pushed the library code to dev
 	- having issues with the changes being reflected on dev
 	- fixed that to be able to get it for testing with client
+- March 12, 2025
+	- worked on fixing the archival feature
+	- pushed it and was able to verify that it works
+	- continued working on the test case excel sheet
