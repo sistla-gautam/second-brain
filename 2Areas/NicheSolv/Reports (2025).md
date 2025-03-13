@@ -230,3 +230,9 @@
 	- worked on fixing the archival feature
 	- pushed it and was able to verify that it works
 	- continued working on the test case excel sheet
+- March 13, 2025
+	- worked on integrating the is_archival_enabled flag in the vault settings
+	- supported on deploying appsmith onto test env
+	- needed to change the workflow files to add a new shell file, which was missing initially
+	- changed the template version to the latest values and updated the editor to support the same
+	- created new sync user tag and passed it to Ashish
