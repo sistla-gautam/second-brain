@@ -1,4 +1,6 @@
-# shell script
+# creating the workspace.sh file
+- create a new  file
+- add the following contents to the file
 ```shell
 #!/bin/bash
 
@@ -107,18 +109,27 @@ echo "Workspace update completed successfully"
 
 ```
 - save this file as ==`workspace.sh`==
- 
-#### usage of shell script
+--- 
+### usage of shell script
 
 - make it executable
 ```shell
  chmod +x workspace.sh 
 ```
+- get the following values from the Sync Service secrets
+	- `APPSMITH_USERNAME`
+	- `APPSMITH_PASSWORD`
 - call the script with the required parameters
 ```shell
- sudo bash ./workspace.sh "https://forms-tdec.dev.apps.yokogawa.build" "ops@apps.yokogawa.com" "xxxxxxxxxx" "TDEC"
+ sudo bash ./workspace.sh <tenant-base-url>  <admin email> <admin password> <tenant-name>
 ```
-**format/syntax**
+- here
+	- `tenant-base-url` is the base url on which appsmith is deployed
+	- `admin-email` is the username retrieved from Sync User secrets
+	- `admin-password` is the password retrieved from Sync User secrets
+	- `tenant-name` is the name of the tenant in which it is deployed to
+
+**example**
 ```shell
- sudo bash ./workspace.sh <tenant-base-url>  <admin email> <admin password> <tenant name>
+  sudo bash ./workspace.sh "https://forms-tdec.dev.apps.yokogawa.build" "ops@apps.yokogawa.com" "xxxxxxxxxx" "TDEC"
 ```
