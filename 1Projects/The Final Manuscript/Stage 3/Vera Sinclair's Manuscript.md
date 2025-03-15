@@ -2,6 +2,7 @@
 
 _by Vera Sinclair_
 
+_(Unfinished manuscript - CONFIDENTIAL)_
 ### **Chapter 18**
 
 ...Margaret tasted the bitterness the moment the wine touched her tongue. A barely perceptible sharpness beneath the usual dry warmth. By the time she recognized it, the damage had already been done. The mixture was precise—an anti-anxiety drug laced with a secondary agent that would quicken absorption. Harmless on its own. Deadly when paired with alcohol.

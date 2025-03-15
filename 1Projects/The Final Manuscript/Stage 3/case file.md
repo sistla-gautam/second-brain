@@ -4,8 +4,8 @@
 **Date**: JULY 2, 1994  
 **Reporting Officer**: Detective James Holloway  
 **Missing Person**: Dr. Edward Langston, 42  
-**Location**: Blackwood Manor, 1427 Raven Hill Road
 
+![[Pasted image 20250315184648.png]]
 ### **INITIAL ASSESSMENT**
 
 Dr. Edward Langston was last seen by his neighbor, Martha Ellis, at approximately 9:15 PM on July 1, 1994. According to her statement, she heard a brief struggle from inside Langston’s apartment, followed by a loud thud. When she knocked on his door moments later, there was no response.

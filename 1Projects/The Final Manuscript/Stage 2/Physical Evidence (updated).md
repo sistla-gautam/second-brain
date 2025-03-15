@@ -49,7 +49,7 @@
 - **Location:** Found in a waste bin at the Harrington Hotel bar
 - **Details:** Wine Bottle brought in by Daniel Brooks
 - **Toxicology Report:** Preliminary tests reveal a faint chemical residue, requiring further analysis
-- **Timeline:** Discarded between **12:00 - 14:30** on November 10
+- **Timeline:** Discarded between **12:00 - 14:30** on November 10, 1995
 
 ---
 
@@ -57,7 +57,6 @@
 
 - **Location:** Found in a fireplace of Eleanor Blackwood's study
 - **Details:** Appears to be financial records that are burnt
-- **Note**: No text is understandable. The pages seem to show some records containing the company "MP Clinical Research"
 
 ---
 
