@@ -11,7 +11,7 @@
 
 - **Item**: Old manuscripts of Vera Sinclair
 - **Location**: Manuscript of Vera Sinclair's first novel - "**Three Days to Nowhere**"
-- **Notes**: Vera's first novel manuscript contains striking similarities to Eleanor's current work.
+- **Notes**: Vera's first novel manuscript contains striking similarities to Eleanor's current work. Vera has decided to not publish the first novel
 
 ---
 
@@ -21,3 +21,8 @@
 - **Notes**: Case belongs to a person who was said to work for MP Research Clinic. The case is once again brought to light due to the connection in the current case.
 
 ---
+
+### **EVIDENCE #17: FINANCIAL RECORDS**
+
+- **Item**: Financial records from Midnight Press
+- **Location**: Found in the fake bottom of Eleanor's drawer
