@@ -75,18 +75,19 @@
 
 **STAGE 2 COMPLETION CARD**
 
-**Case Status:** FURTHER INVESTIGATION COMPLETE
+**Case Status:** INVESTIGATION DEEPENING
 
-**Key Findings:**
-✅ There is a hidden motive behind the murderers
-✅ Eleanor seems to be trying to reveal something.
+**Key Findings:**  
+✅ Eleanor was poisoned with **Diazepam** and **Amobarbital** — the latter was not prescribed.    
+✅ A voicemail was **deleted remotely** after Eleanor's death — someone knew what she had discovered.  
+✅ The manuscript was likely a blueprint for the murder — it implicates both financial and pharmaceutical ties.
 
-**New Developments:**
+**Confirmed Evidence:**
 
-- The murder appears to involve **more than one person**.
-- Some alibis don’t hold up under scrutiny.
-- A missing voicemail may contain crucial information.
+- **Voicemail Recording** — Eleanor's warning cut off moments before her death.
+- **Bookmark Note** — Chemical formula and coded message suggest deeper conspiracy.
+- **Matchstick** — Matches brand used by Henry Dawson, despite Eleanor’s smoking ban.
+- **Wine Bottle** — Linked to Daniel Brooks; possible chemical traces found.
 
-**Next Steps:**
-🔍 **Deepen the investigation—more suspects and evidence unlocked!**  
-🔍 **Identify possible connections between financial and medical records.**
+**Next Steps:**  
+🔍 **Find out the hidden motives and the true suspects of the murder of Eleanor Blackwood.**
