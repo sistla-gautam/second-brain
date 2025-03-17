@@ -236,3 +236,8 @@
 	- needed to change the workflow files to add a new shell file, which was missing initially
 	- changed the template version to the latest values and updated the editor to support the same
 	- created new sync user tag and passed it to Ashish
+- March 17, 2025
+	- worked on URL parameterization
+	- was able to get the clear requirements on how to access the different elements
+	- was able to setup the local environment
+	- pushed OOPS assignment 3 and OOPS 3.2 for review
