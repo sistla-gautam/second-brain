@@ -28,16 +28,17 @@
 - replacementKey -> URL params
 
 ---
-variables to keep a look at
-- `resolvedDataMappingList` - contains something, what type of data it is and the webscript part
-- `resolvedVaribaleItems` - contains the different variables that are part of the data mapping and their respective values
+variables to keep a look at in `Helper.js`
+- `resolvedDataMappingList` - contains something, what type of data it is and the webscript/resource part
+- `resolvedVaribaleItems` - contains var 1, var 3, var 4 along with what the URL is passing
 - `nonVarMap` - collection of variables used in data mapping
+- `updateMappingDataWithParams` - contains the query params with the necessary data
 
 
 ---
 # notes (updated requirements)
 - mapping with only webscript name
-	- https://webscripts.dev.apps.yokogawa.build/api/v1/de9788ec-bf1d-4c33-b112-820996790f7b/<webscript-name>
+	- https://webscripts.dev.apps.yokogawa.build/api/v1/de9788ec-bf1d-4c33-b112-820996790f7b/webscript-name
 - mapping with URL param (var4=abcd)
 	- this is with the var4 = webscript-name
 	- https://webscripts.dev.apps.yokogawa.build/api/v1/de9788ec-bf1d-4c33-b112-820996790f7b/abcd

@@ -241,3 +241,8 @@
 	- was able to get the clear requirements on how to access the different elements
 	- was able to setup the local environment
 	- pushed OOPS assignment 3 and OOPS 3.2 for review
+- March 18, 2025
+	- worked on URL parameterization
+	- finished working on it. need to get it properly tested
+	- logged some bugs in the Appsmith whitelabeling
+	- need to checkout the bug in Sync Service update call
