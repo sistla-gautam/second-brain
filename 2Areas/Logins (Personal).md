@@ -1,7 +1,8 @@
 
-| **Service** | **Username** | **Password** |
-| ----------- | ------------ | ------------ |
-| laptop WSL  | gautam       | 12345678     |
+| **Service** | **Username** | **Password**     |
+| ----------- | ------------ | ---------------- |
+| laptop WSL  | gautam       | 12345678         |
+| supabase    | repo browser | 4vAjOvC2OQkmnmon |
 ## Github Personal tokens
 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
 
