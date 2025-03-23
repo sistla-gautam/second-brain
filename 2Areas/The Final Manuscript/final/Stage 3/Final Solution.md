@@ -12,7 +12,7 @@ Before his death, the whistleblower leaked the details to **Vera Sinclair**, not
 ## **THE MURDER METHOD:**
 
 1. Dr. Carter prescribed **diazepam** to Eleanor, knowing she would take it that evening.
-2. Daniel added **amobarbital** to Eleanor's whiskey bottle during a meeting earlier that day.
+2. Daniel added **amobarbital** to Eleanor's whiskey bottle during a meeting 3 days earlier.
 3. The combination of diazepam and amobarbital created a sedative overdose, making the death appear accidental.
 
 ---
