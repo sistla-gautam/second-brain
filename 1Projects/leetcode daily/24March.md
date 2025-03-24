@@ -37,3 +37,77 @@ There is no meeting scheduled on the 5th day.
 **Explanation:**
 
 Meetings are scheduled for all working days.
+
+
+[[Drawing 2025-03-24 13.24.01.excalidraw]]
+
+---
+![[Pasted image 20250324210104.png]]
+
+---
+# Solution
+
+```JS
+/**
+
+ * @param {number} days
+
+ * @param {number[][]} meetings
+
+ * @return {number}
+
+ */
+
+var countDays = function(days, meetings) {
+
+    meetings.sort((a,b)=>{return a[0]-b[0]})
+
+  
+
+   let total = meetings[0][0] - 1
+
+   let free = meetings[0][1]+ 1
+
+  
+
+   for(let day = 0; day < meetings.length; day++){
+
+    if(meetings[day][0]>free){
+
+        total += meetings[day][0] - free
+
+    }
+
+    free = Math.max(free, meetings[day][1] + 1)
+
+   }
+
+  
+
+   if(free <=days){
+
+    total+=(days - free+1)
+
+   }
+
+   return total
+
+};
+```
+
+---
+# Logic
+### Initial state
+- total free is initialized by taking the difference of the first meeting and `1`
+	- if any gaps, this will be added to this
+	- else, will become zero
+- first free day is calculated as the one day after the first meeting end date
+
+### middle state
+- if the current iterator start date is higher than the free date, then we take calculate the number of free days and add it
+- we update the next free day as one more than the current end date
+- if the value is not, then we take the max of the (1 + current end date) and the free date
+	- this way, we can find out what is the next free without worrying about falsely updating the total number of days
+
+### end state
+- calculate (if any) remaining free days and add them to the total
