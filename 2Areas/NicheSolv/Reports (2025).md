@@ -266,3 +266,4 @@
 	- made some minor improvements to the SVG resize feature
 	- made some improvements to the library code, but was giving us some issues
 	- changed the documentations to show the different limitations and updated use cases for the different elements for the upcoming release
+	- moved respective tickets to the updated status
