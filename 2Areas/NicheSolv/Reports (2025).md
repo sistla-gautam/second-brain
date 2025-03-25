@@ -246,3 +246,23 @@
 	- finished working on it. need to get it properly tested
 	- logged some bugs in the Appsmith whitelabeling
 	- need to checkout the bug in Sync Service update call
+- March 19, 2025
+	- worked on fixes for archival
+	- pushed archival for initial testing
+	- started working on sync service bugs
+- March 20, 2025
+	- YTI DXP had a demo to be presented
+	- was working on a end to end use case to be created for the same demo
+- March 21, 2025
+	- connected for some questions on the demo
+	- worked on sync service bugs and resolved them
+- March 24, 2025
+	- worked on SVG resizing bugs
+	- worked on archival bugs for the tag creation
+	- tested the archival for initial TI. seems fine
+	- had some bug on the SVG with the x-axis part. not able to replicate it effectively
+- March 25, 2025
+	- connected with Santosh on which sync service image is to be used in the dev and test
+	- made some minor improvements to the SVG resize feature
+	- made some improvements to the library code, but was giving us some issues
+	- changed the documentations to show the different limitations and updated use cases for the different elements for the upcoming release
