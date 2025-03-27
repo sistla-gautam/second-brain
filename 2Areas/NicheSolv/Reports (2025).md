@@ -267,3 +267,7 @@
 	- made some improvements to the library code, but was giving us some issues
 	- changed the documentations to show the different limitations and updated use cases for the different elements for the upcoming release
 	- moved respective tickets to the updated status
+- March 26, 2025
+	- worked on appsmith mobile validation
+	- worked on implementation of archival part, need to test the usage of skip keyword
+	-  deployed sync service to dev. still need to test the sync service on dev before creating tags for the same

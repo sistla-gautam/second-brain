@@ -58,3 +58,91 @@ We cannot make two horizontal or two vertical cuts that satisfy the conditions. 
 	- if any rectangle starts at the point or after that, then we increment the counter
 	- else, we update the next free counter
 - vertically, we do the same thing, just find the higher value than the right most value
+
+---
+
+# Solution
+```js
+/**
+
+ * @param {number} n
+
+ * @param {number[][]} rectangles
+
+ * @return {boolean}
+
+ */
+
+var checkValidCuts = function(n, rectangles) {
+
+  
+
+    let hcheck = 0
+
+    let hfree = 0
+
+    rectangles.sort((a,b)=>{return a[0]-b[0]})
+
+  
+
+    for(let point = 0; point < rectangles.length; point++){
+
+        if(rectangles[point][0] >= hfree){
+
+            hfree = rectangles[point][2]
+
+            hcheck++
+
+        }else{
+
+            hfree = Math.max(rectangles[point][2], hfree)
+
+        }
+
+  
+
+    }
+
+  
+
+    if(hcheck >2){
+
+        return true
+
+    }
+
+  
+
+    rectangles.sort((a,b)=>{return a[1]-b[1]})
+
+  
+
+    let vcheck = 0
+
+    let vfree = 0
+
+    for(let point = 0; point < rectangles.length; point++){
+
+  
+
+         if(rectangles[point][1] >= vfree){
+
+            vfree = rectangles[point][3]
+
+            vcheck++
+
+        }else{
+
+            vfree = Math.max(rectangles[point][3], vfree)
+
+        }
+
+    }
+
+  
+
+    return vcheck > 2
+
+};```
+```
+```
