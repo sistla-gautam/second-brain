@@ -271,3 +271,7 @@
 	- worked on appsmith mobile validation
 	- worked on implementation of archival part, need to test the usage of skip keyword
 	-  deployed sync service to dev. still need to test the sync service on dev before creating tags for the same
+- March 27, 2025
+	- went to YTI
+	- worked on bug fixes for archival, url parameterization, appsmith, SVG resizing
+	- got onto a call to discuss the approach of the redirect of the editor to interactive forms
