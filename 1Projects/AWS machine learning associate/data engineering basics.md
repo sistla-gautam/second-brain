@@ -48,3 +48,30 @@ ETL pipelines
 	- ensure data integrity
 - amazon 
 
+sources
+- jdbc
+	- platform independent
+	- language dependent
+- odbd
+	- platform dependent (drivers)
+	- language independent
+- raw logs
+- APIs
+- streams
+
+common data formats
+- CSVs
+	- small to medium datasets
+	- common
+	- human readable and ediitable
+- JSON
+- Avro
+  encoded binary type of data
+	- stores both data and schema
+	- appropriate for large databases
+	- encoded
+- parquet
+	- columnar type of data
+	- used primarily for data analysis
+	- efficient encoding and compression
+- 
