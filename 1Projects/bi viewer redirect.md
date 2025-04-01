@@ -29,3 +29,9 @@
 - the application should ideally be able to support the web view of the interactive forms
 - all are from same domain, so should be able to get the required webpage to render
 - clicking back, it should be able to come back to the same dashboard
+
+---
+- ops team job
+	- script that runs every month
+	- should it be a service or a direct script that the ops team takes
+	- discuss the specifics
