@@ -281,4 +281,5 @@
 		- went to YTI
 		- worked on creating new tags for interactive forms and sync service
 		- got onto a call with Surrendra to discuss the implementation of minIO temporary file storage
+		- looked into the sync service bug that happens occasionally
 		- need to pass the new tags created and update the same into the confluence
