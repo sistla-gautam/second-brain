@@ -195,83 +195,90 @@
 		- conducted interviews for candidates
 		- made changes to the archival section of the library code
 		- still need to discuss if this is the expected value or not
-- March 3, 2025
-	- worked on backend service
-	- needed to connect with Santosh, but was busy with release work
-	- worked on assignments
-- March 4, 2025
-	- completed 1 year here lmao
-	- worked on the backend service
-	- replaces the url with a hardcoded value
-	- the request is currently blocked by CORS policy, but the URL seems to be working fine
-	- need to look into assignment 3 review changes
-- March 5, 2025
-	- worked on the test cases for the archival setup
-	- created a new branch and pushed the data
-	- could not work on assignment due to internet stopage
-- March 6, 2025
-	- created the required documentation of Archival
-	- got write access for the same and pushed the code for CI testing
-	- made sure that the sonarqube is passing for the branch
-	- discussed with Natraj about OOPS-3 assignment. need to make changes to the assignment
-- March 7, 2025
-	- got onto a call with Santosh
-	- some changes were made to how the URL will be given
-	- changed the code to access the URL from the new requirements
-- March 10, 2025
-	- tested y-axis title and colour change
-	- created test cases and logged those values
-	- still need to create an excel sheet for the same
-- March 11, 2025
-	- pushed the library code to dev
-	- having issues with the changes being reflected on dev
-	- fixed that to be able to get it for testing with client
-- March 12, 2025
-	- worked on fixing the archival feature
-	- pushed it and was able to verify that it works
-	- continued working on the test case excel sheet
-- March 13, 2025
-	- worked on integrating the is_archival_enabled flag in the vault settings
-	- supported on deploying appsmith onto test env
-	- needed to change the workflow files to add a new shell file, which was missing initially
-	- changed the template version to the latest values and updated the editor to support the same
-	- created new sync user tag and passed it to Ashish
-- March 17, 2025
-	- worked on URL parameterization
-	- was able to get the clear requirements on how to access the different elements
-	- was able to setup the local environment
-	- pushed OOPS assignment 3 and OOPS 3.2 for review
-- March 18, 2025
-	- worked on URL parameterization
-	- finished working on it. need to get it properly tested
-	- logged some bugs in the Appsmith whitelabeling
-	- need to checkout the bug in Sync Service update call
-- March 19, 2025
-	- worked on fixes for archival
-	- pushed archival for initial testing
-	- started working on sync service bugs
-- March 20, 2025
-	- YTI DXP had a demo to be presented
-	- was working on a end to end use case to be created for the same demo
-- March 21, 2025
-	- connected for some questions on the demo
-	- worked on sync service bugs and resolved them
-- March 24, 2025
-	- worked on SVG resizing bugs
-	- worked on archival bugs for the tag creation
-	- tested the archival for initial TI. seems fine
-	- had some bug on the SVG with the x-axis part. not able to replicate it effectively
-- March 25, 2025
-	- connected with Santosh on which sync service image is to be used in the dev and test
-	- made some minor improvements to the SVG resize feature
-	- made some improvements to the library code, but was giving us some issues
-	- changed the documentations to show the different limitations and updated use cases for the different elements for the upcoming release
-	- moved respective tickets to the updated status
-- March 26, 2025
-	- worked on appsmith mobile validation
-	- worked on implementation of archival part, need to test the usage of skip keyword
-	-  deployed sync service to dev. still need to test the sync service on dev before creating tags for the same
-- March 27, 2025
-	- went to YTI
-	- worked on bug fixes for archival, url parameterization, appsmith, SVG resizing
-	- got onto a call to discuss the approach of the redirect of the editor to interactive forms
+- March
+	- March 3, 2025
+		- worked on backend service
+		- needed to connect with Santosh, but was busy with release work
+		- worked on assignments
+	- March 4, 2025
+		- completed 1 year here lmao
+		- worked on the backend service
+		- replaces the url with a hardcoded value
+		- the request is currently blocked by CORS policy, but the URL seems to be working fine
+		- need to look into assignment 3 review changes
+	- March 5, 2025
+		- worked on the test cases for the archival setup
+		- created a new branch and pushed the data
+		- could not work on assignment due to internet stopage
+	- March 6, 2025
+		- created the required documentation of Archival
+		- got write access for the same and pushed the code for CI testing
+		- made sure that the sonarqube is passing for the branch
+		- discussed with Natraj about OOPS-3 assignment. need to make changes to the assignment
+	- March 7, 2025
+		- got onto a call with Santosh
+		- some changes were made to how the URL will be given
+		- changed the code to access the URL from the new requirements
+	- March 10, 2025
+		- tested y-axis title and colour change
+		- created test cases and logged those values
+		- still need to create an excel sheet for the same
+	- March 11, 2025
+		- pushed the library code to dev
+		- having issues with the changes being reflected on dev
+		- fixed that to be able to get it for testing with client
+	- March 12, 2025
+		- worked on fixing the archival feature
+		- pushed it and was able to verify that it works
+		- continued working on the test case excel sheet
+	- March 13, 2025
+		- worked on integrating the is_archival_enabled flag in the vault settings
+		- supported on deploying appsmith onto test env
+		- needed to change the workflow files to add a new shell file, which was missing initially
+		- changed the template version to the latest values and updated the editor to support the same
+		- created new sync user tag and passed it to Ashish
+	- March 17, 2025
+		- worked on URL parameterization
+		- was able to get the clear requirements on how to access the different elements
+		- was able to setup the local environment
+		- pushed OOPS assignment 3 and OOPS 3.2 for review
+	- March 18, 2025
+		- worked on URL parameterization
+		- finished working on it. need to get it properly tested
+		- logged some bugs in the Appsmith whitelabeling
+		- need to checkout the bug in Sync Service update call
+	- March 19, 2025
+		- worked on fixes for archival
+		- pushed archival for initial testing
+		- started working on sync service bugs
+	- March 20, 2025
+		- YTI DXP had a demo to be presented
+		- was working on a end to end use case to be created for the same demo
+	- March 21, 2025
+		- connected for some questions on the demo
+		- worked on sync service bugs and resolved them
+	- March 24, 2025
+		- worked on SVG resizing bugs
+		- worked on archival bugs for the tag creation
+		- tested the archival for initial TI. seems fine
+		- had some bug on the SVG with the x-axis part. not able to replicate it effectively
+	- March 25, 2025
+		- connected with Santosh on which sync service image is to be used in the dev and test
+		- made some minor improvements to the SVG resize feature
+		- made some improvements to the library code, but was giving us some issues
+		- changed the documentations to show the different limitations and updated use cases for the different elements for the upcoming release
+		- moved respective tickets to the updated status
+	- March 26, 2025
+		- worked on appsmith mobile validation
+		- worked on implementation of archival part, need to test the usage of skip keyword
+		-  deployed sync service to dev. still need to test the sync service on dev before creating tags for the same
+	- March 27, 2025
+		- went to YTI
+		- worked on bug fixes for archival, url parameterization, appsmith, SVG resizing
+		- got onto a call to discuss the approach of the redirect of the editor to interactive forms
+- April
+	- April 1
+		- went to YTI
+		- worked on creating new tags for interactive forms and sync service
+		- got onto a call with Surrendra to discuss the implementation of minIO temporary file storage
+		- need to pass the new tags created and update the same into the confluence
