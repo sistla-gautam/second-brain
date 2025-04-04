@@ -1,0 +1,12 @@
+- is it loading
+	- yes
+	- ![[Pasted image 20250404114030.png]]
+- create new applications
+	- yes
+	- ![[Pasted image 20250404114309.png]]
+- add input fields
+	- yes
+	- ![[Pasted image 20250404114558.png]]
+- deploy the application
+	- yes
+	- ![[Pasted image 20250404124152.png]]

@@ -277,9 +277,17 @@
 		- worked on bug fixes for archival, url parameterization, appsmith, SVG resizing
 		- got onto a call to discuss the approach of the redirect of the editor to interactive forms
 - April
-	- April 1
+	- April 1,2025
 		- went to YTI
 		- worked on creating new tags for interactive forms and sync service
 		- got onto a call with Surrendra to discuss the implementation of minIO temporary file storage
 		- looked into the sync service bug that happens occasionally
 		- need to pass the new tags created and update the same into the confluence
+	- April 2, 2025
+		- resolving bugs for the R4 release
+		- connected with Santosh to resolve bugs
+		- had to connect with Sundar to verify the ticket
+	- April 3, 2025
+		- connected with Santosh to fine tune the requirements
+		- pushed tickets to the respective operations and users
+		- 
