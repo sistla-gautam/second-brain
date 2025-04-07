@@ -6,7 +6,8 @@
 | Laptop                  | nichesolve22                                        | nichesolve22                  |
 | YTI VPN                 | asykgw/47790222                                     | Gs4nQVug6C!<windows_password> |
 | github                  | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 371auXfDzQDmLCv               |
-| YTI cloud               | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!hTyy              |
+| YTI cloud(dev)          | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!hTyy4             |
+| YTI cloud(test)         | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!hTyy              |
 | YTI wifi                | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | 38M7TO#OUjP!82                |
 | YTI wiki                | [gautam@nichesolv.com](mailto:gautam@nichesolv.com) | Yokogawa@1                    |
 | Cisco VPN               | asykgw\47790234                                     | Cessna@2021                   |

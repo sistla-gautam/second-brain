@@ -290,4 +290,12 @@
 	- April 3, 2025
 		- connected with Santosh to fine tune the requirements
 		- pushed tickets to the respective operations and users
-		- 
+	- April 4, 2025
+		- worked on pushing tickets
+		- made some changes to interactive forms to solve the bugs that are issued
+		- created a new tag for interactive forms
+	- April 7, 2025
+		- created a new tag for interactive forms for some white labelling changes
+		- tested multiple y axis and SVG resizing on test environment
+		- tested interactive forms on dev and test to see if the interactive forms is working fine
+		- need to create a new tag for the changes that are made to be published for test environment

@@ -1,0 +1,5 @@
+- when we do not enter data, the graph seems fine
+	- ![[Pasted image 20250407132252.png]]
+	- ![[Pasted image 20250407132305.png]]
+- adding multiple axis will leave a gap to the left
+	- ![[Pasted image 20250407132529.png]]

@@ -79,3 +79,50 @@ export default {
 
 };
 ```
+
+
+---
+
+# assets
+**Assets**
+asset-id
+type
+model
+manufacturer
+OS version
+license number
+office/vsstudio
+date purchased
+usage start date
+usage end date
+screen size
+CPU
+original memory
+current memory
+RAM type
+storage type
+OS
+current problems
+price
+active?
+usable?
+express service code
+remarks
+
+
+**employee**
+emp_id
+first name
+last name
+phone number
+
+**asset-history**
+asset-id
+asset-model
+start date
+end date
+start/end
+user-id
+user-name
+reason to start
+reason to end
