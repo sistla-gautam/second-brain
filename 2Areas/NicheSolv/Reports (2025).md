@@ -299,3 +299,8 @@
 		- tested multiple y axis and SVG resizing on test environment
 		- tested interactive forms on dev and test to see if the interactive forms is working fine
 		- need to create a new tag for the changes that are made to be published for test environment
+	- April 8, 2025
+		- worked on interactive forms for mini environment
+		- worked on the client and server part of the code
+		- need to work on the application properties part
+		- got onto a call to move the blockers for the upcoming release
