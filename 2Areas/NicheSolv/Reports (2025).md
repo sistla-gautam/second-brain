@@ -304,3 +304,7 @@
 		- worked on the client and server part of the code
 		- need to work on the application properties part
 		- got onto a call to move the blockers for the upcoming release
+	- April 9, 2025
+		- went to YTI
+		- had a discussion about the redirection flow of interactive forms and bi-dashboard
+		- got onto a debugging session about sync service with Mallikarjun 
