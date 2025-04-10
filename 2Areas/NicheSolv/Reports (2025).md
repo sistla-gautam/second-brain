@@ -307,4 +307,4 @@
 	- April 9, 2025
 		- went to YTI
 		- had a discussion about the redirection flow of interactive forms and bi-dashboard
-		- got onto a debugging session about sync service with Mallikarjun 
+		- got onto a debugging session about sync service with Mallikarjun
