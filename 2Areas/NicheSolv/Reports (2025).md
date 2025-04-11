@@ -308,3 +308,12 @@
 		- went to YTI
 		- had a discussion about the redirection flow of interactive forms and bi-dashboard
 		- got onto a debugging session about sync service with Mallikarjun
+	- April 10, 2025
+		- worked on sync service issue
+		- got onto a meeting with Santosh and Mallikarjun to debug the sync service issue
+		- created a new tag for the same and pushed it for review
+	- April 11, 2025
+		- made changes to interactive forms that show the redirection changes
+		- recorded the video about the same and moved the tickets
+		- made changes to the confluence documentation about the URL parameterization
+		- tested sync service on the dev environment
