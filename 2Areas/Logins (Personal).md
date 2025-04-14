@@ -4,6 +4,7 @@
 | laptop WSL  | gautam       | 12345678         |
 | supabase    | repo browser | 4vAjOvC2OQkmnmon |
 | supabase    | hevy-clone   | hevy-clone       |
+| supabase    | link-in-bio  | link-in-bio      |
 ## Github Personal tokens
 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
 

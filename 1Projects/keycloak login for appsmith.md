@@ -324,3 +324,8 @@ spring.security.oauth2.client.registration.sapcdc.redirect-uri={baseUrl}/login/o
     }
 }
 ```
+
+---
+## credentials
+**client-id**: `mini`
+**cliient-secret**: `zvQmS65jm4ueNz2HnxE497a7MLbdJKIE`
