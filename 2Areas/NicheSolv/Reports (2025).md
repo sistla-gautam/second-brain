@@ -317,3 +317,12 @@
 		- recorded the video about the same and moved the tickets
 		- made changes to the confluence documentation about the URL parameterization
 		- tested sync service on the dev environment
+	- April 12, 2025
+		- worked on interactive forms keycloak login changes
+		- implemented the changes and was able to get keycloak to login to existing accounts
+		- this is however not possible for new signups
+		- need to resolve this issue
+	- April 15, 2025
+		- worked on interactive forms keycloak login
+		- was able to find out that the changes are to be done in the profile scope of keycloak
+		- got onto a call with Nilesh to discuss about the wikijs of SVG resizing
