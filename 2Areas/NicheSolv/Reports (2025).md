@@ -326,3 +326,7 @@
 		- worked on interactive forms keycloak login
 		- was able to find out that the changes are to be done in the profile scope of keycloak
 		- got onto a call with Nilesh to discuss about the wikijs of SVG resizing
+	- April 16, 2025
+		- changed the scopes of keycloak to get the full name of the user to the keycloak user
+		- was able to make the end to end login flow of the user work
+		- need to work on finding the different endpoints of getting the different users for the sync service to work
