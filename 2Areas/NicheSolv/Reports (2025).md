@@ -330,3 +330,8 @@
 		- changed the scopes of keycloak to get the full name of the user to the keycloak user
 		- was able to make the end to end login flow of the user work
 		- need to work on finding the different endpoints of getting the different users for the sync service to work
+	- April 17, 2025
+		- worked on some bug fixes in URL Parameterization
+		- started working on the MINIO file storage issue
+		- collected the different curl commands that will be required for the MINIO file storage
+		- made some changes to the interactive forms to redirect to the correct URL now
