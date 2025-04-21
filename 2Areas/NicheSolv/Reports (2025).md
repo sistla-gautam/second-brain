@@ -335,3 +335,12 @@
 		- started working on the MINIO file storage issue
 		- collected the different curl commands that will be required for the MINIO file storage
 		- made some changes to the interactive forms to redirect to the correct URL now
+	- April 18, 2025
+		- worked from home due to a dentist appointment
+		- worked on the keycloak login to find out the required URLs for finding the users
+		- looked into how to create the script for the SVG minio script
+	- April 21, 2025
+		- worked on the SVG minio script
+		- create the script using BASH, but will require to still make some changes to the filtering part of the script
+		- made changes to the interactive forms to solve the redirection issue
+		- the latest deployment is still not active, hence it cannot be tested
