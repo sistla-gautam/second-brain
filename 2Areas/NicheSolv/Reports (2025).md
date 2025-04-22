@@ -350,3 +350,4 @@
 		- need to write a new function in the service layer that will delete the required SVG function from the folder
 		- once this is done, the appropriate API can be called
 		- did testing on dev and on mini for the latest tags that got deployed
+		- started reworking on assignment OOPs 3.2 for the latest approach
