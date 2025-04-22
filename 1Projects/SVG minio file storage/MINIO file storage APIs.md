@@ -285,3 +285,6 @@ curl 'https://api.dev.apps.yokogawa.build/vis-file-svc/v1/dashboard/1Feb' \
     ]
 }
 ```
+
+---
+## Call to delete files from MINIO

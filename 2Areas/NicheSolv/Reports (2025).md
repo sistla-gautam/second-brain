@@ -344,3 +344,9 @@
 		- create the script using BASH, but will require to still make some changes to the filtering part of the script
 		- made changes to the interactive forms to solve the redirection issue
 		- the latest deployment is still not active, hence it cannot be tested
+	- April 22, 2025
+		- worked on the SVG MINIO script
+		- was able to retrieve the orphaned files and push them to a list
+		- need to write a new function in the service layer that will delete the required SVG function from the folder
+		- once this is done, the appropriate API can be called
+		- did testing on dev and on mini for the latest tags that got deployed
