@@ -351,3 +351,7 @@
 		- once this is done, the appropriate API can be called
 		- did testing on dev and on mini for the latest tags that got deployed
 		- started reworking on assignment OOPs 3.2 for the latest approach
+	- April 23, 2025
+		- worked on the sync service changes required for the keycloak login
+		- will still require the new endpoint to find out the different users that keycloak has
+		- reworked on OOPS 3.2. pushed it for review. will still need to get this reviewed
