@@ -355,3 +355,8 @@
 		- worked on the sync service changes required for the keycloak login
 		- will still require the new endpoint to find out the different users that keycloak has
 		- reworked on OOPS 3.2. pushed it for review. will still need to get this reviewed
+	- April 24, 2025
+		- connected with Gangadhar for the MINIO file storage script
+		- still need to try the new endpoints that can be used for deleting the different SVG files
+		- connected with Sushma to verify some different bugs that were part of interactive forms
+		- connected with Santosh to find out the different users that we need to invite. still need to change sync service to invite the different users from both the endpoints
