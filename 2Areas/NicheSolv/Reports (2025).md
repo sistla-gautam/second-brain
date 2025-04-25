@@ -360,3 +360,9 @@
 		- still need to try the new endpoints that can be used for deleting the different SVG files
 		- connected with Sushma to verify some different bugs that were part of interactive forms
 		- connected with Santosh to find out the different users that we need to invite. still need to change sync service to invite the different users from both the endpoints
+	- April 25, 2025
+		- tested the SVG MINIO script. was able to delete the files from the storage account
+		- got onto a call with Santosh to discuss the script
+		- need to change the call to now call the MINIO storage directly instead of the service calls
+		- worked on the MINIO and WAYLAY calls for sync service
+		- need to still make changes in where to get the different users from the different endpoints
