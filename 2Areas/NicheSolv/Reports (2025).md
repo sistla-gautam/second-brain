@@ -366,3 +366,8 @@
 		- need to change the call to now call the MINIO storage directly instead of the service calls
 		- worked on the MINIO and WAYLAY calls for sync service
 		- need to still make changes in where to get the different users from the different endpoints
+	- April 28, 2025
+		- worked on SVG resizing bug. fixed the issue
+		- worked on interactive forms bug fix. deployed the same onto TEST env and got it verified
+		- worked on sync service changes for keycloak login
+		- need to figure out how the calls can be made without the use of token

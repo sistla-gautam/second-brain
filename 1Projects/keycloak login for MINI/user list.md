@@ -1,6 +1,11 @@
 # waylay list
 https://admin-janydx-minicloud.msa.apps.yokogawa.build/users
 
+```
+Username: ops@apps.yokogawa.com
+Password: s2E^Hp6F15
+```
+
 called using the API
 ```curl
 curl 'https://admin-api-janydx-minicloud.msa.apps.yokogawa.build/users' \
