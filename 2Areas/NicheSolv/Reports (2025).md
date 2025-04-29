@@ -317,7 +317,7 @@
 		- recorded the video about the same and moved the tickets
 		- made changes to the confluence documentation about the URL parameterization
 		- tested sync service on the dev environment
-	- April 12, 2025
+	- April 14, 2025
 		- worked on interactive forms keycloak login changes
 		- implemented the changes and was able to get keycloak to login to existing accounts
 		- this is however not possible for new signups
@@ -371,3 +371,7 @@
 		- worked on interactive forms bug fix. deployed the same onto TEST env and got it verified
 		- worked on sync service changes for keycloak login
 		- need to figure out how the calls can be made without the use of token
+	- April 29, 2025
+		- connected with Santosh regarding the endpoints access without the use of the token
+		- implementing methods that will make use of the new approach for sync service
+		- started reworking on the new approach for the MINIO storage 
