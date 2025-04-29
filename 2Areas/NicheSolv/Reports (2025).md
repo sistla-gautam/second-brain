@@ -375,3 +375,4 @@
 		- connected with Santosh regarding the endpoints access without the use of the token
 		- implementing methods that will make use of the new approach for sync service
 		- started reworking on the new approach for the MINIO storage
+		- started working on the token retrieval method for WAYLAY users
