@@ -1,0 +1,7 @@
+- needs to be a rework in python
+- inputs
+	- will accept the username and password from a file
+	- will also accept a list of tenants from a file
+- run through all the different tenants and make a master list of all the files
+- need confirmation from the user before the files will be permanently deleted
+	- if required, the user can go ahead and remove the necessary files before going ahead with the deletion
