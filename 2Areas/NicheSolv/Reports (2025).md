@@ -377,3 +377,6 @@
 		- started reworking on the new approach for the MINIO storage
 		- started working on the token retrieval method for WAYLAY users
 	- April 30, 2025
+		- worked on sync service for MINI environment
+		- tried to get the token from the login API endpoint
+		- was able to generate a build with the updated keycloak services
