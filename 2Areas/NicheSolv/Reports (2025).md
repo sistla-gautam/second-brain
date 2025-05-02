@@ -381,7 +381,10 @@
 		- tried to get the token from the login API endpoint
 		- was able to generate a build with the updated keycloak services
 - May
-	- May 1, 2025
+	- May 2, 2025
 		- worked on the SVG resizing issue
 		- deployed the version onto dev to see the response
 		- tested the version and got changes to be implemented
+		- got stuck into an issue related to the file service
+		- tried debugging it, but still needs to be resolved
+		- will require assistance to debug the file service issue
