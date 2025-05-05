@@ -1,3 +1,4 @@
+
 - 3 stages
 - business cards, maps, instagram posts, audio files
 - Canva to make the documents and not Notion
