@@ -22,3 +22,26 @@
 
 ---
 
+# ticket
+
+## Requirements in Appsmith
+- Interactive forms will launch from engineering console
+- Interactive forms will contain 2 additional logins
+	- keycloak
+	- waylay
+- Both the login systems will pick the login details (client ID, client secrets, etc) from the deployment secrets file
+- Each login system will contain its own login button (one button each for waylay and keycloak) similar to how SAPCDC is handled
+
+## Requirements in Sync Service
+- Need to make separate endpoints for WAYLAY and for keycloak
+	- Each login handler will have 3 different operation possible - add, update, delete
+- Users from both the providers will be synced separately (each endpoint will sync only those respective users)
+- This sync service will not be limited to MINI ENV, but will be for all ENVs
+- Role Management for keycloak login
+	- keycloak does not support roles. Hence, all the users will be mapped to an admin role.
+	- This hardcoding can be done in a similar way how SAPCDC part is done
+- Role Management for WAYLAY login
+	- WAYLAY contains different roles. Each role will be mapped to the corresponding roles
+	- API keys administrator, Admin, organisation administrator will be mapped to APPSMITH ADMIN
+	- IP manager, operator, provisioner, QA will be mapped to APPSMITH APPLICATION DEVELOPER
+- WAYLAY and keycloak does not support retrieval of users from specific time frames. Hence, we need to retrieve all the users and compare them to interactive forms users
