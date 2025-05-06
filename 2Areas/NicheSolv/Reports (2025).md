@@ -388,3 +388,9 @@
 		- got stuck into an issue related to the file service
 		- tried debugging it, but still needs to be resolved
 		- will require assistance to debug the file service issue
+	- May 6, 2025
+		- worked from home today
+		- got onto a call with Santosh to finalize the requirements of interactive forms on MINI
+		- updated the requirements and added them to the ticket
+		- started working on the new endpoint of listing the images
+		- debugged some issues in the TEST environment with the interactive forms flow

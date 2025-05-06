@@ -21,6 +21,7 @@
 | AWS IAM                 | gautam                                              | 6sO71@@v1                     |
 | guacamole postgres user | postgres                                            | 22nichesolv                   |
 | postgres db user        | guacamole_user                                      | yokoyoko                      |
+| MINIO                   | ydxyokogawa                                         | Rp655q*ERs                    |
 
 ### Github tokens
 
