@@ -115,3 +115,49 @@
 	- saying no is hard when FOMO and peer pressure are in play
 
 
+
+**hidden costs**
+Also called as *Phantom Costs*
+- check for hidden costs when buying new things
+- house - brokerage, registration, property tax
+- car - registration, insurance, taxes, fuel
+- weekend trip - transport, 1 beer that becomes 10
+
+**Making money from credit cards**
+- credit cards are like mini loans
+- if you are making a big purchase at the start of a month
+	- invest this amount into a short term debt fund
+- this will return us interest on money which we have "spent"
+==TIP== - Get your first credit card with zero fees. If not possible, get a credit card that is backed by a fixed deposit
+
+
+---
+
+# but people tell me I should save
+
+### how do I start saving
+- saving only makes sense when you have a goal to achieve
+- without the "how much", it is just a random number
+
+- there will not be anything that will stop you from spending
+
+- but saving "for a vacation" or "saving for a house" gives the saving a purpose
+
+### goal setting
+set 3 different goal time line
+- long term goals - >10yrs
+	- kids education, retirement, house down payment
+- medium term goals - 10 - 3yrs
+	- international vacation, further education
+- short term goals - <3yrs
+	- phone, car, vacation
+
+### saving first mindset
+- savings = needs - ego
+- your actual needs are rent, food, transport: essential bills
+- ego - the fancy drink from Starbucks, the newest phone, coolest sneakers
+- when you take the ego expenses out of the needs, thats what are the savings
+
+### tips to make saving easier
+- automate
+	- monthly transfer the required amount into the necessary places
