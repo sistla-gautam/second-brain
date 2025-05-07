@@ -161,3 +161,5 @@ set 3 different goal time line
 ### tips to make saving easier
 - automate
 	- monthly transfer the required amount into the necessary places
+
+Page 89
