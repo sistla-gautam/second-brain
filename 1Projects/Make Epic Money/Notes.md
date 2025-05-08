@@ -161,5 +161,82 @@ set 3 different goal time line
 ### tips to make saving easier
 - automate
 	- monthly transfer the required amount into the necessary places
+- 30 day rule
+	- if you really want something, hold for 30 days before deciding
+- try a fortnightly money
+	- once a week, stop spending on EVERYTHING
+- choose UPI/debit over credit
+	- spending on money that you have than on money you dont have
+- credit cards only if you have the entire money
+	- ONLY if you have the full amount
+- make shopping lists
+	- stick to them
+- rent if its a infrequent user
+	- dont buy if it is not being used a lot
+- bigger sizes
+	- bigger sizes cost less
+- deals and discounts
+- pay off loans faster
+- buy life insurance when you're young
+	- much cheaper when younger
 
-Page 89
+---
+
+# And use the money to protect me
+
+### health insurance
+best time to get them is in the 20s
+- low premiums, high cover
+- can avail no claim bonus
+- lower rejection rates
+
+### deciding the coverage required
+- hospital days per year x hospital room rate
+- 10-15 days for you
+- 25-30 days for parents
+
+### best approach for insurance plans
+- get both corporate health insurance and personal
+- when you switch jobs, corporate cover ends
+
+- you can have 2 plans at the same time
+- for cashless payments, only one can be used at one time
+- example
+	- bill - 4L
+	- corporate - 2L
+	- peronal - 3L
+	- use 3L from your personal plan
+	- pay 1L and claim reimbursement from your corporate plan
+- most corporate have co-pay
+	- you pay 10-20%, the company pays the rest
+
+### things to look out for in insurance 
+- pre existing disease coverage
+	- check the wait time
+	- a year is okay, anything linger is not
+- no room rent limit
+- cashless hospital network
+	- good network of hospitals that support it
+
+
+### life insurance
+- how much coverage
+	- 10 times the annual salary - ideally 25 times
+
+### add ons to consider
+- critical illness add on
+	- gives you payout if you have a critical illness and cannot work
+- disability add on
+	- gives you payout if you have a disability
+- premium waiver for critical illness
+- premium waiver for disability
+
+### emergency funds
+- ideal to keep for 6 months
+- if possible, keep for 12 months
+- where?
+	- 10% in cash
+	- 20% in bank account
+	- rest in FDs
+
+page 124
