@@ -394,3 +394,15 @@
 		- updated the requirements and added them to the ticket
 		- started working on the new endpoint of listing the images
 		- debugged some issues in the TEST environment with the interactive forms flow
+	- May 7, 2025
+		- worked on the image API
+		- created the image API and pushed it for initial testing
+		- deployed the same onto dev for further testing
+		- had some open bugs to finish. fixed those bugs
+	- May 8, 2025
+		- worked on the image API changes
+		- wrote test cases for the same
+		- need to modify to support the inclusion of a single file names
+		- added role based segregation to interactive forms
+		- gave a demo of the same to Sundar, Santosh
+		- need to still work on a small whitelabelling change in the forgot password part

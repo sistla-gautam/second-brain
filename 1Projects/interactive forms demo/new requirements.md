@@ -1,0 +1,4 @@
+- change the key to a new key to get the required values
+- create a constant array of users for admins and app_viewers
+- only admins will be able to raise a ticket
+- only app_viewers will be able to accept or reject a ticket
