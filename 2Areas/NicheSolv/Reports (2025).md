@@ -406,3 +406,8 @@
 		- added role based segregation to interactive forms
 		- gave a demo of the same to Sundar, Santosh
 		- need to still work on a small whitelabelling change in the forgot password part
+	- May 9, 2025
+		- worked on closing tickets for the release
+		- made changes to interactive forms and deployed it to DEV
+		- got onto a call to showcase the flow of interactive forms in PR4 tenant
+		- need to still check out some bugs that are part of interactive form and create new tags for the same
