@@ -258,4 +258,66 @@ best time to get them is in the 20s
 
 ### asset allocation
 - simple formula
-	- 
+	- 100 -age percentage should be in high risk allocation
+	- rest can be in low risk allocation
+- as you get older, it is more safer to keep it in low risk assets than high risk
+
+### rule of 72
+- estimates how long does it take to double your money
+- if the rate is 12%, then it will take 72/12 = 6 years to double
+
+### how to begin investing
+- save. invest. repeat
+	- use the 50:20:30 rule
+- build a safety net
+- save all possible taxes
+
+>  the problem is, no one wants to get rich slowly - Warren Buffett
+
+---
+# And manage my money very well
+
+> Most people overestimate what they can do in a year, and underestimate what they can do in a decade or two; the fact is: you are not a manager of circumstance, youre the architect of your lifes experience - Tony Robbins
+
+---
+# I know I will make mistakes
+
+### low risk vs high risk
+- low risk will always mean low returns. your money will not grow with low returns
+- high risk does not always mean high returns. you wont get rich overnight just because you took a massive risk
+
+### common mistakes in investing
+- playing the "zero risk" gamne
+	- this is not feasible. your money will not grow
+- short term thinking
+	- YOLO is a dangerous drug.
+	- the need for instant gratification is much costlier than you think
+	- spend, but also budget this spending
+- ignoring inflation
+	- inflation is slow, but it is certain
+- ignoring taxes
+	- learn about short term capital gains taxes
+	- and try to avoid this if possible
+- living beyond your means
+	- earn 1rs, spend 2rs
+	- spending money you dont have (yet), because EMI, credit cards
+- Ego
+	- buying for yourself vs buying for "what will people think of me"
+- underestimating compounding
+	- compounding can be great for investments
+	- it can be a real pain for debt
+	- close off loans (and credits) as soon as possible
+- not accounting the hidden costs
+	- refer back to phantom costs for this mistake
+- relying on one income stream to build wealth
+	- invest, consult, freelance - possible side wealth streams
+- zero safety net or margin or error
+	- always have a buffer
+	- emergency fund, insurance
+
+
+---
+# As long as I know this
+> Money has little to do with how smart you are and a lot to do with how you behave. And behavior is hard to teach even to smart people
+
+Also talks about a number of different biases that most people have (ether one or more)
