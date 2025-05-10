@@ -239,4 +239,23 @@ best time to get them is in the 20s
 	- 20% in bank account
 	- rest in FDs
 
-page 124
+---
+
+# what I really want is to grow my money
+
+### asset allocation
+- shield against unexpected losses
+- tap into higher gains
+
+### different risks
+- talks about different risk and different tools to be used for different risks
+- low
+	- FD
+- medium
+	- corporate bonds
+- high
+	- crypto, stock market
+
+### asset allocation
+- simple formula
+	- 
