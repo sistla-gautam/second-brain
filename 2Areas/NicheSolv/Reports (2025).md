@@ -412,3 +412,9 @@
 		- got onto a call to showcase the flow of interactive forms in PR4 tenant
 		- fixed some bugs of interactive forms happening in mobile application
 		- created new tags for interactive forms
+	- May 10, 2025 (worked on weekend)
+		- worked on solving bugs
+		- created new tags for interactive forms and deployed it on dev
+		- validated it and tested it in the dev environment
+		- also got it deployed on test environment and validated it
+		- moved all the necessary tickets 
