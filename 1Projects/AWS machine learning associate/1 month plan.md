@@ -1,10 +1,10 @@
 ## week 1
 - Intro
-- data ingestion
-- data transform
-- AWS AI
-- Sagemaker
-- Model training
+- data ingestion - 3
+- data transform  - 3
+- AWS AI - 1
+- Sagemaker - 1
+- Model training - 2
 
 ## week 2
 - Gen AI
