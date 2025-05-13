@@ -4,3 +4,5 @@ https://bi-dashboard.test.apps.yokogawa.build/bi/site/pr4/dashboards/8f84ec3d-bb
 
 
 https://forms-tdec.dev.apps.yokogawa.build/oauth2/authorization/sapcdc
+
+https://forms-tdec.dev.apps.yokogawa.build/oauth2/authorization/sapcdc?redirectUrl=https%3A%2F%2Fforms-tdec.dev.apps.yokogawa.build%2Fapp%2Fasset-approval%2Fraise-ticket-67dbb6d30b919351b636afe5
