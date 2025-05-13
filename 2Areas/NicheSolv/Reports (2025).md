@@ -425,3 +425,8 @@
 		- need to resolve some potential issues
 		- tested image API on editor. wasnt able to understand editor code, will require Krishans help
 		- need to sort the SAPCDC login issue in the interactive forms
+	- May 13, 2025
+		- solved bugs related to interactive form and end to end flow
+		- made change to how interactive forms will take the SAPCDC token system
+		- got onto a call with Vijay to discuss about tickets with limitations
+		- fixed multiple tickets for the overall flow
