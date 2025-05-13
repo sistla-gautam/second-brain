@@ -6,3 +6,8 @@ https://bi-dashboard.test.apps.yokogawa.build/bi/site/pr4/dashboards/8f84ec3d-bb
 https://forms-tdec.dev.apps.yokogawa.build/oauth2/authorization/sapcdc
 
 https://forms-tdec.dev.apps.yokogawa.build/oauth2/authorization/sapcdc?redirectUrl=https%3A%2F%2Fforms-tdec.dev.apps.yokogawa.build%2Fapp%2Fasset-approval%2Fraise-ticket-67dbb6d30b919351b636afe5
+
+https://forms-pr4.test.apps.yokogawa.build/app/asset-approval/raise-ticket-681d9bde16a6cb350479efa0?id=Asset1
+
+
+https://forms-pr4.test.apps.yokogawa.build/oauth2/authorization/sapcdc?redirectUrl=https%3A%2F%2Fforms-pr4.test.apps.yokogawa.build%2Fapp%2Fasset-approval%2Fraise-ticket-681d9bde16a6cb350479efa0
