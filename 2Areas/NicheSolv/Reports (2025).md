@@ -419,4 +419,9 @@
 		- also got it deployed on test environment and validated it
 		- moved all the necessary tickets 
 	- May 12, 2025
-		- 
+		- worked on interactive forms bugs
+		- validated multiple bugs with Sushma on interactive forms
+		- got onto a call to discuss the limitations about various bugs
+		- need to resolve some potential issues
+		- tested image API on editor. wasnt able to understand editor code, will require Krishans help
+		- need to sort the SAPCDC login issue in the interactive forms
