@@ -11,3 +11,6 @@ https://forms-pr4.test.apps.yokogawa.build/app/asset-approval/raise-ticket-681d9
 
 
 https://forms-pr4.test.apps.yokogawa.build/oauth2/authorization/sapcdc?redirectUrl=https%3A%2F%2Fforms-pr4.test.apps.yokogawa.build%2Fapp%2Fasset-approval%2Fraise-ticket-681d9bde16a6cb350479efa0
+
+
+https://forms-pr4.test.apps.yokogawa.build/oauth2/authorization/sapcdc

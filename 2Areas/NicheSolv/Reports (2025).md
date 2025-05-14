@@ -430,3 +430,8 @@
 		- made change to how interactive forms will take the SAPCDC token system
 		- got onto a call with Vijay to discuss about tickets with limitations
 		- fixed multiple tickets for the overall flow
+	- May 14, 2025
+		- worked on image API
+		- changed the client code to accept the filenames as a parameter. Connected with Krishan to fix the image API issue
+		- changed the link in the console to get the user to be automatically logged in for SAPCDC users
+		- worked on sync service. worked on the add operation. still need to figure out how to get the session and corresponding token for the KEYCLOAK part
