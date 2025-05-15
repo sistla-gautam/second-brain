@@ -435,3 +435,8 @@
 		- changed the client code to accept the filenames as a parameter. Connected with Krishan to fix the image API issue
 		- changed the link in the console to get the user to be automatically logged in for SAPCDC users
 		- worked on sync service. worked on the add operation. still need to figure out how to get the session and corresponding token for the KEYCLOAK part
+	- May 15, 2025
+		- worked on Sync Service for keycloak login in Interactive forms
+		- also wrote some documentation of android application
+		- fixed some bugs in interactive forms end to end flow
+		- also helped in android application for login
