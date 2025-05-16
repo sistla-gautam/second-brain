@@ -440,3 +440,7 @@
 		- also wrote some documentation of android application
 		- fixed some bugs in interactive forms end to end flow
 		- also helped in android application for login
+	- May 16, 2025
+		- got a fix for the android application issue
+		- created a new APK for the same
+		- worked on validating some additional issues in console in both TEST and DEV environments regarding interactive forms URL
