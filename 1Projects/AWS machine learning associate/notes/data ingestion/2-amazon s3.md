@@ -44,3 +44,22 @@
 	- bucket wide policies
 	- object wide access control
 		- bucket access control
+
+when can a user access an S3
+- if the IAM allows it
+- resource policy allows it
+- no explicit deny
+
+### bucket policy
+- JSON structure
+- has the following fields
+	- Effect - what should this rule do (Allow, deny)
+	- Principal - who is this for
+	- Action - what is the rule
+	- Resource - what is the resource this is governing
+![[Pasted image 20250517173610.png]]
+
+- s3 has a default setting to stop from public access
+- this can be set at a bucket level
+	- additionally, if you want all of the buckets to not be accessible, this can also be set in the account level
+- 

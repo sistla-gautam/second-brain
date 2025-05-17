@@ -1,4 +1,4 @@
- types of data
+types of data
 -  structured
 - unstructured
 - semi structured
